@@ -1,4 +1,4 @@
-# Leafy
+# Leafy — DIY Wi-Fi Climate Controller for Nissan Leaf
 
 **A DIY Nissan Leaf climate On/Off controller for home Wi-Fi.**
 
