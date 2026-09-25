@@ -1,0 +1,72 @@
+{
+  "product": "Leafy",
+  "revision": "G.5",
+  "status": "Verified files ready for new JLC Standard order; not uploaded or purchased",
+  "pcb_sha256": "1d69ed10e44eddc2ca1c4897c0f790e3a0d30cff7f1da9c7cc5d514d66f0ef4f",
+  "schematic_sha256": "9a7693a932eca66d2a03a80e0310218a1916fb0347467844711df6423b1dd381",
+  "JLCPCB": {
+    "PCB_quantity": 5,
+    "assembled_quantity": 2,
+    "assembly_type": "Standard",
+    "side": "Top",
+    "factory_refs": [
+      "U1",
+      "U2",
+      "U4",
+      "U5",
+      "U6",
+      "L1"
+    ],
+    "via_covering": "Epoxy Filled & Capped",
+    "via_plating": "Horizontal Electroless Copper Plating",
+    "required_thermal_holes": {
+      "U1": {
+        "count": 6,
+        "drill_mm": 0.33
+      },
+      "U2": {
+        "count": 12,
+        "drill_mm": 0.3
+      }
+    },
+    "special_stencil": "No; JLC normal component-library engineering; supplied paste is reference only",
+    "finished_board_mm": [
+      100,
+      100
+    ],
+    "layers": 4,
+    "thickness_mm": 1.6,
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 1,
+    "surface_finish": "Lead-free HASL",
+    "mask": "Green",
+    "silk": "White",
+    "rails_fiducials": "Added by JLCPCB externally; remove before delivery",
+    "new_quote_total_USD": null,
+    "prior_estimated_fill_plating_surcharge_USD": "21.06",
+    "previous_order": "PRIVATE-RECORD-REMOVED",
+    "previous_cancellation_refund_status": "Not verified",
+    "new_order_created": false,
+    "new_order_paid": false,
+    "new_live_placement_verification": "Pending new upload; CPL identical to previously verified G.4",
+    "upload_files": [
+      "deliverables/leafy-rev-g5-gerbers.zip",
+      "exports/BOM-FACTORY-JLCPCB.csv",
+      "exports/CPL-FACTORY-JLCPCB.csv"
+    ]
+  },
+  "Mouser": {
+    "user_reports_parts_received": true,
+    "changes_required": false,
+    "compatibility": "All 55 board MPNs and accessories unchanged; required quantities checked against saved 2026-09-16 supplier basket",
+    "physical_delivery_inspected": false
+  },
+  "validation": {
+    "ERC": 0,
+    "DRC": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "comparison_audit": "exports/filled-g5-audit.json"
+  },
+  "remaining": "Place new Standard quote/order with explicit 0.33 mm fill remark, verify price/parts/placement/processed artwork, supplier fabrication and physical prototype tests."
+}

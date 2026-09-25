@@ -1,0 +1,1995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alf/repos/leaf/hardware/leaf-heat-v1.kicad_sch</source>
+    <date>2026-09-11T22:31:13</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Leaf Heat — Wi-Fi climate control</title>
+        <company>DIY Leaf project</company>
+        <rev>A / prototype</rev>
+        <date>2026-09-11</date>
+        <source>leaf-heat-v1.kicad_sch</source>
+        <comment number="1" value="Engineering review and vehicle tests required before release"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2.2uF / 100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER72A225KA35L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32ER72A225KA35L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>deb2f53b-7c20-5de3-98fa-daa79c58021f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>220nF / 100V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR72A224KAC4L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR72A224KAC4L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef48e3ac-bb9f-5393-9d14-1fadd7ce5740</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C105KA12D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C105KA12D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c789a76-eeba-589e-bc81-08c4c45a5142</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2de9925-7578-5cb6-b65b-4e20da83dd26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>22uF / 25V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a448c160-b8a8-59d9-990c-67af6bba27ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22uF / 25V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ed29ebd-fad6-5df6-9fc8-44cb15e75905</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>22uF / 25V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER71E226KE15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32ER71E226KE15L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aaa51ae-7ad5-59b6-aec0-a2e7e294ba49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>1uF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C105KA12D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C105KA12D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f208a549-1429-5c6f-82b6-596fb5d5bc43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>10uF / 16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71C106KE51L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR71C106KE51L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c63089-9fbf-51cc-ad73-9d24235df89e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b65ed9f-24fa-5b01-bc30-32225b7064f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ef8a222-9d55-5267-870d-f11b4a146ed9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b465cfd6-6cc0-5361-8a03-cd50515ca342</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C104KA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C104KA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9819e618-9a6f-55ae-9d5f-e8c0698a1514</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>1uF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71C105KA12D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM188R71C105KA12D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a0886f4-2a9c-53cd-b99f-768206ffddc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS110 / 100V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="MPN">SS110-13-F</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="SS110-13-F"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42f6ad25-e935-5623-aefe-109969f85ddd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>PMEG6030EP / 60V</value>
+      <footprint>Diode_SMD:D_SOD-128</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG6030EP_.pdf</datasheet>
+      <fields>
+        <field name="MPN">PMEG6030EP,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Footprint">Diode_SMD:D_SOD-128</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG6030EP_.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MPN" value="PMEG6030EP,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4d57e9f-0dee-5ad9-8720-1ff0c1fbf4a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>SMBJ24CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="MPN">SMBJ24CA</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MPN" value="SMBJ24CA"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>776ecd77-e66a-5aa5-b45d-411670e8ce4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>PESD2CAN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="MPN">PESD2CAN,215</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Leaf" part="PESD2CAN" description=""/>
+      <property name="MPN" value="PESD2CAN,215"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ece5b6f6-1737-50e0-942d-d4d35c1f9fe6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>5.6V / 2%</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf</datasheet>
+      <fields>
+        <field name="MPN">BZT52-B5V6X</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BZT52-B_SER.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="BZT52-B5V6X"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>060c4733-b130-55f1-aca4-8b77f760cc94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>GREEN / status</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="LTST-C190KGKT"/>
+      <property name="Manufacturer" value="Lite-On"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea28239-9c89-53c3-8cb6-13b6981cfe93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>1A / 125V</value>
+      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <fields>
+        <field name="MPN">0451001.MRL</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">Fuse:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MPN" value="0451001.MRL"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52fd3a79-06fe-5152-873f-f4fa3c8a32a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>NISSAN LEAF CABLE</value>
+      <footprint>Leaf:NorComp_182-009-113R531</footprint>
+      <datasheet>https://content.norcomp.net/rohspdfs/Connectors/18Y/182/182-yyy-113Ryy1.pdf</datasheet>
+      <fields>
+        <field name="MPN">182-009-113R531</field>
+        <field name="Manufacturer">NorComp</field>
+        <field name="Footprint">Leaf:NorComp_182-009-113R531</field>
+        <field name="Datasheet">https://content.norcomp.net/rohspdfs/Connectors/18Y/182/182-yyy-113Ryy1.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="DE9_Pins_MountingHoles" description="9-pin D-SUB connector, pins (male), Mounting Hole"/>
+      <property name="MPN" value="182-009-113R531"/>
+      <property name="Manufacturer" value="NorComp"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="DSUB DB9"/>
+      <property name="ki_fp_filters" value="DSUB*Pins*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4de4eedf-4d2b-5aaf-b726-e0a7711c16dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="9"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="7"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>USB-C PROGRAM</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <datasheet>https://gct.co/files/drawings/usb4105.pdf</datasheet>
+      <fields>
+        <field name="MPN">USB4105-GF-A</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet">https://gct.co/files/drawings/usb4105.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="MPN" value="USB4105-GF-A"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9992866-19f7-554b-9278-9682f5bd7d3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A4"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>22uH / 3.3A sat</value>
+      <footprint>Inductor_SMD:L_Bourns_SRN6045TA</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf</datasheet>
+      <fields>
+        <field name="MPN">SRN6045TA-220M</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Footprint">Inductor_SMD:L_Bourns_SRN6045TA</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MPN" value="SRN6045TA-220M"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>630ad84a-5c0f-5001-91ec-41b1e8c30a6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dcd3c8e-7f6b-55ed-9160-eb9232c40299</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>43.2k / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0743K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0743K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e6917c2-0aa9-57d1-80d7-8065e5366569</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>442d49d8-e363-547b-a94c-d58cdd2077d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa6dcb61-264a-5468-9c6f-b971ef9d9810</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8784b440-6299-5a97-b87d-4046057d7c07</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0534e18f-29b3-55a0-b2d7-f2d16c04572e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1M / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c565f1b1-84c7-5485-8819-4018be752f3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>47k / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e0f8a2d-6d58-5c6b-bc62-a772bac64bae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>155dd46c-e53b-5ca4-83eb-6778aa561ebb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd236c9-4c8f-5eb2-8afb-a56b1a333f17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede8f95e-864d-502c-bfc2-c6599bc5a23c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>5.1k / 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8b02f7d-6041-5bd3-a796-f2dca905f6a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bb8a63b-cce4-57d4-8c8a-054901f55be9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0722RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0722RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bb20c71-09f4-55e9-9d41-e23a5877fac2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>573c6655-d735-5c87-9913-0e7298c11e08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d103412f-d0c4-5d2b-a7e9-aff19346297b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b54d314-6bf9-5eb7-8dfb-e3b837367de6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342F160QG</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TL3342F160QG"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe6e5e0d-b7b8-5854-a29d-6ece7a4016d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342F160QG</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="TL3342F160QG"/>
+      <property name="Manufacturer" value="E-Switch"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8007559a-b2e9-5817-8d9c-7dbbb96ecad8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LMR36510ADDAR</value>
+      <footprint>Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmr36510.pdf</datasheet>
+      <fields>
+        <field name="MPN">LMR36510ADDAR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr36510.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Switching" part="LMR36510ADDA" description="Simple Switcher Synchronous Buck Regulator, Vin=4.2-65V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8"/>
+      <property name="MPN" value="LMR36510ADDAR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="synchronous buck step-down"/>
+      <property name="ki_fp_filters" value="Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d16e0b49-b469-5c15-8cfd-a87d3685e59e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="9"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>ESP32-C3-WROOM-02-N4</value>
+      <footprint>Leaf:ESP32-C3-WROOM-02_0p3mm_Vias</footprint>
+      <datasheet>https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.html</datasheet>
+      <fields>
+        <field name="MPN">ESP32-C3-WROOM-02-N4</field>
+        <field name="Manufacturer">Espressif</field>
+        <field name="Footprint">Leaf:ESP32-C3-WROOM-02_0p3mm_Vias</field>
+        <field name="Datasheet">https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-C3-WROOM-02" description="802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"/>
+      <property name="MPN" value="ESP32-C3-WROOM-02-N4"/>
+      <property name="Manufacturer" value="Espressif"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <property name="ki_keywords" value="esp32 espressif WiFi Bluetooth LE"/>
+      <property name="ki_fp_filters" value="ESP32?C3*WROOM?02*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e93a5375-ac2e-51bd-bd7a-59200ac32980</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="1"/>
+            <pin num="9"/>
+            <pin num="19"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TCAN3403DRQ1</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/TCAN3403-Q1</datasheet>
+      <fields>
+        <field name="MPN">TCAN3403DRQ1</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/TCAN3403-Q1</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Leaf" part="TCAN3403DRQ1" description=""/>
+      <property name="MPN" value="TCAN3403DRQ1"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1399a149-be6b-5b71-afdf-9563f3378790</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Leaf" part="USBLC6-2SC6" description=""/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Sheetname" value="leaf-heat-v1"/>
+      <property name="Sheetfile" value="leaf-heat-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f976e824-a4b8-5abf-a26c-1c664bbf42a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DE9_Pins_MountingHoles">
+      <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
+      <footprints>
+        <fp>DSUB*Pins*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DE9_Pins_MountingHoles</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="SH" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Leaf" part="PESD2CAN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PESD2CAN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CANL" type="passive"/>
+        <pin num="2" name="CANH" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Leaf" part="TCAN3403DRQ1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCAN3403DRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Leaf" part="USBLC6-2SC6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="D-" type="passive"/>
+        <pin num="4" name="D-" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="D+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-C3-WROOM-02">
+      <description>802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?C3*WROOM?02*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3-WROOM-02</field>
+        <field name="Footprint">RF_Module:ESP32-C3-WROOM-02</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf</field>
+        <field name="Description">802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IO4" type="bidirectional"/>
+        <pin num="4" name="IO5" type="bidirectional"/>
+        <pin num="5" name="IO6" type="bidirectional"/>
+        <pin num="6" name="IO7" type="bidirectional"/>
+        <pin num="7" name="IO8" type="bidirectional"/>
+        <pin num="8" name="IO9" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO10" type="bidirectional"/>
+        <pin num="11" name="IO20/RXD" type="bidirectional"/>
+        <pin num="12" name="IO21/TXD" type="bidirectional"/>
+        <pin num="13" name="IO18" type="bidirectional"/>
+        <pin num="14" name="IO19" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO2" type="bidirectional"/>
+        <pin num="17" name="IO1" type="bidirectional"/>
+        <pin num="18" name="IO0" type="bidirectional"/>
+        <pin num="19" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LMR36510ADDA">
+      <description>Simple Switcher Synchronous Buck Regulator, Vin=4.2-65V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lmr36510.pdf</docs>
+      <footprints>
+        <fp>Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR36510ADDA</field>
+        <field name="Footprint">Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmr36510.pdf</field>
+        <field name="Description">Simple Switcher Synchronous Buck Regulator, Vin=4.2-65V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="PG" type="open_collector"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="VCC" type="power_out"/>
+        <pin num="7" name="BOOT" type="input"/>
+        <pin num="8" name="SW" type="output"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Leaf">
+      <uri>${KIPRJMOD}/Leaf.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Power">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="3V3_1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="VCC_3" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VIO_5" pintype="power_in"/>
+    </net>
+    <net code="2" name="/BAT_SENSE" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="IO0_18" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/BOOT_IO2" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="IO2_16" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/BOOT_IO8" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="IO8_7" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/BOOT_IO9" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="IO9_8" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/BUCK_BOOT" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="BOOT_7" pintype="input"/>
+    </net>
+    <net code="7" name="/BUCK_FB" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB_5" pintype="input"/>
+    </net>
+    <net code="8" name="/BUCK_SW" class="Switch">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SW_8" pintype="output"/>
+    </net>
+    <net code="9" name="/BUCK_VCC" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VCC_6" pintype="power_out"/>
+    </net>
+    <net code="10" name="/CAN_H" class="Default">
+      <node ref="D4" pin="2" pinfunction="CANH_2" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="CANH_7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/CAN_L" class="Default">
+      <node ref="D4" pin="1" pinfunction="CANL_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="CANL_6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/CAN_RX" class="Default">
+      <node ref="U2" pin="4" pinfunction="IO5_4" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="RXD_4" pintype="output"/>
+    </net>
+    <net code="13" name="/CAN_STB" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="IO1_17" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="STB_8" pintype="input"/>
+    </net>
+    <net code="14" name="/CAN_TX" class="Default">
+      <node ref="U2" pin="3" pinfunction="IO4_3" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="TXD_1" pintype="input"/>
+    </net>
+    <net code="15" name="/CAR_12V" class="Power">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="16" name="/CAR_FUSED" class="Power">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/CC1" class="Default">
+      <node ref="J2" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/CC2" class="Default">
+      <node ref="J2" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/ESP_EN" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="EN_2" pintype="input"/>
+    </net>
+    <net code="20" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A2_2" pintype="passive"/>
+      <node ref="D4" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J1" pin="SH" pinfunction="PAD_SH" pintype="passive"/>
+      <node ref="J2" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J2" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J2" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J2" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J2" pin="SH" pinfunction="SHIELD_SH" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PGND_1" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="PAD_9" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="GND_19" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="GND_9" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="passive"/>
+    </net>
+    <net code="21" name="/LED_A" class="Default">
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/STATUS_LED" class="Default">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IO7_6" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/USB_5V" class="Power">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+    </net>
+    <net code="24" name="/USB_CONN_DM" class="USB">
+      <node ref="J2" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="J2" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="D-_3" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="D-_4" pintype="passive"/>
+    </net>
+    <net code="25" name="/USB_CONN_DP" class="USB">
+      <node ref="J2" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="J2" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="D+_1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="D+_6" pintype="passive"/>
+    </net>
+    <net code="26" name="/USB_DM" class="USB">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="IO18_13" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/USB_DP" class="USB">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="IO19_14" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/USB_PRESENT" class="Default">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="IO3_15" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/VPWR" class="Power">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A1_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN_2" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J1-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J1-Pad8)" class="Default">
+      <node ref="J1" pin="8" pinfunction="8_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J2-SBU1-PadA8)" class="Default">
+      <node ref="J2" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J2-SBU2-PadB8)" class="Default">
+      <node ref="J2" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-PG-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PG_4" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-IO6-Pad5)" class="Default">
+      <node ref="U2" pin="5" pinfunction="IO6_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-IO10-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="IO10_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U2-IO20/RXD-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="IO20/RXD_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U2-IO21/TXD-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="IO21/TXD_12" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,20 @@
+LEAF HEAT – Rev E, 100 × 100 mm
+
+Bildene er eksportert fra KiCad. Nærbildene viser utsnitt av de samme kobberlagene som oversiktsbildene.
+
+01: Strømforsyning – loddeputer, baner og lokal plassering.
+02: CAN og biltilkobling – beskyttelse, sikring og DB9-tilkobling.
+03: Wi-Fi – modul og omkringliggende komponenter.
+04: Knapper og programmering – RESET/BOOT og ekstern UART.
+05: Nærbilde av det indre jordplanet, samme utsnitt som bilde 01.
+
+Oversikter:
+top.png: Øverste kobberlag med komponentmerking.
+ground.png: Indre jordplan (In1.Cu).
+power.png: Indre forsyningslag (In2.Cu). Fargen angir lag, ikke én felles elektrisk forbindelse.
+bottom.png: Nederste kobberlag sett ovenfra.
+back-legend.png: Merking på undersiden, speilvendt for lesing fra undersiden.
+assembly-map.png: Oransje markerer de fire fabrikkmonterte delene U1, U2, U4 og L1.
+board-3d.png: KiCad 3D-visning.
+
+Ingen endring er gjort i kretskortet eller skjemaet under bildeeksporten.

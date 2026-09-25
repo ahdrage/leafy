@@ -1,0 +1,22 @@
+{
+  "revision": "G.3 enclosure v2",
+  "pcb_sha256": "8e2212587dd6681346d546cb83727e9c3ea1c5138e4bad50e19c11775217e952",
+  "files": {
+    "parameters.json": "6f947ae8023cd54e307cdcd8a957ba92dda30d5a3f74b437e0b2a639622de52e",
+    "leaf-rev-g-enclosure.blend": "9a137120c438f59560a6d5ac84f0aa051a16522d3f48533f25dab4c4cb3ba581",
+    "build_enclosure.py": "fe3832f40b654923070e2143a5ac8548df5b289bd2f0fabab6a8d003cbc8999b",
+    "README.md": "d23a66b68eafdef1c2fd455b23008628f163cb0a96e54d343d58ea9fe2ebcd20",
+    "validation.json": "89ad7ac35612fe34ff02f1a8ffa87a8b7753333dd99b9534cc1bb00f2d8e0993",
+    "build.log": "4f00f86ce647c3792f225b6a6f3feb502c1a3e71188873671c12e298afe8d532",
+    "print/OPTIONAL-fastener-fit-test.stl": "81a510a835d7f77f6b1057761795f7b3b99e0fa65865abbd29a2acfa4883d2c5",
+    "print/OPTIONAL-connector-fit-test.stl": "69ed65a7a41cd83f0dd7507de30b97983ea5ddeb6b4b2c5bac07873d47888873",
+    "print/leaf-rev-g-case-base.stl": "a61ab6cb6c5906c66acb4a6e35c842b391bb8f300f39e2228469ad3381191c94",
+    "print/leaf-rev-g-case-lid.stl": "c69713a88258bf380b4b0ae4e35bd81c5e6bdd96ed5e8fea0a8d1b88b2bf80df",
+    "previews/03-exploded-case.png": "3ffeb0bcd4f745fff64f11eb64bd9b3f649b723e3a3ecde03422669fabbe8d6d",
+    "previews/01-closed-case.png": "ffc4e2cc66ff2eecad59640344cc363e18ebea576a634d07e0678615b01a7cb6",
+    "previews/02-open-case-with-board.png": "12ffff982e374c8e4d04c13814fb6d10eac1eee37df13ddde20157ae741a196e",
+    "previews/04-empty-base.png": "936ca5da13c145ad438a3a530284debbe629a4bd016746ce789a37ea16139e02",
+    "reference/board-geometry.json": "7df13fa0f911485b4009414534329f0032540cb9ec3ba368f2eff662e00abeb3",
+    "reference/leaf-heat-rev-g.glb": "c77eaa44cec14354ebc9eeca94961d3a422d89cfc3d96650e491f0c48bfab09e"
+  }
+}

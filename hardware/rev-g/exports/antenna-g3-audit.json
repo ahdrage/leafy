@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "revision": "G.3",
+  "pcb_sha256": "8e2212587dd6681346d546cb83727e9c3ea1c5138e4bad50e19c11775217e952",
+  "schematic_sha256": "d38f5f11dd99f8aba5ab1233018a80c4a44a7e61f1568a7f767328715c9455c5",
+  "baseline_archive_sha256": "2e190a8c31440d52082469a486f4753b190b5714a160942f1d797199dbc71123",
+  "checks": [
+    "All traces, vias, zone definitions and filled copper unchanged",
+    "All pad geometry, nets, paste apertures and mounting locations unchanged",
+    "All schematic net membership and wire geometry unchanged",
+    "54 other PCB components unchanged; only U2 module variant/outline/model metadata changes",
+    "Hand BOM byte-identical; factory BOM contains six components and correct U2 C2926676",
+    "Two matching 300 mm antennas included separately in the 28-line Mouser target",
+    "Fresh native ERC/DRC and schematic parity zero"
+  ],
+  "limitations": "Static verification only. Physical RF/connector fit, cable strain relief, assembly and vehicle tests remain."
+}

@@ -1,0 +1,12 @@
+FAIL station remains associated during power saving
+PASS only automatic sleep, no deliberate disconnect
+FAIL reconnect event implemented
+FAIL server validates control key
+FAIL physical CAN gated by commissioning setting
+FAIL stale command expiry implemented
+FAIL ADC uses calibration
+FAIL CAN driver released while idle
+Traceback (most recent call last):
+  File "/Users/alf/repos/leaf/firmware/leaf-heat/tests/integration_contract.py", line 16, in <module>
+    assert all(checks.values())
+AssertionError

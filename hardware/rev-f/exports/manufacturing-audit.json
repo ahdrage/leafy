@@ -1,0 +1,42 @@
+{
+  "component_count": 41,
+  "factory_count": 4,
+  "hand_count": 37,
+  "factory_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4"
+  ],
+  "hand_mpns": 21,
+  "unique_mpns": 25,
+  "placement_origin": "lower-left (0,100 mm in KiCad), X right / Y up",
+  "factory_placement_rows": 4,
+  "full_placement_rows": 41,
+  "stencil_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4"
+  ],
+  "bare_test_holes": 7,
+  "mounting_holes": 4,
+  "board_sha256": "5b63416fd1c055faa55a8f8dfb4ba75da2f3052ad8de3801168372b136d7357c",
+  "catalog_ids": "blank until exact manufacturer matching",
+  "fabrication_files": {
+    "leaf-heat-v6-B_Cu.gbl": "ceb4b4a600d1d68267b574e27af26a6fdf6733c4594ccf103d67f7df6b74abbe",
+    "leaf-heat-v6-B_Mask.gbs": "8183515c2c472d93a96c57dc5eed5b70ff7ff956b00cae12d6dd9b830411e58f",
+    "leaf-heat-v6-B_Paste.gbp": "8e023aee5e5ab9e4f6a60d8a7f64cc7d3000f534628faa54e5c5fc12061967b6",
+    "leaf-heat-v6-B_Silkscreen.gbo": "f998a182188289157819fecde2021235585e32b321f3e11b43d01dde0f330915",
+    "leaf-heat-v6-Edge_Cuts.gm1": "695bb266b5f77851da8f8456ba0de60d986dd125b24e4409224670dce58943d6",
+    "leaf-heat-v6-F_Cu.gtl": "661ac33dafe9bb1c27c41d049f9ed7e6de6dca26c8b6b14878a306063d39b697",
+    "leaf-heat-v6-F_Mask.gts": "cc4a90240b56198e1f3a91c41719a41366941899086db675ffd5ca62221fcbd6",
+    "leaf-heat-v6-F_Paste.gtp": "47f4d1f3f1e2890433d797b655c5a57cc1136ab5c8536ea431057df6fe97666f",
+    "leaf-heat-v6-F_Silkscreen.gto": "af29f7d08d450b47c3720b22e473ef85fc37c83ce1e0b51f21798fda115b74e1",
+    "leaf-heat-v6-In1_Cu.g1": "8fd2e461b0aed4571ada4159a21ba59afae1b3a4c7579a61676fb687148fa876",
+    "leaf-heat-v6-In2_Cu.g2": "5f6f8618c53ef2699c7d11f639fde10510252ee5338d5a4639ee2cbc6e89fb22",
+    "leaf-heat-v6-NPTH.drl": "20e091113dbea40aecd971c9f0df00636910845f72be7cdac4c5317d7d73b13b",
+    "leaf-heat-v6-PTH.drl": "74577d7dd580f8eb54c9ecfacf4c0795a155b865afda8f5be1eb3aa38e6655a2",
+    "leaf-heat-v6-job.gbrjob": "757c03640236f16d4e96f113162690e5595d9f02b96a0b62de82957e09d72e48"
+  }
+}

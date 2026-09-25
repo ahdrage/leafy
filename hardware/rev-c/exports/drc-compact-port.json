@@ -1,0 +1,202 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-12T11:03:59",
+    "ignored_checks": [
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "leaf-heat-v3.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Items shorting two nets (nets /PROG_RX and /GND)",
+            "items": [
+                {
+                    "description": "Track [/PROG_RX] on B.Cu, length 9.4752 mm",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 30.0
+                    },
+                    "uuid": "cc054ed8-2a8f-4e51-9092-64258297dc3e"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 55.81,
+                        "y": 34.9
+                    },
+                    "uuid": "dc8383b9-3935-4280-883b-20e2005311bb"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0760 mm)",
+            "items": [
+                {
+                    "description": "Via [/PROG_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 57.8,
+                        "y": 38.8625
+                    },
+                    "uuid": "03ebdd50-c9e4-449e-84fc-8e566e50012a"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.525,
+                        "y": 38.825
+                    },
+                    "uuid": "c2c7f92a-b0d4-4ee8-aad9-ecce54617845"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0760 mm)",
+            "items": [
+                {
+                    "description": "Via [/PROG_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 57.8,
+                        "y": 38.8625
+                    },
+                    "uuid": "03ebdd50-c9e4-449e-84fc-8e566e50012a"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.525,
+                        "y": 38.825
+                    },
+                    "uuid": "c2c7f92a-b0d4-4ee8-aad9-ecce54617845"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/PROG_RX] on B.Cu, length 9.4752 mm",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 30.0
+                    },
+                    "uuid": "cc054ed8-2a8f-4e51-9092-64258297dc3e"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 55.81,
+                        "y": 34.9
+                    },
+                    "uuid": "dc8383b9-3935-4280-883b-20e2005311bb"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0760 mm)",
+            "items": [
+                {
+                    "description": "Via [/PROG_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 57.8,
+                        "y": 38.8625
+                    },
+                    "uuid": "03ebdd50-c9e4-449e-84fc-8e566e50012a"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.525,
+                        "y": 38.825
+                    },
+                    "uuid": "c2c7f92a-b0d4-4ee8-aad9-ecce54617845"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0760 mm)",
+            "items": [
+                {
+                    "description": "Via [/PROG_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 57.8,
+                        "y": 38.8625
+                    },
+                    "uuid": "03ebdd50-c9e4-449e-84fc-8e566e50012a"
+                },
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 58.525,
+                        "y": 38.825
+                    },
+                    "uuid": "c2c7f92a-b0d4-4ee8-aad9-ecce54617845"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 55.81,
+                        "y": 36.8
+                    },
+                    "uuid": "df277a13-0867-4a32-8357-dcfbf3d2ef41"
+                },
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 55.81,
+                        "y": 40.0
+                    },
+                    "uuid": "ea3c7497-a1b5-421e-9ae4-5a783b7b5ff9"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/PROG_TX] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 63.0,
+                        "y": 32.0
+                    },
+                    "uuid": "54abbef8-8e6f-45b6-8191-1581f6a55fc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

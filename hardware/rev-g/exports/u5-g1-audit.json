@@ -1,0 +1,58 @@
+{
+  "revision": "G.1",
+  "status": "PASS",
+  "checked_files": {
+    "leaf-heat-v7.kicad_pcb": {
+      "before_sha256": "f9f57396dfdf6801f05c7a4b350fac8f200562335a96ca05e7fca00f925fd8f2",
+      "after_sha256": "2378869bff9072b5c0786ff13958ee783a395fc549dffc6d7a9f5f7e3b53f409"
+    },
+    "leaf-heat-v7.kicad_sch": {
+      "before_sha256": "7ee1d2252833c5eb63e58592d92a4c77a2352121d0d1ceee90a2e09bc457e120",
+      "after_sha256": "3d19ebe5c7bca5626ced3fda63ca1ca16cb5929117fac35504552f8e7c7a203c"
+    },
+    "Leaf.kicad_sym": {
+      "before_sha256": "474e99615a22f637d7b776b031d26d1f86920c3149ddc2d551da8351f24b9540",
+      "after_sha256": "e9b3f3ab6729c6a00d8dc3a9adcc06dd54d43c7a2c06d6a1b6aab9a687b54ae2"
+    }
+  },
+  "pcb_and_schematic_comparison": "Full parsed structures identical after only U5 part-number and datasheet substitutions; all copper, pads, zones, drill geometry, net connections, positions, dimensions and graphics unchanged.",
+  "other_components_unchanged": 54,
+  "hand_components_unchanged": 49,
+  "native_factory_placement_file_unchanged": true,
+  "hand_BOM_and_two_board_shopping_list_unchanged": true,
+  "jlc_catalog_angles_degrees": {
+    "L1": 0,
+    "U1": 270,
+    "U2": 0,
+    "U4": 0,
+    "U5": 270,
+    "U6": 270
+  },
+  "jlc_CPL_centres_layers_and_references_unchanged": true,
+  "fabrication_comparison": "All 11 Gerber files and both drill files identical to original Rev G except generation timestamps.",
+  "gerber_files_checked": 11,
+  "drill_files_checked": 2,
+  "fabrication_files_checked": [
+    "leaf-heat-v7-B_Cu.gbl",
+    "leaf-heat-v7-B_Mask.gbs",
+    "leaf-heat-v7-B_Paste.gbp",
+    "leaf-heat-v7-B_Silkscreen.gbo",
+    "leaf-heat-v7-Edge_Cuts.gm1",
+    "leaf-heat-v7-F_Cu.gtl",
+    "leaf-heat-v7-F_Mask.gts",
+    "leaf-heat-v7-F_Paste.gtp",
+    "leaf-heat-v7-F_Silkscreen.gto",
+    "leaf-heat-v7-In1_Cu.g1",
+    "leaf-heat-v7-In2_Cu.g2",
+    "leaf-heat-v7-NPTH.drl",
+    "leaf-heat-v7-PTH.drl"
+  ],
+  "pinout": "DYY14: VDD 1, SENSE 3, RESET_N 6, GND 8/13, CTR 9, CTS 10; all other pins NC",
+  "electrical_comparison": "A012 UV, non-latching, 0.8 V threshold, 2% internal hysteresis, active-low open drain; same calculation inputs and timing specifications.",
+  "qualification_tradeoff": "Catalog grade, no AEC-Q100. 65 V operating maximum. No Q1 70 V/50 ms operating-transient allowance.",
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/tps3760.pdf",
+    "https://www.ti.com/lit/ds/symlink/tps3760-q1.pdf"
+  ],
+  "physical_validation": "Not performed; DFM approval and bench/vehicle tests remain."
+}

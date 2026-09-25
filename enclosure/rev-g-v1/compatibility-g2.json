@@ -1,0 +1,9 @@
+{
+  "revision": "G.2 compatibility with Rev G enclosure v1",
+  "status": "PASS",
+  "compatible_current_pcb_sha256": "e219b6422497241ae2c65dcf21172432d0750c268bfbf207ad921b2527b9f2b4",
+  "evidence": "All 66 footprint cores including pads, component origins/rotations, models, mounting holes and board outline identical to archived G.1. See hardware/rev-g/exports/adi-g2-audit.json.",
+  "physical_model_changes": false,
+  "original_render_and_mesh_reports_retained": true,
+  "limitation": "Copper/via positions and silkscreen in original Blender reference are historical. Printed fit and cable fit remain untested."
+}

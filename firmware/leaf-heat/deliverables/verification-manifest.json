@@ -1,0 +1,55 @@
+{
+  "board_revision": "G.2 / G.3 (Rev G family)",
+  "default_CAN_write_enabled": false,
+  "default_wifi_credentials": "empty; local settings required",
+  "hardware_tested": false,
+  "host_tests": 25,
+  "build": "success, ESP-IDF 5.5.0 / espressif32 6.12.0",
+  "configured_flash_MB": 4,
+  "files": {
+    "README.md": "514afd924f2957593b35aa94d6f79decb8a70af0a8098ce07cec2aa2f38eef89",
+    "platformio.ini": "0a97cf1b3e18620c2bdc4db3bf41577f4b6ccf458efc09e327272ad730df7ea2",
+    "CMakeLists.txt": "81f7b29e99aea58854a8599de7bb146b93081a88bf2ec0503e651b1c37016925",
+    "sdkconfig.defaults": "4a5dd2d883fa03135c95ad3cda9e8b80f7616be5fbabdb475387c2ca852b127c",
+    "OVMS-NOTICE.txt": "a312ad260ddcaaf3154343d34c6aad5336dbeb7371a0f134ba90f18e851d24fd",
+    "src/main.cpp": "4c23688291ea27254e7567ad0f62655e673bb45623c7a80dee4c39a9a7d4e8a5",
+    "src/CMakeLists.txt": "c6ba56955278d40868ab789f23e53991f25be8fa81948e6c27f4f9ce932ff07c",
+    "include/control.hpp": "292c4107c164be9ab85c93d984da654d1857d893d98161891b940e2826ecdab9",
+    "include/settings.example.hpp": "fbb54001617378d49f541ae446d0307dd3818ac0c0f57e3c1dd5f1446ceafdeb",
+    "tests/control_test.cpp": "ad9df7c4b9df06b9e51a1dcd247948a1feb5ebe0fd6854d128314783c0477ff6",
+    "verification/host-red.txt": "d542d58ef50bba5eccb67440227c58ec2a00b1520db290cae7d89905f4a016e4",
+    "verification/host-green.txt": "49c60f334a5a8c1eebe39dd12b0133ae12f98e666cf4fdeea730a5a937adfbc9",
+    "verification/build.log": "b876402423102ddfc3c23e2efe10f6546b89a0c78530d463953fff8635a0149d",
+    "verification/image-info.txt": "9ccf0881331e31a2985977c9bcd7f3a4577c8a0b27fed6fed60239c5f1ac707b",
+    "tests/run_host_tests.py": "754830d4218c5ce1c8f3723c1dccea0f22b32edb6203b1aaf285378ce01f3f2b",
+    "tests/battery_task_test.cpp": "755a6750225a974e4b3e0b89f8e6ad5f403e219dd86d6e60348ba1bec7de3532",
+    "tests/can_transport_test.cpp": "c3ef514b06f95847bf327e6f1362bca178b6c8aae740983f15e863f5b4692c25",
+    "verification/REVIEW-FIXES.md": "51b2457a527429d3148df831521dbdbdafad45dd4a7ccd3fc50697057956a1a5",
+    "verification/review-fixes-red.txt": "5d82fb72dddfdc9a0183cd9e0b3ce927195533b237cde381ac1e5bb0f0bfa15d",
+    "verification/review-fixes-green.txt": "eb9af8782b901d20ff154adfd6acc84ae3a390a4d09070e6689bbbb9f303fa1b",
+    "verification/can-enabled-build.log": "3605ab87bef789ac671872da2b8f3dc2f623b4f975260a9c7b106138c6c8d772"
+  },
+  "compiled_artifacts": {
+    "firmware.bin": "a4b513d0c73ba6d21b10140ed2d2c6e4f21c71f351564ca425f89b93356d0155",
+    "firmware.elf": "196b6ee8f9b313fb23c679da2320dbf4bb7d13456db4555d5ce78a6761f81179",
+    "bootloader.bin": "b7817fdf11f2869b3e1d00f60ff2abd792eace6e05a495d8e08d388436740beb",
+    "partitions.bin": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+  },
+  "firmware_revision": "2026-09-14-review-fixes",
+  "host_test_suites": {
+    "control_core": 10,
+    "control_task": 6,
+    "can_transport": 9
+  },
+  "test_scope": "Production core and verbatim task/transport functions, using simulated SDK boundaries; no device execution",
+  "can_enabled_compile_check": "success; separate temporary project, empty Wi-Fi credentials, no flashing",
+  "red_source_commit": "dd3653126a3db8b0d5036983c35d3f6bfe8daeed",
+  "hardware_changed": false,
+  "antenna_revision_check": {
+    "date": "2026-09-14",
+    "module": "ESP32-C3-WROOM-02U-N4",
+    "firmware_code_changed": false,
+    "host_tests_passed": 25,
+    "physical_RF_tested": false
+  }
+}

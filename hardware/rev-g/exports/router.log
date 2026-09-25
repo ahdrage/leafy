@@ -1,0 +1,51 @@
+2026-09-13 18:54:28.200 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-13 18:54:29.656 INFO   [80739A\68DAAC] Loading board file 'leaf-heat-v7-routing.dsn'...
+2026-09-13 18:54:29.729 INFO   [80739A\68DAAC] Job '80739A\68DAAC' started at 2026-09-13T16:54:29.729020Z.
+2026-09-13 18:54:30.077 INFO   [80739A\68DAAC] Fanout stage started on board 'd224303b215c280f0956bb2089655ab7' with 69 of 160 SMD pins needing fanout (91 already connected, 0 netless).
+2026-09-13 18:54:30.836 INFO   [80739A\68DAAC] Fanout pass #1 on board '6454fdaf73d4d14b5b16f7ae93841edb' completed in 0.60 seconds with 3 SMD pins fanouted, 20 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-13 18:54:31.294 INFO   [80739A\68DAAC] Fanout pass #2 on board '6454fdaf73d4d14b5b16f7ae93841edb' completed in 0.45 seconds with 1 SMD pin fanouted, 20 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-13 18:54:31.398 INFO   [80739A\68DAAC] Fanout stage completed: started with 160 total SMD pins, completed in 1.17 seconds, escaped pins: 125/160 (78.1%), using 1.44 total CPU seconds, 20.11 GB total allocated, and 606.3 MB peak heap usage.
+2026-09-13 18:54:31.405 INFO   [80739A\68DAAC] Auto-routing stage started on board '6454fdaf73d4d14b5b16f7ae93841edb' for 17 unrouted items.
+2026-09-13 18:54:32.470 INFO   [80739A\68DAAC] Auto-routing pass #1 on board '6454fdaf73d4d14b5b16f7ae93841edb' was completed in 0.84 seconds with score 820.72 (9 unrouted and 102 violations), using 1.84 CPU seconds and the job allocated 26.35 GB of memory so far.
+2026-09-13 18:54:33.297 INFO   [80739A\68DAAC] Auto-routing pass #2 on board '42ae66995b385da291d70df400b94ced' was completed in 0.61 seconds with score 820.72 (9 unrouted and 102 violations), using 2.83 CPU seconds and the job allocated 43.76 GB of memory so far.
+2026-09-13 18:54:34.094 INFO   [80739A\68DAAC] Auto-routing pass #3 on board '065636609d4d85d42d010d375c36e09e' was completed in 0.57 seconds with score 820.72 (9 unrouted and 102 violations), using 3.81 CPU seconds and the job allocated 61.39 GB of memory so far.
+2026-09-13 18:54:34.875 INFO   [80739A\68DAAC] Auto-routing pass #4 on board '71469a610f5cd56d32cb2cee7a331119' was completed in 0.56 seconds with score 820.72 (9 unrouted and 102 violations), using 4.80 CPU seconds and the job allocated 80.04 GB of memory so far.
+2026-09-13 18:54:35.810 INFO   [80739A\68DAAC] Auto-routing pass #5 on board '517b5797ed1827e5f34f3ad91d2c4db7' was completed in 0.72 seconds with score 820.72 (9 unrouted and 102 violations), using 5.64 CPU seconds and the job allocated 95.89 GB of memory so far.
+2026-09-13 18:54:36.617 INFO   [80739A\68DAAC] Auto-routing pass #6 on board '892b6110af98f2c9f0ab0e05654905d7' was completed in 0.59 seconds with score 820.72 (9 unrouted and 102 violations), using 5.64 CPU seconds and the job allocated 95.89 GB of memory so far.
+2026-09-13 18:54:37.404 INFO   [80739A\68DAAC] Auto-routing pass #7 on board '8834641a2a16d9c7966934ea29a5c758' was completed in 0.57 seconds with score 820.72 (9 unrouted and 102 violations), using 6.63 CPU seconds and the job allocated 114.11 GB of memory so far.
+2026-09-13 18:54:38.182 INFO   [80739A\68DAAC] Auto-routing pass #8 on board '90c4278a13a6121e8b3526369ad540f0' was completed in 0.56 seconds with score 820.72 (9 unrouted and 102 violations), using 7.61 CPU seconds and the job allocated 132.76 GB of memory so far.
+2026-09-13 18:54:38.963 INFO   [80739A\68DAAC] Auto-routing pass #9 on board '39d34985412671de5e051c7a50446cff' was completed in 0.56 seconds with score 820.72 (9 unrouted and 102 violations), using 8.60 CPU seconds and the job allocated 151.51 GB of memory so far.
+2026-09-13 18:54:39.751 INFO   [80739A\68DAAC] Auto-routing pass #10 on board '4616d39583bddd51f3f63d9192c0a963' was completed in 0.57 seconds with score 820.72 (9 unrouted and 102 violations), using 8.60 CPU seconds and the job allocated 151.51 GB of memory so far.
+2026-09-13 18:54:40.533 INFO   [80739A\68DAAC] Auto-routing pass #11 on board '2fcdf209227874e09df2b97ee23657fd' was completed in 0.57 seconds with score 820.72 (9 unrouted and 102 violations), using 9.58 CPU seconds and the job allocated 170.11 GB of memory so far.
+2026-09-13 18:54:41.553 INFO   [80739A\68DAAC] Auto-routing pass #12 on board 'a967c45176dd626978b2a208a4ec6157' was completed in 0.70 seconds with score 820.72 (9 unrouted and 102 violations), using 10.57 CPU seconds and the job allocated 188.88 GB of memory so far.
+2026-09-13 18:54:42.236 INFO   [80739A\68DAAC] Auto-routing pass #13 on board 'a967c45176dd626978b2a208a4ec6157' was completed in 0.58 seconds with score 820.72 (9 unrouted and 102 violations), using 11.55 CPU seconds and the job allocated 207.35 GB of memory so far.
+2026-09-13 18:54:42.965 INFO   [80739A\68DAAC] Auto-routing pass #14 on board 'ff3d89b13ecbe3f18e2b95ad254de5f7' was completed in 0.51 seconds with score 820.72 (9 unrouted and 102 violations), using 12.53 CPU seconds and the job allocated 226.40 GB of memory so far.
+2026-09-13 18:54:43.681 INFO   [80739A\68DAAC] Auto-routing pass #15 on board 'ae87e6efac89dd6f8b78eb7208669b23' was completed in 0.51 seconds with score 820.72 (9 unrouted and 102 violations), using 12.53 CPU seconds and the job allocated 226.40 GB of memory so far.
+2026-09-13 18:54:44.537 INFO   [80739A\68DAAC] Auto-routing pass #16 on board 'a967c45176dd626978b2a208a4ec6157' was completed in 0.00 seconds with score 820.72 (9 unrouted and 102 violations), using 13.51 CPU seconds and the job allocated 246.67 GB of memory so far.
+2026-09-13 18:54:45.169 INFO   [80739A\68DAAC] Auto-routing pass #17 on board 'a967c45176dd626978b2a208a4ec6157' was completed in 0.53 seconds with score 820.72 (9 unrouted and 102 violations), using 14.49 CPU seconds and the job allocated 266.10 GB of memory so far.
+2026-09-13 18:54:45.792 INFO   [80739A\68DAAC] Auto-routing pass #18 on board 'ff3d89b13ecbe3f18e2b95ad254de5f7' was completed in 0.52 seconds with score 820.72 (9 unrouted and 102 violations), using 14.49 CPU seconds and the job allocated 266.10 GB of memory so far.
+2026-09-13 18:54:45.803 INFO   [80739A\68DAAC] The router's best score (820.72) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (9 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '/BUCK_EN' (1 unrouted connection):
+    - U5-6  ->  R24-1
+  Net '/CAN_L' (2 unrouted connections):
+    - D4-1  ->  J1-2
+    - D4-1  ->  TP6-1
+  Net '/CAN_H' (1 unrouted connection):
+    - TP5-1  ->  J1-7
+  Net '/UV_CTR' (1 unrouted connection):
+    - C19-1  ->  U5-9
+  Net '/UV_SENSE' (3 unrouted connections):
+    - R22-2  ->  U5-3
+    - U5-3  ->  R23-1
+    - U5-3  ->  R24-2
+  Net '/UV_CTS' (1 unrouted connection):
+    - C18-1  ->  U5-10
+2026-09-13 18:54:46.208 INFO   [80739A\68DAAC] Auto-routing stage completed: started with 19 unrouted nets, completed in 16.34 seconds, final score: 820.72 (9 unrouted and 102 violations), using 15.48 total CPU seconds, 286.28 GB total allocated, and 617.5 MB peak heap usage.
+2026-09-13 18:54:46.316 INFO   [80739A\68DAAC] Optimization stage started on board '9eab87e0cd52ffd37859cc6c1762a249' with score 820.72 (9 unrouted and 102 violations).
+2026-09-13 18:54:49.249 INFO   [80739A\68DAAC] Optimizer pass #1 on board 'e9992fbe4b6632e3f259461a263b50c0' was completed in 2.60 seconds with the score of 820.72 (9 unrouted and 102 violations).
+2026-09-13 18:54:49.353 INFO   [80739A\68DAAC] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-09-13 18:54:49.455 INFO   [80739A\68DAAC] Optimization stage completed: started with score 820.72 (9 unrouted and 102 violations), completed in 3.04 seconds, final score: 820.72 (9 unrouted and 102 violations), using 2.98 total CPU seconds, 59.26 GB total allocated, and 483.1 MB peak heap usage.
+2026-09-13 18:54:49.460 INFO   [80739A\68DAAC] Job '80739A\68DAAC' finished with state: COMPLETED (elapsed: 19.73 seconds, finished at UTC: 2026-09-13T16:54:49.459850Z).
+2026-09-13 18:54:49.684 INFO   Saving output file '/Users/alf/repos/leaf/hardware/rev-g/exports/leaf-heat-v7.ses' (SES)...
+2026-09-13 18:54:49.685 INFO   Successfully saved output file '/Users/alf/repos/leaf/hardware/rev-g/exports/leaf-heat-v7.ses' (20600 bytes).

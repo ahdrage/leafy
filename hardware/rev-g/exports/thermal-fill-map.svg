@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+<rect width="1800" height="1120" fill="#f7f9fc"/>
+<g font-family="Arial" fill="#112d37">
+<text x="60" y="65" font-size="38" font-weight="bold">Leafy G.5 — required thermal-hole filling</text>
+<text x="60" y="108" font-size="23">18 thermal PTHs per PCB: epoxy fill, planarize and copper cap BOTH ends.</text>
+<text x="60" y="145" font-size="22">Include U1’s 0.33 mm holes explicitly. Top faces must be flat and solderable.</text>
+<rect x="70" y="225" width="650" height="650" fill="#116048" stroke="#163329" stroke-width="3"/>
+<text x="90" y="263" font-size="26" fill="white">Leafy / REV G.5</text>
+<rect x="206.5" y="330.3" width="39.0" height="36.4" fill="#334155" stroke="white"/>
+<text x="226.0" y="394.70000000000005" text-anchor="middle" fill="white" font-size="21">U1</text>
+<rect x="482.75" y="212.0" width="123.5" height="130.0" fill="#334155" stroke="white"/>
+<text x="544.5" y="370.0" text-anchor="middle" fill="white" font-size="21">U2</text>
+<circle cx="221.775" cy="340.05" r="2" fill="#ffd36a"/>
+<circle cx="221.775" cy="348.5" r="2" fill="#ffd36a"/>
+<circle cx="221.775" cy="356.95" r="2" fill="#ffd36a"/>
+<circle cx="230.225" cy="340.05" r="2" fill="#ffd36a"/>
+<circle cx="230.225" cy="348.5" r="2" fill="#ffd36a"/>
+<circle cx="230.225" cy="356.95" r="2" fill="#ffd36a"/>
+<circle cx="543.5899999999999" cy="274.725" r="2" fill="#ffd36a"/>
+<circle cx="543.5899999999999" cy="281.875" r="2" fill="#ffd36a"/>
+<circle cx="547.165" cy="271.15" r="2" fill="#ffd36a"/>
+<circle cx="547.165" cy="278.3" r="2" fill="#ffd36a"/>
+<circle cx="547.165" cy="285.45" r="2" fill="#ffd36a"/>
+<circle cx="550.74" cy="274.725" r="2" fill="#ffd36a"/>
+<circle cx="550.74" cy="281.875" r="2" fill="#ffd36a"/>
+<circle cx="554.315" cy="271.15" r="2" fill="#ffd36a"/>
+<circle cx="554.315" cy="278.3" r="2" fill="#ffd36a"/>
+<circle cx="554.315" cy="285.45" r="2" fill="#ffd36a"/>
+<circle cx="557.89" cy="274.725" r="2" fill="#ffd36a"/>
+<circle cx="557.89" cy="281.875" r="2" fill="#ffd36a"/>
+<text x="70" y="921" font-size="21">Finished board: 100 × 100 mm, top view</text>
+<text x="70" y="958" font-size="20">CSV origin: lower-left; X right, Y up; millimetres.</text>
+<text x="850" y="245" font-size="28" font-weight="bold">U1: 6 × 0.33 mm</text>
+<rect x="975.15" y="291.0" width="189.7" height="238.0" fill="#edc66b" stroke="#9c7221" stroke-width="2"/>
+<circle cx="1024.5" cy="319.0000000000002" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1024.5" cy="410.0" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1024.5" cy="500.9999999999998" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1115.5" cy="319.0000000000002" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1115.5" cy="410.0" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1115.5" cy="500.9999999999998" r="11.55" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<text x="1240" y="375" font-size="21">Continuous top mask opening</text>
+<text x="1240" y="415" font-size="21">2.71 × 3.40 mm</text>
+<text x="1240" y="455" font-size="21">Circles locate required copper caps.</text>
+<text x="850" y="625" font-size="28" font-weight="bold">U2: 12 × 0.30 mm</text>
+<rect x="975.5" y="695.5" width="189.0" height="189.0" fill="#edc66b" stroke="#9c7221" stroke-width="2"/>
+<circle cx="993.0000000000005" cy="751.5000000000002" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="993.0000000000005" cy="828.4999999999998" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1031.5000000000002" cy="712.9999999999994" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1031.5000000000002" cy="790.0" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1031.5000000000002" cy="866.9999999999995" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1070.0" cy="751.5000000000002" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1070.0" cy="828.4999999999998" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1108.500000000001" cy="712.9999999999994" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1108.500000000001" cy="790.0" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1108.500000000001" cy="866.9999999999995" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1147.0000000000007" cy="751.5000000000002" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<circle cx="1147.0000000000007" cy="828.4999999999998" r="10.5" fill="#b7832c" stroke="#493510" stroke-width="2"/>
+<text x="1240" y="755" font-size="21">Continuous top mask opening</text>
+<text x="1240" y="795" font-size="21">2.70 × 2.70 mm</text>
+<text x="1240" y="835" font-size="21">Circles locate required copper caps.</text>
+<text x="70" y="1030" font-size="22">No mask tents. Bottom mask openings expose CAPS, not open barrels. Keep thermal connections solid.</text>
+<text x="70" y="1070" font-size="21">Component-lead, connector, test and mounting holes remain open. No special stencil requested.</text>
+</g></svg>

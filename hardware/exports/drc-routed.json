@@ -1,0 +1,1609 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-11T22:11:31",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 7.0
+                    },
+                    "uuid": "e0950a93-fb36-4e8a-9ced-aade5d104dbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 11.4
+                    },
+                    "uuid": "5a323ef0-1823-430c-82bc-ea5c530a9e8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 25.5,
+                        "y": 13.0
+                    },
+                    "uuid": "034fdabd-d60a-428e-ba1a-1a1d642453fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 10.4
+                    },
+                    "uuid": "701dfa73-35ef-433f-ac9b-bb44432bcd98"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 5.5
+                    },
+                    "uuid": "cfd801cf-acfc-42ef-b874-6c67628ea4e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 9.5
+                    },
+                    "uuid": "689375ac-f00a-4a76-975f-0a3e44626515"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 13.5
+                    },
+                    "uuid": "e94c0c30-c75f-4727-9f4b-31277d25817e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 9.1
+                    },
+                    "uuid": "a98437fa-910c-45d4-ae48-0ff32d16bafd"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 35.5,
+                        "y": 2.2
+                    },
+                    "uuid": "28efd4dc-4951-437a-8615-07b886915087"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 4.5
+                    },
+                    "uuid": "cecd3b44-4ebb-456a-9cc0-bfe6d7247779"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 62.0,
+                        "y": 10.5
+                    },
+                    "uuid": "dd5b525f-fe1a-4f28-adad-8798f131660f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 28.0
+                    },
+                    "uuid": "8498bf22-b12e-46ce-ab3b-a0503b87b4e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 29.5
+                    },
+                    "uuid": "bfceb474-08b7-4fdc-9bd8-c5cb988f7f84"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 52.0,
+                        "y": 39.0
+                    },
+                    "uuid": "704c9253-7aaf-4f56-8bb1-1aab5e6c612e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 36.5,
+                        "y": 34.0
+                    },
+                    "uuid": "bbe029e8-d331-4272-a8b6-c0d31c87c543"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 36.0
+                    },
+                    "uuid": "8955d5eb-84b0-4eeb-8dc3-6b92319d3e14"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 7.5,
+                        "y": 16.0
+                    },
+                    "uuid": "eb025231-6ec6-48fa-8841-845cc14b1c5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 16.0,
+                        "y": 33.0
+                    },
+                    "uuid": "6a93c43f-f59e-4c78-a266-fb9b5661a52e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D6",
+                    "pos": {
+                        "x": 39.0,
+                        "y": 20.0
+                    },
+                    "uuid": "b4f5855a-659b-47b1-83d4-e219e3f9efb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 24.0,
+                        "y": 33.0
+                    },
+                    "uuid": "e6646390-78f6-4351-8af0-ee5d7393d742"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 39.0
+                    },
+                    "uuid": "772d4d0b-b229-413d-848f-7fd419769515"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 47.0
+                    },
+                    "uuid": "0777d048-cac0-4c4e-ab6e-433792a06a3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 5.5
+                    },
+                    "uuid": "a4c5b425-e6ad-4040-b926-42cb0ad6e959"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 17.5
+                    },
+                    "uuid": "d1cc7f44-b757-42a8-81f2-ae0d930439be"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 23.0,
+                        "y": 20.5
+                    },
+                    "uuid": "bb9d0df6-1b98-40fb-8260-99572915d1c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 6.8
+                    },
+                    "uuid": "a9715770-b31b-44de-8cc8-b4d144dfa12d"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 5.0
+                    },
+                    "uuid": "c39d259a-919e-4d1f-8689-7202fc33f15e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 11.5
+                    },
+                    "uuid": "162c0c4c-2c59-4a4c-a8bf-601cd055b1d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 14.0
+                    },
+                    "uuid": "87063412-466d-4223-ac62-9dd763e58b58"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 2.5
+                    },
+                    "uuid": "f3b50ab0-e3ed-4b80-bdcc-f0cc064d2237"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 62.0,
+                        "y": 7.5
+                    },
+                    "uuid": "9632bdeb-044e-4338-a533-91f7dfa2920a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 35.0,
+                        "y": 20.0
+                    },
+                    "uuid": "872b4acc-c749-4e81-a39c-0fd4be2032d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 23.0
+                    },
+                    "uuid": "f417f009-810c-4617-88db-9073a0e544fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 41.0
+                    },
+                    "uuid": "3bc62020-283d-46fd-803c-fbf14ac457af"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 41.0
+                    },
+                    "uuid": "782555f0-7a3b-4aba-a659-6392e3e44046"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 59.0,
+                        "y": 19.0
+                    },
+                    "uuid": "022bd131-cdd2-4848-8995-fe52e50cb369"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 61.5,
+                        "y": 19.0
+                    },
+                    "uuid": "dea21518-d297-4ced-a885-89ab99e8bb75"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 29.0
+                    },
+                    "uuid": "7219b7e1-d01b-4410-afe0-b729d3af809e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 32.0
+                    },
+                    "uuid": "327ea0c0-c107-4054-95af-f4ae035452fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 26.0
+                    },
+                    "uuid": "bef4632c-052b-4c41-a08b-a8f20fa93f30"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 26.0
+                    },
+                    "uuid": "06acbbaf-0c0d-4d72-8e36-a04cc5838fd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 19.0,
+                        "y": 12.0
+                    },
+                    "uuid": "89db3bb6-5fdc-4ffc-8f45-aa5452c588f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 8.0
+                    },
+                    "uuid": "f7b8fbd4-245a-48ff-9cd3-c0982b4ff228"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Pad net (unconnected-(U2-IO20/RXD-Pad11)) doesn't match net given by schematic (unconnected-(U2-IO20{slash}RXD-Pad11))",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U2-IO20/RXD-Pad11)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 12.5
+                    },
+                    "uuid": "f828a0f9-f251-42f6-a24d-a68b69fb4c3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (unconnected-(U2-IO21/TXD-Pad12)) doesn't match net given by schematic (unconnected-(U2-IO21{slash}TXD-Pad12))",
+            "items": [
+                {
+                    "description": "Pad 12 [unconnected-(U2-IO21/TXD-Pad12)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 11.0
+                    },
+                    "uuid": "ae1da744-4ce0-4464-92f3-e24c26083a48"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 16.0,
+                        "y": 27.0
+                    },
+                    "uuid": "dcb81e2a-9ff4-4f6c-bfe1-ed3fc1c6f93f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'MPN' in footprint",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 39.0
+                    },
+                    "uuid": "7a51aca1-84af-4ae7-add9-d6c33c4da22f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 25.0
+                    },
+                    "uuid": "000b95fb-1576-43c5-9b40-33b12c879fba"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 39.0,
+                        "y": 46.0
+                    },
+                    "uuid": "2dc7ce57-a74a-4517-a019-d650f07bc00c"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 4.0,
+                        "y": 4.0
+                    },
+                    "uuid": "f2eb0e8d-67ec-4d21-babc-e5642dab67ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "leaf-heat-v1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of U4 on F.Cu",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 40.1375
+                    },
+                    "uuid": "906d4676-6895-4451-b2d8-ac9b01f910de"
+                },
+                {
+                    "description": "Track [/GND] on F.Cu, length 1.5913 mm",
+                    "pos": {
+                        "x": 52.775,
+                        "y": 39.0
+                    },
+                    "uuid": "a206f07c-4133-4416-9e9d-be2507b26261"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad A9 [/USB_5V] of J2 on F.Cu",
+                    "pos": {
+                        "x": 58.4,
+                        "y": 43.32
+                    },
+                    "uuid": "47dd5baf-30c0-4bfa-910d-5680930143ba"
+                },
+                {
+                    "description": "Track [/USB_5V] on F.Cu, length 5.7320 mm",
+                    "pos": {
+                        "x": 53.663,
+                        "y": 37.525
+                    },
+                    "uuid": "04ac24b8-ec41-4c54-a3e2-a5c0cab84934"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [/GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 6.5,
+                        "y": 13.85
+                    },
+                    "uuid": "de67d4d0-90f3-41e6-9774-a98284e3c4e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "7d32cb84-384b-4a4b-86e1-61102602c7dc"
+                },
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 35.5,
+                        "y": 0.52
+                    },
+                    "uuid": "5a53f2e3-344a-456c-8b8e-967ae1b454c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "7d32cb84-384b-4a4b-86e1-61102602c7dc"
+                },
+                {
+                    "description": "Segment of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 38.89,
+                        "y": -5.21
+                    },
+                    "uuid": "e094b5d7-6493-495d-82c3-33db46f51a89"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "uuid": "7d32cb84-384b-4a4b-86e1-61102602c7dc"
+                },
+                {
+                    "description": "Segment of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.11,
+                        "y": -5.21
+                    },
+                    "uuid": "c0b2ce26-fd51-4b81-9a4d-a4ed1152be06"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text 'Wi-Fi / CAN' on F.Silkscreen",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 20.0
+                    },
+                    "uuid": "36a291a6-ea17-4bf0-9e3e-e302a25ac230"
+                },
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 5.35,
+                        "y": 19.66
+                    },
+                    "uuid": "f53132b7-1cfb-47c5-b0dd-fb50f7e37a64"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 9.65,
+                        "y": 19.66
+                    },
+                    "uuid": "35f4d688-7c29-4024-aaf1-a3d6104bc719"
+                },
+                {
+                    "description": "PCB text 'Wi-Fi / CAN' on F.Silkscreen",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 20.0
+                    },
+                    "uuid": "36a291a6-ea17-4bf0-9e3e-e302a25ac230"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 32.025,
+                        "y": 37.14
+                    },
+                    "uuid": "37ce0443-d3b9-4a16-8556-1f883a56a3f2"
+                },
+                {
+                    "description": "PCB text 'REV A PROTOTYPE' on F.Silkscreen",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 43.0
+                    },
+                    "uuid": "77cd7594-ae81-46a7-8e17-b38127561272"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 25.5,
+                        "y": 11.57
+                    },
+                    "uuid": "5565c400-1dc1-4af9-a1c1-44d20a6ab7c4"
+                },
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 11.83
+                    },
+                    "uuid": "cfaf2191-f51f-4db8-8751-1a02c4b9aaaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.788748,
+                        "y": 10.86
+                    },
+                    "uuid": "09b7711a-5edf-4f01-8510-cfc8068594e9"
+                },
+                {
+                    "description": "Reference field of C7",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 11.2
+                    },
+                    "uuid": "bca2f974-8538-4517-b5fc-24cf14fea78b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C5 on F.Silkscreen",
+                    "pos": {
+                        "x": 30.788748,
+                        "y": 6.86
+                    },
+                    "uuid": "99144c00-dccf-4147-892c-d3a7b5e844b4"
+                },
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 31.5,
+                        "y": 7.2
+                    },
+                    "uuid": "d1cdce63-7404-4519-8c62-77128b6ff5ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 10.07
+                    },
+                    "uuid": "281f7ad6-8b57-45f2-9c1b-1a2750f82efb"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.85942,
+                        "y": 9.61
+                    },
+                    "uuid": "e9584aa5-28b5-46da-8399-7805ce78700b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C8",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 7.67
+                    },
+                    "uuid": "220ed41e-547d-4ec9-8006-67ef9d607ff1"
+                },
+                {
+                    "description": "Segment of R3 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.762742,
+                        "y": 7.3225
+                    },
+                    "uuid": "c40c6abc-7d6a-4a03-bef2-7840dcfb3179"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 3.07
+                    },
+                    "uuid": "7978f412-8850-4855-808e-5be822d25f59"
+                },
+                {
+                    "description": "Segment of C9 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.238748,
+                        "y": 2.935
+                    },
+                    "uuid": "e9392441-cd8f-444d-9b59-fa8582a12a78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C10 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.85942,
+                        "y": 5.01
+                    },
+                    "uuid": "5cb75a9b-64f6-455a-9d05-e022f0058783"
+                },
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 5.37
+                    },
+                    "uuid": "b257f16b-9fd7-4c14-83f1-66107fa3dacc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R14",
+                    "pos": {
+                        "x": 60.07,
+                        "y": 19.0
+                    },
+                    "uuid": "0bb9ab3d-fddb-46ac-aa1b-e7ecedb4c9a6"
+                },
+                {
+                    "description": "Segment of R13 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.5225,
+                        "y": 19.237258
+                    },
+                    "uuid": "26d676ed-23c1-49b8-a924-c6e4c40a7a99"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R7 on F.Silkscreen",
+                    "pos": {
+                        "x": 59.762742,
+                        "y": 3.0225
+                    },
+                    "uuid": "ac480103-884e-4ad1-b973-f5e43f41122a"
+                },
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 60.5,
+                        "y": 3.57
+                    },
+                    "uuid": "d96a49cb-a844-49e7-bb8e-9d9d47943cf2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on F.Silkscreen",
+                    "pos": {
+                        "x": 35.762742,
+                        "y": 12.0225
+                    },
+                    "uuid": "60722524-a7c5-4e16-8de9-5523cf1d81b5"
+                },
+                {
+                    "description": "Reference field of R6",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 12.57
+                    },
+                    "uuid": "ada8f726-4e10-4d19-88b8-6e9c6999cda5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'Wi-Fi / CAN' on F.Silkscreen",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 20.0
+                    },
+                    "uuid": "36a291a6-ea17-4bf0-9e3e-e302a25ac230"
+                },
+                {
+                    "description": "Pad 1 [/VPWR] of D3 on F.Cu",
+                    "pos": {
+                        "x": 7.5,
+                        "y": 18.15
+                    },
+                    "uuid": "84ee303e-c3dc-40c6-8505-527581e4958f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'LEAF HEAT' on F.Silkscreen",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 5.0
+                    },
+                    "uuid": "758d50c7-aa3c-49e8-b963-5d9396921453"
+                },
+                {
+                    "description": "Pad 2 [/GND] of C1 on F.Cu",
+                    "pos": {
+                        "x": 10.025,
+                        "y": 7.0
+                    },
+                    "uuid": "2f1dbd5d-20ed-46df-ada3-0932e7025f9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'LEAF HEAT' on F.Silkscreen",
+                    "pos": {
+                        "x": 12.0,
+                        "y": 5.0
+                    },
+                    "uuid": "758d50c7-aa3c-49e8-b963-5d9396921453"
+                },
+                {
+                    "description": "Pad 1 [/VPWR] of C1 on F.Cu",
+                    "pos": {
+                        "x": 12.975,
+                        "y": 7.0
+                    },
+                    "uuid": "8dfab9e5-3342-4c7b-8e16-12b133b157a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 10.07
+                    },
+                    "uuid": "281f7ad6-8b57-45f2-9c1b-1a2750f82efb"
+                },
+                {
+                    "description": "Pad 1 [/ESP_EN] of C8 on F.Cu",
+                    "pos": {
+                        "x": 35.225,
+                        "y": 9.1
+                    },
+                    "uuid": "4143dae9-faec-4fe3-9b16-a0ab9003c341"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C8",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 7.67
+                    },
+                    "uuid": "220ed41e-547d-4ec9-8006-67ef9d607ff1"
+                },
+                {
+                    "description": "Pad 1 [/3V3] of R3 on F.Cu",
+                    "pos": {
+                        "x": 35.175,
+                        "y": 6.8
+                    },
+                    "uuid": "957ed179-78f8-4f9c-9b1c-c44ec4f4346d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R5",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 10.07
+                    },
+                    "uuid": "281f7ad6-8b57-45f2-9c1b-1a2750f82efb"
+                },
+                {
+                    "description": "Pad 2 [/GND] of C8 on F.Cu",
+                    "pos": {
+                        "x": 36.775,
+                        "y": 9.1
+                    },
+                    "uuid": "58f0fa18-ef7b-4fad-9dd4-95d51681120f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 3.07
+                    },
+                    "uuid": "7978f412-8850-4855-808e-5be822d25f59"
+                },
+                {
+                    "description": "Pad 1 [/3V3] of C9 on F.Cu",
+                    "pos": {
+                        "x": 34.55,
+                        "y": 2.2
+                    },
+                    "uuid": "e84ae151-99c8-46d1-b39c-52af3891f349"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 3.07
+                    },
+                    "uuid": "7978f412-8850-4855-808e-5be822d25f59"
+                },
+                {
+                    "description": "Pad 2 [/GND] of C9 on F.Cu",
+                    "pos": {
+                        "x": 36.45,
+                        "y": 2.2
+                    },
+                    "uuid": "e3720a75-babb-407d-bc1a-850bfde44165"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C8",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 7.67
+                    },
+                    "uuid": "220ed41e-547d-4ec9-8006-67ef9d607ff1"
+                },
+                {
+                    "description": "Pad 2 [/ESP_EN] of R3 on F.Cu",
+                    "pos": {
+                        "x": 36.825,
+                        "y": 6.8
+                    },
+                    "uuid": "752a0657-5ae8-4fd8-879a-49f0800a4744"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 5.37
+                    },
+                    "uuid": "b257f16b-9fd7-4c14-83f1-66107fa3dacc"
+                },
+                {
+                    "description": "Pad 1 [/3V3] of C10 on F.Cu",
+                    "pos": {
+                        "x": 35.225,
+                        "y": 4.5
+                    },
+                    "uuid": "dc34d043-7112-49b6-925f-f4a4160d4787"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 36.0,
+                        "y": 5.37
+                    },
+                    "uuid": "b257f16b-9fd7-4c14-83f1-66107fa3dacc"
+                },
+                {
+                    "description": "Pad 2 [/GND] of C10 on F.Cu",
+                    "pos": {
+                        "x": 36.775,
+                        "y": 4.5
+                    },
+                    "uuid": "31d62ae8-458f-4d5c-9a67-030f68959047"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB' on F.Silkscreen",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 40.0
+                    },
+                    "uuid": "77fdb637-7303-4fac-a9b4-986a8896ba3e"
+                },
+                {
+                    "description": "Pad 2 [/GND] of U4 on F.Cu",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 40.1375
+                    },
+                    "uuid": "906d4676-6895-4451-b2d8-ac9b01f910de"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB' on F.Silkscreen",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 40.0
+                    },
+                    "uuid": "77fdb637-7303-4fac-a9b4-986a8896ba3e"
+                },
+                {
+                    "description": "Pad 1 [/USB_CONN_DP] of U4 on F.Cu",
+                    "pos": {
+                        "x": 55.05,
+                        "y": 40.1375
+                    },
+                    "uuid": "a8fb8940-fda8-4e54-8986-917a6c23939b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'USB' on F.Silkscreen",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 40.0
+                    },
+                    "uuid": "77fdb637-7303-4fac-a9b4-986a8896ba3e"
+                },
+                {
+                    "description": "Pad 3 [/USB_CONN_DM] of U4 on F.Cu",
+                    "pos": {
+                        "x": 56.95,
+                        "y": 40.1375
+                    },
+                    "uuid": "8f96eabd-d1b6-41ec-8241-0ce5384d46c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 50.5,
+                        "y": 39.57
+                    },
+                    "uuid": "31655671-edc0-4d3d-ac7c-f15051228f4b"
+                },
+                {
+                    "description": "Pad 1 [/USB_5V] of C14 on F.Cu",
+                    "pos": {
+                        "x": 51.225,
+                        "y": 39.0
+                    },
+                    "uuid": "c9a42338-2846-4883-bea9-a3c0c0778c99"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U4",
+                    "pos": {
+                        "x": 53.6,
+                        "y": 39.0
+                    },
+                    "uuid": "ce02a2de-e3f2-4fcb-8565-3554ead8e71e"
+                },
+                {
+                    "description": "Pad 2 [/GND] of C14 on F.Cu",
+                    "pos": {
+                        "x": 52.775,
+                        "y": 39.0
+                    },
+                    "uuid": "6cfccf63-5b80-4f15-aad2-a867e3628387"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 37.5,
+                        "y": 13.13
+                    },
+                    "uuid": "40586a71-210e-4714-afee-029020600682"
+                },
+                {
+                    "description": "Pad 2 [/BOOT_IO9] of R6 on F.Cu",
+                    "pos": {
+                        "x": 36.825,
+                        "y": 14.0
+                    },
+                    "uuid": "468feb2d-ec78-4246-8a9e-25c267be8b90"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

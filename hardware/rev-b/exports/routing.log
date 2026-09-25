@@ -1,0 +1,43 @@
+2026-09-11 23:27:34.026 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-11 23:27:35.510 INFO   [CE4921\AC58D5] Loading board file 'critical.dsn'...
+2026-09-11 23:27:35.565 WARN   Power-plane validation failed:
+- Dedicated power layer 'In2.Cu' has overlapping conduction areas: Area (ID 11, Net(s): [/GND]) and Area (ID 10, Net(s): [/3V3]) overlap.
+
+Proper Definition and Best Practices for Power Planes:
+1. What Belongs on a Power Plane:
+   - Solid Copper Pours: A single, uninterrupted sheet of copper assigned to one voltage (e.g., +3.3V).
+   - Split Planes: Multiple distinct voltage zones divided by thin isolation gaps (puzzle pieces).
+   - Vias and Anti-Pads: Plated holes passing through the board, surrounded by circular voids (anti-pads) to prevent shorting.
+   - Thermal Reliefs: Spoked connections for vias or pins that connect to the plane, facilitating soldering.
+2. Why Signal Wires/Traces are Banned:
+   - Destroyed Return Paths: High-speed signals on adjacent layers couple to the solid plane below/above as return paths. Crossing a trace gap detours return currents, causing severe EMI and signal integrity issues.
+   - Compromised Power Delivery: Power planes should provide the lowest impedance path. Routing traces chops up the copper, creating bottleneck restrictions and voltage drops.
+
+2026-09-11 23:27:35.572 INFO   [CE4921\AC58D5] Job 'CE4921\AC58D5' started at 2026-09-11T21:27:35.572688Z.
+2026-09-11 23:27:35.801 INFO   [CE4921\AC58D5] Fanout stage started on board 'd748d12f65dae1abcde6ec871420753b' with 58 of 146 SMD pins needing fanout (88 already connected, 0 netless).
+2026-09-11 23:27:36.880 INFO   [CE4921\AC58D5] Fanout pass #1 on board 'd47dc85d0273b5efdc51414def4008a5' completed in 0.85 seconds with 16 SMD pins fanouted, 20 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-09-11 23:27:37.539 INFO   [CE4921\AC58D5] Fanout pass #2 on board '58b28aac55708f6b8b3883ab402055ec' completed in 0.65 seconds with 4 SMD pins fanouted, 26 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-09-11 23:27:38.165 INFO   [CE4921\AC58D5] Fanout pass #3 on board 'ea85835c46b46771155d00c96aef4525' completed in 0.62 seconds with 4 SMD pins fanouted, 26 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-09-11 23:27:38.816 INFO   [CE4921\AC58D5] Fanout pass #4 on board 'ff3602c2222521ed9a63396dcb6c32a7' completed in 0.65 seconds with 4 SMD pins fanouted, 26 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-09-11 23:27:39.439 INFO   [CE4921\AC58D5] Fanout pass #5 on board '0192c12c2d3eca17ff12f50bcad48f39' completed in 0.62 seconds with 4 SMD pins fanouted, 26 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-09-11 23:27:39.439 INFO   Fanout stopped after 5 passes: no progress for 3 consecutive passes.
+2026-09-11 23:27:39.561 INFO   [CE4921\AC58D5] Fanout stage completed: started with 146 total SMD pins, completed in 3.54 seconds, escaped pins: 124/146 (84.9%), using 3.79 total CPU seconds, 35.23 GB total allocated, and 838.2 MB peak heap usage.
+2026-09-11 23:27:39.568 INFO   [CE4921\AC58D5] Auto-routing stage started on board '0192c12c2d3eca17ff12f50bcad48f39' for 14 unrouted items.
+2026-09-11 23:27:41.226 INFO   [CE4921\AC58D5] Auto-routing pass #1 on board '0192c12c2d3eca17ff12f50bcad48f39' was completed in 1.38 seconds with score 787.83 (6 unrouted and 127 violations), using 4.86 CPU seconds and the job allocated 45.07 GB of memory so far.
+2026-09-11 23:27:42.153 INFO   [CE4921\AC58D5] Auto-routing pass #2 on board 'ca7e528c3268ed579b14398565d08c46' was completed in 0.65 seconds with score 801.34 (4 unrouted and 127 violations), using 5.85 CPU seconds and the job allocated 55.86 GB of memory so far.
+2026-09-11 23:27:42.976 INFO   [CE4921\AC58D5] Auto-routing pass #3 on board '3bb2ef7c2e82ced2a41396949ff12f97' was completed in 0.53 seconds with score 801.34 (4 unrouted and 127 violations), using 6.84 CPU seconds and the job allocated 66.43 GB of memory so far.
+2026-09-11 23:27:43.786 INFO   [CE4921\AC58D5] Auto-routing pass #4 on board 'c0f62de59ac189e6bb35372e13dd94c8' was completed in 0.52 seconds with score 801.34 (4 unrouted and 127 violations), using 7.82 CPU seconds and the job allocated 77.35 GB of memory so far.
+2026-09-11 23:27:44.610 INFO   [CE4921\AC58D5] Auto-routing pass #5 on board 'ed1310167c8a0ea44d5f2e0ffc18cf03' was completed in 0.54 seconds with score 801.34 (4 unrouted and 127 violations), using 8.81 CPU seconds and the job allocated 88.10 GB of memory so far.
+2026-09-11 23:27:45.408 INFO   [CE4921\AC58D5] Auto-routing pass #6 on board 'b0cc870dce3cd7518e6a165f4bad9e02' was completed in 0.51 seconds with score 801.34 (4 unrouted and 127 violations), using 8.81 CPU seconds and the job allocated 88.10 GB of memory so far.
+2026-09-11 23:27:46.210 INFO   [CE4921\AC58D5] Auto-routing pass #7 on board '598fd472266ea55aacf2b70c823e4f46' was completed in 0.52 seconds with score 801.34 (4 unrouted and 127 violations), using 9.80 CPU seconds and the job allocated 99.11 GB of memory so far.
+2026-09-11 23:27:47.029 INFO   [CE4921\AC58D5] Auto-routing pass #8 on board 'ef462f1ea5dbdf08bb84ab4f92d182c0' was completed in 0.53 seconds with score 801.34 (4 unrouted and 127 violations), using 10.79 CPU seconds and the job allocated 110.02 GB of memory so far.
+2026-09-11 23:27:47.848 INFO   [CE4921\AC58D5] Auto-routing pass #9 on board '95457c226e61334e7fb4c2364769aaae' was completed in 0.52 seconds with score 801.34 (4 unrouted and 127 violations), using 11.77 CPU seconds and the job allocated 121.01 GB of memory so far.
+2026-09-11 23:27:48.650 INFO   [CE4921\AC58D5] Auto-routing pass #10 on board 'e91136a514be79c4a34466e6677951a8' was completed in 0.52 seconds with score 801.34 (4 unrouted and 127 violations), using 12.76 CPU seconds and the job allocated 131.96 GB of memory so far.
+2026-09-11 23:27:48.938 INFO   [CE4921\AC58D5] Auto-routing stage completed: started with 26 unrouted nets, completed in 13.19 seconds, final score: 801.34 (4 unrouted and 127 violations), using 12.76 total CPU seconds, 131.96 GB total allocated, and 417.3 MB peak heap usage.
+2026-09-11 23:27:49.078 INFO   [CE4921\AC58D5] Optimization stage started on board 'a0836c18a0566b3bfa9567e4cf8f95bc' with score 801.34 (4 unrouted and 127 violations).
+2026-09-11 23:27:58.444 INFO   [CE4921\AC58D5] Optimizer pass #1 on board 'f2cf196683a7aa9487da39896b589588' was completed in 8.95 seconds with the score of 801.34 (4 unrouted and 127 violations).
+2026-09-11 23:27:58.585 INFO   [CE4921\AC58D5] Stopping optimizer because the improvement in this pass (0.0000%) is below the threshold (1.00%).
+2026-09-11 23:27:58.723 INFO   [CE4921\AC58D5] Optimization stage completed: started with score 801.34 (4 unrouted and 127 violations), completed in 9.51 seconds, final score: 801.34 (4 unrouted and 127 violations), using 9.36 total CPU seconds, 104.67 GB total allocated, and 442.8 MB peak heap usage.
+2026-09-11 23:27:58.727 INFO   [CE4921\AC58D5] Job 'CE4921\AC58D5' finished with state: COMPLETED (elapsed: 23.15 seconds, finished at UTC: 2026-09-11T21:27:58.727104Z).
+2026-09-11 23:27:58.957 INFO   Saving output file '/Users/alf/repos/leaf/hardware/rev-b/exports/routed.ses' (SES)...
+2026-09-11 23:27:58.965 INFO   Successfully saved output file '/Users/alf/repos/leaf/hardware/rev-b/exports/routed.ses' (12437 bytes).

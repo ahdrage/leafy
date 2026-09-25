@@ -1,0 +1,24 @@
+(version 1)
+# Keep the adjacent reference plane intact. Vias/pad clearances are intentional.
+(rule "Ground reference layer: no tracks"
+  (layer In1.Cu)
+  (constraint disallow track))
+(rule "Power distribution layer: no tracks"
+  (layer In2.Cu)
+  (constraint disallow track))
+# Main USB run: 0.23 mm lines / 0.17 mm gap. Fanouts are outside this area.
+(rule "USB main pair width"
+  (condition "A.NetName == '/USB_CONN_P' || A.NetName == '/USB_CONN_N'")
+  (constraint track_width (min 0.20mm) (opt 0.23mm) (max 0.23mm)))
+(rule "USB main pair gap"
+  (condition "A.inDiffPair('/USB_CONN')")
+  (constraint diff_pair_gap (min 0.30mm) (opt 0.35mm) (max 0.40mm)))
+(rule "USB main route has no vias"
+  (condition "A.inDiffPair('/USB_CONN') && !A.intersectsArea('USB-C mirrored contact bridges')")
+  (constraint disallow via))
+(rule "USB controller fanout has no vias"
+  (condition "A.inDiffPair('/USB_D')")
+  (constraint disallow via))
+(rule "USB pair length match"
+  (condition "A.inDiffPair('/USB*')")
+  (constraint skew (within_diff_pairs) (max 0.1mm)))

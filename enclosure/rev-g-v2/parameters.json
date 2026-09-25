@@ -1,0 +1,78 @@
+{
+  "revision": "Rev G.3 enclosure v2 \u2014 external antenna",
+  "units": "mm",
+  "inner_x": [
+    -10.0,
+    110.0
+  ],
+  "inner_y": [
+    -101.6,
+    23.0
+  ],
+  "wall": 2.4,
+  "floor": 2.4,
+  "outer_corner_radius": 5.0,
+  "pcb_bottom_z": 18.4,
+  "pcb_thickness": 1.6,
+  "lid_bottom_z": 37.2,
+  "lid_thickness": 2.4,
+  "lip_clearance_per_side": 0.35,
+  "lip_wall": 1.6,
+  "lip_depth": 1.6,
+  "pcb_mounts": [
+    [
+      4.0,
+      -4.0
+    ],
+    [
+      96.0,
+      -4.0
+    ],
+    [
+      45.0,
+      -96.0
+    ],
+    [
+      96.0,
+      -96.0
+    ]
+  ],
+  "pcb_screw_diameter": 2.5,
+  "pcb_bore": 2.9,
+  "pcb_nut_pocket_af": 5.5,
+  "pcb_nut_pocket_height": 2.5,
+  "lid_mounts": [
+    [
+      -5.25,
+      -8.0
+    ],
+    [
+      105.25,
+      -8.0
+    ],
+    [
+      -5.25,
+      -88.0
+    ],
+    [
+      105.25,
+      -88.0
+    ]
+  ],
+  "lid_bore": 3.4,
+  "lid_nut_pocket_af": 5.9,
+  "lid_nut_pocket_height": 2.8,
+  "connector_center_x": 21.54,
+  "connector_opening_width": 42.0,
+  "connector_opening_bottom_z": 15.5,
+  "reference_board_sha256": "8e2212587dd6681346d546cb83727e9c3ea1c5138e4bad50e19c11775217e952",
+  "antenna_cable": {
+    "exit_x": 73,
+    "diameter_mm": 1.13,
+    "exit_width_mm": 2.2,
+    "exit_depth_mm": 2.2,
+    "anchor_top_z": 33,
+    "tie_slot_width_mm": 3.5,
+    "tie_slot_height_mm": 2
+  }
+}

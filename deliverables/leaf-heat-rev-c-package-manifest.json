@@ -1,0 +1,28 @@
+{
+  "revision": "C",
+  "prototype_status": "CAD checked, not physically tested; quotation/review files only",
+  "board_sha256": "ac49b3185511d95d623405cb3272d0ec66f004cd69047abb9042e405e19d6d57",
+  "schematic_sha256": "8d6414d863c881a1ad11f7753c62555ec05ed30ca0a2530d787b13a97a0925ae",
+  "parts": 41,
+  "mpns": 25,
+  "assembly": "39 SMT + 2 THT, all top",
+  "controlled_impedance_required": false,
+  "packages": {
+    "leaf-heat-rev-c-gerbers.zip": {
+      "sha256": "0a02d1434e07ab4200aa7f7199f62e5117f5365db862e4e62a5dc30bff1fd3eb",
+      "bytes": 143779
+    },
+    "leaf-heat-rev-c-assembly.zip": {
+      "sha256": "1cd9634750cdbbee5bcdb8ac5521cd43957c666fc9bf11a128be481084a2432a",
+      "bytes": 1975323
+    },
+    "leaf-heat-rev-c-kicad-review.zip": {
+      "sha256": "34c284f3dc5ca32f7b8f3f5927c0e58aa423a08f0ac0260157ee966776df63fb",
+      "bytes": 3186442
+    },
+    "leaf-heat-rev-c-review-images.zip": {
+      "sha256": "7de126624101ab6f0d6e7e42712d68fd8a43c678598cdc331c8c25eda0fda904",
+      "bytes": 2298145
+    }
+  }
+}

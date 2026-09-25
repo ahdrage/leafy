@@ -1,0 +1,19 @@
+BILDER TIL ADI — REV G.1, 13.09.2026
+
+Bildene er tekniske KiCad-eksporter fra gjeldende kort og skjema, ikke genererte illustrasjoner. Ingen CAD- eller bestillingsfiler er endret.
+
+01: Komponentoversikt; oransje = fabrikkmontert.
+02–05: F.Cu, In1.Cu (GND), In2.Cu og B.Cu. Alle sett ovenfra.
+06: Nærbilde av regulator, inngangsdemping og U5.
+07–09: Lesbare utsnitt av strømforsyning, beskyttelse, CAN og UART.
+10: Fabrikkens loddepastaområder.
+11/13: Fullstendig skjema som PNG/PDF.
+12: Wi-Fi, knapper og batterimåling.
+
+Silketrykk og eldre statisk skjematittel sier Rev G; gjeldende BOM er G.1. Den statiske teksten øverst i skjemaet nevner den tidligere fabrikklisten på fire komponenter. Korrekt nåværende liste er U1/U2/U4/U5/U6/L1, også angitt nederst i skjemaet og i bildetekstene.
+
+U5 er byttet til TPS3760A012DYYR / JLCPCB C5218894. Pinout, kobber og plassering er uendret. Den er ikke AEC-Q100-kvalifisert og har 65 V maksimal driftsspenning, uten Q1-versjonens ekstra 70 V / 50 ms driftsområde.
+
+JLCPCB-CPL har allerede korrigerte katalogvinkler: L1 0, U1 270, U2 0, U4 0, U5 270, U6 270 grader. Disse må ikke korrigeres to ganger. Sjekk mot pinne 1 og produksjonsgodkjenningen.
+
+Fortsatt å avklare: U1/U2 eksponerte puter og ufylt termisk hull, sjablong/pasta, tinnsuging og inspeksjon hos produsent. Fysiske strøm-, transient-, Wi-Fi- og kjøretøytester gjenstår. Lav batterispenning vil slå av kortet, også Wi-Fi. Det er ingen planlagt periodisk Wi-Fi-frakobling.

@@ -1,0 +1,163 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T18:55:21",
+    "ignored_checks": [
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "leaf-heat-v7.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 6 [/BUCK_EN] of U5 on F.Cu",
+                    "pos": {
+                        "x": 15.5,
+                        "y": 44.0
+                    },
+                    "uuid": "c5bae189-20c0-4265-be4a-9537f3e0a7e2"
+                },
+                {
+                    "description": "Pad 1 [/BUCK_EN] of R24 on F.Cu",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 42.55
+                    },
+                    "uuid": "6e564aef-bbd2-4e06-9061-99a02114e570"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/UV_CTR] of C19 on F.Cu",
+                    "pos": {
+                        "x": 15.4375,
+                        "y": 53.0
+                    },
+                    "uuid": "5c336477-8157-438f-a520-ce34b6126c9f"
+                },
+                {
+                    "description": "Pad 9 [/UV_CTR] of U5 on F.Cu",
+                    "pos": {
+                        "x": 18.5,
+                        "y": 44.0
+                    },
+                    "uuid": "37d33de7-8410-416c-af1e-649ab88db7e6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/UV_SENSE] of U5 on F.Cu",
+                    "pos": {
+                        "x": 15.5,
+                        "y": 42.5
+                    },
+                    "uuid": "d4203a12-08ae-41f5-91d2-87011449e10c"
+                },
+                {
+                    "description": "Pad 2 [/UV_SENSE] of R22 on F.Cu",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 38.45
+                    },
+                    "uuid": "408538b1-a8a7-41c9-bbb7-a89fcd34db39"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/UV_SENSE] of U5 on F.Cu",
+                    "pos": {
+                        "x": 15.5,
+                        "y": 42.5
+                    },
+                    "uuid": "d4203a12-08ae-41f5-91d2-87011449e10c"
+                },
+                {
+                    "description": "Pad 1 [/UV_SENSE] of R23 on F.Cu",
+                    "pos": {
+                        "x": 9.0,
+                        "y": 48.55
+                    },
+                    "uuid": "92484642-a934-433d-b4d2-659083d38a6f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/UV_SENSE] of R24 on F.Cu",
+                    "pos": {
+                        "x": 25.0,
+                        "y": 39.45
+                    },
+                    "uuid": "6085e32f-5798-42f9-9561-a19c5caa4cae"
+                },
+                {
+                    "description": "Pad 3 [/UV_SENSE] of U5 on F.Cu",
+                    "pos": {
+                        "x": 15.5,
+                        "y": 42.5
+                    },
+                    "uuid": "d4203a12-08ae-41f5-91d2-87011449e10c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 10 [/UV_CTS] of U5 on F.Cu",
+                    "pos": {
+                        "x": 18.5,
+                        "y": 43.5
+                    },
+                    "uuid": "d0cd9000-dfa7-4223-b7a2-b3fd832aedd0"
+                },
+                {
+                    "description": "Pad 1 [/UV_CTS] of C18 on F.Cu",
+                    "pos": {
+                        "x": 23.4375,
+                        "y": 49.0
+                    },
+                    "uuid": "8abb2242-e018-47bc-807c-ab9328b3347f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

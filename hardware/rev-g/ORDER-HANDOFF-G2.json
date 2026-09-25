@@ -1,0 +1,35 @@
+{
+  "revision": "G.2",
+  "pcb_sha256": "e219b6422497241ae2c65dcf21172432d0750c268bfbf207ad921b2527b9f2b4",
+  "schematic_sha256": "3b2477103b3e2a4d9c56f5c80de35e3f296ad9cef014acfc236a7b10e8cbe3c6",
+  "manufacturing_packages": {
+    "leaf-heat-rev-g2-review-images.zip": {
+      "bytes": 2070739,
+      "sha256": "0671dc12137f503a7215659ca0f5b8cc30871e803469c703b6804c1dad485f2a"
+    },
+    "leaf-heat-rev-g2-gerbers.zip": {
+      "bytes": 310431,
+      "sha256": "a66acfb9d5de3abbaa02468227e714583d2a8509fd67e9c0ffbd80c55cabc704"
+    },
+    "leaf-heat-rev-g2-factory-assembly.zip": {
+      "bytes": 717626,
+      "sha256": "e9498713c92e043029bc990e77966230749b82245bfd098a0d19fff12910d512"
+    },
+    "leaf-heat-rev-g2-kicad.zip": {
+      "bytes": 447758,
+      "sha256": "57e75a31d04a426a43c7765083e577cfea815ed5d0ff07ede1e875e18eba423b"
+    },
+    "leaf-heat-rev-g2-hand-assembly.zip": {
+      "bytes": 656291,
+      "sha256": "1b3467a192a67b3498ac645aa92fcae86bbf74e943fe87f9e5087b044019b422"
+    }
+  },
+  "native_checks": "PASS",
+  "BOM_and_CPL_unchanged_from_G1": true,
+  "mouser_cart_change_needed": false,
+  "JLCPCB_cart_revision_last_verified": "G.1",
+  "JLCPCB_fabrication_reupload_required": true,
+  "production_approval": "Assembler exposed-pad process and final supplier preview remain to be confirmed",
+  "physical_tests": "Not performed",
+  "purchase_made": false
+}

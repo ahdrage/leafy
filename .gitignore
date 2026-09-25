@@ -1,0 +1,33 @@
+# Local macOS, browser and editor state
+.DS_Store
+._*
+/.playwright-mcp/
+/tmp/
+*.kicad_prl
+*.lck
+*-backups/
+*.blend[1-9]
+
+# Downloaded tools and local build environments
+/tools/KiCAD-MCP-Server/
+/tools/firmware-venv/
+/tools/freerouting/
+/tools/platformio/
+/tools/kicad-tool-schemas.json
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.pio/
+
+# Local credentials; retain configuration templates
+.env
+.env.*
+!.env.example
+!.env.sample
+firmware/leaf-heat/include/settings.hpp
+
+# Clean publication checkout and private export/audit scratch files
+/.publication/

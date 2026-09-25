@@ -1,0 +1,31 @@
+{
+  "component_count": 41,
+  "unique_mpns": 25,
+  "placement_rows": 41,
+  "placement_origin": "lower-left board corner (0,50 mm in KiCad); X right, Y up",
+  "through_hole_parts": [
+    "J1",
+    "J3"
+  ],
+  "surface_mount_count": 39,
+  "manufacturer_part_numbers_exact": true,
+  "catalog_ids": "intentionally blank until exact MPN matching; no substitutions inferred",
+  "connector_origin_caveat": "J1 and J3 coordinates use pin 1, not the body centroid. Review these with assembler; do not auto-confirm component placement.",
+  "board_sha256": "ac49b3185511d95d623405cb3272d0ec66f004cd69047abb9042e405e19d6d57",
+  "fabrication_files": {
+    "leaf-heat-v3-B_Cu.gbl": "19ce6b22026eb3998f16176932aa5784edcedad62e4b3b1d8157304000e7a18f",
+    "leaf-heat-v3-B_Mask.gbs": "9c1d7138b771685eb621dbd89968be1979e32709dab61903c3910d4a4cd67688",
+    "leaf-heat-v3-B_Paste.gbp": "e648f8d44fd0cbd0a5c1b425442490b0afbda23aa93a358bd8846d2d64629219",
+    "leaf-heat-v3-B_Silkscreen.gbo": "550667d9b894ef3bb9d844731b25c8e8662a357328123c66b79e184f9a5a1dcb",
+    "leaf-heat-v3-Edge_Cuts.gm1": "3c65e04ddc1035a56b24525d3a7c9f4fed7c79733cdb239d35f17661c38ff42d",
+    "leaf-heat-v3-F_Cu.gtl": "b0c57df7c60c38de280d69a844e882aeea69bcb7fff9bfc370e0112014ef101d",
+    "leaf-heat-v3-F_Mask.gts": "05d65c4cb400383de997095c28f70c4c6f469e10cc51e74a088429949d670b3a",
+    "leaf-heat-v3-F_Paste.gtp": "a62741b62f88d30ee4dc619c527d8fd75af1b99f763ea7b769edb6651e92ad10",
+    "leaf-heat-v3-F_Silkscreen.gto": "5ac372f098e820c608eebae9322c83130c2a79c90fc8116b510f33d9307e27e8",
+    "leaf-heat-v3-In1_Cu.g1": "c9be3d29c88fd9f731ed324b5183471e0cb8646fa305e47c2a9eb5799057b8bf",
+    "leaf-heat-v3-In2_Cu.g2": "69047332df2c6a47822f637a0b9538ed40f04e215ef0ccf9aab7432693a7e9b0",
+    "leaf-heat-v3-NPTH.drl": "a3b8a470ccf422717cc05f6076713328313f2aead7f67c80a52c47f4f7d31363",
+    "leaf-heat-v3-PTH.drl": "872dedcc755a789089eaf3efe42520bd2a5530766617c1f2e54e415982829f2d",
+    "leaf-heat-v3-job.gbrjob": "94255268a632798c6e8f363dc1abec3ad06ad2c32305441dc7beb8bb5fa8c093"
+  }
+}

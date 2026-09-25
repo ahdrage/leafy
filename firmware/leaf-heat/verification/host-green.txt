@@ -1,0 +1,11 @@
+PASS retry forever with bounded delay
+PASS no idle CAN or boot heat replay
+PASS locked commissioning rejects transmission
+PASS 2013-2015 on sequence and delayed completion
+PASS off cancels all outstanding on frames
+PASS local heat timeout works without any Wi-Fi callback
+PASS low battery blocks on but permits off
+PASS TX failure aborts sequence without replays
+PASS late scheduler never bursts missed heater requests
+PASS authentication rejects empty or partial credentials
+10 tests, 0 failures

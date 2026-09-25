@@ -1,0 +1,41 @@
+/Users/alf/repos/leaf/tools/firmware-venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing leaf_rev_g (platform: espressif32@6.12.0; board: esp32-c3-devkitm-1; framework: espidf)
+--------------------------------------------------------------------------------
+/Users/alf/repos/leaf/tools/firmware-venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c3-devkitm-1.html
+PLATFORM: Espressif 32 (6.12.0) > Espressif ESP32-C3-DevKitM-1
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 3.50500.0 (5.5.0) 
+ - tool-cmake @ 3.30.2 
+ - tool-esp-rom-elfs @ 0.0.1+20241011 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - tool-ninja @ 1.13.2 
+ - tool-riscv32-esp-elf-gdb @ 12.1.0+20221002 
+ - tool-xtensa-esp-elf-gdb @ 12.1.0+20221002 
+ - toolchain-esp32ulp @ 1.23800.240113 (2.38.0) 
+ - toolchain-riscv32-esp @ 14.2.0+20241119
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Compiling .pio/build/leaf_rev_g/src/main.cpp.o
+Linking .pio/build/leaf_rev_g/firmware.elf
+Retrieving maximum program size .pio/build/leaf_rev_g/firmware.elf
+Checking size .pio/build/leaf_rev_g/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   9.0% (used 29476 bytes from 327680 bytes)
+Flash: [========  ]  84.4% (used 885498 bytes from 1048576 bytes)
+Building .pio/build/leaf_rev_g/firmware.bin
+esptool.py v4.9.0
+Creating esp32c3 image...
+Merged 1 ELF section
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 4.04 seconds =========================

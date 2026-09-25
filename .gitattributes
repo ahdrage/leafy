@@ -1,0 +1,10 @@
+# CSV exporters use standard CRLF; preserve their exact supplier-upload bytes.
+*.csv whitespace=cr-at-eol
+# KiCad-generated SVG has insignificant trailing spaces; retain native output.
+hardware/**/exports/*.svg -whitespace
+hardware/**/exports/**/*.svg -whitespace
+# Generated CAD/router exports and archived logs retain their original formatting.
+*.svg -whitespace
+*.dsn -whitespace
+*.ses -whitespace
+*.log -whitespace

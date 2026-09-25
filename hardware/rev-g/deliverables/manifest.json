@@ -1,0 +1,29 @@
+{
+  "product": "Leafy",
+  "revision": "G.5",
+  "pcb_sha256": "1d69ed10e44eddc2ca1c4897c0f790e3a0d30cff7f1da9c7cc5d514d66f0ef4f",
+  "schematic_sha256": "9a7693a932eca66d2a03a80e0310218a1916fb0347467844711df6423b1dd381",
+  "packages": {
+    "leafy-rev-g5-factory-assembly.zip": {
+      "bytes": 928460,
+      "sha256": "4963fb5345cdf1ffe4af1a97e3c492c92bf96df64e8ccfd7aad4daa55060ff8e"
+    },
+    "leafy-rev-g5-gerbers.zip": {
+      "bytes": 411510,
+      "sha256": "14ea5b7d6962665b19f341f564bd39d0bbb61c8620ec2e8a1c3129afbaed8112"
+    },
+    "leafy-rev-g5-hand-assembly.zip": {
+      "bytes": 616127,
+      "sha256": "80f68047f41f6ffb17c230ea39fb71ce73bdc042b865024a6177dc4fa5744fc6"
+    },
+    "leafy-rev-g5-kicad.zip": {
+      "bytes": 495106,
+      "sha256": "fa6b5add86a4c96ded3bf1db4c3524fcd986f0d96166039d52d361552b03592d"
+    },
+    "leafy-rev-g5-review-images.zip": {
+      "bytes": 3977548,
+      "sha256": "c996b5a1f73433cb052405d44e3f00e21723e7061b4e3f7876bfd766d3bbdbf9"
+    }
+  },
+  "publication_note": "Public archive bytes; private supplier records removed where present. Native manufacturing geometry is unchanged."
+}

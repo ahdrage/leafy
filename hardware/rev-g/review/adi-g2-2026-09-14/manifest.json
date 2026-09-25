@@ -1,0 +1,247 @@
+{
+  "revision": "G.2",
+  "pcb_sha256": "e219b6422497241ae2c65dcf21172432d0750c268bfbf207ad921b2527b9f2b4",
+  "schematic_sha256": "3b2477103b3e2a4d9c56f5c80de35e3f296ad9cef014acfc236a7b10e8cbe3c6",
+  "images": [
+    {
+      "file": "01-hele-kortet.png",
+      "title": "LEAF HEAT \u2014 REV G.2",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-top.svg",
+          "label": "Topplag og komponentreferanser",
+          "view": [
+            -0.5,
+            -0.5,
+            101,
+            101
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02-c10-for-etter.png",
+      "title": "C10 / U2 \u2014 enklere 3,3 V-f\u00f8ring",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-top.svg",
+          "label": "F\u00d8R \u2014 G.1, topplag",
+          "view": [
+            57,
+            -0.5,
+            12,
+            13
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-top.svg",
+          "label": "ETTER \u2014 G.2, topplag",
+          "view": [
+            57,
+            -0.5,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "file": "03-r19-for-etter.png",
+      "title": "R19 \u2014 UART_RX-via flyttet",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-top.svg",
+          "label": "F\u00d8R \u2014 G.1, topplag",
+          "view": [
+            83,
+            49,
+            12,
+            11
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-top.svg",
+          "label": "ETTER \u2014 G.2, topplag",
+          "view": [
+            83,
+            49,
+            12,
+            11
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-bottom.svg",
+          "label": "F\u00d8R \u2014 G.1, bunnlag sett ovenfra",
+          "view": [
+            83,
+            49,
+            12,
+            11
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-bottom.svg",
+          "label": "ETTER \u2014 G.2, bunnlag sett ovenfra",
+          "view": [
+            83,
+            49,
+            12,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "file": "04-d4-for-etter.png",
+      "title": "D4 \u2014 CAN_H-via flyttet",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-top.svg",
+          "label": "F\u00d8R \u2014 G.1, topplag",
+          "view": [
+            16,
+            76,
+            15,
+            13
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-top.svg",
+          "label": "ETTER \u2014 G.2, topplag",
+          "view": [
+            16,
+            76,
+            15,
+            13
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-bottom.svg",
+          "label": "F\u00d8R \u2014 G.1, bunnlag sett ovenfra",
+          "view": [
+            16,
+            76,
+            15,
+            13
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-bottom.svg",
+          "label": "ETTER \u2014 G.2, bunnlag sett ovenfra",
+          "view": [
+            16,
+            76,
+            15,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "file": "05-u1-c2-for-etter.png",
+      "title": "U1 / C2 \u2014 forbindelsen var riktig",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-top.svg",
+          "label": "F\u00d8R \u2014 G.1, topplag",
+          "view": [
+            12.5,
+            13,
+            22,
+            19
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-top.svg",
+          "label": "ETTER \u2014 G.2, topplag",
+          "view": [
+            12.5,
+            13,
+            22,
+            19
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/before-bottom.svg",
+          "label": "F\u00d8R \u2014 G.1, bunnlag sett ovenfra",
+          "view": [
+            12.5,
+            13,
+            22,
+            19
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-bottom.svg",
+          "label": "ETTER \u2014 G.2, bunnlag sett ovenfra",
+          "view": [
+            12.5,
+            13,
+            22,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "file": "06-bakside-loddeoversikt.png",
+      "title": "Bakside \u2014 st\u00f8rre og lesbart silketrykk",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-back-legend.svg",
+          "label": "Bakside sett direkte fra undersiden",
+          "view": [
+            -0.5,
+            -0.5,
+            101,
+            101
+          ]
+        }
+      ]
+    },
+    {
+      "file": "07-indre-kobberlag.png",
+      "title": "Indre lag \u2014 jord og str\u00f8m",
+      "panels": [
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-ground.svg",
+          "label": "In1.Cu \u2014 jordplan",
+          "view": [
+            -0.5,
+            -0.5,
+            101,
+            101
+          ]
+        },
+        {
+          "source": "review/adi-g2-2026-09-14/source/after-power.svg",
+          "label": "In2.Cu \u2014 str\u00f8mplan",
+          "view": [
+            -0.5,
+            -0.5,
+            101,
+            101
+          ]
+        }
+      ]
+    }
+  ],
+  "files": {
+    "04-d4-for-etter.png": "81db705fe0e38fcc8729df5d48502a91873590c6cb1767e81c0ded7575466c62",
+    "02-c10-for-etter.svg": "0baaa40bbc7c6e8bd4a7eef8a16bc9324961cd381364526a5c2d00c29b348c83",
+    "05-u1-c2-for-etter.png": "f9424e0c3d110ac5b5ba04ca335139b352759e43182951f1f6471f6ecc837d71",
+    "05-u1-c2-for-etter.svg": "50929328f482be7bb117aca365d6d50d2734c6dd06c0bd4c6008c8b667522ea2",
+    "02-c10-for-etter.png": "bb46548007e9e5af342e6942e35bcf4a22ddd32e9036b237da84248bd27d2811",
+    "04-d4-for-etter.svg": "038876f401e6179b6b3158ea6d9f010516857b16b8eb2a609223224f9b7db1d5",
+    "07-indre-kobberlag.png": "4357d9817244c9420bec4b9d7497294a7a9fcb67e3ccb3729a039d0701a01861",
+    "08-fullstendig-skjema.pdf": "3372c863983592a0e5a077ab1076a29a040431fd0007c1d0c618bdb15bae0b62",
+    "03-r19-for-etter.png": "e3577626ebbc299fda2d02300445ceac59b525d9837b39068065da5a8157a114",
+    "01-hele-kortet.png": "1a933db45a09dba0126080781527dcba50b9b766f7391dfdcbe0f6c783ea1328",
+    "06-bakside-loddeoversikt.svg": "183bdc7c428cb830ab140661b2b4c2ea3798eca8e7a0a3af51866ed678a24776",
+    "LES-MEG.txt": "23e9f52553e3bd92d4dfefaf5b8863fab2633fc32f754042478cb73e62870383",
+    "06-bakside-loddeoversikt.png": "521e215e11d6d92ca65d98180b353025e0c3790ad67b41afa770a089ab6189a4",
+    "01-hele-kortet.svg": "25191fc54ec7db8ef446e77f67bb8faf64722d598ab8d18fd4b3c3399623249d",
+    "03-r19-for-etter.svg": "4b411a0140839467dd9abcbdafcdde5c15d986aaacb6f9618e0e2bb11e365f40",
+    "07-indre-kobberlag.svg": "efa55215c2933d72cc8f9e4316fb093fdc5e01412eaa122871ade16c9f3827cd"
+  }
+}

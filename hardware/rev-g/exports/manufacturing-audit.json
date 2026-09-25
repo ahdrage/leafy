@@ -1,0 +1,64 @@
+{
+  "component_count": 55,
+  "factory_count": 6,
+  "hand_count": 49,
+  "factory_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "hand_mpns": 27,
+  "unique_mpns": 33,
+  "placement_origin": "lower-left (0,100 mm in KiCad), X right / Y up",
+  "factory_placement_rows": 6,
+  "full_placement_rows": 55,
+  "stencil_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "bare_test_holes": 7,
+  "mounting_holes": 4,
+  "board_sha256": "1d69ed10e44eddc2ca1c4897c0f790e3a0d30cff7f1da9c7cc5d514d66f0ef4f",
+  "catalog_ids": {
+    "LMR36510ADDAR": "C1858393",
+    "ESP32-C3-WROOM-02U-N4": "C2926676",
+    "USBLC6-2SC6": "C7519",
+    "TPS3760A012DYYR": "C5218894",
+    "TMUX1511PWR": "C2866750",
+    "SRN6045TA-220M": "C2044314"
+  },
+  "jlc_catalog_rotation_offsets_degrees": {
+    "U1": 270,
+    "U4": 270,
+    "U5": 270,
+    "U6": 270
+  },
+  "fabrication_files": {
+    "FABRICATION-NOTES.txt": "0208a6d5e2c88afcc738dfa74ff9d483efe96e3497d0753ad6fa1d36eb2e237e",
+    "THERMAL-FILL-LOCATIONS.csv": "0b500315e4b4f0c7d6c21074bf09f9b65fdd87785c3feffef384dc0dfcd03828",
+    "THERMAL-FILL-MAP.png": "0a0b3352be8c71de7994ec5aaa3585398ca0d924ba08e74cb6dc1ff27891ba39",
+    "leaf-heat-v7-B_Cu.gbl": "636fcf4812f4c5004848a3f4693e9631fae065087f0bed99ab142ed27ce3659f",
+    "leaf-heat-v7-B_Mask.gbs": "3a7516feba0344cda4b1ae3c8c50624d6fb5a16fd8afbc6b1aeb43fdd441914f",
+    "leaf-heat-v7-B_Paste.gbp": "0e9e9e75adfc9c60cf935398bb4f075b25371a19e5acafc90509140b42383b7c",
+    "leaf-heat-v7-B_Silkscreen.gbo": "8fc92c255ffb0e6108d2b0bdbbdff10f34849003afed69577e0f8d1e01ad5a6b",
+    "leaf-heat-v7-Edge_Cuts.gm1": "1dd1dc7620562f2a4c555482e2e5d09249d48b4d0c99d9bb40280121fde827b6",
+    "leaf-heat-v7-F_Cu.gtl": "068be7fc03605890770e33cd8bf360b913f9e52765603ab85496968abe1d67a9",
+    "leaf-heat-v7-F_Mask.gts": "d25f92a0e4b2d29656ecb53624e8a77469821e85e7c3e870f9116c5333914114",
+    "leaf-heat-v7-F_Paste.gtp": "0f4a664ce0c8016ace3360f2e0653958ce522228b7b0e93e35780be22b9a847d",
+    "leaf-heat-v7-F_Silkscreen.gto": "00a57153d652e69c7db256878bb4764583f741fc94110be86889e05422278b1c",
+    "leaf-heat-v7-In1_Cu.g1": "84e11eeb0f9b714915f7068b7863e335a9e18a1908db9d7299fb1b07f6c18961",
+    "leaf-heat-v7-In2_Cu.g2": "3c511217b42a401dac8ffb3c93f918ba194331649c61b8cbdafe4b813124bdca",
+    "leaf-heat-v7-NPTH.drl": "481ab322a940c400ba2fe1d0cd3e62b141e516ef76842bfe9f873861d4db4f91",
+    "leaf-heat-v7-PTH.drl": "ce1f09e6f027b40408849fe3f17eeb73bc704721f1c5551d5f392990cecb96eb",
+    "leaf-heat-v7-job.gbrjob": "dc1637b8124707631007f979a4ca522e361514496d056d1d3eb32ebb234df35e"
+  },
+  "revision": "G.5",
+  "thermal_process_note": "FILLED-G5-CHANGE.md: all 18 thermal PTHs epoxy filled and copper capped; normal JLC stencil engineering, no fixed thickness/apertures"
+}

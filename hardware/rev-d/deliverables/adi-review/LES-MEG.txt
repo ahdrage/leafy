@@ -1,0 +1,24 @@
+LEAF HEAT REV D – bilder til Adi
+12. september 2026
+
+Kortet er 150 × 150 mm med fire kobberlag. Dette er en prototype som er tilrettelagt for håndlodding.
+
+Fabrikken skal bare montere U1, U2, U4 og L1. De øvrige 37 komponentene loddes for hånd. Motstander og små kondensatorer er nå 1206, med større loddeputer. De større 1210-kondensatorene er beholdt. Knappene er gjennomgående. U3 har SOIC-8-kapsling med tilgjengelige bein; D4 har tre bein og større loddeputer.
+
+01: 3D-oversikt over tiltenkt ferdig kort. Sikringen F1 mangler kropp i 3D-modellen; den er med i designet og delelisten. DB9-modellen er omtrentlig.
+02: Oransje = fabrikkmontert. Resten monteres for hånd. Dette er et forenklet plasseringskart.
+03: Toppkobber og silketrykk. Hvite mellomrom viser isolasjon fra kobberfyllet. Spor under tekst er dekket av loddemaske.
+04: In1.Cu, dedikert jordplan med viaforbindelser. Klaringer rundt andre nett er synlige.
+05: In2.Cu, strømfordeling. Det smale feltet til venstre er beskyttet inngangsspenning; det store feltet er 3,3 V, med jord i øvrige områder. Samme lagfarge brukes for ulike nett.
+06: Bunnkobber, sett ovenfra som de øvrige kobberbildene.
+07: Komplett koblingsskjema. Originalen er 4000 piksler bred; zoom for å lese.
+08–11: Forstørrede utsnitt av toppkobber: strømforsyning, CAN/inngang, Wi-Fi og knapper/UART.
+12: Loddepasta kun på U1/U2/U4/L1. Svarte boremarkører i forhåndsvisningen er hull, ikke ekstra stencilåpninger. Gerber-filen er fasit for stencil.
+
+Både jordplan og strømplan er beholdt. Håndloddede deler har termiske avlastninger mot plan. U1/U2 beholder direkte tilkobling av termiske puter. Antennen har kobberfri sone på alle fire lag. USB er fjernet; programmering skjer med 3,3 V UART og separat 12 V benkforsyning. Ingen ekstra common-mode choke er lagt til.
+
+KiCad rapporterer 0 DRC-avvik, 0 uforbundne forbindelser, 0 skjema/PCB-avvik og 0 ERC-avvik med prosjektets gjeldende regler. Originalrapportene følger med og viser også de ignorerte regelkategoriene. Mer detaljert kontroll er beskrevet i DESIGN-REVIEW.md.
+
+Særlig nyttig å se på: regulatorens lokale strøm-/jordsløyfer, termiske avlastninger, loddetilgang ved U3/D4 og antenneklaring. Termiske hull under U1/U2 er ikke spesifisert som fylt; fabrikkens prosess for loddetinn som trekker inn i hullene må avklares før produksjon.
+
+Kortet er ikke fysisk testet. Firmware, benktesting, transient-/EMC-testing og testing i bilen gjenstår. Ingen produksjon eller bestilling følger av disse bildene.

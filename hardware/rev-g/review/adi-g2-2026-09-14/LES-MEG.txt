@@ -1,0 +1,17 @@
+REV G.2 — BILDER TIL ADI, 14.09.2026
+
+01: Hele kortet. 02: C10 før/etter. 03: R19 før/etter på begge lag.
+04: D4 før/etter på begge lag. 05: U1/C2, uendret enable-forbindelse.
+06: Større bakside-silketrykk. 07: Jord-/strømplan. 08: Fullstendig skjema.
+
+Rødt = toppkobber inklusive jordfyll. Gult = silketrykk. Hvitt = klaringer.
+Bunnkobber i sammenligningene sees ovenfra gjennom kortet. Bakside-teksten
+i bilde 06 sees derimot direkte fra undersiden for å kunne leses.
+
+Alle komponenter, pads, footprint-plasseringer, BOM, fabrikk-CPL og mål er
+uendret. C10-føring ryddet, R19- og D4-via flyttet, silketrykk forbedret.
+Fersk ERC/DRC med kobberfyll og 0,15 mm silkeklaring: null avvik, manglende
+forbindelser eller skjemamismatch. Fabrikken monterer U1/U2/U4/U5/U6/L1.
+
+Bruk G.2-produksjonsfiler; G.1-nettbutikktilbudet har eldre Gerber-/boredata.
+Produsentens eksponert-pad-prosess og fysisk strøm-/Wi-Fi-/biltest gjenstår.

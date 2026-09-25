@@ -1,0 +1,7 @@
+Item,Designator,Quantity,Manufacturer,Manufacturer Part Number,Description / Value,Footprint,Notes
+1,U1,1,Texas Instruments,LMR36510ADDAR,LMR36510ADDAR,Leaf:LMR36510_DDA_FilledCapped_G5__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.
+2,L1,1,Bourns,SRN6045TA-220M,22uH / 3.3A sat,Leaf:L_Bourns_SRN6045TA__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.
+3,U2,1,Espressif,ESP32-C3-WROOM-02U-N4,ESP32-C3-WROOM-02U-N4,Leaf:ESP32-C3-WROOM-02U_FilledCapped_G5__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.
+4,U4,1,STMicroelectronics,USBLC6-2SC6,USBLC6-2SC6 / UART ESD,Leaf:SOT-23-6__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.
+5,U5,1,Texas Instruments,TPS3760A012DYYR,TPS3760A012DYYR,Leaf:TI_DYY0014A__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.
+6,U6,1,Texas Instruments,TMUX1511PWR,TMUX1511PWR,Leaf:TSSOP-14_4.4x5mm_P0.65mm__Factory,FACTORY FIT. Only U1 U2 U4 U5 U6 L1 are factory-assembled; all other parts customer-fitted.

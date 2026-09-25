@@ -1,0 +1,227 @@
+{
+  "long_parallel_sections": [
+    {
+      "gap_mm": 0.14999965514705826,
+      "parallel_overlap_mm": 2.3091880087192975
+    },
+    {
+      "gap_mm": 0.14999999999999858,
+      "parallel_overlap_mm": 13.734315000000002
+    },
+    {
+      "gap_mm": 0.14999969951551362,
+      "parallel_overlap_mm": 9.168123786228698
+    }
+  ],
+  "board": "leaf-heat-v2",
+  "copper_layers": 4,
+  "tracks_per_layer": {
+    "F.Cu": 236,
+    "B.Cu": 25
+  },
+  "track_widths_mm": {
+    "0.5": 11,
+    "0.8": 13,
+    "0.4": 59,
+    "1.0": 4,
+    "0.25": 146,
+    "0.2": 28
+  },
+  "ground_through_vias": 87,
+  "all_through_vias": 132,
+  "usb_lengths": {
+    "/USB_CONN_P": {
+      "main_mm": 37.93738572937759,
+      "all_segments_mm": 46.06307158464449,
+      "vias": 2
+    },
+    "/USB_CONN_N": {
+      "main_mm": 37.9373859783071,
+      "all_segments_mm": 46.06307169615014,
+      "vias": 2
+    },
+    "/USB_D_P": {
+      "main_mm": 3.0534271247461904,
+      "all_segments_mm": 3.0534271247461904,
+      "vias": 0
+    },
+    "/USB_D_N": {
+      "main_mm": 3.0534271247461904,
+      "all_segments_mm": 3.0534271247461904,
+      "vias": 0
+    }
+  },
+  "usb_main_total_P_mm": 40.99081285412378,
+  "usb_main_total_N_mm": 40.99081310305329,
+  "usb_main_skew_mm": 2.489295098939692e-07,
+  "usb_ground_reference_samples": 6111,
+  "usb_reference_missing_samples": 264,
+  "usb_main_reference_missing_samples": 0,
+  "usb_via_clearance_samples": 264,
+  "usb_unexplained_reference_gaps": [],
+  "usb_missing_sample_examples": [
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.3
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.3
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.3
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.349999999999994
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.349999999999994
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.349999999999994
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.4
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.4
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.4
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.449999999999996
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.449999999999996
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.449999999999996
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.5
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.5
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.5
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.55
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.55
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.55,
+        45.55
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.75,
+        45.599999999999994
+      ]
+    },
+    {
+      "net": "/USB_CONN_P",
+      "reference": "In1.Cu",
+      "point": [
+        55.65,
+        45.599999999999994
+      ]
+    }
+  ],
+  "inner_layer_tracks": {},
+  "antenna_keepout_copper_samples": [],
+  "scope": "Geometry only. Excludes lengths inside the connector, ESD package, resistors and module. No signal-integrity, EMI, thermal or physical validation implied."
+}

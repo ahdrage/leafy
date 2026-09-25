@@ -1,0 +1,8 @@
+{
+  "opens_in_blender": true,
+  "blender_version": "5.2.1 LTS",
+  "units": "mm",
+  "C15_reference_found": true,
+  "U5_reference_found": true,
+  "lid_parent_found": true
+}

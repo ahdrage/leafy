@@ -1,0 +1,1445 @@
+[
+  {
+    "ref": "J1",
+    "symbol": "Leaf:DE9_Leaf_Cable",
+    "value": "NISSAN LEAF CABLE",
+    "footprint": "Leaf:NorComp_182-009-113R561__Hand",
+    "sch": [
+      38.1,
+      55.88
+    ],
+    "xy": [
+      16,
+      91
+    ],
+    "nets": {
+      "1": null,
+      "2": "CAN_L",
+      "3": "GND",
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": "CAN_H",
+      "8": null,
+      "9": "CAR_12V",
+      "SH": "GND"
+    },
+    "mpn": "182-009-113R561",
+    "manufacturer": "NorComp",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://content.norcomp.net/rohspdfs/Connectors/18Y/182/182-yyy-113Ryy1.pdf",
+    "notes": "Male DB9 with fork boardlocks and fitted 4-40 female screwlocks. Same 2.77 x 2.84 mm contacts and 24.99 mm anchor centres. Nissan OVMS cable pinout only; verify actual cable mating before power.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "F1",
+    "symbol": "Device:Fuse",
+    "value": "1A / 125V",
+    "footprint": "Leaf:Fuse_Littelfuse-NANO2-451_453__Hand",
+    "sch": [
+      63.5,
+      43.18
+    ],
+    "xy": [
+      43,
+      82
+    ],
+    "nets": {
+      "1": "CAR_12V",
+      "2": "CAR_FUSED"
+    },
+    "mpn": "0451001.MRL",
+    "manufacturer": "Littelfuse",
+    "angle": 90,
+    "rotation": 90,
+    "datasheet": "",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "D1",
+    "symbol": "Device:D_Schottky",
+    "value": "B1100 / 100V",
+    "footprint": "Leaf:D_SMA__Hand",
+    "sch": [
+      93.98,
+      43.18
+    ],
+    "xy": [
+      43,
+      69
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "CAR_FUSED"
+    },
+    "mpn": "B1100-13-F",
+    "manufacturer": "Diodes Incorporated",
+    "angle": 180,
+    "rotation": 270,
+    "datasheet": "https://www.diodes.com/datasheet/download/B1100.pdf",
+    "notes": "D1 ordering-code correction 2026-09-12: verified Diodes B1100-13-F, 100 V / 1 A, SMA; cathode band to pad 1 / VPWR.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "D3",
+    "symbol": "Device:D_TVS",
+    "value": "SMBJ24CA",
+    "footprint": "Leaf:D_SMB__Hand",
+    "sch": [
+      116.84,
+      55.88
+    ],
+    "xy": [
+      43,
+      58
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "SMBJ24CA",
+    "manufacturer": "Littelfuse",
+    "angle": 90,
+    "rotation": 90,
+    "datasheet": "",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "U1",
+    "symbol": "Regulator_Switching:LMR36510ADDA",
+    "value": "LMR36510ADDAR",
+    "footprint": "Leaf:LMR36510_DDA_FilledCapped_G5__Factory",
+    "sch": [
+      157.48,
+      73.66
+    ],
+    "xy": [
+      24,
+      19
+    ],
+    "nets": {
+      "1": "GND",
+      "2": "VPWR",
+      "3": "BUCK_EN",
+      "4": null,
+      "5": "BUCK_FB",
+      "6": "BUCK_VCC",
+      "7": "BUCK_BOOT",
+      "8": "BUCK_SW",
+      "9": "GND"
+    },
+    "mpn": "LMR36510ADDAR",
+    "manufacturer": "Texas Instruments",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/lmr36510.pdf",
+    "notes": " G.5: epoxy-filled/copper-capped thermal holes; JLC normal stencil process.",
+    "assembly": "FACTORY"
+  },
+  {
+    "ref": "C1",
+    "symbol": "Device:C",
+    "value": "2.2uF / 100V",
+    "footprint": "Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand",
+    "sch": [
+      127,
+      78.74
+    ],
+    "xy": [
+      12,
+      18.3
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "GRM32ER72A225KA35L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C2",
+    "symbol": "Device:C",
+    "value": "220nF / 100V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      127,
+      104.14
+    ],
+    "xy": [
+      17,
+      18.365
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "C1206C224K1RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 180,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C224K1RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C3",
+    "symbol": "Device:C",
+    "value": "1uF / 25V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      152.4,
+      114.3
+    ],
+    "xy": [
+      29.5,
+      22.9
+    ],
+    "nets": {
+      "1": "BUCK_VCC",
+      "2": "GND"
+    },
+    "mpn": "C1206C105K3RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 270,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C105K3RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C4",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      177.8,
+      43.18
+    ],
+    "xy": [
+      31,
+      17.5
+    ],
+    "nets": {
+      "1": "BUCK_BOOT",
+      "2": "BUCK_SW"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "L1",
+    "symbol": "Device:L",
+    "value": "22uH / 3.3A sat",
+    "footprint": "Leaf:L_Bourns_SRN6045TA__Factory",
+    "sch": [
+      198.12,
+      83.82
+    ],
+    "xy": [
+      30,
+      11
+    ],
+    "nets": {
+      "1": "BUCK_SW",
+      "2": "3V3"
+    },
+    "mpn": "SRN6045TA-220M",
+    "manufacturer": "Bourns",
+    "angle": 90,
+    "rotation": 0,
+    "datasheet": "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf",
+    "notes": "",
+    "assembly": "FACTORY"
+  },
+  {
+    "ref": "C5",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand",
+    "sch": [
+      198.12,
+      101.6
+    ],
+    "xy": [
+      43,
+      11
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1210C226K3RAC7210",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RAC7210",
+    "notes": "22 uF, 25 V, X7R, 10%, 1210. Fit all three output capacitors. Purchase cut tape, not a full reel. See DESIGN-REVIEW.md for DC-bias assessment and bench validation.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C6",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand",
+    "sch": [
+      218.44,
+      101.6
+    ],
+    "xy": [
+      43,
+      20
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1210C226K3RAC7210",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RAC7210",
+    "notes": "22 uF, 25 V, X7R, 10%, 1210. Fit all three output capacitors. Purchase cut tape, not a full reel. See DESIGN-REVIEW.md for DC-bias assessment and bench validation.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C7",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand",
+    "sch": [
+      238.76,
+      101.6
+    ],
+    "xy": [
+      43,
+      29
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1210C226K3RAC7210",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RAC7210",
+    "notes": "22 uF, 25 V, X7R, 10%, 1210. Fit all three output capacitors. Purchase cut tape, not a full reel. See DESIGN-REVIEW.md for DC-bias assessment and bench validation.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R1",
+    "symbol": "Device:R",
+    "value": "100k / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      180.34,
+      109.22
+    ],
+    "xy": [
+      20.2,
+      26
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BUCK_FB"
+    },
+    "mpn": "RC1206FR-07100KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R2",
+    "symbol": "Device:R",
+    "value": "43.2k / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      180.34,
+      129.54
+    ],
+    "xy": [
+      25.7,
+      26
+    ],
+    "nets": {
+      "1": "BUCK_FB",
+      "2": "GND"
+    },
+    "mpn": "RC1206FR-0743K2L",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 270,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "U2",
+    "symbol": "Leaf:ESP32-C3-WROOM-02U",
+    "value": "ESP32-C3-WROOM-02U-N4",
+    "footprint": "Leaf:ESP32-C3-WROOM-02U_FilledCapped_G5__Factory",
+    "sch": [
+      322.58,
+      83.82
+    ],
+    "xy": [
+      73,
+      8
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "ESP_EN",
+      "3": "CAN_TX",
+      "4": "CAN_RX",
+      "5": null,
+      "6": "STATUS_LED",
+      "7": "BOOT_IO8",
+      "8": "BOOT_IO9",
+      "9": "GND",
+      "10": null,
+      "11": "UART_RX",
+      "12": "UART_TX",
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": "BOOT_IO2",
+      "17": "CAN_STB",
+      "18": "BAT_SENSE",
+      "19": "GND"
+    },
+    "mpn": "ESP32-C3-WROOM-02U-N4",
+    "manufacturer": "Espressif",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.html",
+    "notes": "G.3: U.FL external antenna connector. Fit ANT1 before enabling Wi-Fi. Pad geometry, GPIOs and 4 MB flash unchanged. G.5: epoxy-filled/copper-capped thermal holes; JLC normal stencil process.",
+    "assembly": "FACTORY"
+  },
+  {
+    "ref": "R3",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      269.24,
+      45.72
+    ],
+    "xy": [
+      54,
+      28
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "ESP_EN"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C8",
+    "symbol": "Device:C",
+    "value": "1uF / 25V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      269.24,
+      71.12
+    ],
+    "xy": [
+      54,
+      19
+    ],
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "mpn": "C1206C105K3RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C105K3RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C9",
+    "symbol": "Device:C",
+    "value": "10uF / 16V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      297.18,
+      35.56
+    ],
+    "xy": [
+      54,
+      10
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C106K4RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 180,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K4RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C10",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      320.04,
+      35.56
+    ],
+    "xy": [
+      60.5,
+      3
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 180,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R4",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      266.7,
+      104.14
+    ],
+    "xy": [
+      91,
+      35
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO2"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R5",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      287.02,
+      132.08
+    ],
+    "xy": [
+      58,
+      37
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO8"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R6",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      312.42,
+      132.08
+    ],
+    "xy": [
+      71,
+      37
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO9"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "SW1",
+    "symbol": "Switch:SW_Push",
+    "value": "RESET",
+    "footprint": "Leaf:SW_PUSH_6mm_H4.3mm__Hand",
+    "sch": [
+      266.7,
+      129.54
+    ],
+    "xy": [
+      59,
+      65
+    ],
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "mpn": "PTS645SL43-2 LFS",
+    "manufacturer": "C&K / Littelfuse",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.ckswitches.com/media/1471/pts645.pdf",
+    "notes": "Straight THT, 4.3 mm actuator, 6.5 x 4.5 mm contact centres. Current manufacturer series sheet specifies -40 to +85 C; confirm supplied variant against that sheet because distributor metadata differs.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "SW2",
+    "symbol": "Switch:SW_Push",
+    "value": "BOOT",
+    "footprint": "Leaf:SW_PUSH_6mm_H4.3mm__Hand",
+    "sch": [
+      340.36,
+      132.08
+    ],
+    "xy": [
+      78,
+      65
+    ],
+    "nets": {
+      "1": "BOOT_IO9",
+      "2": "GND"
+    },
+    "mpn": "PTS645SL43-2 LFS",
+    "manufacturer": "C&K / Littelfuse",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.ckswitches.com/media/1471/pts645.pdf",
+    "notes": "Straight THT, 4.3 mm actuator, 6.5 x 4.5 mm contact centres. Current manufacturer series sheet specifies -40 to +85 C; confirm supplied variant against that sheet because distributor metadata differs.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R7",
+    "symbol": "Device:R",
+    "value": "1M / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      373.38,
+      48.26
+    ],
+    "xy": [
+      91,
+      16
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "BAT_DIV"
+    },
+    "mpn": "RC1206FR-071ML",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "Protected VPWR divider; TMUX1511 isolates it from the unpowered MCU. ADC multiplier includes R26.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R8",
+    "symbol": "Device:R",
+    "value": "47k / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      373.38,
+      71.12
+    ],
+    "xy": [
+      91,
+      24
+    ],
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "GND"
+    },
+    "mpn": "RC1206FR-0747KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C11",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      393.7,
+      71.12
+    ],
+    "xy": [
+      91,
+      8
+    ],
+    "nets": {
+      "1": "BAT_DIV",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R9",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      373.38,
+      99.06
+    ],
+    "xy": [
+      53,
+      47
+    ],
+    "nets": {
+      "1": "STATUS_LED",
+      "2": "LED_A"
+    },
+    "mpn": "RC1206FR-071KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "D6",
+    "symbol": "Device:LED",
+    "value": "GREEN / status",
+    "footprint": "Leaf:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder__Hand",
+    "sch": [
+      373.38,
+      116.84
+    ],
+    "xy": [
+      65,
+      47
+    ],
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "mpn": "LTST-C150KGKT",
+    "manufacturer": "Lite-On",
+    "angle": 90,
+    "rotation": 180,
+    "datasheet": "",
+    "notes": "1206 green LED. Cathode is pad 1 / GND; match package cathode mark to K on board.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "U3",
+    "symbol": "Leaf:TCAN3404DRQ1",
+    "value": "TCAN3404DRQ1",
+    "footprint": "Leaf:SOIC8_Hand_Access__Hand",
+    "sch": [
+      322.58,
+      198.12
+    ],
+    "xy": [
+      27,
+      70
+    ],
+    "nets": {
+      "1": "CAN_TX",
+      "2": "GND",
+      "3": "3V3",
+      "4": "CAN_RX",
+      "5": "GND",
+      "6": "CAN_L",
+      "7": "CAN_H",
+      "8": "CAN_STB"
+    },
+    "mpn": "TCAN3404DRQ1",
+    "manufacturer": "Texas Instruments",
+    "angle": 0,
+    "rotation": 270,
+    "datasheet": "https://www.ti.com/lit/gpn/TCAN3404-Q1",
+    "notes": "Rev F only: pin 5 SHDN is tied to GND; pin 8 STB remains MCU-controlled with pull-up. Not interchangeable with TCAN3403 on this PCB.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "R10",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      274.32,
+      187.96
+    ],
+    "xy": [
+      38,
+      76
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "CAN_STB"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C12",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      297.18,
+      167.64
+    ],
+    "xy": [
+      26.365,
+      62
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C13",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      345.44,
+      167.64
+    ],
+    "xy": [
+      18,
+      77
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 180,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "Additional 3V3-to-GND bypass retained. U3 pin 5 is now SHDN/GND and must not connect to this capacitor's 3V3 terminal.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "D4",
+    "symbol": "Leaf:PESD2CAN",
+    "value": "PESD2CAN",
+    "footprint": "Leaf:SOT-23_Handsoldering__Hand",
+    "sch": [
+      375.92,
+      198.12
+    ],
+    "xy": [
+      24,
+      83
+    ],
+    "nets": {
+      "1": "CAN_L",
+      "2": "CAN_H",
+      "3": "GND"
+    },
+    "mpn": "PESD2CAN,215",
+    "manufacturer": "Nexperia",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf",
+    "notes": "",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C14",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      124.46,
+      160.02
+    ],
+    "xy": [
+      76.81,
+      80
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU",
+    "notes": "Local UART ESD reference-rail bypass.",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "U4",
+    "symbol": "Leaf:UART_ESD",
+    "value": "USBLC6-2SC6 / UART ESD",
+    "footprint": "Leaf:SOT-23-6__Factory",
+    "sch": [
+      99.06,
+      187.96
+    ],
+    "xy": [
+      76.81,
+      87
+    ],
+    "nets": {
+      "1": "PROG_RX",
+      "2": "GND",
+      "3": "PROG_TX",
+      "4": "PROG_TX",
+      "5": "3V3",
+      "6": "PROG_RX"
+    },
+    "mpn": "USBLC6-2SC6",
+    "manufacturer": "STMicroelectronics",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "notes": "UART service connector ESD protection. Pins 1/6 and 3/4 are feed-through channels; pin 5 references 3.3 V. Not a USB interface.",
+    "assembly": "FACTORY"
+  },
+  {
+    "datasheet": "https://www.harwin.com/products/M20-9990346",
+    "notes": "Hand solder on top. Pin 1 GND; 2 board RX (adapter TX); 3 board TX (adapter RX). No supply pin. 3.3 V logic only; no RS-232. Header origin is pin 1.",
+    "angle": 0,
+    "rotation": 90,
+    "manufacturer": "Harwin",
+    "ref": "J3",
+    "symbol": "Leaf:UART_Header",
+    "value": "UART / 3.3V LOGIC",
+    "footprint": "Leaf:PinHeader_1x03_P2.54mm_Vertical__Hand",
+    "sch": [
+      38.1,
+      185.42
+    ],
+    "xy": [
+      73,
+      92
+    ],
+    "mpn": "M20-9990346",
+    "nets": {
+      "1": "GND",
+      "2": "PROG_RX",
+      "3": "PROG_TX"
+    },
+    "assembly": "HAND"
+  },
+  {
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter.",
+    "angle": 90,
+    "rotation": 0,
+    "manufacturer": "Yageo",
+    "ref": "R18",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      162.56,
+      177.8
+    ],
+    "xy": [
+      91,
+      45
+    ],
+    "nets": {
+      "1": "UART_TX",
+      "2": "PROG_TX"
+    },
+    "mpn": "RC1206FR-071KL",
+    "assembly": "HAND"
+  },
+  {
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter.",
+    "angle": 90,
+    "rotation": 180,
+    "manufacturer": "Yageo",
+    "ref": "R19",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      162.56,
+      200.66
+    ],
+    "xy": [
+      91,
+      54
+    ],
+    "nets": {
+      "1": "PROG_RX",
+      "2": "UART_RX"
+    },
+    "mpn": "RC1206FR-071KL",
+    "assembly": "HAND"
+  },
+  {
+    "datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "notes": "Hold UART RX at idle high when the programming lead is absent.",
+    "angle": 0,
+    "rotation": 0,
+    "manufacturer": "Yageo",
+    "ref": "R20",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      208.28,
+      187.96
+    ],
+    "xy": [
+      80,
+      54
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "UART_RX"
+    },
+    "mpn": "RC1206FR-0710KL",
+    "assembly": "HAND"
+  },
+  {
+    "ref": "C15",
+    "symbol": "Device:C_Polarized",
+    "value": "47uF / 63V",
+    "footprint": "Leaf:CP_Radial_D6.3mm_P2.50mm__Hand",
+    "sch": [
+      35.56,
+      317.5
+    ],
+    "xy": [
+      11,
+      32
+    ],
+    "nets": {
+      "1": "BULK_DAMPED",
+      "2": "GND"
+    },
+    "mpn": "EEU-FR1J470H",
+    "manufacturer": "Panasonic",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1J470",
+    "notes": "47 uF, 63 V FR series; taped straight leads, 6.3 mm diameter x 11.2 mm height, 2.5 mm pitch. Packaging substitute for backordered EEU-FR1J470; trim leads after soldering."
+  },
+  {
+    "ref": "R21",
+    "symbol": "Device:R",
+    "value": "1R / 1.5W",
+    "footprint": "Leaf:R_2512_Hand",
+    "sch": [
+      35.56,
+      292.1
+    ],
+    "xy": [
+      11,
+      25
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "BULK_DAMPED"
+    },
+    "mpn": "CRCW25121R00FKEGHP",
+    "manufacturer": "Vishay",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.vishay.com/docs/20043/crcwhpe3.pdf",
+    "notes": "Pulse-capable 2512 damping resistor; not in series with the main supply."
+  },
+  {
+    "ref": "U5",
+    "symbol": "Leaf:TPS3760A012DYYR",
+    "value": "TPS3760A012DYYR",
+    "footprint": "Leaf:TI_DYY0014A__Factory",
+    "sch": [
+      106.68,
+      317.5
+    ],
+    "xy": [
+      17,
+      43
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": null,
+      "3": "UV_SENSE",
+      "4": null,
+      "5": null,
+      "6": "BUCK_EN",
+      "7": null,
+      "8": "GND",
+      "9": "UV_CTR",
+      "10": "UV_CTS",
+      "11": null,
+      "12": null,
+      "13": "GND",
+      "14": null
+    },
+    "mpn": "TPS3760A012DYYR",
+    "manufacturer": "Texas Instruments",
+    "assembly": "FACTORY",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.ti.com/lit/gpn/tps3760",
+    "notes": "Exact A012 UV, 0.8 V, 2% hysteresis, active-low open drain, NON-latching variant. Factory fit. Rev G.1: Catalog grade, not AEC-Q100; 65 V operating maximum, no Q1 70 V/50 ms operating allowance. User-approved prototype substitution."
+  },
+  {
+    "ref": "R22",
+    "symbol": "Device:R",
+    "value": "680k / 0.1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      71.12,
+      292.1
+    ],
+    "xy": [
+      9,
+      40
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "UV_SENSE"
+    },
+    "mpn": "RT1206BRD07680KL",
+    "manufacturer": "Yageo",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT1206BRD07680KL",
+    "notes": "Precision 0.1%, 25 ppm/C cutoff divider. Do not substitute the 1% general-purpose part."
+  },
+  {
+    "ref": "R23",
+    "symbol": "Device:R",
+    "value": "47k / 0.1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      71.12,
+      337.82
+    ],
+    "xy": [
+      9,
+      47
+    ],
+    "nets": {
+      "1": "UV_SENSE",
+      "2": "GND"
+    },
+    "mpn": "RT1206BRD0747KL",
+    "manufacturer": "Yageo",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT1206BRD0747KL",
+    "notes": "Precision 0.1%, 25 ppm/C cutoff divider. R8 remains a separate 1% ADC resistor."
+  },
+  {
+    "ref": "R24",
+    "symbol": "Device:R",
+    "value": "10M / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      152.4,
+      317.5
+    ],
+    "xy": [
+      25,
+      41
+    ],
+    "nets": {
+      "1": "BUCK_EN",
+      "2": "UV_SENSE"
+    },
+    "mpn": "RC1206FR-0710ML",
+    "manufacturer": "Yageo",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0710ML",
+    "notes": ""
+  },
+  {
+    "ref": "R25",
+    "symbol": "Device:R",
+    "value": "470k / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      152.4,
+      292.1
+    ],
+    "xy": [
+      25,
+      34
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "BUCK_EN"
+    },
+    "mpn": "RC1206FR-07470KL",
+    "manufacturer": "Yageo",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470KL",
+    "notes": ""
+  },
+  {
+    "ref": "C16",
+    "symbol": "Device:C",
+    "value": "220nF / 100V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      106.68,
+      358.14
+    ],
+    "xy": [
+      17,
+      36
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "C1206C224K1RACTU",
+    "manufacturer": "KEMET",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C17",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      71.12,
+      358.14
+    ],
+    "xy": [
+      9,
+      54
+    ],
+    "nets": {
+      "1": "UV_SENSE",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C18",
+    "symbol": "Device:C",
+    "value": "10uF / 16V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      137.16,
+      358.14
+    ],
+    "xy": [
+      25,
+      49
+    ],
+    "nets": {
+      "1": "UV_CTS",
+      "2": "GND"
+    },
+    "mpn": "C1206C106K4RACTU",
+    "manufacturer": "KEMET",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K4RACTU",
+    "notes": "CTS: nominal 1.27 s sense delay before DC-bias/tolerance effects. Within TI recommended maximum 10 uF."
+  },
+  {
+    "ref": "C19",
+    "symbol": "Device:C",
+    "value": "10uF / 16V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      167.64,
+      358.14
+    ],
+    "xy": [
+      17,
+      53
+    ],
+    "nets": {
+      "1": "UV_CTR",
+      "2": "GND"
+    },
+    "mpn": "C1206C106K4RACTU",
+    "manufacturer": "KEMET",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K4RACTU",
+    "notes": "CTR: nominal 12.7 s recovery delay before DC-bias/tolerance effects. Within TI recommended maximum 10 uF."
+  },
+  {
+    "ref": "U6",
+    "symbol": "Leaf:TMUX1511PWR",
+    "value": "TMUX1511PWR",
+    "footprint": "Leaf:TSSOP-14_4.4x5mm_P0.65mm__Factory",
+    "sch": [
+      243.84,
+      317.5
+    ],
+    "xy": [
+      79,
+      26
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BAT_DIV",
+      "3": "BAT_SENSE",
+      "4": "GND",
+      "5": "GND",
+      "6": "GND",
+      "7": "GND",
+      "8": "GND",
+      "9": "GND",
+      "10": "GND",
+      "11": "GND",
+      "12": "GND",
+      "13": "GND",
+      "14": "3V3"
+    },
+    "mpn": "TMUX1511PWR",
+    "manufacturer": "Texas Instruments",
+    "assembly": "FACTORY",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+    "notes": "Channel 1 isolates battery ADC. Powered-off I/O protection to 3.6 V. All unused channels grounded. Factory fit."
+  },
+  {
+    "ref": "R26",
+    "symbol": "Device:R",
+    "value": "100k / 1%",
+    "footprint": "Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand",
+    "sch": [
+      287.02,
+      317.5
+    ],
+    "xy": [
+      74,
+      32
+    ],
+    "nets": {
+      "1": "BAT_SENSE",
+      "2": "GND"
+    },
+    "mpn": "RC1206FR-07100KL",
+    "manufacturer": "Yageo",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 0,
+    "datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100KL",
+    "notes": ""
+  },
+  {
+    "ref": "C20",
+    "symbol": "Device:C",
+    "value": "100nF / 50V",
+    "footprint": "Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand",
+    "sch": [
+      243.84,
+      358.14
+    ],
+    "xy": [
+      85,
+      22.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "C1206C104K5RACTU",
+    "manufacturer": "KEMET",
+    "assembly": "HAND",
+    "angle": 0,
+    "rotation": 90,
+    "datasheet": "",
+    "notes": ""
+  }
+]

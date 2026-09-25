@@ -1,0 +1,11 @@
+FAIL retry forever with bounded delay: r.next_ms()==n
+PASS no idle CAN or boot heat replay
+PASS locked commissioning rejects transmission
+FAIL 2013-2015 on sequence and delayed completion: c.request(true,0,true,true)
+FAIL off cancels all outstanding on frames: c.request(true,0,true,true)
+FAIL local heat timeout works without any Wi-Fi callback: c.request(true,0,true,true)
+FAIL low battery blocks on but permits off: c.request(false,0,true,false)
+FAIL TX failure aborts sequence without replays: c.request(true,0,true,true)
+FAIL late scheduler never bursts missed heater requests: c.request(true,0,true,true)
+FAIL authentication rejects empty or partial credentials: leaf::authorized("long-local-key","long-local-key")
+10 tests, 8 failures

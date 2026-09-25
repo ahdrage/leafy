@@ -1,0 +1,27 @@
+{
+  "pcb_sha256": "e219b6422497241ae2c65dcf21172432d0750c268bfbf207ad921b2527b9f2b4",
+  "schematic_sha256": "3b2477103b3e2a4d9c56f5c80de35e3f296ad9cef014acfc236a7b10e8cbe3c6",
+  "packages": {
+    "leaf-heat-rev-g2-review-images.zip": {
+      "bytes": 2070739,
+      "sha256": "0671dc12137f503a7215659ca0f5b8cc30871e803469c703b6804c1dad485f2a"
+    },
+    "leaf-heat-rev-g2-gerbers.zip": {
+      "bytes": 310431,
+      "sha256": "a66acfb9d5de3abbaa02468227e714583d2a8509fd67e9c0ffbd80c55cabc704"
+    },
+    "leaf-heat-rev-g2-factory-assembly.zip": {
+      "bytes": 717626,
+      "sha256": "e9498713c92e043029bc990e77966230749b82245bfd098a0d19fff12910d512"
+    },
+    "leaf-heat-rev-g2-kicad.zip": {
+      "bytes": 454397,
+      "sha256": "0d78fa592639c22c4d277ca32e99eb5e20eaa3e57ef83e45842ada7165a9c32c"
+    },
+    "leaf-heat-rev-g2-hand-assembly.zip": {
+      "bytes": 605697,
+      "sha256": "8e6d3bef6d23181b376a5fab73e01e10b028b12bc2a64ed687d22b3cc860a2bb"
+    }
+  },
+  "publication_note": "Public archive bytes; private supplier records removed where present. Native manufacturing geometry is unchanged."
+}

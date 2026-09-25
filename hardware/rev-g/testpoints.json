@@ -1,0 +1,170 @@
+[
+  {
+    "ref": "TP1",
+    "value": "GND",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      154.94,
+      266.7
+    ],
+    "xy": [
+      4,
+      34
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "GND"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP2",
+    "value": "CAR_12V",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      167.64,
+      266.7
+    ],
+    "xy": [
+      49,
+      91
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "CAR_12V"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP3",
+    "value": "VPWR",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      180.34,
+      266.7
+    ],
+    "xy": [
+      29,
+      53
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "VPWR"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP4",
+    "value": "3V3",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      193.04,
+      266.7
+    ],
+    "xy": [
+      37,
+      42
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "3V3"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP5",
+    "value": "CAN_H",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      205.74,
+      266.7
+    ],
+    "xy": [
+      9,
+      83
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "CAN_H"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP6",
+    "value": "CAN_L",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      218.44,
+      266.7
+    ],
+    "xy": [
+      9,
+      76
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "CAN_L"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  },
+  {
+    "ref": "TP7",
+    "value": "ESP_EN",
+    "footprint": "Leaf:TestPoint_3mm_Hole1.5mm",
+    "symbol": "Connector:TestPoint",
+    "sch": [
+      231.14,
+      266.7
+    ],
+    "xy": [
+      54,
+      68
+    ],
+    "rotation": 0,
+    "angle": 0,
+    "nets": {
+      "1": "ESP_EN"
+    },
+    "mpn": "",
+    "manufacturer": "",
+    "datasheet": "",
+    "notes": "Bare plated test hole; no component to purchase or fit.",
+    "assembly": "BARE"
+  }
+]

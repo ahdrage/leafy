@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,Manufacturer,Manufacturer Part Number,LCSC Part #
+LMR36510ADDAR,U1,Leaf:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias__Factory,Texas Instruments,LMR36510ADDAR,
+22uH / 3.3A sat,L1,Leaf:L_Bourns_SRN6045TA__Factory,Bourns,SRN6045TA-220M,
+ESP32-C3-WROOM-02-N4,U2,Leaf:ESP32-C3-WROOM-02_0p3mm_Vias__Factory,Espressif,ESP32-C3-WROOM-02-N4,
+USBLC6-2SC6 / UART ESD,U4,Leaf:SOT-23-6__Factory,STMicroelectronics,USBLC6-2SC6,

@@ -1,0 +1,34 @@
+
+control_test
+PASS retry forever with bounded delay
+PASS no idle CAN or boot heat replay
+PASS locked commissioning rejects transmission
+PASS 2013-2015 on sequence and delayed completion
+PASS off cancels all outstanding on frames
+PASS local heat timeout works without any Wi-Fi callback
+PASS low battery blocks on but permits off
+PASS TX failure aborts sequence without replays
+PASS late scheduler never bursts missed heater requests
+PASS authentication rejects empty or partial credentials
+10 tests, 0 failures
+
+battery_task_test
+PASS low-battery Off re-arms after partial recovery and a new On
+PASS uncertain On with failed wake still re-arms low-battery Off
+PASS new heating session receives its own ten-second low-voltage interval
+PASS rejected low-voltage and expired On requests cannot postpone Off
+PASS On rejected while a sequence is busy cannot reset the low-voltage interval
+PASS failed low-battery Off is attempted once per low-voltage episode
+6 tests, 0 failures
+
+can_transport_test
+PASS normal arbitration losses followed by ACK succeed
+PASS continuous contention is bounded and pending On is cancelled
+PASS no ACK times out and leaves no pending frame
+PASS bus-off aborts transmission
+PASS bus-off cannot be masked by a simultaneous TX success alert
+PASS transceiver is ready before first TX at 100 Hz and 1000 Hz
+PASS driver installation failure leaves transceiver in standby
+PASS driver start failure releases installed driver
+PASS failed alert configuration cannot transmit an unmonitored frame
+9 tests, 0 failures

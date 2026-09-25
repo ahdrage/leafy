@@ -1,0 +1,78 @@
+/Users/alf/repos/leaf/enclosure/rev-g-v2/build_enclosure.py:64: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+12:13:58 | INFO: Data are loaded, start creating Blender stuff
+12:13:58 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:58 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:58 | INFO: Blender create Mesh node SW_PUSH_6mm_h4.3mm
+12:13:58 | INFO: Blender create Mesh node ESP32-C3-WROOM-02U
+12:13:58 | INFO: Blender create Mesh node C_1210_3225Metric
+12:13:58 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:58 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:58 | INFO: Blender create Mesh node DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_ MountingHolesOffset9.12mm
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node CP_Radial_D63mm_P250mm
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1210_3225Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node SW_PUSH_6mm_h4.3mm
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node D_SMB
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node D_SMA
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node L_Bourns_SRN6045TA
+12:13:59 | INFO: Blender create Mesh node C_1210_3225Metric
+12:13:59 | INFO: Blender create Mesh node TSSOP-14_4.4x5mm_P0.65mm
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node SOT-23
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_2512_6332Metric
+12:13:59 | INFO: Blender create Mesh node LED_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node Texas_HTSOP_8_1EP_39x49mm_P127mm_EP285x49mm_Mask24x31mm_ThermalVias
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node SOT-23-6
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node PinHeader_1x03_P254mm_Vertical
+12:13:59 | INFO: Blender create Mesh node SOIC-8_3.9x4.9mm_P1.27mm
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1210_3225Metric
+12:13:59 | INFO: Blender create Mesh node R_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node C_1206_3216Metric
+12:13:59 | INFO: Blender create Mesh node leaf-heat-v7_pad
+12:13:59 | INFO: Blender create Mesh node leaf-heat-v7_silkscreen
+12:13:59 | INFO: Blender create Mesh node leaf-heat-v7_silkscreen
+12:13:59 | INFO: Blender create Mesh node leaf-heat-v7_PCB
+12:13:59 | INFO: glTF import finished in 0.50s
+00:27.389  render           | Saved: '/Users/alf/repos/leaf/enclosure/rev-g-v2/previews/01-closed-case.png'
+00:43.616  render           | Saved: '/Users/alf/repos/leaf/enclosure/rev-g-v2/previews/02-open-case-with-board.png'
+00:59.790  render           | Saved: '/Users/alf/repos/leaf/enclosure/rev-g-v2/previews/03-exploded-case.png'
+01:16.115  render           | Saved: '/Users/alf/repos/leaf/enclosure/rev-g-v2/previews/04-empty-base.png'
+Info: File exported successfully
+Info: File exported successfully
+Info: File exported successfully
+Info: File exported successfully
+Info: Saved as "leaf-rev-g-enclosure.blend"
+SUCCESS: enclosure created; manifold solids, exact mounting-hole positions and mm-scale STL exports checked.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+Timer 'STL Export' took 6.28 ms
+Timer 'STL Export' took 5.19 ms
+Timer 'STL Export' took 4.57 ms
+Timer 'STL Export' took 3.53 ms
+
+Blender quit

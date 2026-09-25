@@ -1,0 +1,41 @@
+{
+  "verified_at_oslo": "2026-09-13T21:14:17.899143+02:00",
+  "supplier_export_timestamp": "13-Sep-26 14:13:30",
+  "scope": "Hand-fitted components for two Rev G.1 boards, no spares",
+  "comparison": "All exact Mouser SKUs, manufacturer MPNs and quantities match the shopping list and parts.json",
+  "live_browser_observation": {
+    "observed_date": "2026-09-13",
+    "source": "Final Chrome Mouser basket accessibility snapshot",
+    "products": 27,
+    "pieces": 98,
+    "all_requested_quantities_dispatch_now": true,
+    "duplicate_skus": 0,
+    "backorder_warning": false,
+    "merchandise_NOK": "412.58",
+    "selected_delivery_NOK": "280.00",
+    "displayed_basket_subtotal_NOK": "692.58",
+    "checkout_taxes": "not calculated/verified",
+    "purchase_made": false
+  },
+  "lifecycle_flags": {
+    "81-GRM32ER72A225KA35": "End of Life",
+    "771-PESD2CAN-T/R": "NRND"
+  },
+  "factory_refs_excluded": [
+    "L1",
+    "U1",
+    "U2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "pcb_sha256": "2378869bff9072b5c0786ff13958ee783a395fc549dffc6d7a9f5f7e3b53f409",
+  "files": {
+    "MOUSER-ORIGINAL-EXPORT-2026-09-13.xls": "bc03cd0cee5974ab89ea98b6ab41152cd133da39c263760cd3794e51552e5703",
+    "MOUSER-BASKET-VERIFIED-2026-09-13.csv": "cd540d543687482d9e338cf53b29ebcc504411237edd0f1c53c0c26832bb6df1",
+    "MOUSER-HAND-TWO-BOARDS.csv": "1f8675bb154621b3bb6500f36cf6d81eaaeaffd36842585b217e310b1de63fad",
+    "parts.json": "a7de2044d656f5a15de2f39bb1036c1bb05d8d1b604c85f87e430aee11a2754a"
+  },
+  "u5_swap_cart_impact": "None: U5 is factory-supplied; all 27 SKUs / 98 pieces reverified in Chrome after substitution.",
+  "destination_note": "Norway-domain cart and NOK prices verified. Site location header still says Sweden after selecting Norway; delivery/taxes intentionally not validated and require checkout review."
+}

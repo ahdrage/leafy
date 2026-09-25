@@ -1,0 +1,147 @@
+{
+  "scope": "Public MPN/quantity extract from the saved 2026-09-16 basket; personal/order data omitted",
+  "Mouser": {
+    "rows": [
+      {
+        "mpn": "0451001.MRL",
+        "quantity": 4
+      },
+      {
+        "mpn": "B1100-13-F",
+        "quantity": 2
+      },
+      {
+        "mpn": "GRM32ER72A225KA35L",
+        "quantity": 4
+      },
+      {
+        "mpn": "C1206C224K1RACTU",
+        "quantity": 6
+      },
+      {
+        "mpn": "C1206C105K3RACTU",
+        "quantity": 6
+      },
+      {
+        "mpn": "C1206C104K5RACTU",
+        "quantity": 20
+      },
+      {
+        "mpn": "RC1206FR-07100KL",
+        "quantity": 6
+      },
+      {
+        "mpn": "RC1206FR-0743K2L",
+        "quantity": 4
+      },
+      {
+        "mpn": "RC1206FR-0710KL",
+        "quantity": 20
+      },
+      {
+        "mpn": "C1206C106K4RACTU",
+        "quantity": 8
+      },
+      {
+        "mpn": "RC1206FR-071ML",
+        "quantity": 4
+      },
+      {
+        "mpn": "RC1206FR-0747KL",
+        "quantity": 4
+      },
+      {
+        "mpn": "RC1206FR-071KL",
+        "quantity": 10
+      },
+      {
+        "mpn": "LTST-C150KGKT",
+        "quantity": 2
+      },
+      {
+        "mpn": "PESD2CAN,215",
+        "quantity": 3
+      },
+      {
+        "mpn": "M20-9990346",
+        "quantity": 2
+      },
+      {
+        "mpn": "182-009-113R561",
+        "quantity": 2
+      },
+      {
+        "mpn": "TCAN3404DRQ1",
+        "quantity": 3
+      },
+      {
+        "mpn": "C1210C226K3RAC7210",
+        "quantity": 8
+      },
+      {
+        "mpn": "SMBJ24CA",
+        "quantity": 2
+      },
+      {
+        "mpn": "RT1206BRD07680KL",
+        "quantity": 4
+      },
+      {
+        "mpn": "RT1206BRD0747KL",
+        "quantity": 4
+      },
+      {
+        "mpn": "EEU-FR1J470H",
+        "quantity": 4
+      },
+      {
+        "mpn": "CRCW25121R00FKEGHP",
+        "quantity": 4
+      },
+      {
+        "mpn": "RC1206FR-0710ML",
+        "quantity": 4
+      },
+      {
+        "mpn": "RC1206FR-07470KL",
+        "quantity": 4
+      },
+      {
+        "mpn": "PTS645SL43-2 LFS",
+        "quantity": 4
+      },
+      {
+        "mpn": "146153-0300",
+        "quantity": 2
+      },
+      {
+        "mpn": "TTL-232R-RPI",
+        "quantity": 1
+      },
+      {
+        "mpn": "CQ4LF",
+        "quantity": 1
+      },
+      {
+        "mpn": "CQ-ESD-12",
+        "quantity": 1
+      },
+      {
+        "mpn": "80-2-5",
+        "quantity": 1
+      },
+      {
+        "mpn": "SMDSWLF.020 1oz",
+        "quantity": 1
+      },
+      {
+        "mpn": "1950",
+        "quantity": 1
+      },
+      {
+        "mpn": "240-137",
+        "quantity": 1
+      }
+    ]
+  }
+}

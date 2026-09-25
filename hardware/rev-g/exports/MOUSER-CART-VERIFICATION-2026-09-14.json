@@ -1,0 +1,39 @@
+{
+  "verified_at_oslo": "2026-09-14T12:17:42.349031+02:00",
+  "supplier_export_timestamp": "14-Sep-26 05:14:35",
+  "scope": "Hand-fitted components plus plug-in antennas for two Rev G.3 boards, no spares",
+  "comparison": "All exact Mouser SKUs, manufacturer MPNs and quantities match the shopping list and parts.json",
+  "live_browser_observation": {
+    "observed_date": "2026-09-14",
+    "source": "Final Chrome Mouser basket accessibility snapshot",
+    "products": 28,
+    "pieces": 100,
+    "all_requested_quantities_dispatch_now": true,
+    "duplicate_skus": 0,
+    "backorder_warning": false,
+    "merchandise_NOK": "483.34",
+    "selected_delivery_NOK": "280.00",
+    "displayed_basket_subtotal_NOK": "763.34",
+    "checkout_taxes": "not calculated/verified",
+    "purchase_made": false
+  },
+  "lifecycle_flags": {
+    "81-GRM32ER72A225KA35": "End of Life",
+    "771-PESD2CAN-T/R": "NRND"
+  },
+  "factory_refs_excluded": [
+    "L1",
+    "U1",
+    "U2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "pcb_sha256": "8e2212587dd6681346d546cb83727e9c3ea1c5138e4bad50e19c11775217e952",
+  "files": {
+    "MOUSER-ORIGINAL-EXPORT-2026-09-14.xls": "1dea4a05ca0deb25a9504642ad9b17679c3fc77014e254971b950540408ade25",
+    "MOUSER-BASKET-VERIFIED-2026-09-14.csv": "f6d54c9065a7f201521a12bbafe3b71bf40291d34e633745b58525794706680c",
+    "MOUSER-TWO-BOARDS.csv": "7593b65e8e1359fea6524f71cdacc55b44e5a78fc00c671d80831e80b9944ff8",
+    "parts.json": "b250f9a426af86f089cedc76b389250b079eb666ca17986b24e1f9d262cfe95b"
+  }
+}

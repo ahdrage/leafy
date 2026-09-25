@@ -1,0 +1,192 @@
+{
+  "revision": "G.1",
+  "pcb_sha256": "2378869bff9072b5c0786ff13958ee783a395fc549dffc6d7a9f5f7e3b53f409",
+  "schematic_sha256": "3d19ebe5c7bca5626ced3fda63ca1ca16cb5929117fac35504552f8e7c7a203c",
+  "ordering_packages_unchanged": true,
+  "images": [
+    {
+      "file": "01-komponentoversikt.png",
+      "title": "Komponentoversikt / fabrikk og h\u00e5ndlodding",
+      "description": "100 \u00d7 100 mm \u00b7 Oransje: U1, U2, U4, U5, U6 og L1. \u00d8vrige 49 komponenter h\u00e5ndloddes.",
+      "source": "exports/assembly-map.svg",
+      "source_sha256": "7e850437140dc4a4e8274d32d38d54508155d37eec0edc9fcba4c84836d1dfbd",
+      "viewBox": [
+        -5.0,
+        -18.0,
+        110.0,
+        123.0
+      ]
+    },
+    {
+      "file": "02-topplag.png",
+      "title": "Topplag \u2014 F.Cu + silketrykk",
+      "description": "R\u00f8dt viser kobber. Hvit bakgrunn viser klaringer. Silketrykk er gult. Sett ovenfra.",
+      "source": "review/adi-g1-2026-09-13/source/top.svg",
+      "source_sha256": "8abac0767580f448e7a98615d234b2f2ab33b95ca3639cc97441cdb950232b87",
+      "viewBox": [
+        0.0,
+        0.0,
+        99.9998,
+        99.9998
+      ]
+    },
+    {
+      "file": "03-jordplan.png",
+      "title": "Jordplan \u2014 In1.Cu",
+      "description": "Det indre jordlaget. Gr\u00f8nt viser kobber; klaringer og gjennomf\u00f8ringer er synlige. Sett ovenfra.",
+      "source": "review/adi-g1-2026-09-13/source/ground.svg",
+      "source_sha256": "ec257addb8d9c79cabcaf73bfed9f9d13a381304299e0a4fdccbc99e97718d71",
+      "viewBox": [
+        0.0,
+        0.0,
+        99.9998,
+        99.9998
+      ]
+    },
+    {
+      "file": "04-stromplan.png",
+      "title": "Str\u00f8mplan \u2014 In2.Cu",
+      "description": "Indre kobberlag for str\u00f8mfordeling. Geometrien er identisk med produksjonsunderlaget. Sett ovenfra.",
+      "source": "review/adi-g1-2026-09-13/source/power.svg",
+      "source_sha256": "b9e9a4dbe9ded8a0f5a20985018b880cbfefff432c5afdb3c341ba37299f4f9a",
+      "viewBox": [
+        0.0,
+        0.0,
+        99.9998,
+        99.9998
+      ]
+    },
+    {
+      "file": "05-bunnlag.png",
+      "title": "Bunnlag \u2014 B.Cu",
+      "description": "Bunnkobber vist ovenfra gjennom kortet; bildet er ikke speilvendt.",
+      "source": "review/adi-g1-2026-09-13/source/bottom.svg",
+      "source_sha256": "e38115cbad75bdff3ce0eb1ac214da9825ab0e8f4fffc6762229452bd6113d00",
+      "viewBox": [
+        0.0,
+        0.0,
+        99.9998,
+        99.9998
+      ]
+    },
+    {
+      "file": "06-regulator-og-u5-layout.png",
+      "title": "N\u00e6rbilde \u2014 regulator, inngangsdemping og U5",
+      "description": "F.Cu + silketrykk. U1/L1, C1\u2013C7, R21/C15 og batteribeskyttelsen rundt U5.",
+      "source": "review/adi-g1-2026-09-13/source/top.svg",
+      "source_sha256": "8abac0767580f448e7a98615d234b2f2ab33b95ca3639cc97441cdb950232b87",
+      "viewBox": [
+        4,
+        5,
+        43,
+        50
+      ]
+    },
+    {
+      "file": "07-stromforsyning-skjema.png",
+      "title": "Skjema \u2014 kj\u00f8ret\u00f8yinngang og 3,3 V",
+      "description": "J1 \u2192 F1 \u2192 D1 \u2192 VPWR. D3-transientvern og U1/L1-regulator; BUCK_EN styres av U5.",
+      "source": "review/adi-g1-2026-09-13/source/leaf-heat-v7.svg",
+      "source_sha256": "8d973a64f97c868046d100acfb5bef94bdb7c2346eac711ecf13f7b085a40e07",
+      "viewBox": [
+        15,
+        24,
+        242,
+        116
+      ]
+    },
+    {
+      "file": "08-batteribeskyttelse-skjema.png",
+      "title": "Skjema \u2014 inngangsdemping og batteribeskyttelse",
+      "description": "U5: TPS3760A012DYYR. R21/C15 demper inngangen; U6 isolerer ADC-signalet n\u00e5r str\u00f8mmen er av.",
+      "source": "review/adi-g1-2026-09-13/source/leaf-heat-v7.svg",
+      "source_sha256": "8d973a64f97c868046d100acfb5bef94bdb7c2346eac711ecf13f7b085a40e07",
+      "viewBox": [
+        15,
+        266,
+        298,
+        124
+      ]
+    },
+    {
+      "file": "09-can-og-uart-skjema.png",
+      "title": "Skjema \u2014 CAN og UART",
+      "description": "CAN uten ekstra terminering. UART har ESD-beskyttelse; programmeringskontakten har ingen str\u00f8mpinne.",
+      "source": "review/adi-g1-2026-09-13/source/leaf-heat-v7.svg",
+      "source_sha256": "8d973a64f97c868046d100acfb5bef94bdb7c2346eac711ecf13f7b085a40e07",
+      "viewBox": [
+        15,
+        139,
+        390,
+        108
+      ]
+    },
+    {
+      "file": "10-fabrikk-loddepasta.png",
+      "title": "Loddepasta \u2014 kun de seks fabrikkmonterte komponentene",
+      "description": "Gr\u00e5tt = F.Paste. Svart = borehull, ikke pasta. U1/U2: prosess for ufylt termisk hull m\u00e5 avklares med JLCPCB.",
+      "source": "review/adi-g1-2026-09-13/source/factory-paste.svg",
+      "source_sha256": "75826981d415ae3c674a5e165a309e222cbf1944df940d33a778018ed2f7bda5",
+      "viewBox": [
+        0.0,
+        0.0,
+        99.9998,
+        99.9998
+      ]
+    },
+    {
+      "file": "11-fullstendig-skjema.png",
+      "title": "Fullstendig skjema \u2014 Rev G.1",
+      "description": "U5 er oppdatert til TPS3760A012DYYR. Fabrikkmontering: U1/U2/U4/U5/U6/L1.",
+      "source": "review/adi-g1-2026-09-13/source/leaf-heat-v7.svg",
+      "source_sha256": "8d973a64f97c868046d100acfb5bef94bdb7c2346eac711ecf13f7b085a40e07",
+      "viewBox": [
+        0.0,
+        0.0,
+        594.0044,
+        419.989
+      ]
+    },
+    {
+      "file": "12-wifi-og-batterimaling.png",
+      "title": "Skjema \u2014 Wi-Fi, knapper og batterim\u00e5ling",
+      "description": "ESP32-C3 med RESET/BOOT. BAT_DIV g\u00e5r via U6 til ADC; spenningsm\u00e5ling skjer etter D1.",
+      "source": "review/adi-g1-2026-09-13/source/leaf-heat-v7.svg",
+      "source_sha256": "8d973a64f97c868046d100acfb5bef94bdb7c2346eac711ecf13f7b085a40e07",
+      "viewBox": [
+        250,
+        17,
+        158,
+        129
+      ]
+    }
+  ],
+  "file_hashes": {
+    "11-fullstendig-skjema.png": "7880241e90fb8d06de84174dff9ea0ed91c0eb81a428e5ebe174b1e6f7a4c610",
+    "03-jordplan.svg": "c78fed2112844e510b49f15e28cd93b33c57587da269c557a19875398a3dc779",
+    "02-topplag.svg": "fd495cd336f75ef65478a1c6283a19aaea10f687353f86752a566e83e9cb764b",
+    "01-komponentoversikt.png": "1cce05195195a62e406f51b0588e2a5393a91192b9bf196d6d9062674cb27889",
+    "07-stromforsyning-skjema.png": "a07331a275e845c6d952c414a124f653128619f9f203d57ca71f7743d549dc65",
+    "07-stromforsyning-skjema.svg": "54ea1f744fc2d40aa9e150180ec557cc372ad5f621a916b08a22e0fe60ebbf16",
+    "13-fullstendig-skjema.pdf": "fec7c734a654e6f6ef0ba9dfdd65306d7ff12f8c3711b6fc904ce15ad8245cf4",
+    "01-komponentoversikt.svg": "179aaf821d2f002eb6ce9cecf732b8526924357bf3357b535852704cd791717a",
+    "02-topplag.png": "aa45c72a11635d98708fe2e832d1893695576ac3edd2e60558cd3bb94652e7d4",
+    "03-jordplan.png": "b462907635df3174952ada9f8ce1b2b5f4f1a2393a32d132f94dbf7ae08f2cd0",
+    "11-fullstendig-skjema.svg": "2153223e7d4ac6089710eca9e068cfd56e0dc4501ccfdaa20b5cce93d6b0967f",
+    "10-fabrikk-loddepasta.svg": "788e469623f57d443b379c0ebb2a732c78c16f753995740918fe48f4603b56a2",
+    "04-stromplan.png": "33fc3d358cb536b60166cff6d9f34c47b4dbf4d30ca1f52ef97524801554d969",
+    "09-can-og-uart-skjema.svg": "f2a1055a6f3643ee0b6427b25ea3b3ce676da98f62f8dd7c33e9e6a551c6fd6d",
+    "05-bunnlag.png": "ebc68ff652d3a4ed17f92db04ef6ade780b26e75fcf825620fa733596477e2df",
+    "12-wifi-og-batterimaling.svg": "416e6bdde72afa9f323b9df53f9f050b5f49b0a48dfdf8dada58156060dcca5e",
+    "08-batteribeskyttelse-skjema.png": "ab74293ee8ccad04549c972e361e18d652a95aa2cfee0d2ea908f5f33f575d87",
+    "06-regulator-og-u5-layout.svg": "2ad7961d5865769932c06ec8b78403217b63a7d910b8c64b0541aa6c6842e5ed",
+    "06-regulator-og-u5-layout.png": "e3c56fe8241b495df0000b3d0366f4894e91fb6ba4a3e060e830e0207579dd1e",
+    "08-batteribeskyttelse-skjema.svg": "be427e163b93a46daa736fb8cdbc5aa1c52409f58ae7f60089dc0a2800cd3bf3",
+    "12-wifi-og-batterimaling.png": "8b11b06c4708df37771d23606dff7f6e6ad071481c10a377294cb50158fb763a",
+    "LES-MEG.txt": "073da05d2ba08600623875f413c136f792ed40c526e99303acd5b24911c3ccf9",
+    "05-bunnlag.svg": "69f14839d7e250d99a7921c5a9649983efaf5f6bafbc04f88e7ef69042d4200d",
+    "09-can-og-uart-skjema.png": "6cf2b9e0442737fdad644a4081a1d5a1f0ce03fb2f620deec44eeefabab5c873",
+    "10-fabrikk-loddepasta.png": "4d321873176a76bfc0ae935b321526181ddb66da783819c53980572e402db7f6",
+    "04-stromplan.svg": "cd0a34caa36336f7a2680c0cecf2da9512574890637e6f0255440661ff9ba3d9"
+  }
+}

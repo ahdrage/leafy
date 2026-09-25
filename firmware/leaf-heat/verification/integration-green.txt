@@ -1,0 +1,8 @@
+PASS station remains associated during power saving
+PASS only automatic sleep, no deliberate disconnect
+PASS reconnect event implemented
+PASS server validates control key
+PASS physical CAN gated by commissioning setting
+PASS stale command expiry implemented
+PASS ADC uses calibration
+PASS CAN driver released while idle

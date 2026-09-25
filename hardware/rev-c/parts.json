@@ -1,0 +1,1030 @@
+[
+  {
+    "ref": "J1",
+    "symbol": "Leaf:DE9_Leaf_Cable",
+    "value": "NISSAN LEAF CABLE",
+    "footprint": "Leaf:NorComp_182-009-113R531",
+    "sch": [
+      38.1,
+      55.88
+    ],
+    "xy": [
+      11.0,
+      39.0
+    ],
+    "nets": {
+      "1": null,
+      "2": "CAN_L",
+      "3": "GND",
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": "CAN_H",
+      "8": null,
+      "9": "CAR_12V",
+      "SH": "GND"
+    },
+    "mpn": "182-009-113R531",
+    "manufacturer": "NorComp",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "https://content.norcomp.net/rohspdfs/Connectors/18Y/182/182-yyy-113Ryy1.pdf",
+    "notes": "Male DB9; only the specified Nissan OVMS cable pinout. Shell grounded. Mechanical mating review required."
+  },
+  {
+    "ref": "F1",
+    "symbol": "Device:Fuse",
+    "value": "1A / 125V",
+    "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "sch": [
+      63.5,
+      43.18
+    ],
+    "xy": [
+      24.0,
+      31.5
+    ],
+    "nets": {
+      "1": "CAR_12V",
+      "2": "CAR_FUSED"
+    },
+    "mpn": "0451001.MRL",
+    "manufacturer": "Littelfuse",
+    "angle": 90,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "D1",
+    "symbol": "Device:D_Schottky",
+    "value": "SS110 / 100V",
+    "footprint": "Diode_SMD:D_SMA",
+    "sch": [
+      93.98,
+      43.18
+    ],
+    "xy": [
+      24.0,
+      24.0
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "CAR_FUSED"
+    },
+    "mpn": "SS110-13-F",
+    "manufacturer": "Diodes Incorporated",
+    "angle": 180,
+    "rotation": -90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "D3",
+    "symbol": "Device:D_TVS",
+    "value": "SMBJ24CA",
+    "footprint": "Diode_SMD:D_SMB",
+    "sch": [
+      116.84,
+      55.88
+    ],
+    "xy": [
+      10.0,
+      20.0
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "SMBJ24CA",
+    "manufacturer": "Littelfuse",
+    "angle": 90,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "U1",
+    "symbol": "Regulator_Switching:LMR36510ADDA",
+    "value": "LMR36510ADDAR",
+    "footprint": "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias",
+    "sch": [
+      157.48,
+      73.66
+    ],
+    "xy": [
+      19.0,
+      12.0
+    ],
+    "nets": {
+      "1": "GND",
+      "2": "VPWR",
+      "3": "VPWR",
+      "4": null,
+      "5": "BUCK_FB",
+      "6": "BUCK_VCC",
+      "7": "BUCK_BOOT",
+      "8": "BUCK_SW",
+      "9": "GND"
+    },
+    "mpn": "LMR36510ADDAR",
+    "manufacturer": "Texas Instruments",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/lmr36510.pdf",
+    "notes": ""
+  },
+  {
+    "ref": "C1",
+    "symbol": "Device:C",
+    "value": "2.2uF / 100V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "sch": [
+      127,
+      78.74
+    ],
+    "xy": [
+      10.5,
+      12.0
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "GRM32ER72A225KA35L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C2",
+    "symbol": "Device:C",
+    "value": "220nF / 100V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "sch": [
+      127,
+      104.14
+    ],
+    "xy": [
+      13.6,
+      10.73
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "GND"
+    },
+    "mpn": "GRM21BR72A224KAC4L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C3",
+    "symbol": "Device:C",
+    "value": "1uF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      152.4,
+      114.3
+    ],
+    "xy": [
+      25.2,
+      13.0
+    ],
+    "nets": {
+      "1": "BUCK_VCC",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C105KA12D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C4",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      177.8,
+      43.18
+    ],
+    "xy": [
+      24.0,
+      10.73
+    ],
+    "nets": {
+      "1": "BUCK_BOOT",
+      "2": "BUCK_SW"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "L1",
+    "symbol": "Device:L",
+    "value": "22uH / 3.3A sat",
+    "footprint": "Inductor_SMD:L_Bourns_SRN6045TA",
+    "sch": [
+      198.12,
+      83.82
+    ],
+    "xy": [
+      25.0,
+      5.5
+    ],
+    "nets": {
+      "1": "BUCK_SW",
+      "2": "3V3"
+    },
+    "mpn": "SRN6045TA-220M",
+    "manufacturer": "Bourns",
+    "angle": 90,
+    "rotation": 0.0,
+    "datasheet": "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf",
+    "notes": ""
+  },
+  {
+    "ref": "C5",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "sch": [
+      198.12,
+      101.6
+    ],
+    "xy": [
+      31.5,
+      5.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM32ER71E226KE15L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C6",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "sch": [
+      218.44,
+      101.6
+    ],
+    "xy": [
+      31.5,
+      9.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM32ER71E226KE15L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C7",
+    "symbol": "Device:C",
+    "value": "22uF / 25V",
+    "footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "sch": [
+      238.76,
+      101.6
+    ],
+    "xy": [
+      31.5,
+      13.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM32ER71E226KE15L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R1",
+    "symbol": "Device:R",
+    "value": "100k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      180.34,
+      109.22
+    ],
+    "xy": [
+      21.9,
+      17.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BUCK_FB"
+    },
+    "mpn": "RC0603FR-07100KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R2",
+    "symbol": "Device:R",
+    "value": "43.2k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      180.34,
+      129.54
+    ],
+    "xy": [
+      24.3,
+      15.5
+    ],
+    "nets": {
+      "1": "BUCK_FB",
+      "2": "GND"
+    },
+    "mpn": "RC0603FR-0743K2L",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "U2",
+    "symbol": "RF_Module:ESP32-C3-WROOM-02",
+    "value": "ESP32-C3-WROOM-02-N4",
+    "footprint": "Leaf:ESP32-C3-WROOM-02_0p3mm_Vias",
+    "sch": [
+      322.58,
+      83.82
+    ],
+    "xy": [
+      48.0,
+      8.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "ESP_EN",
+      "3": "CAN_TX",
+      "4": "CAN_RX",
+      "5": null,
+      "6": "STATUS_LED",
+      "7": "BOOT_IO8",
+      "8": "BOOT_IO9",
+      "9": "GND",
+      "10": null,
+      "11": "UART_RX",
+      "12": "UART_TX",
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": "BOOT_IO2",
+      "17": "CAN_STB",
+      "18": "BAT_SENSE",
+      "19": "GND"
+    },
+    "mpn": "ESP32-C3-WROOM-02-N4",
+    "manufacturer": "Espressif",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "https://documentation.espressif.com/esp32-c3-wroom-02_datasheet_en.html",
+    "notes": ""
+  },
+  {
+    "ref": "R3",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      269.24,
+      45.72
+    ],
+    "xy": [
+      36.0,
+      6.8
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "ESP_EN"
+    },
+    "mpn": "RC0603FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C8",
+    "symbol": "Device:C",
+    "value": "1uF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      269.24,
+      71.12
+    ],
+    "xy": [
+      36.0,
+      9.1
+    ],
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C105KA12D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C9",
+    "symbol": "Device:C",
+    "value": "10uF / 16V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "sch": [
+      297.18,
+      35.56
+    ],
+    "xy": [
+      35.5,
+      2.2
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM21BR71C106KE51L",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C10",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      320.04,
+      35.56
+    ],
+    "xy": [
+      36.0,
+      4.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R4",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      266.7,
+      104.14
+    ],
+    "xy": [
+      59.0,
+      5.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO2"
+    },
+    "mpn": "RC0603FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R5",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      287.02,
+      132.08
+    ],
+    "xy": [
+      36.0,
+      11.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO8"
+    },
+    "mpn": "RC0603FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R6",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      312.42,
+      132.08
+    ],
+    "xy": [
+      36.0,
+      14.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "BOOT_IO9"
+    },
+    "mpn": "RC0603FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "SW1",
+    "symbol": "Switch:SW_Push",
+    "value": "RESET",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "sch": [
+      266.7,
+      129.54
+    ],
+    "xy": [
+      31.0,
+      26.0
+    ],
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "mpn": "TL3342F160QG",
+    "manufacturer": "E-Switch",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "SW2",
+    "symbol": "Switch:SW_Push",
+    "value": "BOOT",
+    "footprint": "Button_Switch_SMD:SW_SPST_TL3342",
+    "sch": [
+      340.36,
+      132.08
+    ],
+    "xy": [
+      42.0,
+      26.0
+    ],
+    "nets": {
+      "1": "BOOT_IO9",
+      "2": "GND"
+    },
+    "mpn": "TL3342F160QG",
+    "manufacturer": "E-Switch",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R7",
+    "symbol": "Device:R",
+    "value": "1M / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      373.38,
+      48.26
+    ],
+    "xy": [
+      60.0,
+      2.5
+    ],
+    "nets": {
+      "1": "VPWR",
+      "2": "BAT_SENSE"
+    },
+    "mpn": "RC0603FR-071ML",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R8",
+    "symbol": "Device:R",
+    "value": "47k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      373.38,
+      71.12
+    ],
+    "xy": [
+      62.0,
+      4.8
+    ],
+    "nets": {
+      "1": "BAT_SENSE",
+      "2": "GND"
+    },
+    "mpn": "RC0603FR-0747KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C11",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      393.7,
+      71.12
+    ],
+    "xy": [
+      61.7,
+      7.6
+    ],
+    "nets": {
+      "1": "BAT_SENSE",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "R9",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      373.38,
+      99.06
+    ],
+    "xy": [
+      35.0,
+      20.0
+    ],
+    "nets": {
+      "1": "STATUS_LED",
+      "2": "LED_A"
+    },
+    "mpn": "RC0603FR-071KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "D6",
+    "symbol": "Device:LED",
+    "value": "GREEN / status",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "sch": [
+      373.38,
+      116.84
+    ],
+    "xy": [
+      39.0,
+      20.0
+    ],
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "mpn": "LTST-C190KGKT",
+    "manufacturer": "Lite-On",
+    "angle": 90,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "U3",
+    "symbol": "Leaf:TCAN3403DRQ1",
+    "value": "TCAN3403DRQ1",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "sch": [
+      322.58,
+      198.12
+    ],
+    "xy": [
+      15.7,
+      28.0
+    ],
+    "nets": {
+      "1": "CAN_TX",
+      "2": "GND",
+      "3": "3V3",
+      "4": "CAN_RX",
+      "5": "3V3",
+      "6": "CAN_L",
+      "7": "CAN_H",
+      "8": "CAN_STB"
+    },
+    "mpn": "TCAN3403DRQ1",
+    "manufacturer": "Texas Instruments",
+    "angle": 0,
+    "rotation": -90.0,
+    "datasheet": "https://www.ti.com/lit/gpn/TCAN3403-Q1",
+    "notes": ""
+  },
+  {
+    "ref": "R10",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      274.32,
+      187.96
+    ],
+    "xy": [
+      20.5,
+      29.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "CAN_STB"
+    },
+    "mpn": "RC0603FR-0710KL",
+    "manufacturer": "Yageo",
+    "angle": 0,
+    "rotation": 0.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C12",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      297.18,
+      167.64
+    ],
+    "xy": [
+      15.065,
+      22.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "C13",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      345.44,
+      167.64
+    ],
+    "xy": [
+      10.8,
+      30.5
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 180.0,
+    "datasheet": "",
+    "notes": ""
+  },
+  {
+    "ref": "D4",
+    "symbol": "Leaf:PESD2CAN",
+    "value": "PESD2CAN",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "sch": [
+      375.92,
+      198.12
+    ],
+    "xy": [
+      14.5,
+      34.2
+    ],
+    "nets": {
+      "1": "CAN_L",
+      "2": "CAN_H",
+      "3": "GND"
+    },
+    "mpn": "PESD2CAN,215",
+    "manufacturer": "Nexperia",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf",
+    "notes": ""
+  },
+  {
+    "ref": "C14",
+    "symbol": "Device:C",
+    "value": "100nF / 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "sch": [
+      124.46,
+      160.02
+    ],
+    "xy": [
+      55.81,
+      36.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "mpn": "GRM188R71C104KA01D",
+    "manufacturer": "Murata",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "",
+    "notes": "Local UART ESD reference-rail bypass."
+  },
+  {
+    "ref": "U4",
+    "symbol": "Leaf:UART_ESD",
+    "value": "USBLC6-2SC6 / UART ESD",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "sch": [
+      99.06,
+      187.96
+    ],
+    "xy": [
+      55.81,
+      40.0
+    ],
+    "nets": {
+      "1": "PROG_RX",
+      "2": "GND",
+      "3": "PROG_TX",
+      "4": "PROG_TX",
+      "5": "3V3",
+      "6": "PROG_RX"
+    },
+    "mpn": "USBLC6-2SC6",
+    "manufacturer": "STMicroelectronics",
+    "angle": 0,
+    "rotation": 90.0,
+    "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "notes": "UART service connector ESD protection. Pins 1/6 and 3/4 are feed-through channels; pin 5 references 3.3 V. Not a USB interface."
+  },
+  {
+    "datasheet": "https://www.harwin.com/products/M20-9990346",
+    "notes": "Fit on top. Pin 1 GND; 2 board RX (adapter TX); 3 board TX (adapter RX). No supply pin. 3.3 V logic only; no RS-232. Header origin is pin 1.",
+    "angle": 0,
+    "rotation": 90.0,
+    "manufacturer": "Harwin",
+    "ref": "J3",
+    "symbol": "Connector_Generic:Conn_01x03",
+    "value": "UART / 3.3V LOGIC",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "sch": [
+      38.1,
+      185.42
+    ],
+    "xy": [
+      52.0,
+      44.0
+    ],
+    "mpn": "M20-9990346",
+    "nets": {
+      "1": "GND",
+      "2": "PROG_RX",
+      "3": "PROG_TX"
+    }
+  },
+  {
+    "datasheet": "",
+    "notes": "UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter.",
+    "angle": 90,
+    "rotation": 0.0,
+    "manufacturer": "Yageo",
+    "ref": "R18",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      162.56,
+      177.8
+    ],
+    "xy": [
+      59.8,
+      11.0
+    ],
+    "nets": {
+      "1": "UART_TX",
+      "2": "PROG_TX"
+    },
+    "mpn": "RC0603FR-071KL"
+  },
+  {
+    "datasheet": "",
+    "notes": "UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter.",
+    "angle": 90,
+    "rotation": 180.0,
+    "manufacturer": "Yageo",
+    "ref": "R19",
+    "symbol": "Device:R",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      162.56,
+      200.66
+    ],
+    "xy": [
+      59.8,
+      13.0
+    ],
+    "nets": {
+      "1": "PROG_RX",
+      "2": "UART_RX"
+    },
+    "mpn": "RC0603FR-071KL"
+  },
+  {
+    "datasheet": "",
+    "notes": "Hold UART RX at idle high when the programming lead is absent.",
+    "angle": 0,
+    "rotation": 0.0,
+    "manufacturer": "Yageo",
+    "ref": "R20",
+    "symbol": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "sch": [
+      208.28,
+      187.96
+    ],
+    "xy": [
+      54.5,
+      17.0
+    ],
+    "nets": {
+      "1": "3V3",
+      "2": "UART_RX"
+    },
+    "mpn": "RC0603FR-0710KL"
+  }
+]

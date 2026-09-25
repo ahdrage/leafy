@@ -1,0 +1,1921 @@
+{
+  "date": "2026-09-12",
+  "kicad_version": "10.0.6",
+  "board_sha256": "67d27bb2c23a13823af77b201cde4d57e32b49e7daecb8776d972c66934cc482",
+  "schematic_sha256": "ee9ef8680a679b36ade1f558a5db0452def9f0172447a49d82466f9788d12518",
+  "scope": "Static pin-map, purchasing, assembly and fabrication consistency; no physical functional proof",
+  "passed": 475,
+  "failed": [],
+  "calculations": {
+    "vout_nominal_v": 3.314814814814815,
+    "vout_static_ref_resistor_min_v": 3.2199422442244225,
+    "vout_static_ref_resistor_max_v": 3.4120024317246536,
+    "vout_pfm_system_and_resistor_upper_estimate_v": 3.44561821922933,
+    "battery_adc_nominal_at_vpwr_12v": 0.5386819484240688,
+    "battery_adc_max_at_vpwr_65v_resistors_1pct": 2.974110094749727,
+    "battery_adc_filter_time_constant_ms": 4.48901623686724,
+    "reset_rc_time_constant_ms": 10.0
+  },
+  "checks": [
+    {
+      "check": "All 41 circuit parts, 7 test holes and 4 mounting holes accounted for",
+      "pass": true
+    },
+    {
+      "check": "J1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.1 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.1 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.2 schematic connection = CAN_L",
+      "pass": true
+    },
+    {
+      "check": "J1.2 all physical pads connected to CAN_L",
+      "pass": true
+    },
+    {
+      "check": "J1.3 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "J1.3 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "J1.4 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.4 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.5 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.5 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.6 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.6 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.7 schematic connection = CAN_H",
+      "pass": true
+    },
+    {
+      "check": "J1.7 all physical pads connected to CAN_H",
+      "pass": true
+    },
+    {
+      "check": "J1.8 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.8 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "J1.9 schematic connection = CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "J1.9 all physical pads connected to CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "J1.SH schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "J1.SH all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "J3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.1 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "J3.1 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "J3.2 schematic connection = PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "J3.2 all physical pads connected to PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "J3.3 schematic connection = PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "J3.3 all physical pads connected to PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "U1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.1 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U1.1 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U1.2 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "U1.2 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "U1.3 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "U1.3 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "U1.4 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U1.4 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U1.5 schematic connection = BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "U1.5 all physical pads connected to BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "U1.6 schematic connection = BUCK_VCC",
+      "pass": true
+    },
+    {
+      "check": "U1.6 all physical pads connected to BUCK_VCC",
+      "pass": true
+    },
+    {
+      "check": "U1.7 schematic connection = BUCK_BOOT",
+      "pass": true
+    },
+    {
+      "check": "U1.7 all physical pads connected to BUCK_BOOT",
+      "pass": true
+    },
+    {
+      "check": "U1.8 schematic connection = BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "U1.8 all physical pads connected to BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "U1.9 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U1.9 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U2 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "U2.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "U2.2 schematic connection = ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "U2.2 all physical pads connected to ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "U2.3 schematic connection = CAN_TX",
+      "pass": true
+    },
+    {
+      "check": "U2.3 all physical pads connected to CAN_TX",
+      "pass": true
+    },
+    {
+      "check": "U2.4 schematic connection = CAN_RX",
+      "pass": true
+    },
+    {
+      "check": "U2.4 all physical pads connected to CAN_RX",
+      "pass": true
+    },
+    {
+      "check": "U2.5 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.5 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.6 schematic connection = STATUS_LED",
+      "pass": true
+    },
+    {
+      "check": "U2.6 all physical pads connected to STATUS_LED",
+      "pass": true
+    },
+    {
+      "check": "U2.7 schematic connection = BOOT_IO8",
+      "pass": true
+    },
+    {
+      "check": "U2.7 all physical pads connected to BOOT_IO8",
+      "pass": true
+    },
+    {
+      "check": "U2.8 schematic connection = BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "U2.8 all physical pads connected to BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "U2.9 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U2.9 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U2.10 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.10 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.11 schematic connection = UART_RX",
+      "pass": true
+    },
+    {
+      "check": "U2.11 all physical pads connected to UART_RX",
+      "pass": true
+    },
+    {
+      "check": "U2.12 schematic connection = UART_TX",
+      "pass": true
+    },
+    {
+      "check": "U2.12 all physical pads connected to UART_TX",
+      "pass": true
+    },
+    {
+      "check": "U2.13 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.13 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.14 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.14 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.15 schematic connection = intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.15 all physical pads connected to intentional NC",
+      "pass": true
+    },
+    {
+      "check": "U2.16 schematic connection = BOOT_IO2",
+      "pass": true
+    },
+    {
+      "check": "U2.16 all physical pads connected to BOOT_IO2",
+      "pass": true
+    },
+    {
+      "check": "U2.17 schematic connection = CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "U2.17 all physical pads connected to CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "U2.18 schematic connection = BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "U2.18 all physical pads connected to BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "U2.19 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U2.19 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.1 schematic connection = CAN_TX",
+      "pass": true
+    },
+    {
+      "check": "U3.1 all physical pads connected to CAN_TX",
+      "pass": true
+    },
+    {
+      "check": "U3.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U3.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U3.3 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "U3.3 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "U3.4 schematic connection = CAN_RX",
+      "pass": true
+    },
+    {
+      "check": "U3.4 all physical pads connected to CAN_RX",
+      "pass": true
+    },
+    {
+      "check": "U3.5 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "U3.5 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "U3.6 schematic connection = CAN_L",
+      "pass": true
+    },
+    {
+      "check": "U3.6 all physical pads connected to CAN_L",
+      "pass": true
+    },
+    {
+      "check": "U3.7 schematic connection = CAN_H",
+      "pass": true
+    },
+    {
+      "check": "U3.7 all physical pads connected to CAN_H",
+      "pass": true
+    },
+    {
+      "check": "U3.8 schematic connection = CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "U3.8 all physical pads connected to CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "U4 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.1 schematic connection = PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "U4.1 all physical pads connected to PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "U4.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "U4.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "U4.3 schematic connection = PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "U4.3 all physical pads connected to PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "U4.4 schematic connection = PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "U4.4 all physical pads connected to PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "U4.5 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "U4.5 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "U4.6 schematic connection = PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "U4.6 all physical pads connected to PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "D4 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.1 schematic connection = CAN_L",
+      "pass": true
+    },
+    {
+      "check": "D4.1 all physical pads connected to CAN_L",
+      "pass": true
+    },
+    {
+      "check": "D4.2 schematic connection = CAN_H",
+      "pass": true
+    },
+    {
+      "check": "D4.2 all physical pads connected to CAN_H",
+      "pass": true
+    },
+    {
+      "check": "D4.3 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "D4.3 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "F1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "F1.1 schematic connection = CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "F1.1 all physical pads connected to CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "F1.2 schematic connection = CAR_FUSED",
+      "pass": true
+    },
+    {
+      "check": "F1.2 all physical pads connected to CAR_FUSED",
+      "pass": true
+    },
+    {
+      "check": "D1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "D1.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "D1.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "D1.2 schematic connection = CAR_FUSED",
+      "pass": true
+    },
+    {
+      "check": "D1.2 all physical pads connected to CAR_FUSED",
+      "pass": true
+    },
+    {
+      "check": "D3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "D3.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "D3.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "D3.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "D3.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "L1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "L1.1 schematic connection = BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "L1.1 all physical pads connected to BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "L1.2 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "L1.2 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C1.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "C1.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "C1.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C1.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C2 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C2.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "C2.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "C2.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C2.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C3.1 schematic connection = BUCK_VCC",
+      "pass": true
+    },
+    {
+      "check": "C3.1 all physical pads connected to BUCK_VCC",
+      "pass": true
+    },
+    {
+      "check": "C3.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C3.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C4 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C4.1 schematic connection = BUCK_BOOT",
+      "pass": true
+    },
+    {
+      "check": "C4.1 all physical pads connected to BUCK_BOOT",
+      "pass": true
+    },
+    {
+      "check": "C4.2 schematic connection = BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "C4.2 all physical pads connected to BUCK_SW",
+      "pass": true
+    },
+    {
+      "check": "R1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R1.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R1.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R1.2 schematic connection = BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "R1.2 all physical pads connected to BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "R2 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R2.1 schematic connection = BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "R2.1 all physical pads connected to BUCK_FB",
+      "pass": true
+    },
+    {
+      "check": "R2.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "R2.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "R3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R3.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R3.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R3.2 schematic connection = ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "R3.2 all physical pads connected to ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "C8 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C8.1 schematic connection = ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "C8.1 all physical pads connected to ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "C8.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C8.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "R4 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R4.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R4.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R4.2 schematic connection = BOOT_IO2",
+      "pass": true
+    },
+    {
+      "check": "R4.2 all physical pads connected to BOOT_IO2",
+      "pass": true
+    },
+    {
+      "check": "R5 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R5.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R5.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R5.2 schematic connection = BOOT_IO8",
+      "pass": true
+    },
+    {
+      "check": "R5.2 all physical pads connected to BOOT_IO8",
+      "pass": true
+    },
+    {
+      "check": "R6 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R6.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R6.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R6.2 schematic connection = BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "R6.2 all physical pads connected to BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "SW1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "SW1.1 schematic connection = ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "SW1.1 all physical pads connected to ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "SW1.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "SW1.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "SW2 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "SW2.1 schematic connection = BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "SW2.1 all physical pads connected to BOOT_IO9",
+      "pass": true
+    },
+    {
+      "check": "SW2.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "SW2.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "R7 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R7.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "R7.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "R7.2 schematic connection = BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "R7.2 all physical pads connected to BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "R8 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R8.1 schematic connection = BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "R8.1 all physical pads connected to BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "R8.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "R8.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C11 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C11.1 schematic connection = BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "C11.1 all physical pads connected to BAT_SENSE",
+      "pass": true
+    },
+    {
+      "check": "C11.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C11.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "R9 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R9.1 schematic connection = STATUS_LED",
+      "pass": true
+    },
+    {
+      "check": "R9.1 all physical pads connected to STATUS_LED",
+      "pass": true
+    },
+    {
+      "check": "R9.2 schematic connection = LED_A",
+      "pass": true
+    },
+    {
+      "check": "R9.2 all physical pads connected to LED_A",
+      "pass": true
+    },
+    {
+      "check": "D6 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "D6.1 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "D6.1 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "D6.2 schematic connection = LED_A",
+      "pass": true
+    },
+    {
+      "check": "D6.2 all physical pads connected to LED_A",
+      "pass": true
+    },
+    {
+      "check": "R10 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R10.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R10.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R10.2 schematic connection = CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "R10.2 all physical pads connected to CAN_STB",
+      "pass": true
+    },
+    {
+      "check": "R18 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R18.1 schematic connection = UART_TX",
+      "pass": true
+    },
+    {
+      "check": "R18.1 all physical pads connected to UART_TX",
+      "pass": true
+    },
+    {
+      "check": "R18.2 schematic connection = PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "R18.2 all physical pads connected to PROG_TX",
+      "pass": true
+    },
+    {
+      "check": "R19 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R19.1 schematic connection = PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "R19.1 all physical pads connected to PROG_RX",
+      "pass": true
+    },
+    {
+      "check": "R19.2 schematic connection = UART_RX",
+      "pass": true
+    },
+    {
+      "check": "R19.2 all physical pads connected to UART_RX",
+      "pass": true
+    },
+    {
+      "check": "R20 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "R20.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "R20.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "R20.2 schematic connection = UART_RX",
+      "pass": true
+    },
+    {
+      "check": "R20.2 all physical pads connected to UART_RX",
+      "pass": true
+    },
+    {
+      "check": "C5 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C5.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C5.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C5.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C5.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C6 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C6.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C6.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C6.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C6.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C7 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C7.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C7.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C7.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C7.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C9 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C9.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C9.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C9.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C9.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C10 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C10.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C10.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C10.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C10.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C12 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C12.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C12.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C12.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C12.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C13 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C13.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C13.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C13.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C13.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "C14 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "C14.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "C14.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "C14.2 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "C14.2 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "TP1 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP1.1 schematic connection = GND",
+      "pass": true
+    },
+    {
+      "check": "TP1.1 all physical pads connected to GND",
+      "pass": true
+    },
+    {
+      "check": "TP2 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP2.1 schematic connection = CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "TP2.1 all physical pads connected to CAR_12V",
+      "pass": true
+    },
+    {
+      "check": "TP3 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP3.1 schematic connection = VPWR",
+      "pass": true
+    },
+    {
+      "check": "TP3.1 all physical pads connected to VPWR",
+      "pass": true
+    },
+    {
+      "check": "TP4 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP4.1 schematic connection = 3V3",
+      "pass": true
+    },
+    {
+      "check": "TP4.1 all physical pads connected to 3V3",
+      "pass": true
+    },
+    {
+      "check": "TP5 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP5.1 schematic connection = CAN_H",
+      "pass": true
+    },
+    {
+      "check": "TP5.1 all physical pads connected to CAN_H",
+      "pass": true
+    },
+    {
+      "check": "TP6 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP6.1 schematic connection = CAN_L",
+      "pass": true
+    },
+    {
+      "check": "TP6.1 all physical pads connected to CAN_L",
+      "pass": true
+    },
+    {
+      "check": "TP7 physical pad numbers match reviewed pin map",
+      "pass": true
+    },
+    {
+      "check": "TP7.1 schematic connection = ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "TP7.1 all physical pads connected to ESP_EN",
+      "pass": true
+    },
+    {
+      "check": "D1 uses the manufacturer-verified SMA ordering code",
+      "pass": true
+    },
+    {
+      "check": "J1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "J1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "F1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "F1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "D1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "D1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "D3 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "D3 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "U1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "U1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C2 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C2 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C3 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C3 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C4 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C4 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "L1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "L1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C5 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C5 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C6 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C6 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C7 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C7 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R2 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R2 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "U2 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "U2 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R3 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R3 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C8 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C8 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C9 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C9 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C10 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C10 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R4 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R4 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R5 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R5 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R6 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R6 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "SW1 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "SW1 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "SW2 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "SW2 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R7 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R7 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R8 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R8 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C11 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C11 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R9 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R9 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "D6 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "D6 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "U3 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "U3 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R10 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R10 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C12 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C12 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C13 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C13 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "D4 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "D4 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "C14 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "C14 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "U4 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "U4 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "J3 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "J3 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R18 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R18 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R19 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R19 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "R20 exact MPN agrees in schematic, PCB and part list",
+      "pass": true
+    },
+    {
+      "check": "R20 value agrees across files",
+      "pass": true
+    },
+    {
+      "check": "Exactly four intended factory placements",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-PCBWay.csv exact factory MPNs",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-JLCPCB.csv exact factory MPNs",
+      "pass": true
+    },
+    {
+      "check": "Hand BOM includes every remaining part once",
+      "pass": true
+    },
+    {
+      "check": "J1 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "J1 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "F1 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "F1 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "D1 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "D1 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "D3 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "D3 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C1 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C1 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C2 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C2 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C3,C8 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C3,C8 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C4,C10,C11,C12,C13,C14 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C4,C10,C11,C12,C13,C14 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C5,C6,C7 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C5,C6,C7 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R1 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R1 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R2 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R2 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R3,R4,R5,R6,R10,R20 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R3,R4,R5,R6,R10,R20 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "C9 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "C9 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "SW1,SW2 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "SW1,SW2 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R7 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R7 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R8 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R8 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "R9,R18,R19 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "R9,R18,R19 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "D6 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "D6 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "U3 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "U3 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "D4 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "D4 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "J3 hand quantity",
+      "pass": true
+    },
+    {
+      "check": "J3 hand MPN",
+      "pass": true
+    },
+    {
+      "check": "Top stencil contains only U1, U2, U4 and L1",
+      "pass": true
+    },
+    {
+      "check": "L1 JLC placement equals native KiCad origin/rotation (vendor preview still required)",
+      "pass": true
+    },
+    {
+      "check": "U1 JLC placement equals native KiCad origin/rotation (vendor preview still required)",
+      "pass": true
+    },
+    {
+      "check": "U2 JLC placement equals native KiCad origin/rotation (vendor preview still required)",
+      "pass": true
+    },
+    {
+      "check": "U4 JLC placement equals native KiCad origin/rotation (vendor preview still required)",
+      "pass": true
+    },
+    {
+      "check": "Manufacturing export audit belongs to current PCB",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-B_Cu.gbl fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-B_Mask.gbs fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-B_Paste.gbp fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-B_Silkscreen.gbo fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-Edge_Cuts.gm1 fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-F_Cu.gtl fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-F_Mask.gts fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-F_Paste.gtp fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-F_Silkscreen.gto fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-In1_Cu.g1 fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-In2_Cu.g2 fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-NPTH.drl fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-PTH.drl fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v5-job.gbrjob fabrication content matches audited export",
+      "pass": true
+    },
+    {
+      "check": "Gerber ZIP has exactly audited fabrication files",
+      "pass": true
+    },
+    {
+      "check": "Gerber ZIP content byte-identical to audited exports",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-PCBWay.csv inside factory package matches current export",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-JLCPCB.csv inside factory package matches current export",
+      "pass": true
+    },
+    {
+      "check": "CPL-FACTORY-JLCPCB.csv inside factory package matches current export",
+      "pass": true
+    },
+    {
+      "check": "placements-FACTORY.csv inside factory package matches current export",
+      "pass": true
+    },
+    {
+      "check": "Factory package contains current Gerber archive",
+      "pass": true
+    },
+    {
+      "check": "Fresh native violations empty",
+      "pass": true
+    },
+    {
+      "check": "Fresh native unconnected_items empty",
+      "pass": true
+    },
+    {
+      "check": "Fresh native schematic_parity empty",
+      "pass": true
+    },
+    {
+      "check": "Fresh native ERC has no reported violations",
+      "pass": true
+    }
+  ]
+}

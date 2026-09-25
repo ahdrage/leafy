@@ -1,0 +1,6 @@
+LEAF HEAT REV A — ENGINEERING REVIEW ONLY
+
+Not released for manufacture. This is an untested prototype design.
+Review the native schematic, BOM, connector footprint, power protection and assembly notes before approving a prototype order.
+See hardware/README.md and DESIGN-REVIEW.md in the complete review package.
+No firmware is supplied in this package.

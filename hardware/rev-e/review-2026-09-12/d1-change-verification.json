@@ -1,0 +1,56 @@
+{
+  "leaf-heat-v5.kicad_pcb": "Only D1 order code and text label changed",
+  "leaf-heat-v5.kicad_sch": "Only D1 order code and text label changed",
+  "leaf-heat-v5-In2_Cu.g2": {
+    "identical_except_creation_comments": true,
+    "sha256": "3f0b7fd0803e1ac63f109847b8e85cb18a49768b591b5694e7ee2dfcfb0bdb29"
+  },
+  "leaf-heat-v5-Edge_Cuts.gm1": {
+    "identical_except_creation_comments": true,
+    "sha256": "551a609c3d3a2bd8f5d6cb70c6c0cdabcdbff5e05f988bec6d07ae75e3cec1de"
+  },
+  "leaf-heat-v5-F_Mask.gts": {
+    "identical_except_creation_comments": true,
+    "sha256": "ea79126a34e8e3d30aa4675da9838737b72a2ffbafd3075946c8c0351c8c51b7"
+  },
+  "leaf-heat-v5-B_Silkscreen.gbo": {
+    "identical_except_creation_comments": false,
+    "sha256": "4d43488b6902219864fc6fdfa0f76ee718705165ccca4865eed354b2ca93c666"
+  },
+  "leaf-heat-v5-F_Paste.gtp": {
+    "identical_except_creation_comments": true,
+    "sha256": "4a180840e251d8a23113d7f79a45ac60d98c75d50bec177c270ecff645aeef08"
+  },
+  "leaf-heat-v5-F_Silkscreen.gto": {
+    "identical_except_creation_comments": true,
+    "sha256": "388ce31fe5e1a2d0a45470161fda8f29a4cd63bf1410fe9595a13ac0f52eda04"
+  },
+  "leaf-heat-v5-B_Paste.gbp": {
+    "identical_except_creation_comments": true,
+    "sha256": "f097884909b0f094d3f1ec20826fd997d08fc69f9f8100dbb07777fa74a68589"
+  },
+  "leaf-heat-v5-PTH.drl": {
+    "identical_except_creation_comments": true,
+    "sha256": "c2be7ac01c524b5a616784af17565762aa8349de254f70653520ace9f46565cb"
+  },
+  "leaf-heat-v5-In1_Cu.g1": {
+    "identical_except_creation_comments": true,
+    "sha256": "7b7514e5cd58f34f7f810fb0cbbb633c5a77d70d02d36dbe279b6f01e5165a1c"
+  },
+  "leaf-heat-v5-B_Mask.gbs": {
+    "identical_except_creation_comments": true,
+    "sha256": "88a8d207255bfee4272a6e65902b6041644714bca983b73898a8635479800a38"
+  },
+  "leaf-heat-v5-NPTH.drl": {
+    "identical_except_creation_comments": true,
+    "sha256": "9817a85b1d74b28b5098e8e31cb92c783ec24ec751fdfbf143a57c286b53f6f8"
+  },
+  "leaf-heat-v5-F_Cu.gtl": {
+    "identical_except_creation_comments": true,
+    "sha256": "c166250593b5e1e6d5ed7e503dc4f8b6e39d92bee6240ee176db620ac5f17bc4"
+  },
+  "leaf-heat-v5-B_Cu.gbl": {
+    "identical_except_creation_comments": true,
+    "sha256": "4615065e7a4a5c523363cf51a083dbea7ac46e9aae3aa9e29ce3aebd7636b3fe"
+  }
+}

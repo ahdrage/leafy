@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-13",
+  "pcb_sha256": "5b63416fd1c055faa55a8f8dfb4ba75da2f3052ad8de3801168372b136d7357c",
+  "schematic_sha256": "e3e0ba99f9ab009493ed48b9decf28f02613305b7fe795ed2e3e3c0c555f89f2",
+  "source_files_unchanged": true,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "existing_audit_checks_passed": 1627,
+  "component_count": 41,
+  "factory_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4"
+  ],
+  "hand_count": 37,
+  "packages_verified": [
+    "leaf-heat-rev-f-gerbers.zip",
+    "leaf-heat-rev-f-factory-assembly.zip",
+    "leaf-heat-rev-f-kicad-review.zip",
+    "leaf-heat-rev-f-hand-assembly.zip",
+    "leaf-heat-rev-f-review-images.zip"
+  ],
+  "pad_center_routed_lengths_mm": {
+    "U1.6 to C3.1": 8.499645558284419,
+    "U1.5 to R2.1": 8.747386360737625,
+    "U1.7 to C4.1": 5.621020740941781
+  },
+  "voltage_calculations": {
+    "3v3_nominal": 3.314814814814815,
+    "battery_divider_multiplier": 22.27659574468085
+  },
+  "native_thermal_holes": {
+    "U1": {
+      "count": 6,
+      "drill_mm": 0.33
+    },
+    "U2": {
+      "count": 12,
+      "drill_mm": 0.3
+    }
+  },
+  "physical_validation_performed": false
+}

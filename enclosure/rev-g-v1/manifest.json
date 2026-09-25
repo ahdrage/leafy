@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-09-13T17:43:25.448457+00:00",
+  "revision": "Rev G enclosure v1",
+  "pcb_sha256": "f9f57396dfdf6801f05c7a4b350fac8f200562335a96ca05e7fca00f925fd8f2",
+  "files": {
+    "README.md": {
+      "bytes": 3502,
+      "sha256": "9327c277517b9ceb2a824f18f49000463df8901abb55d05dd47419dd3f6dcd6b"
+    },
+    "build_enclosure.py": {
+      "bytes": 21130,
+      "sha256": "71f1feca043510c64612773452fa380ec552860ac75b301a6c3c3a2de47bd396"
+    },
+    "parameters.json": {
+      "bytes": 1230,
+      "sha256": "b518418b242334790e871e03b62e4d929a1de77ded82ada6bd7c74462e04644d"
+    },
+    "validation.json": {
+      "bytes": 5419,
+      "sha256": "d05060560c1ac85f66525753d5e49202ba03010b78c88117c58c816408a3d9d0"
+    },
+    "blend-verification.json": {
+      "bytes": 171,
+      "sha256": "ab7508a0863ec75626ebe4f2084329be27c4ffbf4e4be62cba04ab0f0fc9cc67"
+    },
+    "leaf-rev-g-enclosure.blend": {
+      "bytes": 2802914,
+      "sha256": "5bba9069b4190489b3140b194064d78790af5b547e1eb5b20171d646a35466ea"
+    },
+    "reference/board-geometry.json": {
+      "bytes": 48898,
+      "sha256": "e9c48c7e9be6107ffffcc83eda6d9e4b4b56e1ce83e15efdc3e28a7843fd74b0"
+    },
+    "reference/leaf-heat-rev-g.glb": {
+      "bytes": 5944380,
+      "sha256": "41e1954b2d60b92cf679242b2a8c48d144ec2b2049c4e8c28ae89feb3950b628"
+    },
+    "print/OPTIONAL-fastener-fit-test.stl": {
+      "bytes": 112084,
+      "sha256": "81a510a835d7f77f6b1057761795f7b3b99e0fa65865abbd29a2acfa4883d2c5"
+    },
+    "print/OPTIONAL-connector-fit-test.stl": {
+      "bytes": 1484,
+      "sha256": "69ed65a7a41cd83f0dd7507de30b97983ea5ddeb6b4b2c5bac07873d47888873"
+    },
+    "print/leaf-rev-g-case-base.stl": {
+      "bytes": 440284,
+      "sha256": "9e2a5f47268df122ab44318134a470005b1b00e203e9f74a92d1b2661fed9b33"
+    },
+    "print/leaf-rev-g-case-lid.stl": {
+      "bytes": 220684,
+      "sha256": "0b685469e267c052651f019638752075eab299c59d79545ea908e429f7e157b6"
+    },
+    "previews/03-exploded-case.png": {
+      "bytes": 2756519,
+      "sha256": "456ebf6eb52b42b84efdac3ce50cf17fdc2d03c35b940cfff38a175c8b8c5d6c"
+    },
+    "previews/01-closed-case.png": {
+      "bytes": 2571202,
+      "sha256": "ceb1f621e4c2b183260caf934c84fb5d4ce9b3897d8d178eb23c6a9c51d5350d"
+    },
+    "previews/02-open-case-with-board.png": {
+      "bytes": 2784963,
+      "sha256": "cdff08730b274408b12f4cfdc1283999bcdf8a25c598ecfbdb72028756d6406c"
+    },
+    "previews/04-empty-base.png": {
+      "bytes": 2613034,
+      "sha256": "0098abbfc0be3ac41b1129d1cf7856a20fbff5b5b286d8511be89a85f2c8c8b6"
+    },
+    "compatibility-g1.json": {
+      "bytes": 544,
+      "sha256": "8de9cd6c321d80768649c3ec7fdbe49b052885ac218412f6c09559fdedb17d2a"
+    }
+  },
+  "updated_utc": "2026-09-13T19:13:47.493955+00:00",
+  "compatible_revisions": [
+    "G",
+    "G.1"
+  ],
+  "compatible_g1_pcb_sha256": "2378869bff9072b5c0786ff13958ee783a395fc549dffc6d7a9f5f7e3b53f409"
+}

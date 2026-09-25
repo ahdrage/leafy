@@ -1,0 +1,14 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'svg')
+Exported ('export', 'pos')
+Exported ('export', 'svg')
+Exported ('export', 'pdf')
+Exported ('export', 'gerbers')
+Exported ('export', 'drill')
+Verified 6 factory placements, 49 hand parts, and factory-only paste.

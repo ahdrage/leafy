@@ -1,0 +1,42 @@
+Reference,Value,Footprint,Manufacturer,MPN,Quantity,Notes
+J1,NISSAN LEAF CABLE,Leaf:NorComp_182-009-113R531,NorComp,182-009-113R531,1,Male DB9; only the specified Nissan OVMS cable pinout. Shell grounded. Mechanical mating review required.
+F1,1A / 125V,Fuse:Fuse_Littelfuse-NANO2-451_453,Littelfuse,0451001.MRL,1,
+D1,SS110 / 100V,Diode_SMD:D_SMA,Diodes Incorporated,SS110-13-F,1,
+D3,SMBJ24CA,Diode_SMD:D_SMB,Littelfuse,SMBJ24CA,1,
+U1,LMR36510ADDAR,Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias,Texas Instruments,LMR36510ADDAR,1,
+C1,2.2uF / 100V,Capacitor_SMD:C_1210_3225Metric,Murata,GRM32ER72A225KA35L,1,
+C2,220nF / 100V,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR72A224KAC4L,1,
+C3,1uF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C105KA12D,1,
+C4,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,
+L1,22uH / 3.3A sat,Inductor_SMD:L_Bourns_SRN6045TA,Bourns,SRN6045TA-220M,1,
+C5,22uF / 25V,Capacitor_SMD:C_1210_3225Metric,Murata,GRM32ER71E226KE15L,1,
+C6,22uF / 25V,Capacitor_SMD:C_1210_3225Metric,Murata,GRM32ER71E226KE15L,1,
+C7,22uF / 25V,Capacitor_SMD:C_1210_3225Metric,Murata,GRM32ER71E226KE15L,1,
+R1,100k / 1%,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-07100KL,1,
+R2,43.2k / 1%,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0743K2L,1,
+U2,ESP32-C3-WROOM-02-N4,Leaf:ESP32-C3-WROOM-02_0p3mm_Vias,Espressif,ESP32-C3-WROOM-02-N4,1,
+R3,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,
+C8,1uF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C105KA12D,1,
+C9,10uF / 16V,Capacitor_SMD:C_0805_2012Metric,Murata,GRM21BR71C106KE51L,1,
+C10,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,
+R4,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,
+R5,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,
+R6,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,
+SW1,RESET,Button_Switch_SMD:SW_SPST_TL3342,E-Switch,TL3342F160QG,1,
+SW2,BOOT,Button_Switch_SMD:SW_SPST_TL3342,E-Switch,TL3342F160QG,1,
+R7,1M / 1%,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071ML,1,
+R8,47k / 1%,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0747KL,1,
+C11,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,
+R9,1k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,1,
+D6,GREEN / status,LED_SMD:LED_0603_1608Metric,Lite-On,LTST-C190KGKT,1,
+U3,TCAN3403DRQ1,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,TCAN3403DRQ1,1,
+R10,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,
+C12,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,
+C13,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,
+D4,PESD2CAN,Package_TO_SOT_SMD:SOT-23,Nexperia,"PESD2CAN,215",1,
+C14,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R71C104KA01D,1,Local UART ESD reference-rail bypass.
+U4,USBLC6-2SC6 / UART ESD,Package_TO_SOT_SMD:SOT-23-6,STMicroelectronics,USBLC6-2SC6,1,UART service connector ESD protection. Pins 1/6 and 3/4 are feed-through channels; pin 5 references 3.3 V. Not a USB interface.
+J3,UART / 3.3V LOGIC,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Harwin,M20-9990346,1,Fit on top. Pin 1 GND; 2 board RX (adapter TX); 3 board TX (adapter RX). No supply pin. 3.3 V logic only; no RS-232. Header origin is pin 1.
+R18,1k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,1,"UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter."
+R19,1k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-071KL,1,"UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter."
+R20,10k,Resistor_SMD:R_0603_1608Metric,Yageo,RC0603FR-0710KL,1,Hold UART RX at idle high when the programming lead is absent.

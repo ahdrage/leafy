@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T08:25:08",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "leaf-heat-v7.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance (board setup constraints silk clearance 0.1500 mm; actual 0.0281 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'K' on F.Silkscreen",
+                    "pos": {
+                        "x": 67.9,
+                        "y": 47.0
+                    },
+                    "uuid": "0229e996-e6ce-4238-9801-41d9f7498dcc"
+                },
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 67.46,
+                        "y": 48.135
+                    },
+                    "uuid": "45069ddb-f9c5-408e-90f4-cd3e81b060aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

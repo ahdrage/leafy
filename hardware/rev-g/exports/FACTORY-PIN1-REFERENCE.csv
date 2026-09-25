@@ -1,0 +1,7 @@
+Designator,MPN,Centre X mm,Centre Y mm,Pad 1 X mm,Pad 1 Y mm,Note
+L1,SRN6045TA-220M,30.0,89.0,27.925,89.0,L1 is nonpolar; pads must align.
+U1,LMR36510ADDAR,24.0,81.0,21.125,82.905,Top view. IC pin 1 must align to this pad.
+U2,ESP32-C3-WROOM-02U-N4,73.0,92.0,64.25,98.0,Top view. IC pin 1 must align to this pad.
+U4,USBLC6-2SC6,76.81,13.0,75.86,11.862499999999997,Top view. IC pin 1 must align to this pad.
+U5,TPS3760A012DYYR,17.0,57.0,15.5,58.5,Top view. IC pin 1 must align to this pad.
+U6,TMUX1511PWR,79.0,74.0,76.1375,75.95,Top view. IC pin 1 must align to this pad.

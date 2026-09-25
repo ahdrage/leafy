@@ -1,0 +1,12 @@
+QUOTATION ONLY — LEAF HEAT REV A
+
+Please quote supply and assembly of 1 board from a batch of 5 bare PCBs.
+47 components per assembled board: 46 SMT and one through-hole DB9 connector J1; 29 distinct manufacturer part numbers. All component bodies are on top.
+BOM quantities are PER BOARD. Quote all parts, procurement attrition/minimum order costs, stencil/setup, reflow and through-hole soldering, PCB fabrication and shipping to Norway.
+Use the exact specified manufacturer part numbers for this quote. Obtain approval before substitutions.
+USB J2 is an SMT connector with through-hole anchors; include soldering these anchors.
+ESP32 antenna extends beyond the PCB outline. Please review panel handling clearances and the exposed-pad/module thermal-via paste and solder-wicking requirements.
+Placement coordinates are millimetres, top side, KiCad rotations, lower-left drill/place origin. J1's placement origin is signal pin 1, not the body centroid. Verify all component orientations before assembly.
+The preview uses approximate connector models; the BOM and Gerbers govern the quote.
+No firmware or functional test procedure is supplied. No cable or enclosure is included.
+The design is an untested engineering prototype. Quotation and manufacturability review only; do not start fabrication or assembly without a separate approved order.

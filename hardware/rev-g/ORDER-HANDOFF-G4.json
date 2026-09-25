@@ -1,0 +1,72 @@
+{
+  "revision": "G.4",
+  "verified_at_utc": "2026-09-15T21:52:08.142366+00:00",
+  "pcb_sha256": "1b46a5b65acba3df29483509f488be3b8119a9854dad4f33adc2d537fc51ba4f",
+  "schematic_sha256": "87cecc8daffe30b7ee5d9a8ce28d36ed74bdc0a919c8ab212442e737678dfaf8",
+  "JLCPCB": {
+    "status": "G.4 uploaded, six-part preview verified and saved in Chrome cart as Y10; only G.4 selected; factory process approval pending",
+    "bare_PCB_quantity": 5,
+    "assembled_quantity": 2,
+    "factory_refs": [
+      "U1",
+      "U2",
+      "U4",
+      "U5",
+      "U6",
+      "L1"
+    ],
+    "PCB_remark_file": "quotations/2026-09-15/PCB-REMARK.txt",
+    "assembly_remark_file": "quotations/2026-09-15/ASSEMBLY-REMARK.txt",
+    "process_confirmation": "Pending: top mask-cap survival and 0.125 mm stencil/apertures; manual PCB and placement approval required",
+    "price_USD": {
+      "PCB": "30.07",
+      "PCBA": "49.12",
+      "merchandise_total": "79.19",
+      "shipping_estimate_shown": "24.05",
+      "taxes": "not calculated/verified",
+      "process_surcharge": "Assembly remark: Quote after review; not included",
+      "coupon_shown": "-10.00",
+      "displayed_subtotal": "93.24"
+    },
+    "payment_made": false,
+    "cart_name": "leaf-heat-rev-g4-gerbers_Y10",
+    "pcb_reference": "PRIVATE-RECORD-REMOVED",
+    "pcba_reference": "PRIVATE-RECORD-REMOVED",
+    "pcb_file_number": "7e904afb86804cf694585ddf7d522d44",
+    "cart_verification_file": "quotations/2026-09-15/cart-verification.json",
+    "uploaded_files_sha256": {
+      "leaf-heat-rev-g4-gerbers.zip": "1cdafe51a535c8e9323b2d3a4e6bce973afa73caeebd939227a3881dcf1375f6",
+      "BOM-FACTORY-JLCPCB.csv": "ff207e76f2e7cf4cd75b43c0f4dc224874aa34657b5049d98518d9e77f5422ab",
+      "CPL-FACTORY-JLCPCB.csv": "60c01f372cf7b75a7d8fe82037812afa3d4f6a425bae6acc344381c5230c08b7"
+    },
+    "checkout_started": false,
+    "order_placed": false,
+    "latest_cart_recheck_file": "quotations/2026-09-16/cart-verification.json",
+    "latest_cart_recheck": "Fresh Chrome cart reload; saved PCB/PCBA remarks, exact six-part supplier BOM and G.4 placement preview verified",
+    "only_current_revision_selected": true
+  },
+  "Mouser": {
+    "status": "Fresh supplier XLS plus live stock observation verified against G.4 native parts, accessories and requested extras; all 35 products match",
+    "verified_at_oslo": "2026-09-16T09:48:39.560913+02:00",
+    "products": 35,
+    "supplier_order_units": 157,
+    "order_unit_note": "A pack or reel counts as one supplier unit",
+    "required_board_components_and_antennas": 100,
+    "spare_components": 50,
+    "workshop_product_units": 7,
+    "quantity_boards": 2,
+    "merchandise_NOK": "1305.08",
+    "selected_shipping": "UPS Worldwide Express Saver",
+    "selected_delivery_NOK": "0.00",
+    "displayed_basket_subtotal_NOK": "1305.08",
+    "checkout_taxes": "not calculated/verified",
+    "all_requested_quantities_dispatch_now": true,
+    "ANT1_SKU": "538-146153-0300",
+    "ANT1_quantity": 2,
+    "ANT1_unit_NOK": "35.38",
+    "backup": "quotations/2026-09-16/cart-verification.json",
+    "supplier_export": "quotations/2026-09-16/mouser-basket-2026-09-16.xls"
+  },
+  "compatibility": "All 55 PCB MPNs, antennas and placements match G.4. Both live carts rechecked 16 September 2026; factory stencil/tenting process acceptance remains pending.",
+  "last_cart_recheck_at_oslo": "2026-09-16T09:48:39.560913+02:00"
+}

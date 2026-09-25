@@ -1,0 +1,279 @@
+{
+  "nominal_cutoff_VPWR_V": 11.668581242247878,
+  "nominal_recovery_VPWR_V": 12.67744544680851,
+  "conservative_cutoff_VPWR_range": [
+    11.41415290629316,
+    11.924945923332237
+  ],
+  "conservative_recovery_VPWR_range": [
+    12.216945475218154,
+    13.12549045799196
+  ],
+  "delay_nominal_seconds": {
+    "cutoff": 1.2729656758128876,
+    "recovery": 12.729656758128874
+  },
+  "delay_assumed_cap_envelope_seconds": {
+    "cutoff": [
+      0.41225640948903663,
+      1.860407032622893
+    ],
+    "recovery": [
+      4.108509899112331,
+      17.49087595424966
+    ]
+  },
+  "adc_multiplier_on": 32.27659574468085,
+  "adc_isolator_input_at_65V_when_off": 2.9178605539637057,
+  "adc_worst_poweroff_V_at_2uA": 0.19999999999999998,
+  "C15_full_rated_voltage_leakage_limit_uA": 29.610000000000003,
+  "model_assumptions": "16 V hot plug, uncharged bulk 37.6 uF, ideal conducting diode, no clamp, no regulator load. Cable/ESR ranges are assumptions, not measured vehicle limits.",
+  "hotplug_cases": [
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 18.015346736629617,
+      "without_RC_peak_V": 29.671350518852147,
+      "R21_peak_W": 212.54131152213643,
+      "R21_energy_J": 0.003710303509519471
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 23.31802367503914,
+      "without_RC_peak_V": 29.67135057382882,
+      "R21_peak_W": 59.52245361594194,
+      "R21_energy_J": 0.0015672005693257328
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 20.73494103280026,
+      "without_RC_peak_V": 27.30106468657905,
+      "R21_peak_W": 270.70200512437214,
+      "R21_energy_J": 0.003791882133752756
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 24.155630888754605,
+      "without_RC_peak_V": 27.301135081851616,
+      "R21_peak_W": 62.78557226497301,
+      "R21_energy_J": 0.00158853768559427
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.997556987924803,
+      "without_RC_peak_V": 18.60853537384403,
+      "R21_peak_W": 57.016396394060415,
+      "R21_energy_J": 0.002171781434249297
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.998653722164114,
+      "without_RC_peak_V": 18.608527614957076,
+      "R21_peak_W": 19.389304895576974,
+      "R21_energy_J": 0.0012021907703647341
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.997276151472636,
+      "without_RC_peak_V": 15.999999999999892,
+      "R21_peak_W": 46.54513319112594,
+      "R21_energy_J": 0.002126631747159993
+    },
+    {
+      "L_uH": 0.5,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.998591991804492,
+      "without_RC_peak_V": 15.999999999999803,
+      "R21_peak_W": 14.65566968060671,
+      "R21_energy_J": 0.0011877671839148078
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.999891641805384,
+      "without_RC_peak_V": 31.005954474024765,
+      "R21_peak_W": 128.768983387456,
+      "R21_energy_J": 0.003714266759475378
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 19.217663901961064,
+      "without_RC_peak_V": 31.005954490892687,
+      "R21_peak_W": 39.36067049736262,
+      "R21_energy_J": 0.0015708539058857493
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 18.149617720680485,
+      "without_RC_peak_V": 29.892720219677585,
+      "R21_peak_W": 179.44677128640345,
+      "R21_energy_J": 0.0038520456731302184
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 23.119221953580087,
+      "without_RC_peak_V": 29.89271918398845,
+      "R21_peak_W": 54.846436304841326,
+      "R21_energy_J": 0.0016266973340745771
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.99782527998202,
+      "without_RC_peak_V": 24.31040546970602,
+      "R21_peak_W": 48.970898607224036,
+      "R21_energy_J": 0.0021776838076986303
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.998709445707897,
+      "without_RC_peak_V": 24.31040501298512,
+      "R21_peak_W": 20.280966080286756,
+      "R21_energy_J": 0.0012071424488695264
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.997575607640668,
+      "without_RC_peak_V": 19.29898058789254,
+      "R21_peak_W": 51.81085614063705,
+      "R21_energy_J": 0.00215222766941521
+    },
+    {
+      "L_uH": 3.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.998650922202303,
+      "without_RC_peak_V": 19.29894561056463,
+      "R21_peak_W": 18.953294177006878,
+      "R21_energy_J": 0.001200514631503184
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 16.870616672884935,
+      "without_RC_peak_V": 31.44773583556026,
+      "R21_peak_W": 96.5841002722696,
+      "R21_energy_J": 0.0037148851143036367
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 16.369268576825498,
+      "without_RC_peak_V": 31.447735833753782,
+      "R21_peak_W": 26.57305174542382,
+      "R21_energy_J": 0.0015715089600385806
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 17.267576935162182,
+      "without_RC_peak_V": 30.80984192733573,
+      "R21_peak_W": 112.72231963164519,
+      "R21_energy_J": 0.0038649986539886286
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 0.1,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 20.63537397452361,
+      "without_RC_peak_V": 30.80984268827581,
+      "R21_peak_W": 40.51137764810506,
+      "R21_energy_J": 0.0016388960655809536
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.998491857196372,
+      "without_RC_peak_V": 27.235995452349513,
+      "R21_peak_W": 41.53541767849022,
+      "R21_energy_J": 0.002179400808871567
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 0.5,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.99885894315493,
+      "without_RC_peak_V": 27.2359953227265,
+      "R21_peak_W": 16.178949615150305,
+      "R21_energy_J": 0.0012095487151165243
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 0.21,
+      "with_RC_peak_V": 15.998319956541184,
+      "without_RC_peak_V": 23.209256702760026,
+      "R21_peak_W": 44.04896007261296,
+      "R21_energy_J": 0.0021708811602841123
+    },
+    {
+      "L_uH": 10.0,
+      "source_R_ohm": 1.0,
+      "ceramic_uF": 2.42,
+      "bulk_ESR_ohm": 2.0,
+      "with_RC_peak_V": 15.998808889806988,
+      "without_RC_peak_V": 23.20925418898173,
+      "R21_peak_W": 19.37303485180555,
+      "R21_energy_J": 0.0012164240187942383
+    }
+  ],
+  "hotplug_summary": {
+    "max_with_RC_V": 24.155630888754605,
+    "max_without_RC_V": 31.44773583556026,
+    "max_R21_W": 270.70200512437214,
+    "max_R21_J": 0.0038649986539886286
+  }
+}

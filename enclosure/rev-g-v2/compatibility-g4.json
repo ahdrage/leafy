@@ -1,0 +1,10 @@
+{
+  "revision": "G.4",
+  "compatible": true,
+  "pcb_sha256": "1b46a5b65acba3df29483509f488be3b8119a9854dad4f33adc2d537fc51ba4f",
+  "baseline": "G.3",
+  "verified_by": "../../hardware/rev-g/exports/tenting-g4-audit.json",
+  "basis": "Native audit proves every copper/drill/outline/placement and mechanical footprint graphics except added mask graphics unchanged. No component MPN, body or connector change.",
+  "render_provenance": "Existing GLB/Blender images retain their original G.3 source hashes and artwork; not regenerated or relabelled as G.4.",
+  "limitations": "Digital fit only; physical fit and cable clearance testing still required."
+}

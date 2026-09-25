@@ -1,0 +1,22 @@
+References,Value,Manufacturer,MPN,Qty for ONE board,Qty for TWO boards,Footprint,Datasheet,Notes
+J1,NISSAN LEAF CABLE,NorComp,182-009-113R531,1,2,Leaf:NorComp_182-009-113R531__Hand,https://content.norcomp.net/rohspdfs/Connectors/18Y/182/182-yyy-113Ryy1.pdf,Male DB9; only the specified Nissan OVMS cable pinout. Shell grounded. Mechanical mating review required.
+F1,1A / 125V,Littelfuse,0451001.MRL,1,2,Leaf:Fuse_Littelfuse-NANO2-451_453__Hand,,
+D1,B1100 / 100V,Diodes Incorporated,B1100-13-F,1,2,Leaf:D_SMA__Hand,https://www.diodes.com/datasheet/download/B1100.pdf,"D1 ordering-code correction 2026-09-12: verified Diodes B1100-13-F, 100 V / 1 A, SMA; cathode band to pad 1 / VPWR."
+D3,SMBJ24CA,Littelfuse,SMBJ24CA,1,2,Leaf:D_SMB__Hand,,
+C1,2.2uF / 100V,Murata,GRM32ER72A225KA35L,1,2,Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand,,
+C2,220nF / 100V,KEMET,C1206C224K1RACTU,1,2,Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand,https://search.kemet.com/component-documentation/download/specsheet/C1206C224K1RACTU,
+"C3,C8",1uF / 25V,KEMET,C1206C105K3RACTU,2,4,Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand,https://search.kemet.com/component-documentation/download/specsheet/C1206C105K3RACTU,
+"C4,C10,C11,C12,C13,C14",100nF / 50V,KEMET,C1206C104K5RACTU,6,12,Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand,https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU,Local UART ESD reference-rail bypass.
+"C5,C6,C7",22uF / 25V,Murata,GRM32ER71E226KE15L,3,6,Leaf:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder__Hand,,
+R1,100k / 1%,Yageo,RC1206FR-07100KL,1,2,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,
+R2,43.2k / 1%,Yageo,RC1206FR-0743K2L,1,2,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,
+"R3,R4,R5,R6,R10,R20",10k,Yageo,RC1206FR-0710KL,6,12,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,Hold UART RX at idle high when the programming lead is absent.
+C9,10uF / 16V,KEMET,C1206C106K4RACTU,1,2,Leaf:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder__Hand,https://search.kemet.com/component-documentation/download/specsheet/C1206C106K4RACTU,
+"SW1,SW2",RESET,Omron,B3F-1000,2,4,Leaf:SW_PUSH_6mm_H4.3mm__Hand,https://components.omron.com/sites/default/files/datasheet_pdf/A070-E1.pdf,"Through-hole 6 x 6 mm, 4.3 mm height. Paired legs share contact 1 or 2. Fit last; do not wash switch."
+R7,1M / 1%,Yageo,RC1206FR-071ML,1,2,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,
+R8,47k / 1%,Yageo,RC1206FR-0747KL,1,2,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,
+"R9,R18,R19",1k,Yageo,RC1206FR-071KL,3,6,Leaf:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder__Hand,https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,"UART service series resistance; 115200 baud initial programming, short leads. Not a 5 V level shifter."
+D6,GREEN / status,Lite-On,LTST-C150KGKT,1,2,Leaf:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder__Hand,,1206 green LED. Cathode is pad 1 / GND; match package cathode mark to K on board.
+U3,TCAN3403DRQ1,Texas Instruments,TCAN3403DRQ1,1,2,Leaf:SOIC8_Hand_Access__Hand,https://www.ti.com/lit/gpn/TCAN3403-Q1,
+D4,PESD2CAN,Nexperia,"PESD2CAN,215",1,2,Leaf:SOT-23_Handsoldering__Hand,https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf,
+J3,UART / 3.3V LOGIC,Harwin,M20-9990346,1,2,Leaf:PinHeader_1x03_P2.54mm_Vertical__Hand,https://www.harwin.com/products/M20-9990346,Hand solder on top. Pin 1 GND; 2 board RX (adapter TX); 3 board TX (adapter RX). No supply pin. 3.3 V logic only; no RS-232. Header origin is pin 1.

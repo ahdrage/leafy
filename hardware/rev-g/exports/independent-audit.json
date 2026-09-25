@@ -1,0 +1,60 @@
+{
+  "components_checked": 55,
+  "factory_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "hand_components": 49,
+  "electrical_pin_net_changes_from_F": [
+    [
+      "U1",
+      "3",
+      "VPWR",
+      "BUCK_EN"
+    ],
+    [
+      "R7",
+      "2",
+      "BAT_SENSE",
+      "BAT_DIV"
+    ],
+    [
+      "R8",
+      "1",
+      "BAT_SENSE",
+      "BAT_DIV"
+    ],
+    [
+      "C11",
+      "1",
+      "BAT_SENSE",
+      "BAT_DIV"
+    ]
+  ],
+  "regulator_route_lengths": {
+    "VCC": {
+      "rev_f_mm": 8.499645558284419,
+      "rev_g_mm": 3.5693414237303354
+    },
+    "FB": {
+      "rev_f_mm": 8.747386360737625,
+      "rev_g_mm": 4.031700935788387
+    },
+    "BOOT": {
+      "rev_f_mm": 5.621020740941781,
+      "rev_g_mm": 4.26271456511221
+    }
+  },
+  "rev_f_preserved": true,
+  "DRC_violations": 0,
+  "ERC_violations": 0,
+  "unconnected": 0,
+  "parity_errors": 0,
+  "board_sha256": "1d69ed10e44eddc2ca1c4897c0f790e3a0d30cff7f1da9c7cc5d514d66f0ef4f",
+  "schematic_sha256": "9a7693a932eca66d2a03a80e0310218a1916fb0347467844711df6423b1dd381",
+  "limits": "Static checks only; assembler exposed-pad approval and powered prototype tests remain."
+}

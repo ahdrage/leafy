@@ -1,0 +1,15 @@
+Hei Adi! Her er bilder av gjeldende Rev G.3 (100 × 100 mm, fire lag). Det er én produksjonsdetalj vi vil ha vurdert før bestilling:
+
+U1 (LMR36510ADDAR) og U2 (ESP32-C3-WROOM-02U-N4) har loddepader på undersiden med åpne, metalliserte hull ned gjennom kortet. Hullene er ikke resin-fylte eller kobberkappede.
+
+U1 har 6 hull på Ø 0,33 mm. Den sentrale pastaåpningen er 2,4 × 3,1 mm og dekker hullene. U2 har 12 hull på Ø 0,30 mm i en jordpad på 2,9 × 2,9 mm. Her er pastaen fordelt på 9 åpninger à 0,7 × 0,7 mm, med hullene mellom åpningene.
+
+Bekymringen er at flytende loddetinn kan trekkes ned i hullene under reflow, slik at det blir for lite tinn eller dårlig kontakt under komponenten. Dette må vurderes sammen med sjablongtykkelse, pastamengde og loddeprosess. At pastaen er delt opp under U2 er ikke alene bevis på at prosessen er avklart.
+
+KiCad-kontrollene har bestått, men de kontrollerer ikke kvaliteten på disse skjulte loddeforbindelsene. Dette er en uavklart produksjonsrisiko; JLCPCB har foreløpig ikke bekreftet noen feil eller gitt pristillegg.
+
+Vi har lagt inn et ønske om at JLCPCB bekrefter om kortet kan monteres pålitelig slik det er, hvordan de kontrollerer loddetap gjennom hullene, og hvordan de inspiserer forbindelsene. Hvis de krever resin-fylte/kobberkappede hull eller en annen endring, må løsning og pris avklares først. Vanlig tenting med loddemaske er ikke det samme som fylte og kappede hull.
+
+Hva tenker du om denne løsningen – særlig den sammenhengende pastaåpningen over hullene under U1? Ville du beholdt den dersom fabrikken godkjenner prosessen, endret pastamønsteret eller valgt fylte/kappede hull?
+
+Bildene er eksportert fra gjeldende kortfil. Blå rammer og svarte hullsirkler i pastavisningen er forklaringsmarkeringer; kortet er ikke endret.

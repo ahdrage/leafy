@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Leaf") (type "KiCad") (uri "${KIPRJMOD}/Leaf.pretty") (options "") (descr "Leaf custom connector footprint")))

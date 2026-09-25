@@ -1,0 +1,3 @@
+(version 1)
+(rule "Ground reference layer: no tracks" (layer In1.Cu) (constraint disallow track))
+(rule "Power distribution layer: no tracks" (layer In2.Cu) (constraint disallow track))

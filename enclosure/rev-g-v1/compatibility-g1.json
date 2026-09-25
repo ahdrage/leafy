@@ -1,0 +1,9 @@
+{
+  "revision": "G.1 compatibility with Rev G enclosure v1",
+  "status": "PASS",
+  "original_render_pcb_sha256": "f9f57396dfdf6801f05c7a4b350fac8f200562335a96ca05e7fca00f925fd8f2",
+  "compatible_current_pcb_sha256": "2378869bff9072b5c0786ff13958ee783a395fc549dffc6d7a9f5f7e3b53f409",
+  "evidence": "Full parsed PCB and schematic equivalence after U5 identity/datasheet replacement; exact same DYY14 package. See hardware/rev-g/exports/u5-g1-audit.json.",
+  "physical_model_changes": false,
+  "original_render_and_mesh_reports_retained": true
+}

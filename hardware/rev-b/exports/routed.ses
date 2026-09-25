@@ -1,0 +1,548 @@
+(session critical
+  (base_design critical)
+  (placement
+    (resolution um 10)
+    (component "Capacitor_SMD:C_0603_1608Metric"
+      (place C4 240000 -107300 front 90)
+      (place C14 596000 -396000 front 90)
+      (place C12 150650 -225000 front 90)
+      (place C11 617000 -76000 front 0)
+      (place C8 360000 -91000 front 0)
+      (place C10 360000 -45000 front 0)
+      (place C3 252000 -130000 front 0)
+      (place C13 108000 -305000 front 180)
+    )
+    (component "Diode_SMD:D_SOD-128"
+      (place D2 290000 -205000 front 0)
+    )
+    (component "Diode_SMD:D_SMA"
+      (place D1 240000 -240000 front 270)
+    )
+    (component "LED_SMD:LED_0603_1608Metric"
+      (place D6 390000 -200000 front 0)
+    )
+    (component "Resistor_SMD:R_0603_1608Metric"
+      (place R2 243000 -155000 front 0)
+      (place R10 205000 -290000 front 0)
+      (place R12 620000 -375000 front 0)
+      (place R9 350000 -200000 front 0)
+      (place R3 360000 -68000 front 0)
+      (place R5 360000 -115000 front 0)
+      (place R7 600000 -25000 front 0)
+      (place R6 360000 -140000 front 0)
+      (place R11 478000 -430000 front 0)
+      (place R15 475000 -370000 front 90)
+      (place R4 590000 -50000 front 90)
+      (place R17 526000 -370000 front 90)
+      (place R8 620000 -48000 front 90)
+      (place R1 219000 -170000 front 90)
+      (place R16 475000 -400000 front 90)
+      (place R14 598000 -100000 front 180)
+      (place R13 598000 -115000 front 180)
+    )
+    (component "Diode_SMD:D_SOD-123"
+      (place D5 505000 -370000 front 90)
+    )
+    (component "MountingHole_2.7mm_M2.5"
+      (place H1 40000 -40000 front 0)
+      (place H3 460000 -320000 front 0)
+      (place H2 390000 -460000 front 0)
+    )
+    (component "Leaf:NorComp_182-009-113R531"
+      (place J1 110000 -390000 front 0)
+    )
+    (component "Capacitor_SMD:C_1210_3225Metric"
+      (place C6 315000 -95000 front 0)
+      (place C7 315000 -135000 front 0)
+      (place C5 315000 -55000 front 0)
+      (place C1 105000 -120000 front 90)
+    )
+    (component "Inductor_SMD:L_Bourns_SRN6045TA"
+      (place L1 250000 -55000 front 0)
+    )
+    (component "Capacitor_SMD:C_0805_2012Metric"
+      (place C9 355000 -22000 front 0)
+      (place C2 136000 -107300 front 90)
+    )
+    (component "Diode_SMD:D_SMB"
+      (place D3 100000 -200000 front 90)
+    )
+    (component "Fuse:Fuse_Littelfuse-NANO2-451_453"
+      (place F1 240000 -315000 front 90)
+    )
+    (component "Button_Switch_SMD:SW_SPST_TL3342"
+      (place SW1 310000 -260000 front 0)
+      (place SW2 420000 -260000 front 0)
+    )
+    (component "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+      (place U1 190000 -120000 front 0)
+    )
+    (component "Leaf:ESP32-C3-WROOM-02_0p3mm_Vias"
+      (place U2 480000 -80000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23"
+      (place D4 145000 -335000 front 90)
+    )
+    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (place U3 157000 -280000 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-6"
+      (place U4 565000 -390000 front 270)
+    )
+    (component "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+      (place J2 560000 -470000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.6")
+    )
+    (library_out 
+      (padstack "Via[0-3]_650:300_um"
+        (shape
+          (circle F.Cu 6500 0 0)
+        )
+        (shape
+          (circle In1.Cu 6500 0 0)
+        )
+        (shape
+          (circle In2.Cu 6500 0 0)
+        )
+        (shape
+          (circle B.Cu 6500 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "/VPWR"
+        (wire
+          (path F.Cu 8000
+            582061 -33153
+            590214 -25000
+            591750 -25000
+          )
+        )
+        (via "Via[0-3]_650:300_um" 582061 -33153
+        )
+        (wire
+          (path B.Cu 8000
+            442629 -258957
+            442629 -233516
+            582061 -94084
+            582061 -33153
+          )
+        )
+        (via "Via[0-3]_650:300_um" 442629 -258957
+        )
+        (wire
+          (path F.Cu 8000
+            295490 -261500
+            302407 -254583
+            447002 -254583
+            447002 -254584
+            442629 -258957
+          )
+        )
+        (via "Via[0-3]_650:300_um" 295490 -261500
+        )
+        (wire
+          (path B.Cu 8000
+            275428 -236550
+            295490 -256612
+            295490 -261500
+          )
+        )
+      )
+      (net "/LED_A"
+        (wire
+          (path F.Cu 2500
+            358250 -200000
+            366728 -208478
+            389397 -208478
+            397875 -200000
+          )
+        )
+      )
+      (net "/CAN_STB"
+        (wire
+          (path F.Cu 2500
+            213250 -303828
+            408035 -303828
+            483483 -228380
+            483483 -128530
+            556733 -55280
+            556733 -35000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            213250 -303828
+            212328 -304750
+            176050 -304750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            213250 -290000
+            213250 -303828
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            567500 -35000
+            556733 -35000
+          )
+        )
+      )
+      (net "/USB_PRESENT"
+        (wire
+          (path F.Cu 2500
+            567500 -65000
+            578267 -65000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            578267 -65000
+            597437 -84170
+            597437 -143813
+            500387 -240863
+            500387 -336363
+            475000 -361750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            482559 -372687
+            482559 -369309
+            475000 -361750
+          )
+        )
+        (wire
+          (path F.Cu 1874
+            486783 -377843
+            482559 -373619
+            482559 -372687
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            475000 -408250
+            485999 -397251
+            485999 -378627
+            486783 -377843
+          )
+        )
+      )
+      (net "/CC2"
+        (wire
+          (path F.Cu 2500
+            577825 -446000
+            577500 -445675
+            577500 -433200
+          )
+        )
+        (via "Via[0-3]_650:300_um" 577825 -446000
+        )
+        (wire
+          (path B.Cu 2500
+            582831 -369869
+            577331 -375369
+            577331 -445506
+            577825 -446000
+          )
+        )
+        (via "Via[0-3]_650:300_um" 582831 -369869
+        )
+        (wire
+          (path F.Cu 2500
+            611750 -375000
+            610233 -376517
+            589479 -376517
+            582831 -369869
+          )
+        )
+      )
+      (net "/BOOT_IO2"
+        (wire
+          (path F.Cu 1874
+            567500 -50000
+            577954 -50000
+          )
+        )
+        (wire
+          (path F.Cu 1874
+            581990 -42752
+            577954 -46788
+            577954 -50000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            590000 -41750
+            588998 -42752
+            581990 -42752
+          )
+        )
+      )
+      (net "/BAT_SENSE"
+        (wire
+          (path F.Cu 2500
+            616496 -56250
+            602632 -42386
+            602632 -30618
+            608250 -25000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            620000 -56250
+            616496 -56250
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            609250 -76000
+            609250 -63496
+            616496 -56250
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            567500 -20000
+            578267 -20000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            593125 -14621
+            583646 -14621
+            578267 -20000
+          )
+        )
+        (wire
+          (path F.Cu 1874
+            608250 -16990
+            595494 -16990
+            593125 -14621
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            608250 -25000
+            608250 -16990
+          )
+        )
+      )
+      (net "/STATUS_LED"
+        (wire
+          (path F.Cu 2500
+            327092 -202265
+            339485 -202265
+            341750 -200000
+          )
+        )
+        (via "Via[0-3]_650:300_um" 327092 -202265
+        )
+        (wire
+          (path B.Cu 2500
+            376856 -101500
+            376856 -152501
+            327092 -202265
+          )
+        )
+        (via "Via[0-3]_650:300_um" 376856 -101500
+        )
+        (wire
+          (path F.Cu 2500
+            392500 -95000
+            386000 -101500
+            376856 -101500
+          )
+        )
+      )
+      (net "/ESP_EN"
+        (wire
+          (path F.Cu 2500
+            352250 -91000
+            352250 -84000
+            368250 -68000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            329733 -241000
+            278500 -241000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            341500 -241000
+            353267 -241000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            353267 -241000
+            353267 -234483
+            350642 -231858
+            350642 -169863
+            359989 -160516
+            359989 -98739
+            352250 -91000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            341500 -241000
+            329733 -241000
+          )
+        )
+      )
+      (net "/BOOT_IO8"
+        (wire
+          (path F.Cu 2500
+            392500 -110000
+            381733 -110000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            368250 -115000
+            376733 -115000
+            381733 -110000
+          )
+        )
+      )
+      (net "/CAN_TX"
+        (wire
+          (path F.Cu 2500
+            392500 -50000
+            403267 -50000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            418148 -46062
+            407205 -46062
+            403267 -50000
+          )
+        )
+        (via "Via[0-3]_650:300_um" 418148 -46062
+        )
+        (wire
+          (path B.Cu 2500
+            330100 -226855
+            418148 -138807
+            418148 -46062
+          )
+        )
+        (via "Via[0-3]_650:300_um" 330100 -226855
+        )
+        (wire
+          (path F.Cu 2500
+            176050 -255250
+            192169 -239131
+            246569 -239131
+            258845 -226855
+            330100 -226855
+          )
+        )
+      )
+      (net "/CAN_RX"
+        (wire
+          (path F.Cu 2500
+            381733 -65000
+            381733 -60211
+            377022 -55500
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            252073 -195000
+            252073 -180677
+            377022 -55728
+            377022 -55500
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            392500 -65000
+            381733 -65000
+          )
+        )
+        (via "Via[0-3]_650:300_um" 377022 -55500
+        )
+        (via "Via[0-3]_650:300_um" 252073 -195000
+        )
+        (wire
+          (path F.Cu 2500
+            137950 -255250
+            133004 -250304
+            133004 -213808
+            151812 -195000
+            252073 -195000
+          )
+        )
+      )
+      (net "/BOOT_IO9"
+        (wire
+          (path F.Cu 2500
+            451500 -241000
+            400267 -241000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            388500 -241000
+            400267 -241000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            368250 -140000
+            405820 -177570
+            405820 -235447
+            400267 -241000
+          )
+        )
+        (wire
+          (path F.Cu 1874
+            392500 -125000
+            382046 -125000
+          )
+        )
+        (wire
+          (path F.Cu 1874
+            375510 -132248
+            382046 -125712
+            382046 -125000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            368250 -140000
+            368250 -139508
+            375510 -132248
+          )
+        )
+      )
+      (net "/CC1"
+        (wire
+          (path F.Cu 2500
+            547500 -433200
+            547500 -420435
+            538661 -411596
+            488154 -411596
+            469750 -430000
+          )
+        )
+      )
+    )
+  )
+)

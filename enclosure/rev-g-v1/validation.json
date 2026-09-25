@@ -1,0 +1,259 @@
+{
+  "pcb_sha256": "f9f57396dfdf6801f05c7a4b350fac8f200562335a96ca05e7fca00f925fd8f2",
+  "revision": "Rev G enclosure v1",
+  "units": "mm",
+  "imported_pcb_bounds_mm": [
+    [
+      0.0,
+      100.0
+    ],
+    [
+      -100.0,
+      0.0
+    ],
+    [
+      18.399999618530273,
+      19.889999389648438
+    ]
+  ],
+  "imported_radio_bounds_mm": [
+    [
+      64.00004577636719,
+      82.00004577636719
+    ],
+    [
+      -14.899999618530273,
+      5.100000381469727
+    ],
+    [
+      19.940000534057617,
+      23.174999237060547
+    ]
+  ],
+  "external_dimensions_mm": [
+    124.80000000000001,
+    129.4,
+    39.6
+  ],
+  "mounts_from_native_pcb": [
+    [
+      4.0,
+      -4.0
+    ],
+    [
+      96.0,
+      -4.0
+    ],
+    [
+      45.0,
+      -96.0
+    ],
+    [
+      96.0,
+      -96.0
+    ]
+  ],
+  "mesh_reports": {
+    "BASE \u2014 print floor down": {
+      "bounds_mm": [
+        [
+          -12.399999618530273,
+          112.4000015258789
+        ],
+        [
+          -104.0,
+          25.399999618530273
+        ],
+        [
+          0.0,
+          37.20000076293945
+        ]
+      ],
+      "dimensions_mm": [
+        124.80000114440918,
+        129.39999961853027,
+        37.20000076293945
+      ],
+      "nonmanifold_edges": 0,
+      "connected_solids": 1,
+      "volume_mm3": 90837.54302075104,
+      "faces": 2215,
+      "vertices": 4388
+    },
+    "LID \u2014 print exterior face down": {
+      "bounds_mm": [
+        [
+          -12.399999618530273,
+          112.4000015258789
+        ],
+        [
+          -104.0,
+          25.399999618530273
+        ],
+        [
+          35.599998474121094,
+          39.599998474121094
+        ]
+      ],
+      "dimensions_mm": [
+        124.80000114440918,
+        129.39999961853027,
+        4.0
+      ],
+      "nonmanifold_edges": 0,
+      "connected_solids": 1,
+      "volume_mm3": 39541.94819686191,
+      "faces": 1621,
+      "vertices": 2198
+    },
+    "TEST \u2014 screw and captive-nut fit": {
+      "bounds_mm": [
+        [
+          0.0,
+          36.0
+        ],
+        [
+          0.0,
+          18.0
+        ],
+        [
+          0.0,
+          37.20000076293945
+        ]
+      ],
+      "dimensions_mm": [
+        36.0,
+        18.0,
+        37.20000076293945
+      ],
+      "nonmanifold_edges": 0,
+      "connected_solids": 1,
+      "volume_mm3": 4856.698680950551,
+      "faces": 577,
+      "vertices": 1118
+    },
+    "TEST \u2014 DB9 opening gauge": {
+      "bounds_mm": [
+        [
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          25.700000762939453
+        ],
+        [
+          0.0,
+          2.4000000953674316
+        ]
+      ],
+      "dimensions_mm": [
+        50.0,
+        25.700000762939453,
+        2.4000000953674316
+      ],
+      "nonmanifold_edges": 0,
+      "connected_solids": 1,
+      "volume_mm3": 896.6400502777101,
+      "faces": 10,
+      "vertices": 16
+    }
+  },
+  "base_lid_intersection_mm3": 0.0,
+  "reference_surface_collisions": [],
+  "stl_exports": [
+    {
+      "file": "print/leaf-rev-g-case-base.stl",
+      "sha256": "9e2a5f47268df122ab44318134a470005b1b00e203e9f74a92d1b2661fed9b33",
+      "triangles": 8804,
+      "bounds_mm": [
+        [
+          0.0,
+          124.80000305175781
+        ],
+        [
+          0.0,
+          129.39999389648438
+        ],
+        [
+          0.0,
+          37.20000076293945
+        ]
+      ],
+      "print_orientation": "flat base down"
+    },
+    {
+      "file": "print/leaf-rev-g-case-lid.stl",
+      "sha256": "0b685469e267c052651f019638752075eab299c59d79545ea908e429f7e157b6",
+      "triangles": 4412,
+      "bounds_mm": [
+        [
+          0.0,
+          124.80000305175781
+        ],
+        [
+          0.0,
+          129.40000915527344
+        ],
+        [
+          0.0,
+          4.000011444091797
+        ]
+      ],
+      "print_orientation": "exterior face down"
+    },
+    {
+      "file": "print/OPTIONAL-fastener-fit-test.stl",
+      "sha256": "81a510a835d7f77f6b1057761795f7b3b99e0fa65865abbd29a2acfa4883d2c5",
+      "triangles": 2240,
+      "bounds_mm": [
+        [
+          0.0,
+          36.0
+        ],
+        [
+          0.0,
+          18.0
+        ],
+        [
+          0.0,
+          37.20000076293945
+        ]
+      ],
+      "print_orientation": "flat base down"
+    },
+    {
+      "file": "print/OPTIONAL-connector-fit-test.stl",
+      "sha256": "69ed65a7a41cd83f0dd7507de30b97983ea5ddeb6b4b2c5bac07873d47888873",
+      "triangles": 28,
+      "bounds_mm": [
+        [
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          25.700000762939453
+        ],
+        [
+          0.0,
+          2.4000000953674316
+        ]
+      ],
+      "print_orientation": "flat base down"
+    }
+  ],
+  "antenna_to_main_shell_mm": {
+    "rear_wall": 17.9,
+    "right_wall": 28.0,
+    "floor": 17.5,
+    "lid": 16.200000000000003
+  },
+  "limitations": [
+    "Printed fit, nut/screw sizes and cable hood must be checked physically.",
+    "H2 PCB support lies within the suggested 15 mm antenna clearance; use unfilled nylon PCB fasteners and verify Wi-Fi range.",
+    "DB9 envelope is derived from a manufacturer drawing; female screwlock projection and actual cable hood remain assumptions.",
+    "PCB GLB dielectric body is 1.49 mm; native total PCB thickness 1.6 mm governs assembly.",
+    "No weatherproofing, automotive thermal qualification, vibration qualification or physical print test is claimed."
+  ]
+}

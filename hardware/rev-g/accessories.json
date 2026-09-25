@@ -1,0 +1,26 @@
+[
+  {
+    "ref": "ANT1",
+    "manufacturer": "Molex",
+    "mpn": "1461530300",
+    "mouser_mpn": "538-146153-0300",
+    "mouser_ordering_mpn": "146153-0300",
+    "quantity_per_board": 1,
+    "assembly": "PLUG-IN / OFF-BOARD",
+    "description": "Adhesive balanced flex antenna, 300 mm 1.13 mm coax, MHF I / U.FL compatible",
+    "frequency_used_GHz": 2.4,
+    "impedance_ohm": 50,
+    "peak_gain_at_2p4_GHz_dBi": 2.2,
+    "body_mm": [
+      34.9,
+      9,
+      0.1
+    ],
+    "operating_C": [
+      -40,
+      85
+    ],
+    "datasheet": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/146/146153/PS-146153-100-001.pdf",
+    "notes": "Supplier ordering punctuation differs from manufacturer drawing. No soldering; connect to U2. Not a PCB footprint or factory placement."
+  }
+]

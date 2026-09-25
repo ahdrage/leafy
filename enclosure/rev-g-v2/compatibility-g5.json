@@ -1,0 +1,11 @@
+{
+  "revision": "G.5",
+  "product": "Leafy",
+  "compatible": true,
+  "pcb_sha256": "1d69ed10e44eddc2ca1c4897c0f790e3a0d30cff7f1da9c7cc5d514d66f0ef4f",
+  "baseline": "G.4",
+  "verified_by": "../../hardware/rev-g/exports/filled-g5-audit.json",
+  "basis": "Full native copper/drill/outline/placement and component model geometry is identical. Only thermal solder mask, process metadata and printed product name change.",
+  "render_provenance": "Existing enclosure GLB/Blender renders retain original G.3 artwork and hashes. The new PCB render is in hardware/rev-g/exports/leafy-g5-3d.png.",
+  "limitations": "Digital geometry compatibility; physical fit still requires prototype checking."
+}

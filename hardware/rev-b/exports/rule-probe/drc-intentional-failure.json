@@ -1,0 +1,802 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-11T23:43:06",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "leaf-heat-v2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 2.6406 mm",
+                    "pos": {
+                        "x": 63.3,
+                        "y": 12.417157
+                    },
+                    "uuid": "07295712-ac8a-4b88-91fc-04107a1ec2c3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.9800 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 43.32
+                    },
+                    "uuid": "1511adc4-caa6-4bff-80fb-a97fc4d07f12"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 14.0657 mm",
+                    "pos": {
+                        "x": 63.3,
+                        "y": 26.482842
+                    },
+                    "uuid": "2d974e02-16a3-4493-8a8c-5748d09e34e5"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 55.65,
+                        "y": 44.4
+                    },
+                    "uuid": "4991e2cf-0f3a-4cb4-b83b-1fa510a5badd"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.3328 mm",
+                    "pos": {
+                        "x": 61.432842,
+                        "y": 10.55
+                    },
+                    "uuid": "4aec9ec3-efe8-41b3-a721-a2509957b656"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.1700 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 43.32
+                    },
+                    "uuid": "4b874020-db54-4fd2-b55c-786d1ffccbd2"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 2.2750 mm",
+                    "pos": {
+                        "x": 57.45,
+                        "y": 40.1375
+                    },
+                    "uuid": "51223624-889b-4e45-9ea0-ee54a62e7423"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.9800 mm",
+                    "pos": {
+                        "x": 55.75,
+                        "y": 43.32
+                    },
+                    "uuid": "57adc8b4-a978-4e00-b466-82334ce52cdb"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 2.6625 mm",
+                    "pos": {
+                        "x": 57.45,
+                        "y": 37.8625
+                    },
+                    "uuid": "5e0df5f1-e679-4345-a033-9c5da0adaf19"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.3125 mm",
+                    "pos": {
+                        "x": 57.45,
+                        "y": 41.45
+                    },
+                    "uuid": "5ff6fdfe-dfa2-4011-b589-7932d2e62a25"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 55.75,
+                        "y": 44.3
+                    },
+                    "uuid": "630abd75-a259-4930-b1e5-4939e593f6a7"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 44.3
+                    },
+                    "uuid": "939ed2c7-e8af-4a68-ac12-adeb90ba02e1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.0607 mm",
+                    "pos": {
+                        "x": 57.45,
+                        "y": 35.2
+                    },
+                    "uuid": "95d57b9f-b7a1-4602-9a8f-92f6d0988ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.9899 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 42.15
+                    },
+                    "uuid": "99e82db5-d9a6-4e26-9568-863d392e9d82"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 9.3338 mm",
+                    "pos": {
+                        "x": 56.7,
+                        "y": 33.082842
+                    },
+                    "uuid": "a2a51074-f0c1-4fab-9ee7-b95072aa00ac"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.3672 mm",
+                    "pos": {
+                        "x": 56.7,
+                        "y": 34.45
+                    },
+                    "uuid": "ad7263d9-aa4c-450e-b065-0625ca1c7355"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 44.599999
+                    },
+                    "uuid": "c3f482f5-f80a-4ea0-b306-e48206ba2bfa"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.7267 mm",
+                    "pos": {
+                        "x": 61.1,
+                        "y": 10.55
+                    },
+                    "uuid": "dc2ca5c7-d36f-4ddb-b4d2-361fc1fd80ff"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on B.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 44.824264
+                    },
+                    "uuid": "25aab2ad-e7d9-4603-978b-b67fb09809fb"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on B.Cu, length 0.6757 mm",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 45.124264
+                    },
+                    "uuid": "2b72dbd8-a492-44f5-8925-9ae2ce190fa9"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on B.Cu, length 0.6757 mm",
+                    "pos": {
+                        "x": 55.65,
+                        "y": 45.8
+                    },
+                    "uuid": "99a84c13-148e-46b3-b9bd-ed1c4ee00f9a"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on B.Cu, length 0.8000 mm",
+                    "pos": {
+                        "x": 55.95,
+                        "y": 44.824264
+                    },
+                    "uuid": "d13b8e02-009f-4573-929d-730b34d8e3df"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE explicit net')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on B.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 55.65,
+                        "y": 45.124264
+                    },
+                    "uuid": "f948257a-daf8-4b9b-88df-637ab5401654"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_D_P] on F.Cu, length 2.8284 mm",
+                    "pos": {
+                        "x": 56.975,
+                        "y": 8.0
+                    },
+                    "uuid": "4e1834c6-f7d8-4698-a7d3-ee80c0233992"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_D_P] on F.Cu, length 0.2250 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 8.0
+                    },
+                    "uuid": "b4947365-c2c8-4d61-82ef-e88770e8644f"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_D_N] on F.Cu, length 0.2250 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 9.5
+                    },
+                    "uuid": "2c2df7d1-8e49-47d5-8a37-5ca08e0837e5"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_D_N] on F.Cu, length 2.8284 mm",
+                    "pos": {
+                        "x": 56.975,
+                        "y": 9.5
+                    },
+                    "uuid": "d4120eb6-4109-4b55-9c68-de7970181ca3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.7267 mm",
+                    "pos": {
+                        "x": 61.1,
+                        "y": 10.95
+                    },
+                    "uuid": "13b23a6b-d123-43bb-874e-7bfb7e3a4106"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.4243 mm",
+                    "pos": {
+                        "x": 55.25,
+                        "y": 44.3
+                    },
+                    "uuid": "1e32bcb3-bc53-45c6-a877-b9d31aa523f5"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.1700 mm",
+                    "pos": {
+                        "x": 56.25,
+                        "y": 43.32
+                    },
+                    "uuid": "34b8875e-51e2-4b9d-aa74-9593ad287e11"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 13.7343 mm",
+                    "pos": {
+                        "x": 62.9,
+                        "y": 26.317157
+                    },
+                    "uuid": "447fcb2b-aa6d-4642-b81f-d3109c311de6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.1314 mm",
+                    "pos": {
+                        "x": 54.75,
+                        "y": 36.0
+                    },
+                    "uuid": "4ec192ff-3542-4183-99d8-4b01edeba0b1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.9899 mm",
+                    "pos": {
+                        "x": 56.25,
+                        "y": 42.15
+                    },
+                    "uuid": "552609a0-5a0a-4bbc-bc4e-616bea8487ed"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.5625 mm",
+                    "pos": {
+                        "x": 55.55,
+                        "y": 37.8625
+                    },
+                    "uuid": "5b4b31bf-2783-43d5-b8ef-f3efd004c203"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.3092 mm",
+                    "pos": {
+                        "x": 62.9,
+                        "y": 12.582842
+                    },
+                    "uuid": "5e55977c-d10c-4758-bdde-72a071d9a041"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.2000 mm",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 44.4
+                    },
+                    "uuid": "67efd9ff-be59-4ba8-b5d5-e51f38b6c872"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.5328 mm",
+                    "pos": {
+                        "x": 56.3,
+                        "y": 34.45
+                    },
+                    "uuid": "6d57346a-5bcc-44d0-9354-a7864fb42ab3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.2750 mm",
+                    "pos": {
+                        "x": 55.55,
+                        "y": 40.1375
+                    },
+                    "uuid": "7136bfba-a874-4d94-a3e4-2d867da0d127"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.1414 mm",
+                    "pos": {
+                        "x": 56.25,
+                        "y": 44.3
+                    },
+                    "uuid": "81882345-93d9-4720-8c16-df3ea595e0c1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.9800 mm",
+                    "pos": {
+                        "x": 55.25,
+                        "y": 43.32
+                    },
+                    "uuid": "8c06b637-d0c9-4c8b-9106-487194e53fe1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.3125 mm",
+                    "pos": {
+                        "x": 55.55,
+                        "y": 41.45
+                    },
+                    "uuid": "a89ba847-ce85-4809-8cb8-7b057c07f366"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 9.3338 mm",
+                    "pos": {
+                        "x": 56.3,
+                        "y": 32.917157
+                    },
+                    "uuid": "b1ee7b7a-ab99-40fd-a201-ed72ba7a040d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.5000 mm",
+                    "pos": {
+                        "x": 54.75,
+                        "y": 36.5
+                    },
+                    "uuid": "b646a787-cc02-43bf-9dc5-75d8c064a28c"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.0000 mm",
+                    "pos": {
+                        "x": 54.95,
+                        "y": 44.599999
+                    },
+                    "uuid": "c884aa3a-f840-43c8-9367-ac0878d1fdd4"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.0607 mm",
+                    "pos": {
+                        "x": 55.55,
+                        "y": 35.2
+                    },
+                    "uuid": "dd1ad8a3-7af3-4b85-bd60-76d2e2fe07c9"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.9800 mm",
+                    "pos": {
+                        "x": 56.25,
+                        "y": 43.32
+                    },
+                    "uuid": "ddd9445a-f639-4297-8c54-22419f07231d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.1672 mm",
+                    "pos": {
+                        "x": 61.267157,
+                        "y": 10.95
+                    },
+                    "uuid": "e0873a3a-a691-4c21-86f8-678fbf1adac6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.1314 mm",
+                    "pos": {
+                        "x": 55.55,
+                        "y": 37.3
+                    },
+                    "uuid": "fe3e7778-8dd7-4e1a-a740-1b6aa13b0184"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (rule 'PROBE pair membership')",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_N] on B.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 54.95,
+                        "y": 46.6
+                    },
+                    "uuid": "b0002c3a-9e50-43dc-a685-9d00374c91e4"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Leaf'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 39.0
+                    },
+                    "uuid": "3d14dd03-eb79-4bbb-b28e-7214eaad1964"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Leaf'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 8.0
+                    },
+                    "uuid": "a42b6f8b-f3a1-4c86-a33e-1cf385356eaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

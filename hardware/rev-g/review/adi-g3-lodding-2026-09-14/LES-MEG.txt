@@ -1,0 +1,17 @@
+Bilder til Adi — Rev G.3 — 14.09.2026
+
+01: Hele kortet, med U1/U2 markert.
+02: U1 med toppkobber og forstørret pasta-/hullvisning.
+03: U2 med toppkobber og forstørret pasta-/hullvisning.
+
+Alle visninger sees ovenfra. Komponentene er skjult for å vise loddeområdene.
+Dette er tekniske KiCad-eksporter, ikke foto av produserte kort.
+I pastavisning B er de faktiske borehullene tegnet oppå pastalaget som svarte sirkler.
+Den blå stiplede rammen angir sentral kobberpad, ikke komponentens ytre kapsling.
+Ingen produksjonsfiler, handlekurver eller firmware er endret.
+
+Bakgrunn:
+https://jlcpcb.com/help/article/pcb-via-covering
+https://www.ti.com/lit/an/slma002h/slma002h.pdf
+
+JLCPCBs prosessgodkjenning og fysisk prototypetest gjenstår.

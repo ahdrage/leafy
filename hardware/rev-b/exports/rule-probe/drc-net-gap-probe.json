@@ -1,0 +1,274 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-11T23:46:58",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "leaf-heat-v2.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 2.6406 mm",
+                    "pos": {
+                        "x": 63.3,
+                        "y": 12.417157
+                    },
+                    "uuid": "07295712-ac8a-4b88-91fc-04107a1ec2c3"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.3092 mm",
+                    "pos": {
+                        "x": 62.9,
+                        "y": 12.582842
+                    },
+                    "uuid": "5e55977c-d10c-4758-bdde-72a071d9a041"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 14.0657 mm",
+                    "pos": {
+                        "x": 63.3,
+                        "y": 26.482842
+                    },
+                    "uuid": "2d974e02-16a3-4493-8a8c-5748d09e34e5"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 13.7343 mm",
+                    "pos": {
+                        "x": 62.9,
+                        "y": 26.317157
+                    },
+                    "uuid": "447fcb2b-aa6d-4642-b81f-d3109c311de6"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap maximum gap 0.4000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 55.65,
+                        "y": 44.4
+                    },
+                    "uuid": "4991e2cf-0f3a-4cb4-b83b-1fa510a5badd"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.2000 mm",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 44.4
+                    },
+                    "uuid": "67efd9ff-be59-4ba8-b5d5-e51f38b6c872"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap maximum gap 0.4000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 55.65,
+                        "y": 44.4
+                    },
+                    "uuid": "4991e2cf-0f3a-4cb4-b83b-1fa510a5badd"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.0000 mm",
+                    "pos": {
+                        "x": 54.95,
+                        "y": 44.599999
+                    },
+                    "uuid": "c884aa3a-f840-43c8-9367-ac0878d1fdd4"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 0.3328 mm",
+                    "pos": {
+                        "x": 61.432842,
+                        "y": 10.55
+                    },
+                    "uuid": "4aec9ec3-efe8-41b3-a721-a2509957b656"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 0.1672 mm",
+                    "pos": {
+                        "x": 61.267157,
+                        "y": 10.95
+                    },
+                    "uuid": "e0873a3a-a691-4c21-86f8-678fbf1adac6"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.2700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.1700 mm",
+                    "pos": {
+                        "x": 56.75,
+                        "y": 43.32
+                    },
+                    "uuid": "4b874020-db54-4fd2-b55c-786d1ffccbd2"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.1700 mm",
+                    "pos": {
+                        "x": 56.25,
+                        "y": 43.32
+                    },
+                    "uuid": "34b8875e-51e2-4b9d-aa74-9593ad287e11"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 9.3338 mm",
+                    "pos": {
+                        "x": 56.7,
+                        "y": 33.082842
+                    },
+                    "uuid": "a2a51074-f0c1-4fab-9ee7-b95072aa00ac"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 9.3338 mm",
+                    "pos": {
+                        "x": 56.3,
+                        "y": 32.917157
+                    },
+                    "uuid": "b1ee7b7a-ab99-40fd-a201-ed72ba7a040d"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap minimum gap 0.3000 mm; actual 0.1700 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.3672 mm",
+                    "pos": {
+                        "x": 56.7,
+                        "y": 34.45
+                    },
+                    "uuid": "ad7263d9-aa4c-450e-b065-0625ca1c7355"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 1.5328 mm",
+                    "pos": {
+                        "x": 56.3,
+                        "y": 34.45
+                    },
+                    "uuid": "6d57346a-5bcc-44d0-9354-a7864fb42ab3"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "Differential pair gap out of range (USB main pair gap maximum gap 0.4000 mm; actual 0.5000 mm)",
+            "items": [
+                {
+                    "description": "Track [/USB_CONN_P] on F.Cu, length 1.2000 mm",
+                    "pos": {
+                        "x": 57.05,
+                        "y": 44.599999
+                    },
+                    "uuid": "c3f482f5-f80a-4ea0-b306-e48206ba2bfa"
+                },
+                {
+                    "description": "Track [/USB_CONN_N] on F.Cu, length 2.2000 mm",
+                    "pos": {
+                        "x": 56.35,
+                        "y": 44.4
+                    },
+                    "uuid": "67efd9ff-be59-4ba8-b5d5-e51f38b6c872"
+                }
+            ],
+            "severity": "error",
+            "type": "diff_pair_gap_out_of_range"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Leaf'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 11.0,
+                        "y": 39.0
+                    },
+                    "uuid": "3d14dd03-eb79-4bbb-b28e-7214eaad1964"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Leaf'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 48.0,
+                        "y": 8.0
+                    },
+                    "uuid": "a42b6f8b-f3a1-4c86-a33e-1cf385356eaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

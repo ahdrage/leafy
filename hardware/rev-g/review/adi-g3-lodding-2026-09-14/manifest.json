@@ -1,0 +1,31 @@
+{
+  "revision": "G.3",
+  "pcb_sha256": "8e2212587dd6681346d546cb83727e9c3ea1c5138e4bad50e19c11775217e952",
+  "board_unmodified": true,
+  "U1": {
+    "open_holes": 6,
+    "drill_mm": 0.33,
+    "paste_opening_mm": [
+      2.4,
+      3.1
+    ]
+  },
+  "U2": {
+    "open_holes": 12,
+    "drill_mm": 0.3,
+    "paste_windows": 9,
+    "paste_window_mm": [
+      0.7,
+      0.7
+    ]
+  },
+  "images": {
+    "02-u1-loddeomrade.png": "40d2e58fe18332eae8ccaa505f0b5e8c438805e9f65418ded0d8187aca82a65b",
+    "01-hele-kortet-g3.png": "813d4d811d6839fbb38aa8ae6d019b3baa8fa8d0b177493412da6ae2ce4c1714",
+    "03-u2-loddeomrade.png": "a26352b3157fa25eb68fd73ed6107b7d4c238b97bb2f7cc2b439ead34109ddb3"
+  },
+  "sources": {
+    "paste.svg": "13d7d81236bb666bc6d7c7b7cebb2153b42d78b417e177135f97b8478c5e1aa5",
+    "top.svg": "01d5d60ec6ffae609d50dce024c6fe7893944d424f11968425aaae9122bf8e1a"
+  }
+}

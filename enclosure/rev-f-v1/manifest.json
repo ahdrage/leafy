@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-09-13T09:44:34.191530+00:00",
+  "revision": "Rev F enclosure v1",
+  "pcb_unchanged_sha256": "5b63416fd1c055faa55a8f8dfb4ba75da2f3052ad8de3801168372b136d7357c",
+  "files": {
+    "README.md": {
+      "bytes": 8921,
+      "sha256": "bd1f3337df36637814b19de2cf811fb92c885434486a4c66628a56efadda41ea"
+    },
+    "blend-verification.json": {
+      "bytes": 310,
+      "sha256": "b064d1bf7345b32160f0434a3a0377fd642e4e20205d49c0decf8ba42700f40c"
+    },
+    "build_enclosure.py": {
+      "bytes": 20710,
+      "sha256": "cfb102028ae016e7db055c9f2a30b9e0af66c19b7c1da4ea93f00873fa6e575f"
+    },
+    "leaf-rev-f-enclosure.blend": {
+      "bytes": 2330638,
+      "sha256": "28567e0e713b1144ae85c0510b028cefb1afa5225f3707b05f8b5f6eec93e23b"
+    },
+    "parameters.json": {
+      "bytes": 952,
+      "sha256": "b028de009dbb692e7b1c93aed8ec801e34d45a7f800f6a1438ed0a596d210bf4"
+    },
+    "previews/01-closed-case.png": {
+      "bytes": 2571029,
+      "sha256": "3c18357cad1387b2d5ef080b6b2bbe17de0eb9abb98d41eee430b44d716951b8"
+    },
+    "previews/02-open-case-with-board.png": {
+      "bytes": 2750896,
+      "sha256": "4cce34079209f47998bd32b5face10e237192f6d5806b167655916274dac5cc5"
+    },
+    "previews/03-exploded-case.png": {
+      "bytes": 2728779,
+      "sha256": "5ec55313a09301fd3670fca61d9a0c65d630df2111b32553680d8599ae253a9f"
+    },
+    "previews/04-empty-base.png": {
+      "bytes": 2613034,
+      "sha256": "b355828136f79728aa560b6f6c849dba2c32ab97d77ec1a2b2baa46903e68b73"
+    },
+    "print/OPTIONAL-connector-fit-test.stl": {
+      "bytes": 1484,
+      "sha256": "69ed65a7a41cd83f0dd7507de30b97983ea5ddeb6b4b2c5bac07873d47888873"
+    },
+    "print/OPTIONAL-fastener-fit-test.stl": {
+      "bytes": 112084,
+      "sha256": "81a510a835d7f77f6b1057761795f7b3b99e0fa65865abbd29a2acfa4883d2c5"
+    },
+    "print/leaf-rev-f-case-base.stl": {
+      "bytes": 440284,
+      "sha256": "9e2a5f47268df122ab44318134a470005b1b00e203e9f74a92d1b2661fed9b33"
+    },
+    "print/leaf-rev-f-case-lid.stl": {
+      "bytes": 220684,
+      "sha256": "0b685469e267c052651f019638752075eab299c59d79545ea908e429f7e157b6"
+    },
+    "reference/board-geometry.json": {
+      "bytes": 30312,
+      "sha256": "207ec50201da785e6f7527e8c3e057444975cf3c7386ea0dbb229fb0de595cc2"
+    },
+    "reference/leaf-heat-rev-f.glb": {
+      "bytes": 4863836,
+      "sha256": "4aec575bfcf1c79fb0978e380740495d1649424cbf1d863d90ca940e7f829e9e"
+    },
+    "validation.json": {
+      "bytes": 5419,
+      "sha256": "8f1f0adaad5f697f59ee5b475053ea1c4803ce2737a54e42c78974d5b89c439d"
+    }
+  }
+}

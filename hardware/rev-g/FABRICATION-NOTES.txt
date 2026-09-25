@@ -1,0 +1,34 @@
+LEAFY REV G.5 — EPOXY-FILLED AND COPPER-CAPPED THERMAL HOLES
+
+100 x 100 mm finished PCB, 4 layers, 1.6 mm FR-4, 1 oz outer AND inner
+copper, green mask, white silk, lead-free HASL. Five PCBs; assemble TWO.
+Select Epoxy Filled & Capped and Horizontal Electroless Copper Plating.
+
+REQUIRED FILL/CAP: six 0.33 mm thermal PTHs under U1 and twelve 0.30 mm
+thermal PTHs under U2, ALL 18 PER PCB. Include U1's 0.33 mm holes even
+though they exceed the default 0.30 mm selection. These are thermal vias,
+not component-lead holes. Locations: THERMAL-FILL-LOCATIONS.csv / drawing.
+Epoxy fill, planarize and copper-cap both ends; top surface solderable.
+Normal eligible signal vias may follow the selected JLC filling process.
+Leave component-lead, connector, test and mounting holes open.
+
+The top thermal mask openings are continuous; there are NO local mask
+covers over these 18 holes. The bottom mask exposes the capped annuli;
+it does NOT request open barrels. Preserve the supplied pad/mask/copper
+geometry. Solid thermal-plane connections are intentional; do not replace
+these with thermal-relief spokes. This revision replaces all G.4 tenting,
+mask-cap-survival and exact-stencil instructions.
+
+STANDARD PCBA, TOP ONLY: fit exactly U1/U2/U4/U5/U6/L1 per matching BOM/CPL.
+Use JLC's normal component-library stencil engineering, considering the
+actual solder-mask-defined pads. SPECIAL STENCIL = NO. The supplied paste
+layer is reference only, NOT an exact-aperture or thickness requirement.
+No step stencil, custom stencil file or paste on unpopulated pads requested.
+Solder U1's exposed pad; control U2 paste to avoid lifting its outer leads.
+Use normal assembly inspection; no custom inspection report requested.
+
+Add necessary temporary assembly rails/fiducials externally, preserving the
+100 x 100 mm finished outline, mounting holes and connector clearances.
+Remove assembly rails before delivery. Apply supplied JLC CPL angles once;
+retain manual PCB production-file and placement confirmation.
+DO NOT power/program the incomplete boards. ANT1 is customer plug-in.

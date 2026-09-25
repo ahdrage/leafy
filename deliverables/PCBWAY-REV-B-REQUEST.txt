@@ -1,0 +1,7 @@
+REV B QUOTATION REQUEST — 12 September 2026
+
+Please quote 5 bare PCBs with 1 of those boards fully assembled (4 delivered bare), turnkey component sourcing. All 47 components mount on the top: 46 SMT and 1 through-hole DB9, 29 unique MPNs. Use exact BOM MPNs; request approval for substitutions. Include components, assembly consumables/stencil, and economical shipping to Norway in the quotation. No programming or functional test is requested; no firmware is supplied.
+
+4-layer FR-4, nominal 65 x 50 mm, nominal 1.6 mm thickness, 1 oz copper on all layers, green mask, white silkscreen, lead-free HASL, tented standard vias. Target USB differential impedance 90 ohms +/-10%. Review proposed stackup and USB geometry in MANUFACTURING-NOTES.md and request approval of any changes before fabrication.
+
+This is a quotation and engineering review request only, not authorization to fabricate or charge. Please flag assembly concerns around the exposed pads, thermal vias, overhanging ESP32 antenna and DB9. J1 placement origin is pin 1 rather than the connector body centroid; refer to exact manufacturer drawing. See placement drawing and detailed notes.

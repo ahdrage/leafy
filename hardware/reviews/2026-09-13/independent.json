@@ -1,0 +1,6533 @@
+{
+  "revision": "F",
+  "board_sha256": "5b63416fd1c055faa55a8f8dfb4ba75da2f3052ad8de3801168372b136d7357c",
+  "schematic_sha256": "e3e0ba99f9ab009493ed48b9decf28f02613305b7fe795ed2e3e3c0c555f89f2",
+  "factory_refs": [
+    "L1",
+    "U1",
+    "U2",
+    "U4"
+  ],
+  "hand_count": 37,
+  "component_count": 41,
+  "hand_bom_lines": 21,
+  "checks_passed": 1627,
+  "failed": [],
+  "electrical_delta": {
+    "U3.5": [
+      "3V3",
+      "GND"
+    ]
+  },
+  "limitations": "Static CAD and manufacturer-data review only. Physical power integrity, loop stability, RF, CAN, vehicle operation, EMI and environmental performance remain untested. No heater firmware supplied.",
+  "checks": [
+    {
+      "check": "All circuit parts and bare features accounted for",
+      "pass": true
+    },
+    {
+      "check": "All 41 circuit components retained",
+      "pass": true
+    },
+    {
+      "check": "Schematic pin membership unchanged",
+      "pass": true
+    },
+    {
+      "check": "Only electrical net change is U3.5: 3V3 to GND",
+      "pass": true
+    },
+    {
+      "check": "J1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "J1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.4 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.4 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.5 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.5 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.6 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.6 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.7 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.7 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.8 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.8 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.9 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.9 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.SH schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J1.SH PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "J3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "J3.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "U1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.4 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.4 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.5 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.5 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.6 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.6 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.7 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.7 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.8 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.8 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.9 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U1.9 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "U2.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.4 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.4 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.5 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.5 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.6 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.6 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.7 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.7 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.8 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.8 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.9 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.9 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.10 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.10 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.11 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.11 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.12 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.12 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.13 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.13 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.14 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.14 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.15 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.15 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.16 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.16 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.17 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.17 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.18 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.18 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.19 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U2.19 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "U3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.4 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.4 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.5 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.5 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.6 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.6 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.7 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.7 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.8 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U3.8 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "U4.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.4 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.4 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.5 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.5 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.6 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "U4.6 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D4 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "D4.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.3 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D4.3 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "F1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "F1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "F1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "F1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "F1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "D1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "D3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D3.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D3.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "L1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "L1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "L1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "L1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "L1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C2 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C2.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C2.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C2.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C2.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C3.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C3.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C4 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C4.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C4.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C4.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C4.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R2 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R2.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R2.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R2.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R2.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R3.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R3.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C8 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C8.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C8.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C8.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C8.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R4 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R4.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R4.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R4.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R4.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R5 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R5.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R5.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R5.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R5.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R6 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R6.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R6.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R6.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R6.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "SW1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "SW1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "SW1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "SW1.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "SW1.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "SW2 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "SW2.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "SW2.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "SW2.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "SW2.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R7 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R7.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R7.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R7.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R7.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R8 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R8.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R8.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R8.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R8.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C11 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C11.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C11.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C11.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C11.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R9 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R9.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R9.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R9.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R9.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D6 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "D6.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D6.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "D6.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "D6.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R10 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R10.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R10.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R10.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R10.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R18 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R18.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R18.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R18.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R18.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R19 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R19.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R19.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R19.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R19.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R20 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "R20.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R20.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "R20.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "R20.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C5 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C5.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C5.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C5.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C5.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C6 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C6.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C6.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C6.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C6.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C7 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C7.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C7.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C7.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C7.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C9 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C9.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C9.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C9.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C9.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C10 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C10.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C10.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C10.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C10.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C12 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C12.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C12.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C12.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C12.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C13 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C13.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C13.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C13.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C13.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C14 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "C14.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C14.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "C14.2 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "C14.2 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP1 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP1.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP1.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP2 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP2.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP2.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP3 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP3.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP3.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP4 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP4.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP4.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP5 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP5.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP5.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP6 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP6.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP6.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "TP7 package pin numbers",
+      "pass": true
+    },
+    {
+      "check": "TP7.1 schematic pin map",
+      "pass": true
+    },
+    {
+      "check": "TP7.1 PCB pin map",
+      "pass": true
+    },
+    {
+      "check": "SHDN represented as a digital input",
+      "pass": true
+    },
+    {
+      "check": "Four factory parts retained",
+      "pass": true
+    },
+    {
+      "check": "J1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "J1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "J1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "J1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "J1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "J1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "J1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "J1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "F1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "F1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "F1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "F1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "F1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "F1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "F1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "F1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "D1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "D1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "D1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "D1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "D1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "D1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "D1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "D1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "D3 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "D3 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "D3 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "D3 value agrees",
+      "pass": true
+    },
+    {
+      "check": "D3 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "D3 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "D3 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "D3 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "U1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "U1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "U1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "U1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "U1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "U1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C2 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C2 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C2 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C2 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C2 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C2 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C2 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C2 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C3 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C3 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C3 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C3 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C3 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C3 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C3 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C3 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C4 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C4 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C4 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C4 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C4 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C4 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C4 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C4 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "L1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "L1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "L1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "L1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "L1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "L1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C5 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C5 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C5 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C5 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C5 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C5 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C5 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C5 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C6 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C6 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C6 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C6 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C6 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C6 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C6 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C6 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C7 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C7 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C7 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C7 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C7 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C7 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C7 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C7 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R2 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R2 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R2 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R2 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R2 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R2 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R2 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R2 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "U2 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "U2 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "U2 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "U2 value agrees",
+      "pass": true
+    },
+    {
+      "check": "U2 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "U2 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R3 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R3 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R3 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R3 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R3 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R3 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R3 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R3 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C8 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C8 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C8 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C8 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C8 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C8 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C8 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C8 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C9 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C9 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C9 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C9 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C9 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C9 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C9 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C9 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C10 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C10 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C10 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C10 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C10 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C10 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C10 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C10 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R4 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R4 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R4 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R4 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R4 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R4 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R4 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R4 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R5 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R5 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R5 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R5 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R5 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R5 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R5 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R5 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R6 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R6 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R6 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R6 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R6 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R6 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R6 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R6 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "SW1 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "SW1 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "SW1 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "SW1 value agrees",
+      "pass": true
+    },
+    {
+      "check": "SW1 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "SW1 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "SW1 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "SW1 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "SW2 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "SW2 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "SW2 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "SW2 value agrees",
+      "pass": true
+    },
+    {
+      "check": "SW2 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "SW2 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "SW2 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "SW2 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R7 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R7 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R7 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R7 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R7 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R7 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R7 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R7 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R8 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R8 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R8 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R8 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R8 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R8 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R8 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R8 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C11 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C11 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C11 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C11 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C11 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C11 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C11 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C11 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R9 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R9 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R9 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R9 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R9 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R9 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R9 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R9 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "D6 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "D6 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "D6 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "D6 value agrees",
+      "pass": true
+    },
+    {
+      "check": "D6 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "D6 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "D6 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "D6 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "U3 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "U3 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "U3 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "U3 value agrees",
+      "pass": true
+    },
+    {
+      "check": "U3 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "U3 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "U3 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "U3 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R10 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R10 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R10 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R10 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R10 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R10 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R10 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R10 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C12 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C12 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C12 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C12 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C12 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C12 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C12 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C12 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C13 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C13 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C13 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C13 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C13 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C13 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C13 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C13 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "D4 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "D4 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "D4 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "D4 value agrees",
+      "pass": true
+    },
+    {
+      "check": "D4 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "D4 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "D4 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "D4 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "C14 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "C14 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "C14 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "C14 value agrees",
+      "pass": true
+    },
+    {
+      "check": "C14 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "C14 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "C14 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "C14 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "U4 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "U4 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "U4 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "U4 value agrees",
+      "pass": true
+    },
+    {
+      "check": "U4 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "U4 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "J3 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "J3 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "J3 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "J3 value agrees",
+      "pass": true
+    },
+    {
+      "check": "J3 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "J3 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "J3 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "J3 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R18 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R18 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R18 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R18 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R18 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R18 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R18 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R18 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R19 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R19 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R19 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R19 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R19 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R19 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R19 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R19 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R20 exact approved part number",
+      "pass": true
+    },
+    {
+      "check": "R20 MPN agrees across schematic/PCB/BOM",
+      "pass": true
+    },
+    {
+      "check": "R20 manufacturer agrees",
+      "pass": true
+    },
+    {
+      "check": "R20 value agrees",
+      "pass": true
+    },
+    {
+      "check": "R20 footprint agrees",
+      "pass": true
+    },
+    {
+      "check": "R20 assembly ownership agrees",
+      "pass": true
+    },
+    {
+      "check": "R20 thermal reliefs retained",
+      "pass": true
+    },
+    {
+      "check": "R20 has no factory stencil apertures",
+      "pass": true
+    },
+    {
+      "check": "R19 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R19 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R19 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "SW2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "SW2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "SW2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "U2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "U2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "U2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C5 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C5 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C5 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R5 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R5 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R5 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "J1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "J1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "J1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C10 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C10 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C10 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "F1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "F1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "F1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "H1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "H1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "H1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C6 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C6 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C6 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C14 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C14 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C14 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C12 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C12 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C12 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C13 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C13 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C13 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C11 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C11 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C11 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "SW1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "SW1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "SW1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "D3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "D3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "D3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R6 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R6 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R6 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R7 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R7 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R7 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "D1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "D1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "D1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C8 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C8 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C8 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "L1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "L1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "L1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP5 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP5 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP5 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C7 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C7 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C7 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R10 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R10 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R10 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "D4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "D4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "D4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "H3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "H3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "H3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R20 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R20 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R20 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "D6 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "D6 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "D6 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP7 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP7 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP7 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "U1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "U1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "U1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R18 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R18 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R18 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "H2 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "H2 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "H2 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R9 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R9 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R9 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R8 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R8 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R8 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "U4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "U4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "U4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "R4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "R4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "R4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "H4 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "H4 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "H4 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP6 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP6 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP6 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "J3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "J3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "J3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "U3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "U3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "U3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C1 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C1 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C1 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "TP3 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "TP3 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "TP3 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "C9 location/orientation retained",
+      "pass": true
+    },
+    {
+      "check": "C9 all pad/drill geometry retained",
+      "pass": true
+    },
+    {
+      "check": "C9 top-side assembly",
+      "pass": true
+    },
+    {
+      "check": "NorComp 2.77 mm column pitch",
+      "pass": true
+    },
+    {
+      "check": "NorComp 2.84 mm row pitch",
+      "pass": true
+    },
+    {
+      "check": "NorComp 24.99 mm anchor spacing",
+      "pass": true
+    },
+    {
+      "check": "NorComp 3.2 mm fork-boardlock holes",
+      "pass": true
+    },
+    {
+      "check": "NorComp 1.2 mm contact holes",
+      "pass": true
+    },
+    {
+      "check": "Exactly three obsolete VIO branch segments removed; no unrelated copper additions/deletions",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0f062a03-dd32-481a-acee-ee3c2472a4a3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0f062a03-dd32-481a-acee-ee3c2472a4a3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4fffa526-baa4-42df-b492-c7953d721543",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4fffa526-baa4-42df-b492-c7953d721543",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a3e53ef2-d5f6-4293-a95b-10c4b760d09f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a3e53ef2-d5f6-4293-a95b-10c4b760d09f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ea0d56b9-7b3e-43f4-8672-b8eabb2d7f08",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ea0d56b9-7b3e-43f4-8672-b8eabb2d7f08",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f02528f9-d7f4-4785-b739-1d878827ba06",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f02528f9-d7f4-4785-b739-1d878827ba06",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 001156d0-74a2-482f-86e7-6baa6d0f3734",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 001156d0-74a2-482f-86e7-6baa6d0f3734",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 502ece3d-d7b0-4383-9669-5f83a9e05ae2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 502ece3d-d7b0-4383-9669-5f83a9e05ae2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained be5f6f5d-2533-406e-8f53-b2396817d02b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked be5f6f5d-2533-406e-8f53-b2396817d02b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f58c8223-b04d-45b4-9d08-c4d6c18f00ba",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f58c8223-b04d-45b4-9d08-c4d6c18f00ba",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fd13441c-92f2-4413-aed8-4b8d57d3b14c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fd13441c-92f2-4413-aed8-4b8d57d3b14c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3928aa64-3343-4254-a24c-99753f2ddad2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3928aa64-3343-4254-a24c-99753f2ddad2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 73799fdc-4a56-429d-ba51-48b72a592f22",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 73799fdc-4a56-429d-ba51-48b72a592f22",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7c920ac2-e3b7-42b8-ab80-05a979486ded",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7c920ac2-e3b7-42b8-ab80-05a979486ded",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 80b79476-91ef-4d26-bb63-335041eb0dba",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 80b79476-91ef-4d26-bb63-335041eb0dba",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 951d0ebd-7e0a-42bc-a4bf-79373fa68577",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 951d0ebd-7e0a-42bc-a4bf-79373fa68577",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4b69802f-bfed-416c-9b96-2688b2bd5ecc",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4b69802f-bfed-416c-9b96-2688b2bd5ecc",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b89bc55c-b2ba-4518-90cb-7b8357359985",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b89bc55c-b2ba-4518-90cb-7b8357359985",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained cca45ee1-7b0c-4fb1-99a8-9ce2424560d3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked cca45ee1-7b0c-4fb1-99a8-9ce2424560d3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 185b6aba-8c09-4a86-ab0d-694b7a0400e6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 185b6aba-8c09-4a86-ab0d-694b7a0400e6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ab06b02d-ce12-439c-8368-711b4f82af30",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ab06b02d-ce12-439c-8368-711b4f82af30",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d12d4339-9899-40be-9b06-a58448ca0074",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d12d4339-9899-40be-9b06-a58448ca0074",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f560fbd0-3f29-4730-8053-aa482d12a55a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f560fbd0-3f29-4730-8053-aa482d12a55a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4a11fed8-8897-4cb0-9f9d-6db4ace419ca",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4a11fed8-8897-4cb0-9f9d-6db4ace419ca",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 59c8c89a-3663-4170-b2dd-a77f226becdb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 59c8c89a-3663-4170-b2dd-a77f226becdb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5c2863b7-5d40-4b5f-a32d-626838a7b519",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5c2863b7-5d40-4b5f-a32d-626838a7b519",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 926c9746-664e-4e25-9ab3-0ae70cf0e5bf",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 926c9746-664e-4e25-9ab3-0ae70cf0e5bf",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 99659d63-d92a-40af-9762-f3ed2bbd31d0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 99659d63-d92a-40af-9762-f3ed2bbd31d0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9cbe8580-3e1a-489a-a42e-15c75cc85f12",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9cbe8580-3e1a-489a-a42e-15c75cc85f12",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 06f58c62-2ef9-4431-abea-aa8a51df6537",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 06f58c62-2ef9-4431-abea-aa8a51df6537",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1b1a9ec0-4062-4e9c-96e5-b5bd2935fc32",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1b1a9ec0-4062-4e9c-96e5-b5bd2935fc32",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 20b24b8d-2df1-4691-b03d-5ea319f26278",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 20b24b8d-2df1-4691-b03d-5ea319f26278",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 25f810e4-87e9-4a0f-8bb5-ecfedc111444",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 25f810e4-87e9-4a0f-8bb5-ecfedc111444",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2ad68b28-96f5-44b4-9da7-681fa5d8d9d3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2ad68b28-96f5-44b4-9da7-681fa5d8d9d3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2bd813ba-a5b8-48b9-824d-e989cf17f80e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2bd813ba-a5b8-48b9-824d-e989cf17f80e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2e53ce17-73bf-43be-a3a5-43cb62bcf19d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2e53ce17-73bf-43be-a3a5-43cb62bcf19d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 32f39dac-c311-4685-9717-c2e3bb19c254",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 32f39dac-c311-4685-9717-c2e3bb19c254",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 34ddb397-2010-44b0-8c56-a6a76ae7b9e3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 34ddb397-2010-44b0-8c56-a6a76ae7b9e3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 399949c7-2c26-4cca-b461-5ed225ba2cc2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 399949c7-2c26-4cca-b461-5ed225ba2cc2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5a65e1f7-b9ab-4ae6-9dde-fb8b1d15327e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5a65e1f7-b9ab-4ae6-9dde-fb8b1d15327e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5d68811c-4c90-40ee-a70e-6c21e97f7238",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5d68811c-4c90-40ee-a70e-6c21e97f7238",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 663e5a61-2ff7-4612-9f15-3566c1ceae7e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 663e5a61-2ff7-4612-9f15-3566c1ceae7e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6c6974aa-ff1a-460e-b77a-0a6d085e89d2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6c6974aa-ff1a-460e-b77a-0a6d085e89d2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 70a4d39e-bcf3-4781-8e0d-0e924336bfee",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 70a4d39e-bcf3-4781-8e0d-0e924336bfee",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 93a19161-4b4a-4759-890f-7adb5bca5ea2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 93a19161-4b4a-4759-890f-7adb5bca5ea2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a1547b89-c3c1-4d58-b4ae-e067db576b37",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a1547b89-c3c1-4d58-b4ae-e067db576b37",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a42868b5-b68a-4e8b-a263-d9d2a8dc6d18",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a42868b5-b68a-4e8b-a263-d9d2a8dc6d18",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a84203f8-a5d4-4b9f-8618-c53bd0486420",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a84203f8-a5d4-4b9f-8618-c53bd0486420",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b0a7b973-c068-4f43-b110-33e82b02df7d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b0a7b973-c068-4f43-b110-33e82b02df7d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d8209f9e-413d-442d-8d4d-8d30444de62e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d8209f9e-413d-442d-8d4d-8d30444de62e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e1d1a727-90bd-4141-beee-8c1304d2ebac",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e1d1a727-90bd-4141-beee-8c1304d2ebac",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e8beafdb-edf0-4b76-9fdf-f3f9e3ea70c8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e8beafdb-edf0-4b76-9fdf-f3f9e3ea70c8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e9279c91-9df4-4dd8-acb2-0403134c1b97",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e9279c91-9df4-4dd8-acb2-0403134c1b97",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ea3d6c19-4d6e-4611-aef5-e0e65ab4038b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ea3d6c19-4d6e-4611-aef5-e0e65ab4038b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f97fa9f2-bc09-4064-8126-27d1e711cf48",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f97fa9f2-bc09-4064-8126-27d1e711cf48",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fe7d4af8-63b3-4381-926a-e9ea40521f46",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fe7d4af8-63b3-4381-926a-e9ea40521f46",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0432ab3b-39b8-4b91-861b-7afb23df4440",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0432ab3b-39b8-4b91-861b-7afb23df4440",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 05c5f352-f3cd-433e-ad54-82b027e9c55c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 05c5f352-f3cd-433e-ad54-82b027e9c55c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 07170d68-d4c3-413c-a34c-8b5e1a07d958",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 07170d68-d4c3-413c-a34c-8b5e1a07d958",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 095d0cba-7b77-4d5b-8d5e-b185d225032f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 095d0cba-7b77-4d5b-8d5e-b185d225032f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0a34d043-aacc-42ad-9e68-2a50b04663bb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0a34d043-aacc-42ad-9e68-2a50b04663bb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1822ad2f-ddb0-4a31-95b7-3a1bddc0c6f0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1822ad2f-ddb0-4a31-95b7-3a1bddc0c6f0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1d1929f7-52f6-49a1-873a-196a936974ba",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1d1929f7-52f6-49a1-873a-196a936974ba",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1eb0c7fd-3656-4b0e-8843-506264061de4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1eb0c7fd-3656-4b0e-8843-506264061de4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 20043eb4-b1ec-47fc-a8f9-84d63754dfd7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 20043eb4-b1ec-47fc-a8f9-84d63754dfd7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 206f22ba-6da3-40b1-95ee-263a8bf94bb8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 206f22ba-6da3-40b1-95ee-263a8bf94bb8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 22f8d257-f0a4-4cd6-89e0-db2eb216b2f4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 22f8d257-f0a4-4cd6-89e0-db2eb216b2f4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 23c8c551-fd6c-4e1f-b495-2b696e4d19e3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 23c8c551-fd6c-4e1f-b495-2b696e4d19e3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 289b242b-1839-4d4b-a484-4d3981d60d1f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 289b242b-1839-4d4b-a484-4d3981d60d1f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2ab13ff9-e9bb-4f8a-85c6-f83501c47b52",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2ab13ff9-e9bb-4f8a-85c6-f83501c47b52",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2c35d4c7-bf59-4b48-9423-6832f3274667",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2c35d4c7-bf59-4b48-9423-6832f3274667",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2cb58c42-adc4-4b83-9518-f76c3805c3c8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2cb58c42-adc4-4b83-9518-f76c3805c3c8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3304ce42-90a1-47c0-a595-dcfa7197cbf7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3304ce42-90a1-47c0-a595-dcfa7197cbf7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 331c9fbb-7cce-4993-9796-52df981ece76",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 331c9fbb-7cce-4993-9796-52df981ece76",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 334a92b7-ef8c-415c-a00e-6918565b9d61",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 334a92b7-ef8c-415c-a00e-6918565b9d61",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 35bcdddc-7b7d-416d-b8e3-38578efde829",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 35bcdddc-7b7d-416d-b8e3-38578efde829",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 36175505-af7f-49ca-89ad-8bcf44ea460f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 36175505-af7f-49ca-89ad-8bcf44ea460f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 362a5394-cee0-41df-a8ea-9523a1447092",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 362a5394-cee0-41df-a8ea-9523a1447092",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3816e7d3-9f5d-433a-92c9-293a0774b366",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3816e7d3-9f5d-433a-92c9-293a0774b366",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3aba4d77-0b07-472a-a4ad-78625ec0124c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3aba4d77-0b07-472a-a4ad-78625ec0124c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3ae6a77f-29e9-4488-b8c4-e32c8e470883",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3ae6a77f-29e9-4488-b8c4-e32c8e470883",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3b0db0a1-099a-4f47-bb99-f7b9d5e4abbc",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3b0db0a1-099a-4f47-bb99-f7b9d5e4abbc",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3d64f080-3352-4822-baf4-ba3d09a73776",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3d64f080-3352-4822-baf4-ba3d09a73776",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3e2622c0-00ad-4270-844d-63e50bdb8f72",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3e2622c0-00ad-4270-844d-63e50bdb8f72",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3fdb6d09-19a7-455d-aa75-3bd37e4b4ac9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3fdb6d09-19a7-455d-aa75-3bd37e4b4ac9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4093f304-2774-4ebe-aea9-796e2df1013b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4093f304-2774-4ebe-aea9-796e2df1013b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 413c611b-f495-46f6-9d63-6adf1ad6dff2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 413c611b-f495-46f6-9d63-6adf1ad6dff2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 44258803-c1b1-414b-8824-17f541a7afb3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 44258803-c1b1-414b-8824-17f541a7afb3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 46003b5f-923f-4459-9498-f5b75c08f6c8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 46003b5f-923f-4459-9498-f5b75c08f6c8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 46d573ec-3cf0-4345-93ee-c238584cc944",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 46d573ec-3cf0-4345-93ee-c238584cc944",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 488b8d38-0bec-42fb-a24c-b371f5670186",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 488b8d38-0bec-42fb-a24c-b371f5670186",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4b80faea-8cf4-4116-bdfd-c00fc781a218",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4b80faea-8cf4-4116-bdfd-c00fc781a218",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4e3ab1c9-3b3e-4d7c-8b72-afcf1ca5acc4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4e3ab1c9-3b3e-4d7c-8b72-afcf1ca5acc4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4e73d18a-077d-4042-a5ce-25f9e0699525",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4e73d18a-077d-4042-a5ce-25f9e0699525",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5217e34f-32bf-4f1c-a73d-cb0e93759f93",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5217e34f-32bf-4f1c-a73d-cb0e93759f93",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 568b4e1f-3110-4f87-a970-e6dd90627039",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 568b4e1f-3110-4f87-a970-e6dd90627039",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5afb3791-e047-436f-abdf-c9e2152039d1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5afb3791-e047-436f-abdf-c9e2152039d1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5b3a1511-6bf1-4263-8dbf-0d8808f0e8d5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5b3a1511-6bf1-4263-8dbf-0d8808f0e8d5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5b476f50-bfd8-45c7-9502-327838af4c80",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5b476f50-bfd8-45c7-9502-327838af4c80",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5d182754-8701-4d24-b66c-c5f8102b86cb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5d182754-8701-4d24-b66c-c5f8102b86cb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5f62c1d9-7d68-4624-84a8-7e22dfca72f9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5f62c1d9-7d68-4624-84a8-7e22dfca72f9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 62874e4d-010e-4e76-b9a2-5f6400dbf6e6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 62874e4d-010e-4e76-b9a2-5f6400dbf6e6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 63241ea4-cbad-42d4-a4c9-fb3d6373fc66",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 63241ea4-cbad-42d4-a4c9-fb3d6373fc66",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6376650d-3f86-4af1-a35e-5ecc78f60638",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6376650d-3f86-4af1-a35e-5ecc78f60638",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 64db7a50-5122-4bea-bb2f-b741875637a6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 64db7a50-5122-4bea-bb2f-b741875637a6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 660e9e16-5425-4b97-9cf1-b52c37a1872e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 660e9e16-5425-4b97-9cf1-b52c37a1872e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6980bef6-5179-44fe-87af-7b66c61ae848",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6980bef6-5179-44fe-87af-7b66c61ae848",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6af7e162-d03d-4fc4-b678-715f352a9690",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6af7e162-d03d-4fc4-b678-715f352a9690",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6af9c159-e6fe-4f0b-a1c3-0bd6dbaa9e54",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6af9c159-e6fe-4f0b-a1c3-0bd6dbaa9e54",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6c625264-4e1d-4ede-91ca-90885edb951e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6c625264-4e1d-4ede-91ca-90885edb951e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6de3ba4a-ebf8-406f-9198-8a6332c28f7e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6de3ba4a-ebf8-406f-9198-8a6332c28f7e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 71175c6e-e217-4e2a-81d1-90135dde7aa7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 71175c6e-e217-4e2a-81d1-90135dde7aa7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 77b985ec-fb42-47e9-b98e-a36e363535d4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 77b985ec-fb42-47e9-b98e-a36e363535d4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 78d3cc0a-e986-4daf-a831-42edfe422f1e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 78d3cc0a-e986-4daf-a831-42edfe422f1e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7a32e4dd-9540-4dce-96de-d37476470db7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7a32e4dd-9540-4dce-96de-d37476470db7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7a3fe1b5-1642-4197-b626-804b868583ab",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7a3fe1b5-1642-4197-b626-804b868583ab",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 82217e64-ec80-4853-a3a9-f3a74d15af99",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 82217e64-ec80-4853-a3a9-f3a74d15af99",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8412ca02-eefe-4032-ab17-2c20a7bf98ed",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8412ca02-eefe-4032-ab17-2c20a7bf98ed",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 85b95a61-b68a-464b-b5a1-2be3c72021ef",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 85b95a61-b68a-464b-b5a1-2be3c72021ef",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8623b46e-8963-48fe-8aba-681ad0be8cb3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8623b46e-8963-48fe-8aba-681ad0be8cb3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 868286b0-c545-4705-a412-d2d7d8659434",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 868286b0-c545-4705-a412-d2d7d8659434",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 88591466-1135-4b32-9b5d-1610142bb5bf",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 88591466-1135-4b32-9b5d-1610142bb5bf",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8f507233-e39f-41d3-9db8-e2bba827cbc9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8f507233-e39f-41d3-9db8-e2bba827cbc9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9155b93b-0260-4813-87f6-45dd5a19bde5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9155b93b-0260-4813-87f6-45dd5a19bde5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 93fc69b7-08fe-4299-8a4b-b155bf1f3344",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 93fc69b7-08fe-4299-8a4b-b155bf1f3344",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9a42911b-e4c8-43b7-90c1-0716333f779e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9a42911b-e4c8-43b7-90c1-0716333f779e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9a8dc2f6-0b7a-4857-9a20-cd3086ab33ec",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9a8dc2f6-0b7a-4857-9a20-cd3086ab33ec",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9aa67d2b-c018-47d3-819a-f0b979c62208",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9aa67d2b-c018-47d3-819a-f0b979c62208",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9d0647c4-9ca2-427a-9e0c-eedbf61f88a3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9d0647c4-9ca2-427a-9e0c-eedbf61f88a3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9f1f8d91-5e29-4a8e-8b3a-efc39d030376",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9f1f8d91-5e29-4a8e-8b3a-efc39d030376",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a215058b-1a15-41bc-b079-dcac3f0fec79",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a215058b-1a15-41bc-b079-dcac3f0fec79",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a3cf2fe3-cb3e-402a-9801-301f8d2dc187",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a3cf2fe3-cb3e-402a-9801-301f8d2dc187",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a8d3a775-b374-42ab-872c-93dc58d4253f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a8d3a775-b374-42ab-872c-93dc58d4253f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a95bfba7-d315-4191-a83b-2b7e8852a27a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a95bfba7-d315-4191-a83b-2b7e8852a27a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained acbd0302-11a5-4fb4-b04e-b9466b9e3e09",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked acbd0302-11a5-4fb4-b04e-b9466b9e3e09",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained af5b690a-0ebc-4eab-99b2-cb676e41695d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked af5b690a-0ebc-4eab-99b2-cb676e41695d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b0ec833b-9416-4376-8208-aa48821b13d9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b0ec833b-9416-4376-8208-aa48821b13d9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b45f176f-da66-4e64-acd4-466cc296fec6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b45f176f-da66-4e64-acd4-466cc296fec6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b7634d68-99c5-43b9-a525-0bf88896fc32",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b7634d68-99c5-43b9-a525-0bf88896fc32",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c01c578a-a012-4040-bce4-3e681d251efb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c01c578a-a012-4040-bce4-3e681d251efb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c16c6c5f-4d7c-4910-9e5b-1fd0036470e4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c16c6c5f-4d7c-4910-9e5b-1fd0036470e4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained cbcb9c21-ad4c-47b4-84d6-02e8acef43e9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked cbcb9c21-ad4c-47b4-84d6-02e8acef43e9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained cd1812c3-5eae-4c9e-8593-321116af8d6f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked cd1812c3-5eae-4c9e-8593-321116af8d6f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d1005b8b-1119-4caf-a911-0f517dbb67f3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d1005b8b-1119-4caf-a911-0f517dbb67f3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d1428b96-218f-43c5-b383-2db0c20e3edd",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d1428b96-218f-43c5-b383-2db0c20e3edd",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d1af0a17-0371-4106-831c-c04000665b7b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d1af0a17-0371-4106-831c-c04000665b7b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d2e6b98a-60df-4578-8324-129c5e64b831",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d2e6b98a-60df-4578-8324-129c5e64b831",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d6ff1ce4-52d3-4617-9f1b-030d88b30118",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d6ff1ce4-52d3-4617-9f1b-030d88b30118",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d8370f8c-39b0-4c2a-a976-34ccc83645ff",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d8370f8c-39b0-4c2a-a976-34ccc83645ff",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained da51aa3a-fb76-4cd8-b07f-82252c67d70b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked da51aa3a-fb76-4cd8-b07f-82252c67d70b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained def518c0-d8f0-4f5a-8d01-e6d5bf142d24",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked def518c0-d8f0-4f5a-8d01-e6d5bf142d24",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained dfa159a9-05f5-4feb-90ba-a0ac7b8449da",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked dfa159a9-05f5-4feb-90ba-a0ac7b8449da",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e098b806-f1a1-49d2-9f4f-7a4f7a88120a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e098b806-f1a1-49d2-9f4f-7a4f7a88120a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e3f0105a-0d72-43af-8304-4ff365166da3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e3f0105a-0d72-43af-8304-4ff365166da3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e93dfe19-35ac-4009-a28b-fef39b0e627b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e93dfe19-35ac-4009-a28b-fef39b0e627b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e9cffe7c-bed8-48f3-a467-bb886bdb3bcb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e9cffe7c-bed8-48f3-a467-bb886bdb3bcb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ea867004-74c5-45c7-b233-8a9a10b39e41",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ea867004-74c5-45c7-b233-8a9a10b39e41",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained eb975bd8-d165-4cbb-9bf4-d4280eb2bc78",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked eb975bd8-d165-4cbb-9bf4-d4280eb2bc78",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f14dfb81-5c6c-4cc9-bb90-5b6e2f7eb5e2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f14dfb81-5c6c-4cc9-bb90-5b6e2f7eb5e2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f1d0b364-2307-4c6f-9585-8daeb26d7b02",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f1d0b364-2307-4c6f-9585-8daeb26d7b02",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f911619b-653b-463f-9f4e-4096bb1501e7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f911619b-653b-463f-9f4e-4096bb1501e7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f9280b29-f06d-4287-9d27-d03c419c1e4d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f9280b29-f06d-4287-9d27-d03c419c1e4d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fa849fc4-1199-428f-92b5-bcae5ed2a666",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fa849fc4-1199-428f-92b5-bcae5ed2a666",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fcc02302-b6af-4c2d-8aab-fbd089a1f4e8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fcc02302-b6af-4c2d-8aab-fbd089a1f4e8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3372c3a8-4a9d-4fde-a90b-e4d0618dd1a8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3372c3a8-4a9d-4fde-a90b-e4d0618dd1a8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 00377cab-1770-42c2-9610-edd3b34eb2c2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 00377cab-1770-42c2-9610-edd3b34eb2c2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 00e050c6-cce3-46d9-9413-70a9b3ff7c29",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 00e050c6-cce3-46d9-9413-70a9b3ff7c29",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 05eea70b-1644-442a-96c2-53e27151e164",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 05eea70b-1644-442a-96c2-53e27151e164",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 08b1a121-a787-4f2c-b2f4-7c1a0b5fa5b6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 08b1a121-a787-4f2c-b2f4-7c1a0b5fa5b6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 134ab386-eaf6-45d1-82bd-579ecbcc227b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 134ab386-eaf6-45d1-82bd-579ecbcc227b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1ef57f22-accf-460e-9207-122ac8dcf846",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1ef57f22-accf-460e-9207-122ac8dcf846",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2f17543a-770c-49a6-bcdd-f8fc865e701f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2f17543a-770c-49a6-bcdd-f8fc865e701f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 367cfad3-5f68-4dee-9c93-264846ce4da0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 367cfad3-5f68-4dee-9c93-264846ce4da0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3fee7128-2bc5-437f-8aa6-38e9db118dd1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3fee7128-2bc5-437f-8aa6-38e9db118dd1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 49497146-a65f-4de7-b9d7-b86b7ff73a7f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 49497146-a65f-4de7-b9d7-b86b7ff73a7f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4b1aa20c-4324-4d72-bd47-5c1fbdd0b6c4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4b1aa20c-4324-4d72-bd47-5c1fbdd0b6c4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4d5930f4-8af5-4759-a357-fc8324e605a1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4d5930f4-8af5-4759-a357-fc8324e605a1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4e4d30b2-9208-4ea8-b181-e5e3768a725f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4e4d30b2-9208-4ea8-b181-e5e3768a725f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4e8d6b84-b503-4540-ad66-221e9d4df57c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4e8d6b84-b503-4540-ad66-221e9d4df57c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5cf5fbcc-d501-4cda-bbee-caa6ea6a8e1b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5cf5fbcc-d501-4cda-bbee-caa6ea6a8e1b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 709127cc-7ce5-4999-acd0-5e28081b6a36",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 709127cc-7ce5-4999-acd0-5e28081b6a36",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 71f9c6a3-9ef5-4f84-875e-970b3f3c38e6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 71f9c6a3-9ef5-4f84-875e-970b3f3c38e6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7d9d2569-fe91-4f63-bfbb-e0867fe2324a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7d9d2569-fe91-4f63-bfbb-e0867fe2324a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 94fcfd27-2946-4b2b-827f-d0a71ed8b871",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 94fcfd27-2946-4b2b-827f-d0a71ed8b871",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained aba4de52-f27f-46e6-9a4e-a5e1936f57cf",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked aba4de52-f27f-46e6-9a4e-a5e1936f57cf",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b2b76c96-2aba-4f69-964a-3e7056a7a12d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b2b76c96-2aba-4f69-964a-3e7056a7a12d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ba73f28a-26cf-4a62-b964-926070c35b17",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ba73f28a-26cf-4a62-b964-926070c35b17",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c052743b-9ff2-45ea-8ddf-d448fac2e5c2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c052743b-9ff2-45ea-8ddf-d448fac2e5c2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f08ac334-55dd-418f-849c-2cac58ff9916",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f08ac334-55dd-418f-849c-2cac58ff9916",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f29594f4-ebac-4077-b1ca-0b85cfe83948",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f29594f4-ebac-4077-b1ca-0b85cfe83948",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f4536bfc-52b5-44ab-86aa-f277fbab0d36",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f4536bfc-52b5-44ab-86aa-f277fbab0d36",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f8cd3574-9f1f-47fe-ac57-941a939410bb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f8cd3574-9f1f-47fe-ac57-941a939410bb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fccad5b3-92f9-421a-9c5a-3d4639ad27db",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fccad5b3-92f9-421a-9c5a-3d4639ad27db",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 000fca77-193b-4ea6-a4e4-a6361e12522a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 000fca77-193b-4ea6-a4e4-a6361e12522a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 01a57563-6fe5-4b9c-8fd3-78b3b5cf449d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 01a57563-6fe5-4b9c-8fd3-78b3b5cf449d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 23cb18ea-759c-4e5c-9930-af471a4f3979",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 23cb18ea-759c-4e5c-9930-af471a4f3979",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 34dc8f79-4b18-430a-aaa7-80beee626e68",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 34dc8f79-4b18-430a-aaa7-80beee626e68",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3a982838-c0a7-455b-9283-aa341e25478e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3a982838-c0a7-455b-9283-aa341e25478e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 47f4eaf6-874f-4d8b-8d0a-c516d6bd52b8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 47f4eaf6-874f-4d8b-8d0a-c516d6bd52b8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4c2c6b5e-5180-49dc-902f-8149b42686b0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4c2c6b5e-5180-49dc-902f-8149b42686b0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6b795ff7-975d-493b-9201-bacb2a52ff4e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6b795ff7-975d-493b-9201-bacb2a52ff4e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 77c4de3b-d23e-4f68-99b1-3655907220de",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 77c4de3b-d23e-4f68-99b1-3655907220de",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7deaab93-a257-4ec2-88b9-35f254b7d45d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7deaab93-a257-4ec2-88b9-35f254b7d45d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9099093a-3d83-4101-905d-e68a08ec40ae",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9099093a-3d83-4101-905d-e68a08ec40ae",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c3c646f5-851c-43e6-a088-0ca75163247f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c3c646f5-851c-43e6-a088-0ca75163247f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d27757fe-0037-4e97-a449-05e6f2d2e4ec",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d27757fe-0037-4e97-a449-05e6f2d2e4ec",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e3edb429-44ba-4991-bc0e-d973b6f36a9b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e3edb429-44ba-4991-bc0e-d973b6f36a9b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f10f11a0-8420-4755-a244-7cb64309758f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f10f11a0-8420-4755-a244-7cb64309758f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f63a70ff-ce7b-40d9-b9c9-5b187f69e233",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f63a70ff-ce7b-40d9-b9c9-5b187f69e233",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f9756337-63c7-4777-a333-11109e1c9be3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f9756337-63c7-4777-a333-11109e1c9be3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fa142cc0-bffb-44ff-85ae-df6448994c4c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fa142cc0-bffb-44ff-85ae-df6448994c4c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 304ba457-101e-43e2-b0e3-0b94f69b0402",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 304ba457-101e-43e2-b0e3-0b94f69b0402",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4d9a386c-67a3-4012-98e7-6fcaae8c97e1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4d9a386c-67a3-4012-98e7-6fcaae8c97e1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 15e74553-9c06-4e2e-bf7b-4a3e5dd9bbe4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 15e74553-9c06-4e2e-bf7b-4a3e5dd9bbe4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1dd02ebe-3602-4afb-ad98-95edc17b701c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1dd02ebe-3602-4afb-ad98-95edc17b701c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 39ae798a-46ff-4961-8fdf-793b3f17e1d8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 39ae798a-46ff-4961-8fdf-793b3f17e1d8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 55dc53a8-59d8-4f98-ba7b-663420e15f81",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 55dc53a8-59d8-4f98-ba7b-663420e15f81",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5b45be4e-1618-49d7-9bce-2b5eb2c04400",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5b45be4e-1618-49d7-9bce-2b5eb2c04400",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 706c6656-b988-465f-ad03-ef70eadebc4a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 706c6656-b988-465f-ad03-ef70eadebc4a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7b79f18b-f225-4b37-9066-ef7801b7821c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7b79f18b-f225-4b37-9066-ef7801b7821c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8745592e-4f90-4f0b-a6b8-8d11d446ce51",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8745592e-4f90-4f0b-a6b8-8d11d446ce51",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b31a56d4-2c3f-4d32-844e-1a031c9a72f1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b31a56d4-2c3f-4d32-844e-1a031c9a72f1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f1b8f5eb-0bbd-46fb-8a15-6cc06f2f0b2f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f1b8f5eb-0bbd-46fb-8a15-6cc06f2f0b2f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fff6b719-4261-46a4-b69d-3ccb69ea2251",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fff6b719-4261-46a4-b69d-3ccb69ea2251",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 34ebdf76-fa3e-4ae6-ad44-ea244dce591a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 34ebdf76-fa3e-4ae6-ad44-ea244dce591a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 00b5871d-b44b-4642-8f7e-bc5f894fad6b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 00b5871d-b44b-4642-8f7e-bc5f894fad6b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1a53bc08-7dc9-49b3-a38b-23611e6e0bd9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1a53bc08-7dc9-49b3-a38b-23611e6e0bd9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b8e31235-3f4b-4930-b609-7dc9e91e75d4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b8e31235-3f4b-4930-b609-7dc9e91e75d4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 19e6950d-237c-46d5-af23-11df9660b430",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 19e6950d-237c-46d5-af23-11df9660b430",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1ead0f61-df00-494f-b5d2-99bb1a653e55",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1ead0f61-df00-494f-b5d2-99bb1a653e55",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2855da83-6aa3-4ce0-ac8a-7872254f0ea5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2855da83-6aa3-4ce0-ac8a-7872254f0ea5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4d1e1e12-5c32-4331-a6bb-3628b6919590",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4d1e1e12-5c32-4331-a6bb-3628b6919590",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d4f0cbdf-fecc-40ee-8177-f6c6ca989a21",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d4f0cbdf-fecc-40ee-8177-f6c6ca989a21",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 25f9701c-8621-4eca-8de1-cd4c69984d79",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 25f9701c-8621-4eca-8de1-cd4c69984d79",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained cd5f3dad-ef17-4b1f-ac28-ec7995195894",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked cd5f3dad-ef17-4b1f-ac28-ec7995195894",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 81c7488c-1346-4118-963c-eebfa26902ac",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 81c7488c-1346-4118-963c-eebfa26902ac",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9f7d37ce-d793-40cc-8ad1-5bebd6731cb0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9f7d37ce-d793-40cc-8ad1-5bebd6731cb0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 030df6f8-5b57-431d-a9ec-2d37562f1aa4",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 030df6f8-5b57-431d-a9ec-2d37562f1aa4",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0df5b631-54c7-4770-b8c9-57533eadf226",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0df5b631-54c7-4770-b8c9-57533eadf226",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2d512598-bc96-4e87-8bbc-3f64ec4d20b7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2d512598-bc96-4e87-8bbc-3f64ec4d20b7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5daf272c-1a9e-453b-a5b3-810ddea35510",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5daf272c-1a9e-453b-a5b3-810ddea35510",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9021c4d1-33fb-4f0c-afba-84269dd8a16a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9021c4d1-33fb-4f0c-afba-84269dd8a16a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained cd9a53a1-f689-41e9-a2d2-8e87b2f5575f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked cd9a53a1-f689-41e9-a2d2-8e87b2f5575f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1677aca3-4b53-4d8f-8c6e-50e5949a4150",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1677aca3-4b53-4d8f-8c6e-50e5949a4150",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5ea3a205-4786-4602-9840-9db164e5e626",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5ea3a205-4786-4602-9840-9db164e5e626",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6fb0d3f3-6e20-4e69-a049-f952b9035dd7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6fb0d3f3-6e20-4e69-a049-f952b9035dd7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ec5deebe-56f8-4e2c-a47d-160d8ddb9df6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ec5deebe-56f8-4e2c-a47d-160d8ddb9df6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 101b843c-c54b-4f49-826b-95679a1d2d40",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 101b843c-c54b-4f49-826b-95679a1d2d40",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained bfd354e8-c092-478d-b770-b49dd7e17678",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked bfd354e8-c092-478d-b770-b49dd7e17678",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c976dc7b-7c7b-424f-9417-bc7eeac6ca08",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c976dc7b-7c7b-424f-9417-bc7eeac6ca08",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ebb46f3d-b5ce-43ca-a72a-ec1e67a7b57c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ebb46f3d-b5ce-43ca-a72a-ec1e67a7b57c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained fa50a0ea-3be0-4497-8354-3b567f67689b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked fa50a0ea-3be0-4497-8354-3b567f67689b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7f2b9bee-4da0-4647-a33d-5e2c1fcd4dbb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7f2b9bee-4da0-4647-a33d-5e2c1fcd4dbb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b0acb643-324a-48a0-a831-507d93b24693",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b0acb643-324a-48a0-a831-507d93b24693",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b177ab93-3bc0-4cd8-bd3d-a3a56a1219ee",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b177ab93-3bc0-4cd8-bd3d-a3a56a1219ee",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6cc57aea-2e3a-47e5-afc9-98a15a8d7f34",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6cc57aea-2e3a-47e5-afc9-98a15a8d7f34",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8010e17e-03c8-4740-a914-f98518c0c645",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8010e17e-03c8-4740-a914-f98518c0c645",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 23b34307-7fc7-4278-b965-408656ef58f0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 23b34307-7fc7-4278-b965-408656ef58f0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7a928a71-9ab1-4646-b59f-2fd7c44fd6ae",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7a928a71-9ab1-4646-b59f-2fd7c44fd6ae",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2b8667ed-6c42-490c-9117-1ca493a43b53",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2b8667ed-6c42-490c-9117-1ca493a43b53",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 61094f41-da4f-4160-9bfc-1385ee064371",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 61094f41-da4f-4160-9bfc-1385ee064371",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f1bd3b55-a3ef-4a08-ace5-50a875006aff",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f1bd3b55-a3ef-4a08-ace5-50a875006aff",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4b293ba8-8658-4499-9ee8-1ba11c040c4e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4b293ba8-8658-4499-9ee8-1ba11c040c4e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c565643e-a0c8-4c89-af85-e4bc07652f63",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c565643e-a0c8-4c89-af85-e4bc07652f63",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c15ec555-2020-4d3d-ac13-a1b800873be5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c15ec555-2020-4d3d-ac13-a1b800873be5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8fb8d0cb-61f7-4f74-80e4-b8651664b2d5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8fb8d0cb-61f7-4f74-80e4-b8651664b2d5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ad1cb9c1-f9a0-4fd4-abdc-31f661cf6fa9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ad1cb9c1-f9a0-4fd4-abdc-31f661cf6fa9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained bc7eda0f-3434-4db6-887e-815a7dd93bb6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked bc7eda0f-3434-4db6-887e-815a7dd93bb6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d39c0573-9947-4837-995a-fb840025b180",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d39c0573-9947-4837-995a-fb840025b180",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0f9445b1-fb01-45cb-815f-16699e06a6f0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0f9445b1-fb01-45cb-815f-16699e06a6f0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d4668cf4-c7f6-4378-9bc9-134f26a0cf0d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d4668cf4-c7f6-4378-9bc9-134f26a0cf0d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ccce8d1a-0541-4db6-8871-abecccdc66cc",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ccce8d1a-0541-4db6-8871-abecccdc66cc",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2c743212-b498-4c81-add5-add0c29fc618",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2c743212-b498-4c81-add5-add0c29fc618",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 48fc2872-e983-48bf-be25-26e49b8951c9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 48fc2872-e983-48bf-be25-26e49b8951c9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 49babfed-4df4-4846-be8f-5d9079711a8d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 49babfed-4df4-4846-be8f-5d9079711a8d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ebfb6465-b07e-40d6-9d8c-1a382c3c6da5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ebfb6465-b07e-40d6-9d8c-1a382c3c6da5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 192830ec-b30a-4a16-8414-54425bede918",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 192830ec-b30a-4a16-8414-54425bede918",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 28c90a8c-516a-4b65-9bd2-377087fa8cbd",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 28c90a8c-516a-4b65-9bd2-377087fa8cbd",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3b2c2eb7-f812-4d56-8e6b-b70737f6bae6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3b2c2eb7-f812-4d56-8e6b-b70737f6bae6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 41e40813-faeb-44f3-b59f-a016626dfcab",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 41e40813-faeb-44f3-b59f-a016626dfcab",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5366db14-f9fa-4113-a024-09f5b0a15a45",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5366db14-f9fa-4113-a024-09f5b0a15a45",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 99411580-0ed4-41ce-b64b-ef58e716b1e9",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 99411580-0ed4-41ce-b64b-ef58e716b1e9",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e7d74334-7c2b-4347-91bb-af291b3a63da",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e7d74334-7c2b-4347-91bb-af291b3a63da",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 53f5b500-82c3-4348-b955-5920c380b93c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 53f5b500-82c3-4348-b955-5920c380b93c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7914c0a8-0a84-4aae-b7e4-327f7e83b8c0",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7914c0a8-0a84-4aae-b7e4-327f7e83b8c0",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 89608123-c21f-4836-8a1d-ecc14dd62251",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 89608123-c21f-4836-8a1d-ecc14dd62251",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d3d51d15-a824-4fbc-9ddd-d4a8120bab7f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d3d51d15-a824-4fbc-9ddd-d4a8120bab7f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained da41c2c9-bb70-48cd-b97e-aa4b94fc1bff",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked da41c2c9-bb70-48cd-b97e-aa4b94fc1bff",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 68995ea6-4a93-4ec1-b411-fb1651e631fd",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 68995ea6-4a93-4ec1-b411-fb1651e631fd",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9b248881-99d9-4829-a5f8-0042f9419475",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9b248881-99d9-4829-a5f8-0042f9419475",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a9e9dff6-95f4-4ee5-8505-1a2a2b0f374a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a9e9dff6-95f4-4ee5-8505-1a2a2b0f374a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ab36e6b3-cc01-4b13-bca8-66c7fb3f5203",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ab36e6b3-cc01-4b13-bca8-66c7fb3f5203",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b792609e-678a-4f31-8a66-7afbe48c965c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b792609e-678a-4f31-8a66-7afbe48c965c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained bd63ebe8-e579-4326-9e8f-87605464cf83",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked bd63ebe8-e579-4326-9e8f-87605464cf83",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained bd85fd77-723d-4566-80df-f7b20c192462",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked bd85fd77-723d-4566-80df-f7b20c192462",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c5a40367-1a9b-4d0c-a710-d4dccfe59e91",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c5a40367-1a9b-4d0c-a710-d4dccfe59e91",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 046b67d7-5b5a-48d8-aa76-a875ddbdd2de",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 046b67d7-5b5a-48d8-aa76-a875ddbdd2de",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 826b9a73-1262-450c-9c76-60c0e4dd5b57",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 826b9a73-1262-450c-9c76-60c0e4dd5b57",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2c497c01-3a83-4401-8ad9-2256d22c9e5d",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2c497c01-3a83-4401-8ad9-2256d22c9e5d",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 05ca6b31-e003-4022-89dc-4e214fbd39dc",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 05ca6b31-e003-4022-89dc-4e214fbd39dc",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 451fb3c2-3864-4d78-9e06-4fc1f9b56e92",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 451fb3c2-3864-4d78-9e06-4fc1f9b56e92",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 4827077a-de11-4926-8d7c-17b22b3f0148",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 4827077a-de11-4926-8d7c-17b22b3f0148",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 570e3911-b97a-4ac1-8914-4426ec30ee3c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 570e3911-b97a-4ac1-8914-4426ec30ee3c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9281dac3-844d-4267-8275-44024824ea7c",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9281dac3-844d-4267-8275-44024824ea7c",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d141721a-9a5b-457f-9cc0-da1d9d2b0ddb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d141721a-9a5b-457f-9cc0-da1d9d2b0ddb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3bc458cb-d8df-4dbc-8039-6f898ce0e233",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3bc458cb-d8df-4dbc-8039-6f898ce0e233",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6ac6ffc6-6a28-4177-8daf-cfb46d6aca86",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6ac6ffc6-6a28-4177-8daf-cfb46d6aca86",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6c5997e9-2090-49c3-924e-22946bbecd99",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6c5997e9-2090-49c3-924e-22946bbecd99",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 298555ca-f9a5-4ad7-b3e2-073ce3926748",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 298555ca-f9a5-4ad7-b3e2-073ce3926748",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5dc26855-a25b-4cfd-acc4-d437926f6240",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5dc26855-a25b-4cfd-acc4-d437926f6240",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6b44f560-ce69-4dc9-994e-6dbc91f3b879",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6b44f560-ce69-4dc9-994e-6dbc91f3b879",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 95ee13ca-4c14-40b7-b983-ddd230629f29",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 95ee13ca-4c14-40b7-b983-ddd230629f29",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained a1caa82f-e8d7-46d2-b92f-24b653301c29",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked a1caa82f-e8d7-46d2-b92f-24b653301c29",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d3705a9f-e31d-4fc4-9132-1ba7f4b81a56",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d3705a9f-e31d-4fc4-9132-1ba7f4b81a56",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9b93e1bd-8a78-4f55-9e27-0bd43d1f0b19",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9b93e1bd-8a78-4f55-9e27-0bd43d1f0b19",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 1de3e557-dbb5-4d3a-9189-99a724f7d6f6",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 1de3e557-dbb5-4d3a-9189-99a724f7d6f6",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 61aae422-84ca-4d79-a02b-cac2f26d35a1",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 61aae422-84ca-4d79-a02b-cac2f26d35a1",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 66332e78-ab89-4ea6-85ce-c2213ba30e30",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 66332e78-ab89-4ea6-85ce-c2213ba30e30",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 67f53ce7-126b-481e-959d-d282ead2f366",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 67f53ce7-126b-481e-959d-d282ead2f366",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 48325847-22a5-4575-9fd3-11af3deaa0be",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 48325847-22a5-4575-9fd3-11af3deaa0be",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 57469481-0ab9-4fd5-a5a4-f5f6d689ae18",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 57469481-0ab9-4fd5-a5a4-f5f6d689ae18",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 81dee5a3-39d0-4539-9c0d-ccbfc49954b5",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 81dee5a3-39d0-4539-9c0d-ccbfc49954b5",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 84a2f92f-8d4b-42a6-93bb-f8c719ea0800",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 84a2f92f-8d4b-42a6-93bb-f8c719ea0800",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c87215fd-a944-42f8-a932-5703258be38f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c87215fd-a944-42f8-a932-5703258be38f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ee059784-abd6-427c-a7be-c59149b110cb",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ee059784-abd6-427c-a7be-c59149b110cb",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 498fc1b0-87ea-4ad0-9445-54a2c277db28",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 498fc1b0-87ea-4ad0-9445-54a2c277db28",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 3e3ff84e-3358-4942-9ed2-24ef25c23b77",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 3e3ff84e-3358-4942-9ed2-24ef25c23b77",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 40d4ac24-90df-4dc0-bb1a-ca01bf268950",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 40d4ac24-90df-4dc0-bb1a-ca01bf268950",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 457ad8b0-a218-4dbc-97a8-211f1c7d2490",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 457ad8b0-a218-4dbc-97a8-211f1c7d2490",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 5a0357e9-4d91-4085-8083-42182dfb4c47",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 5a0357e9-4d91-4085-8083-42182dfb4c47",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 61913374-6ca4-4312-bb80-419363779068",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 61913374-6ca4-4312-bb80-419363779068",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9060077d-6cb5-4066-82d0-daba5c5f87cf",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9060077d-6cb5-4066-82d0-daba5c5f87cf",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ac16b663-8601-4fa4-9caf-e56dac720c94",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ac16b663-8601-4fa4-9caf-e56dac720c94",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained d1167f60-a3bc-4cfe-849d-896247ba3336",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked d1167f60-a3bc-4cfe-849d-896247ba3336",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ea050f45-6b00-4b4c-b0b8-45136f47b5c8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ea050f45-6b00-4b4c-b0b8-45136f47b5c8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 39459067-adbc-448a-b600-9960b9a40e3b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 39459067-adbc-448a-b600-9960b9a40e3b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 403388ce-c3f9-4c49-ad7d-f419a260dac8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 403388ce-c3f9-4c49-ad7d-f419a260dac8",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 799b74d4-efc1-4420-afb3-a339e05eb2b2",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 799b74d4-efc1-4420-afb3-a339e05eb2b2",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 90adc4c8-9e47-407d-9666-d656546b6f1a",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 90adc4c8-9e47-407d-9666-d656546b6f1a",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 995339ac-c212-45a8-bb86-ac4684f6f6af",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 995339ac-c212-45a8-bb86-ac4684f6f6af",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 0b6f01af-922c-4d00-bfae-c73d2125d359",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 0b6f01af-922c-4d00-bfae-c73d2125d359",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 25dd0f04-eb91-41b6-8972-26ac01434b23",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 25dd0f04-eb91-41b6-8972-26ac01434b23",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 8664af16-8ef1-45f5-900a-a9b6ab4fe05f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 8664af16-8ef1-45f5-900a-a9b6ab4fe05f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f05aa440-78ab-4731-aff1-d33000b00885",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f05aa440-78ab-4731-aff1-d33000b00885",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained ff70fda9-db2d-4ba7-9f2d-da76df3f886b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked ff70fda9-db2d-4ba7-9f2d-da76df3f886b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 64e400dc-447d-4968-b783-11223a9c9f6f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 64e400dc-447d-4968-b783-11223a9c9f6f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 6a5f2702-d785-444a-89e1-2149d0d4e988",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 6a5f2702-d785-444a-89e1-2149d0d4e988",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7e2a059a-d233-4378-bf35-693b5ba01f95",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7e2a059a-d233-4378-bf35-693b5ba01f95",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained bfa53921-98da-48db-94e3-bcfced4f7795",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked bfa53921-98da-48db-94e3-bcfced4f7795",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c91af9a9-00c1-43e3-a8f5-e6db96e74194",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c91af9a9-00c1-43e3-a8f5-e6db96e74194",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained e835ba8f-f4c3-4a68-bd3e-958b1f25446b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked e835ba8f-f4c3-4a68-bd3e-958b1f25446b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 7c2fa433-504a-44f4-a505-27b509c2e99f",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 7c2fa433-504a-44f4-a505-27b509c2e99f",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b4fdced0-2dbe-484d-a931-74acf5475f9b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b4fdced0-2dbe-484d-a931-74acf5475f9b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained dceffe6f-6bd1-4e68-a010-07895a6a99c7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked dceffe6f-6bd1-4e68-a010-07895a6a99c7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained f2cd26b9-eca1-41fa-b51d-fd743416e6df",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked f2cd26b9-eca1-41fa-b51d-fd743416e6df",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 320a8f3d-9c14-446b-a992-6c508ae03aea",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 320a8f3d-9c14-446b-a992-6c508ae03aea",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 9248875a-585e-41b7-acfb-ebc42517fb83",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 9248875a-585e-41b7-acfb-ebc42517fb83",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained c34a9631-2b47-4435-927b-88a845ee299b",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked c34a9631-2b47-4435-927b-88a845ee299b",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained b03afc21-98ae-4290-a831-db29f536db92",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked b03afc21-98ae-4290-a831-db29f536db92",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 2313b514-f426-460a-92d0-5a9a2aff95f3",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 2313b514-f426-460a-92d0-5a9a2aff95f3",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 30bf7da8-8f68-4c6b-8a60-3a4c4849966e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 30bf7da8-8f68-4c6b-8a60-3a4c4849966e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 481fd25e-4ca3-4566-b5ea-5e32c8324a5e",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 481fd25e-4ca3-4566-b5ea-5e32c8324a5e",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 49ed37c0-0e95-4d25-8efa-ec42d6797b60",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 49ed37c0-0e95-4d25-8efa-ec42d6797b60",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 709c6974-eac5-45ad-89f7-c2306d499980",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 709c6974-eac5-45ad-89f7-c2306d499980",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained 814bd2ab-f2f2-4fe6-aedf-ae7bfd070fb7",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked 814bd2ab-f2f2-4fe6-aedf-ae7bfd070fb7",
+      "pass": true
+    },
+    {
+      "check": "Copper geometry retained faaa0691-9c6e-47c1-ac71-91f1e6f4d0a8",
+      "pass": true
+    },
+    {
+      "check": "Copper net checked faaa0691-9c6e-47c1-ac71-91f1e6f4d0a8",
+      "pass": true
+    },
+    {
+      "check": "Four copper layers",
+      "pass": true
+    },
+    {
+      "check": "Lower-left fabrication origin",
+      "pass": true
+    },
+    {
+      "check": "100 x 100 mm outline",
+      "pass": true
+    },
+    {
+      "check": "No tracks interrupt the inner plane layers",
+      "pass": true
+    },
+    {
+      "check": "Dedicated inner ground plane retained",
+      "pass": true
+    },
+    {
+      "check": "Plane outlines, nets, clearances and thermal rules retained",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (59.1, 0.4)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (59.1, 0.6)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (59.1, 0.8)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (65, 0.4)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (65, 0.6)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (65, 0.8)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (75, 0.4)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (75, 0.6)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (75, 0.8)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (85, 0.4)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (85, 0.6)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (85, 0.8)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (86.9, 0.4)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (86.9, 0.6)",
+      "pass": true
+    },
+    {
+      "check": "Antenna clearance sample (86.9, 0.8)",
+      "pass": true
+    },
+    {
+      "check": "Antenna keepout applies to all copper layers",
+      "pass": true
+    },
+    {
+      "check": "No CAN termination added",
+      "pass": true
+    },
+    {
+      "check": "Reset-safe CAN standby pull-up retained",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-PCBWay.csv exact factory membership",
+      "pass": true
+    },
+    {
+      "check": "BOM-FACTORY-JLCPCB.csv exact factory membership",
+      "pass": true
+    },
+    {
+      "check": "L1 placement coordinate check",
+      "pass": true
+    },
+    {
+      "check": "U1 placement coordinate check",
+      "pass": true
+    },
+    {
+      "check": "U2 placement coordinate check",
+      "pass": true
+    },
+    {
+      "check": "U4 placement coordinate check",
+      "pass": true
+    },
+    {
+      "check": "Hand BOM covers every remaining part once",
+      "pass": true
+    },
+    {
+      "check": "21 hand-shopping lines",
+      "pass": true
+    },
+    {
+      "check": "J1 quantities",
+      "pass": true
+    },
+    {
+      "check": "J1 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "F1 quantities",
+      "pass": true
+    },
+    {
+      "check": "F1 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "D1 quantities",
+      "pass": true
+    },
+    {
+      "check": "D1 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "D3 quantities",
+      "pass": true
+    },
+    {
+      "check": "D3 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C1 quantities",
+      "pass": true
+    },
+    {
+      "check": "C1 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C2 quantities",
+      "pass": true
+    },
+    {
+      "check": "C2 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C3,C8 quantities",
+      "pass": true
+    },
+    {
+      "check": "C3,C8 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C4,C10,C11,C12,C13,C14 quantities",
+      "pass": true
+    },
+    {
+      "check": "C4,C10,C11,C12,C13,C14 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C5,C6,C7 quantities",
+      "pass": true
+    },
+    {
+      "check": "C5,C6,C7 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R1 quantities",
+      "pass": true
+    },
+    {
+      "check": "R1 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R2 quantities",
+      "pass": true
+    },
+    {
+      "check": "R2 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R3,R4,R5,R6,R10,R20 quantities",
+      "pass": true
+    },
+    {
+      "check": "R3,R4,R5,R6,R10,R20 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "C9 quantities",
+      "pass": true
+    },
+    {
+      "check": "C9 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "SW1,SW2 quantities",
+      "pass": true
+    },
+    {
+      "check": "SW1,SW2 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R7 quantities",
+      "pass": true
+    },
+    {
+      "check": "R7 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R8 quantities",
+      "pass": true
+    },
+    {
+      "check": "R8 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "R9,R18,R19 quantities",
+      "pass": true
+    },
+    {
+      "check": "R9,R18,R19 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "D6 quantities",
+      "pass": true
+    },
+    {
+      "check": "D6 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "U3 quantities",
+      "pass": true
+    },
+    {
+      "check": "U3 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "D4 quantities",
+      "pass": true
+    },
+    {
+      "check": "D4 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "J3 quantities",
+      "pass": true
+    },
+    {
+      "check": "J3 purchasing MPN",
+      "pass": true
+    },
+    {
+      "check": "Stencil includes exactly four factory components",
+      "pass": true
+    },
+    {
+      "check": "Exports belong to current PCB",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-B_Cu.gbl export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-B_Mask.gbs export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-B_Paste.gbp export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-B_Silkscreen.gbo export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-Edge_Cuts.gm1 export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-F_Cu.gtl export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-F_Mask.gts export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-F_Paste.gtp export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-F_Silkscreen.gto export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-In1_Cu.g1 export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-In2_Cu.g2 export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-NPTH.drl export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-PTH.drl export hash",
+      "pass": true
+    },
+    {
+      "check": "leaf-heat-v6-job.gbrjob export hash",
+      "pass": true
+    },
+    {
+      "check": "KiCad DRC/connectivity/schematic parity pass",
+      "pass": true
+    },
+    {
+      "check": "KiCad ERC passes",
+      "pass": true
+    },
+    {
+      "check": "Design-rule settings unchanged; no new waivers",
+      "pass": true
+    },
+    {
+      "check": "No individual DRC exclusions",
+      "pass": true
+    },
+    {
+      "check": "Source Rev E preserved byte-for-byte",
+      "pass": true
+    }
+  ]
+}

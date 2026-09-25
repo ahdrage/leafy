@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-12",
+  "currency": "USD",
+  "source": "https://www.pcbway.com/orderonline.aspx",
+  "evidence_type": "Observed calculator UI; manually transcribed, not an accepted quotation",
+  "session": "Separate anonymous in-app browser comparison; existing logged-in Chrome quote unchanged",
+  "submitted": false,
+  "design_modified": false,
+  "pcb": {
+    "width_mm": 65,
+    "height_mm": 50,
+    "layers": 4,
+    "thickness_mm": 1.6,
+    "quantity_fabricated": 5,
+    "quantity_assembled": 1,
+    "surface_finish": "Lead-free HASL",
+    "soldermask": "Green",
+    "silkscreen": "White",
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 1
+  },
+  "same_pcb_fabrication_comparison": {
+    "with_impedance_control": 81.36,
+    "without_impedance_control": 31.16,
+    "difference": 50.20
+  },
+  "lower_estimate": {
+    "impedance_control_selected": false,
+    "fabrication": 31.16,
+    "assembly_labour_promotional": 29.00,
+    "shipping": 18.83,
+    "shipping_method": "PostNL International Mail",
+    "destination": "Norway",
+    "shipping_business_days": "11-33",
+    "discount": -18.83,
+    "total": 60.16,
+    "components_included": false,
+    "vat_import_handling_included": false
+  },
+  "limitations": [
+    "Current design still requires USB differential impedance of 90 ohms plus/minus 10 percent. This comparison does not amend that requirement.",
+    "Five fabricated boards exceed the user's stated maximum of two; no manufacturing batch was submitted.",
+    "No component procurement quote has been obtained.",
+    "Promotions, shipping eligibility, price and lead time may change after parts are added and engineering review is completed."
+  ]
+}

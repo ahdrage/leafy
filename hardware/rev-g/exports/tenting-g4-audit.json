@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "revision": "G.4",
+  "pcb_sha256": "1b46a5b65acba3df29483509f488be3b8119a9854dad4f33adc2d537fc51ba4f",
+  "schematic_sha256": "87cecc8daffe30b7ee5d9a8ce28d36ed74bdc0a919c8ab212442e737678dfaf8",
+  "baseline_archive_sha256": "1490e65d8775be3e90e7b5a8782c63f36f4ebfb26a0e6a99dea473983e88a918",
+  "metrics": {
+    "U1": {
+      "thermal_holes": [
+        {
+          "x": 23.35,
+          "y": 82.3,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        },
+        {
+          "x": 23.35,
+          "y": 81.0,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        },
+        {
+          "x": 23.35,
+          "y": 79.7,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        },
+        {
+          "x": 24.65,
+          "y": 82.3,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        },
+        {
+          "x": 24.65,
+          "y": 81.0,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        },
+        {
+          "x": 24.65,
+          "y": 79.7,
+          "diameter_mm": 0.33,
+          "mask_edge_margin_mm": 0.16
+        }
+      ],
+      "mask_open_area_mm2": 6.484,
+      "paste_area_mm2": 8.401,
+      "nominal_stencil_mm": 0.125,
+      "theoretical_wet_paste_volume_mm3": 1.050125,
+      "paste_aperture_count": 2,
+      "minimum_aperture_area_ratio": 3.9441
+    },
+    "U2": {
+      "thermal_holes": [
+        {
+          "x": 72.86,
+          "y": 92.35,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 72.86,
+          "y": 91.25,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 73.41,
+          "y": 92.9,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 73.41,
+          "y": 91.8,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 73.41,
+          "y": 90.7,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 73.96,
+          "y": 92.35,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 73.96,
+          "y": 91.25,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 74.51,
+          "y": 92.9,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 74.51,
+          "y": 91.8,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 74.51,
+          "y": 90.7,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 75.06,
+          "y": 92.35,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        },
+        {
+          "x": 75.06,
+          "y": 91.25,
+          "diameter_mm": 0.3,
+          "mask_edge_margin_mm": 0.159626
+        }
+      ],
+      "mask_open_area_mm2": 3.791945,
+      "paste_area_mm2": 3.24,
+      "nominal_stencil_mm": 0.125,
+      "theoretical_wet_paste_volume_mm3": 0.405,
+      "paste_aperture_count": 9,
+      "minimum_aperture_area_ratio": 1.2
+    }
+  },
+  "checks": [
+    "All copper, nets, drills, mounting geometry and placements unchanged from G.3",
+    "Four copper Gerbers, both drill files and back mask identical after header normalization",
+    "All 18 holes fully top-covered and bottom-open in actual Gerbers",
+    "Thermal solderable area and paste area measured from final Gerbers",
+    "Two U1 apertures and nine U2 apertures at a nominal 0.125 mm stencil",
+    "All 55 MPNs unchanged; hand BOM and Mouser baskets byte-identical",
+    "Fresh ERC/DRC/refill/schematic parity zero"
+  ],
+  "limitations": "DFM REVIEW REQUIRED. Plotted geometry is verified; physical tent survival, stencil thickness/release, joint coverage/voiding and thermal performance need assembler confirmation and prototype measurements."
+}
