@@ -15,4 +15,17 @@ test("low battery blocks on but permits off",[]{leaf::Control c([](const leaf::F
 test("TX failure aborts sequence without replays",[]{int n=0;leaf::Control c([&](const leaf::Frame&){return ++n<3;});CHECK(c.request(true,0,true,true));c.tick(100);CHECK(!c.busy());c.tick(200);CHECK(n==3);CHECK(c.heating_requested());});
 test("late scheduler never bursts missed heater requests",[]{std::vector<leaf::Frame>v;leaf::Control c([&](const leaf::Frame&f){v.push_back(f);return true;});CHECK(c.request(true,0,true,true));c.tick(2000);CHECK(v.size()==2);CHECK(!c.busy());});
 test("authentication rejects empty or partial credentials",[]{CHECK(!leaf::authorized("",""));CHECK(!leaf::authorized("x","long-local-key"));CHECK(leaf::authorized("long-local-key","long-local-key"));});
+test("Off countdown follows actual timer including rejection, failure, expiry and reboot",[]{
+ bool send_ok=true;leaf::Control c([&](const leaf::Frame&){return send_ok;});
+ CHECK(c.auto_off_seconds(0)==-1);
+ send_ok=false;CHECK(!c.request(true,1000,true,true));
+ CHECK(c.auto_off_seconds(1000)==900);CHECK(c.auto_off_seconds(1001)==900);
+ CHECK(c.auto_off_seconds(2000)==899);
+ CHECK(!c.request(true,3000,true,false));CHECK(c.auto_off_seconds(3000)==898);
+ c.tick(901000);CHECK(c.auto_off_seconds(901000)==0);CHECK(c.heating_requested());
+ send_ok=true;CHECK(c.request(false,902000,true,false));
+ for(int i=1;i<=24;i++)c.tick(902000+i*100);
+ CHECK(c.auto_off_seconds(905000)==-1);
+ leaf::Control reboot([](const leaf::Frame&){return true;});CHECK(reboot.auto_off_seconds(0)==-1);
+});
 std::cout<<count<<" tests, "<<failures<<" failures\n";return failures?1:0;}

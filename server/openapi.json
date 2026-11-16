@@ -1,0 +1,458 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Leafy local vehicle API",
+    "version": "1.0.0",
+    "description": "One-car private-network bridge. A command acceptance never confirms actual heating. No offline command queue. Main-battery SOC requires updated firmware and an awake CAN bus."
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8787",
+      "description": "Development on the server host; use HTTPS/private networking for deployment."
+    }
+  ],
+  "security": [
+    {
+      "appToken": []
+    }
+  ],
+  "paths": {
+    "/v1/status": {
+      "get": {
+        "operationId": "readStatus",
+        "summary": "Read voltage and traction-battery SOC with freshness",
+        "responses": {
+          "200": {
+            "description": "Live board status; battery sample itself may be old.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Status"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/heater/commands": {
+      "post": {
+        "operationId": "requestHeat",
+        "summary": "Submit one deliberate On or Off request",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Idempotency-Key",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "description": "Stable per user intent. Duplicate IDs are not sent twice, even across restart."
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Command"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "See outcome; accepted means queued by Leafy, not confirmed climate operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CommandResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid API command or board rejection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "$ref": "#/components/schemas/CommandResult"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "See outcome; accepted means queued by Leafy, not confirmed climate operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CommandResult"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Delivery busy/idempotency conflict (Error), or board rejection (CommandResult).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "$ref": "#/components/schemas/CommandResult"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limited or board rejected.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/Error"
+                    },
+                    {
+                      "$ref": "#/components/schemas/CommandResult"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "See outcome; accepted means queued by Leafy, not confirmed climate operation.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CommandResult"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/commands/{id}": {
+      "get": {
+        "operationId": "readCommandResult",
+        "summary": "Look up a command without re-sending it",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Stored outcome, potentially pending or unknown.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CommandResult"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Request rejected or device unavailable. No automatic retries of heater commands.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "appToken": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Distinct from the board control key. Keep in iOS Keychain."
+      }
+    },
+    "schemas": {
+      "Status": {
+        "type": "object",
+        "properties": {
+          "apiVersion": {
+            "const": 1
+          },
+          "deviceReachable": {
+            "const": true
+          },
+          "observedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "protectedSupplyVolts": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "canWriteEnabled": {
+            "type": "boolean"
+          },
+          "requestBusy": {
+            "type": "boolean"
+          },
+          "lastCommandError": {
+            "type": "integer"
+          },
+          "heater": {
+            "type": "object",
+            "properties": {
+              "requested": {
+                "type": "boolean"
+              },
+              "actualState": {
+                "const": "unknown"
+              }
+            },
+            "required": [
+              "requested",
+              "actualState"
+            ],
+            "additionalProperties": false
+          },
+          "tractionBattery": {
+            "type": "object",
+            "properties": {
+              "socPercent": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "ageSeconds": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "availability": {
+                "enum": [
+                  "fresh",
+                  "stale",
+                  "unavailable",
+                  "unsupported"
+                ]
+              },
+              "source": {
+                "enum": [
+                  "ev_can_0x55b_bms",
+                  null
+                ]
+              }
+            },
+            "required": [
+              "socPercent",
+              "ageSeconds",
+              "availability",
+              "source"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "apiVersion",
+          "deviceReachable",
+          "observedAt",
+          "protectedSupplyVolts",
+          "canWriteEnabled",
+          "requestBusy",
+          "lastCommandError",
+          "heater",
+          "tractionBattery"
+        ],
+        "additionalProperties": false
+      },
+      "Command": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "enum": [
+              "on",
+              "off"
+            ]
+          },
+          "issuedAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Generated at user tap; maximum age 10 seconds, maximum future skew 5 seconds."
+          }
+        },
+        "required": [
+          "action",
+          "issuedAt"
+        ],
+        "additionalProperties": false
+      },
+      "CommandResult": {
+        "type": "object",
+        "properties": {
+          "commandId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "action": {
+            "enum": [
+              "on",
+              "off"
+            ]
+          },
+          "outcome": {
+            "enum": [
+              "accepted",
+              "rejected",
+              "pending",
+              "unknown"
+            ]
+          },
+          "actualHeaterState": {
+            "const": "unknown"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "commandId",
+          "action",
+          "outcome",
+          "actualHeaterState",
+          "createdAt",
+          "message"
+        ],
+        "additionalProperties": false
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "deviceReachable": {
+            "const": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -31,3 +31,13 @@ firmware/leaf-heat/include/settings.hpp
 
 # Clean publication checkout and private export/audit scratch files
 /.publication/
+
+# Private API command ledger and process lock
+/server/data/
+
+# iOS local build and Xcode user state
+/ios/build/
+/ios/DerivedData/
+/ios/*.xcresult/
+/ios/Leafy.xcodeproj/xcuserdata/
+*.xcuserstate

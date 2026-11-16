@@ -7,6 +7,8 @@
 
 #define CHECK(x) do { if (!(x)) throw std::runtime_error(#x); } while (0)
 #define LEAF_CAN_WRITE_ENABLED true
+#define LEAF_TELEMETRY_ENABLED true
+#define LEAF_CAN_LISTEN_ONLY false
 using esp_err_t = int;
 using TickType_t = uint32_t;
 constexpr int ESP_OK = 0, ESP_FAIL = -1, ESP_ERR_TIMEOUT = 0x107;
@@ -30,6 +32,7 @@ static uint64_t clock_us, enabled_at, transmitted_at;
 static int standby;
 static bool installed, running, pending, can_started;
 static bool fail_install, fail_start, fail_alerts;
+static bool passive_started;
 static std::atomic<int> last_error;
 static twai_message_t pending_message;
 static std::vector<Event> events;
@@ -46,7 +49,7 @@ static int gpio_set_level(int, int level) {
 [[maybe_unused]] static void esp_rom_delay_us(uint32_t us) { clock_us += us; }
 static int twai_driver_install(const twai_general_config_t* config,
                                const twai_timing_config_t*, const twai_filter_config_t*) {
-    CHECK(config->mode == TWAI_MODE_NORMAL); CHECK(config->tx_queue_len == 0);
+    CHECK(!installed && !passive_started); CHECK(config->mode == TWAI_MODE_NORMAL); CHECK(config->tx_queue_len == 0);
     if (fail_install) return ESP_FAIL;
     installed = true; return ESP_OK;
 }
@@ -89,11 +92,15 @@ static int twai_read_alerts(uint32_t* alerts, TickType_t ticks) {
     return ESP_ERR_TIMEOUT;
 }
 
+static void passive_stop() {
+ if (!passive_started) return;
+ gpio_set_level(STB, 1); twai_stop(); twai_driver_uninstall(); passive_started = false;
+}
 #include "can_transport.inc"
 
 static void reset(uint32_t hz = 100) {
     tick_hz = hz; clock_us = enabled_at = transmitted_at = 0; standby = 1;
-    installed = running = pending = can_started = false;
+    installed = running = pending = can_started = passive_started = false;
     fail_install = fail_start = fail_alerts = false; last_error = 0;
     delivered.clear(); events.clear();
 }
@@ -108,6 +115,12 @@ int main() {
         catch (const std::exception& e) { ++failures; std::cout << "FAIL " << name << ": " << e.what() << '\n'; }
     };
     const leaf::Frame on{0x56e,1,{0x4e}};
+    test("command releases passive listener before normal driver installation", [&] {
+        passive_started = installed = running = true; standby = 0;
+        events = {{500,BusEvent::Ack}};
+        CHECK(can_send(on)); CHECK(!passive_started); CHECK(delivered.size() == 1);
+        can_stop(); check_stopped();
+    });
     test("normal arbitration losses followed by ACK succeed", [&] {
         events = {{100,BusEvent::ArbitrationLost},{300,BusEvent::ArbitrationLost},{800,BusEvent::Ack}};
         CHECK(can_send(on)); CHECK(delivered.size() == 1);

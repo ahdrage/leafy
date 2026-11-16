@@ -6,7 +6,7 @@ Leafy began with the question: can the Leaf remote-climate function documented b
 
 The climate protocol in `firmware/leaf-heat/include/control.hpp` is derived from Open Vehicle Monitoring System 3, revision `85074a0ae7a983b308c6e2e081185492527ee073`:
 
-- [Leaf source](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/vehicle/OVMS.V3/components/vehicle_nissanleaf/src/vehicle_nissanleaf.cpp): wake frames, climate bytes and timing.
+- [Leaf source](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/vehicle/OVMS.V3/components/vehicle_nissanleaf/src/vehicle_nissanleaf.cpp): wake frames, climate bytes and timing; EV-CAN `0x55B` BMS SOC and `0x1DB` instrument SOC extraction used in `firmware/leaf-heat/include/telemetry.hpp`.
 - [Leaf header](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/vehicle/OVMS.V3/components/vehicle_nissanleaf/src/vehicle_nissanleaf.h): repeat-count reference.
 - [Vehicle documentation](https://docs.openvehicles.com/en/latest/components/vehicle_nissanleaf/docs/index.html): vehicle generations, TCU installation and limitations.
 - [Upstream licence](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/LICENSE).

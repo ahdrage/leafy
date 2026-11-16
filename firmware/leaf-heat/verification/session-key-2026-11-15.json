@@ -1,0 +1,15 @@
+{
+  "change": "Session-only control-key saving with non-actuating validation and explicit HTTP outcomes",
+  "host_checks_passed": 41,
+  "upload": "success; data hashes verified",
+  "runtime_checks": {
+    "page": "updated UI served; configured key absent from HTML",
+    "valid_key": "HTTP 200 from GET /api/auth",
+    "invalid_key": "HTTP 401 from GET /api/auth",
+    "auth_cache_control": "no-store",
+    "status": "CAN enabled; no active heat request; last error 0; VPWR 12.03 V"
+  },
+  "heat_commands_sent_by_assistant": false,
+  "first_unsuccessful_heat_attempt": "Cause not established: original HTTP response unavailable; idle status alone is insufficient evidence.",
+  "image_sha256": "07639f194e6c2b40d81ae753ff6ac311657e4c5a46b13306ef1dbb9f6025caad"
+}

@@ -1,5 +1,9 @@
 # Rev G engineering review — 13 September 2026
 
+**16 November follow-up:** unplugged Heat On was owner-confirmed; the installed website now receives dashboard and BMS SOC. No hardware change. Idle CAN now listens for 1.5 seconds each minute, so the earlier 4–9 mA bench observation must not be treated as validation of current consumption with telemetry. See [current evidence and remaining tests](../../docs/VALIDATION.md).
+
+**Commissioning addendum, 15 November 2026:** measured TP3 cutoff/restart approximately 11.66/12.25 V; 3.3 V rail, local Wi-Fi, CAN reception and owner-confirmed climate On/Off with charging connected have been exercised. See the [dated record](../../docs/COMMISSIONING-2026-11-15.md) for evidence and unresolved checks. The design calculations and required test plan below are retained; no hardware change is implied.
+
 The requested changes are implemented in a separate revision. [Independent audit](exports/independent-audit.json), [manufacturing audit](exports/manufacturing-audit.json), [ERC](exports/erc.json), [DRC](exports/drc-final.json) and [calculations](exports/protection-calculations.json) identify the exact native files checked. Rev F hashes remain unchanged. This review supports building a prototype, not declaring it proven for permanent vehicle installation.
 
 The preceding G.2 layout added [Adi's routing and silkscreen corrections](ADI-G2-CHANGES.md), with 1.0 mm / 0.15 mm text and 0.15 mm printing clearance enforced. Circuit, BOM and component placement remain unchanged. G.3 now substitutes the external-antenna U2 and adds off-board ANT1; all electrical geometry is retained. See [G.3 verification](ANTENNA-G3-CHANGE.md). G.5 replaces G.4 mask tents with filled/capped thermal holes and renames the device Leafy. See [current manufacturing changes](FILLED-G5-CHANGE.md).

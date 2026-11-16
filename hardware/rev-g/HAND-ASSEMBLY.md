@@ -2,6 +2,8 @@
 
 # Rev G.3 — hand-assembly guide
 
+**G.5 commissioning update, 15 November 2026:** one unit has been assembled with D6 omitted (48 hand parts plus six factory parts) and demonstrated climate On/Off while charging. R3 and J1 needed solder rework during commissioning. The full assembly instructions/BOM still include D6. See the [test record](../../docs/COMMISSIONING-2026-11-15.md).
+
 The factory fits **U1, U2, U4, U5, U6 and L1**. Fit the remaining **49 parts** using `BOM-HAND.csv` and the assembly map. The parts-value table is printed on the back to leave room between the top-side components. Every component mounts on the top. Only through-hole solder joints are made from the underside.
 
 This is still an SMD project. The larger 1206 resistors/capacitors are 3.2 × 1.6 mm, with pads extending beyond their ends. U3 and D4 remain the hardest hand-fitted parts, but both have visible leads and extended pads. Practise with spare 1206 parts and a spare SOIC/SOT-23 board first.
@@ -53,7 +55,7 @@ Fit ANT1 (Molex 1461530300) to the factory-fitted **ESP32-C3-WROOM-02U-N4** befo
 
 Complete all hand assembly before power: the factory's six components alone do not make a working regulator. Keep the vehicle disconnected.
 
-Use a regulated **13.5–14 V bench supply with current limiting**, connected through J1 pin 9 (+) and pin 3 (GND). Verify these pins by continuity to the labelled test points, not by counting the mating face from memory. Start with ESP_EN held low through TP7 to TP1/GND. Begin with a low current limit and watch the supply; stop if current stays unexpectedly high or a part heats. Current-limit settings and startup behaviour need bench qualification, so do not repeatedly increase the limit to force a faulted board to start.
+Use a regulated **13.5–14 V bench supply with current limiting**, connected through J1 pin 9 (+) and pin 3 (GND), or securely attached to TP2 (+) and TP1 (GND). Never connect the bench supply and vehicle power simultaneously. Verify these pins by continuity to the labelled test points, not by counting the mating face from memory. Start with ESP_EN held low through TP7 to TP1/GND. Begin with a low current limit and watch the supply; stop if current stays unexpectedly high or a part heats. Current-limit settings and startup behaviour need bench qualification, so do not repeatedly increase the limit to force a faulted board to start.
 
 Measure CAR_12V, VPWR and 3V3 relative to TP1. The protected input is below the input supply by D1's forward drop. The expected nominal output is about **3.315 V**. The earlier **3.22–3.41 V** calculation covers reference and resistor tolerances only; it is not a complete pass/fail window. TI's light-load PFM regulation allowance gives an estimated upper value of about **3.446 V** after resistor tolerance. Investigate an unexpected reading before releasing reset. Verify startup, ripple and load changes with an oscilloscope: the ESP32 supply must remain within its **3.0–3.6 V operating range**, including peaks. A meter reading alone does not establish this. See the [review](DESIGN-REVIEW.md) and [regulator datasheet](https://www.ti.com/lit/ds/symlink/lmr36510.pdf).
 

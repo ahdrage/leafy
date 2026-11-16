@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-16",
+  "firmwareSha256": "b1699c8f8b0008eaf0c4b6348c6897fb13d7c94e025125b09d606cc56fdc0df0",
+  "flashed": false,
+  "vehicleCommandsSent": false,
+  "serverTestsPassed": 23,
+  "firmwareHostChecksPassed": 45,
+  "browserRegression": "passed; all requests intercepted",
+  "swiftTypecheck": "passed for macOS and arm64 iOS 16 simulator target",
+  "build": {
+    "ramBytes": 29524,
+    "flashUsedBytes": 898294
+  },
+  "liveReadOnlyStatus": "API authenticated request returns 503 device_unreachable at saved board address; unauthenticated request rejected",
+  "pending": [
+    "flash when physically ready",
+    "validate main-battery SOC in car",
+    "recheck heater On/Off with passive/normal mode transitions",
+    "measure parked current with new sampling",
+    "physical iPhone app test"
+  ]
+}

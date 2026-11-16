@@ -11,3 +11,7 @@ Public archives may be repackaged to omit private records and preserve licence n
 Historical baseline archives retain the technical inputs needed for comparisons, with private entries removed and archive membership manifests refreshed. Old reports preserve their original provenance; a quoted historical archive hash is not a claim about a newly repackaged public archive. For manufacturing, use the current G.5 upload files and inspect the new supplier review.
 
 The public source includes empty configuration templates only. Keep local settings, credentials and configured firmware outputs private in future contributions too.
+
+The 16 November update includes the local API source, OpenAPI specification, native SwiftUI app, Xcode project, isolated simulator fixture, tests and empty configuration templates. Exclude `server/.env.local`, all other populated environment files, `server/data/` (command records and process lock), Xcode user state and compiled apps. Simulator screenshots use fake readings and a public test token; no vehicle connection was used for those tests.
+
+Dated verification records describe the state at the time of each test. A historical `pushed: false` or “not flashed” entry is not a statement about later publication or installation. See the dated publication verification report for the exported snapshot; the engineering records retain their original provenance.

@@ -22,7 +22,7 @@ Check each value, polarity and joint against the assembly image and back-side ta
 
 ## 4. Power and firmware
 
-Keep the vehicle disconnected. Use a current-limited supply through J1; 13.5–14 V may be needed to cross the battery supervisor's restart threshold. Verify polarity and connector pin numbering.
+Keep the vehicle disconnected. Use a current-limited supply through J1 pin 9 (+) / pin 3 (GND), or securely connected TP2 (+) / TP1 (GND); 13.5–14 V may be needed to cross the battery supervisor's restart threshold. Verify polarity and connector pin numbering.
 
 A portable firmware setup from the repository root needs Python, a C++17 compiler for tests, and PlatformIO:
 
@@ -38,6 +38,8 @@ The project pins Espressif32 6.12.0. Without local settings the image has empty 
 Use **3.3 V logic UART**: adapter TX → J3 pin 2, RX → pin 3, GND → pin 1. Leave adapter power disconnected. Power the board before connecting UART; remove UART before board power. Follow [firmware instructions](../firmware/leaf-heat/README.md) for BOOT/RESET and flashing.
 
 ## 5. Bench, network and vehicle tests
+
+For the existing prototype, see the [15 November commissioning record](COMMISSIONING-2026-11-15.md) and [current validation checklist](VALIDATION.md). It has demonstrated On/Off with the charging cable connected, followed by owner-reported unplugged On. The [16 November website update](WEBSITE-BATTERY-2026-11-16.md) also received both battery percentages; unplugged Off and latest-image heater regression remain to be recorded. A second CAN device was unavailable, so the recommended two-node bench fault tests below remain outstanding. This result is not a reason to omit those checks on a new build.
 
 Measure regulation/ripple, cutoff/recovery, ADC accuracy and parked current. Attach the external antenna before Wi-Fi use. Reserve the IP address; use the same LAN without guest isolation. Test router restarts and weak signal for at least 24 hours, including absence of stale commands.
 

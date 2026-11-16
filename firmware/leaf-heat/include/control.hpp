@@ -44,6 +44,11 @@ class Control {
    }else due_=now+100;
   }else{frame(0x56e,1,0x46);active_=false;}
  }
+ // Display the existing deadline; reading it never changes or re-arms the timer.
+ int auto_off_seconds(uint64_t now) const{
+  if(!heat_)return -1;
+  return off_due_>now?static_cast<int>((off_due_-now+999)/1000):0;
+ }
  bool busy() const{return active_;}
  bool heating_requested() const{return heat_;}
 };

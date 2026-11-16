@@ -1,0 +1,1 @@
+{"scenario":"fresh","calls":["/api/on","/api/off","/api/on","/api/off"],"requested":false}

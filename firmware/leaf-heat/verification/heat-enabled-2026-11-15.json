@@ -1,0 +1,28 @@
+{
+  "purpose": "supervised vehicle climate test",
+  "configuration": {
+    "LEAF_CAN_WRITE_ENABLED": "true",
+    "LEAF_CAN_LISTEN_ONLY": "false",
+    "LEAF_ADC_CORRECTION": "0.9820f",
+    "LEAF_MIN_HEAT_VPWR": "11.9f"
+  },
+  "host_checks_passed": 31,
+  "upload": "success; flash data hashes verified",
+  "runtime": "Boot and Wi-Fi verified; HTTP reports CAN enabled, idle, no heat request, last error 0; VPWR 12.22 V at check.",
+  "heat_commands_sent_by_assistant": false,
+  "user_confirmations": [
+    "TCU disconnected",
+    "No new vehicle warnings after receive-only test",
+    "Parked in READY for upload"
+  ],
+  "limitations": [
+    "Transmit path and actual Heat On/Off not yet tested",
+    "11.9 V is a user-selected software threshold at VPWR after the diode, not a validated battery-state estimate",
+    "Hardware cutoff unchanged"
+  ],
+  "images": {
+    "bootloader.bin": "170c78c3b3757751cae7d7d4f2a8bbcc5635fb0076de74db9ec79b29cc14526e",
+    "partitions.bin": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820",
+    "firmware.bin": "5704a6d12b050b79d295220ec6b1965e8d37450012954c2b9a5cb35ce5646251"
+  }
+}

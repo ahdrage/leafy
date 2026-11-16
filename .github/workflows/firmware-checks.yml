@@ -1,18 +1,36 @@
-name: Firmware checks
+name: Source checks
 on:
   push:
   pull_request:
 permissions:
   contents: read
 jobs:
-  host-tests:
+  firmware-host-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run the 25 behavioral host tests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run firmware behavioral host checks
         env:
           CXX: g++
         run: python3 firmware/leaf-heat/tests/run_host_tests.py
+  api-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test API against simulated devices
+        run: node --test server/test/*.test.mjs
+  ios-model-tests:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test shared iOS model and client
+        run: ios/scripts/test-logic.sh

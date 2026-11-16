@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-16",
+  "simulator": "iPhone 17 Pro / iOS 26.1",
+  "appBuild": "passed",
+  "testTargetsBuild": "passed",
+  "hostModelTestsPassed": 7,
+  "serverTestsPassed": 23,
+  "interactiveSimulatorChecks": "passed; loopback fixture only",
+  "xcuitestExecution": "blocked by Xcode DTServiceHub attachment error; not passed",
+  "realVehicleCommandsSent": false,
+  "firmwareChanged": false,
+  "pushed": false,
+  "sha256": {
+    "ios/Leafy/Info.plist": "a9673835932fc8daf187e16ca91e23c5e0fd0e5cd8af8c210df365c6d7c46564",
+    "ios/Leafy/KeychainStore.swift": "821f79f8180477ec92aa4d7970aaba6c421b01d4f0a3248289e0a87e1de9a8a2",
+    "ios/Leafy/LeafyApp.swift": "995506e448f27bb984ff46251c8bdd19e9770f9fe268a3c5bb70ae45a282a624",
+    "ios/Leafy/LeafyView.swift": "3f3f08c3c30e425bad2753e5bc3dab2ae428d898fe47ac2e8c4a55d893437ef3",
+    "ios/Leafy/Model.swift": "0d22080135861e88b3770ccc7a21b62ee98986e029cc4c79b65b1d57ddaf5244",
+    "ios/LeafyClient.swift": "351f72b00b12feb0a1a92d8828ee6482af806bece22c97cae0b495d944325a94",
+    "ios/LeafyTests/LeafyTests.swift": "d72730392de5142b03ac9be9ddb0ef4b572da79475be341b5f589134d58abcff",
+    "ios/LeafyUITests/LeafyUITests.swift": "a420e648179972ce40d0d3286c0c5fbc3c8a1f3f381604fa6380834ce274be1b",
+    "ios/Package.swift": "7b8b63bb33fdfd68dd5212a622c517fea9a83575b2604eb68713bbf7270ecaca",
+    "ios/project.yml": "b05ccf13ab6a8339afdb02bfd46574cd8c92b0bcd0e47f6b05237f12c5fc3e98",
+    "ios/scripts/simulator-server.mjs": "6d9bdd2107e2023f77e172b6909abca3f8cc8fa6023c3f998bc993b17beb580c",
+    "ios/scripts/test-logic.sh": "8f56ac74eedc732d4b3d544e9f8e317ea8ffd8140ef592cb9c4e193d56a66d80"
+  }
+}

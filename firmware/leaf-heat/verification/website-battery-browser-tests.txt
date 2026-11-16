@@ -1,0 +1,4 @@
+Browser: 157.0.8103.51
+Native button.command type: string
+PASS battery age/countdown display and bounded offline status; all requests intercepted.
+PASS real button clicks: Save, Heat On, Heat Off, reload, Forget; all requests intercepted.

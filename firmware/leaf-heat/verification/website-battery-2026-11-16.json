@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "firmwareSha256": "960591239edbb3397db143470d584e30e9b1c57af1f9773d9f3e1e746bc673b2",
+  "flashed": true,
+  "flashHashVerified": true,
+  "manualResetConfirmed": true,
+  "heaterCommandsSentByAssistant": false,
+  "hostChecksPassed": 48,
+  "browserRegression": "passed; intercepted traffic including stalled status response",
+  "build": {
+    "ramBytes": 29532,
+    "flashUsedBytes": 899660
+  },
+  "ownerObservation": "Heat On works without charging cable; unplugged Off not yet recorded",
+  "initialLiveStatus": {
+    "protectedSupplyVolts": 12.08,
+    "lastCommandError": 0,
+    "telemetryError": 0,
+    "batterySample": "waiting",
+    "autoOffTimer": "none"
+  },
+  "socVehicleValidated": false,
+  "liveStatusAfterReady": {
+    "socPercent": 94.2,
+    "socAgeSeconds": 0,
+    "protectedSupplyVolts": 13.64,
+    "telemetryError": 0,
+    "lastCommandError": 0,
+    "requestSequence": "idle",
+    "automaticOffTimer": "none"
+  },
+  "socFrameReceivedFromVehicle": true,
+  "socValidationNote": "Valid live SOC frame received and displayed; independent/dashboard comparison not recorded.",
+  "pending": [
+    "Owner comparison with dashboard or trusted BMS reading",
+    "Supervised On/Off regression and physical timer behavior",
+    "Parked-current and bus-sleep checks"
+  ]
+}

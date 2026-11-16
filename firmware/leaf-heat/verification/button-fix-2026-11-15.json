@@ -1,0 +1,11 @@
+{
+  "fault": "Inline onclick command() shadowed by HTMLButtonElement.command string property",
+  "reproduced": "Chrome 157: command is not a function on real Heat On button click",
+  "fix": "Script-bound addEventListener callbacks, no inline handlers",
+  "tests": "41 host checks plus isolated Chrome button/Save/Forget/reload regression passed; all browser traffic intercepted",
+  "upload": "success and hash verified",
+  "live_checks": "Corrected handlers served; control key accepted through read-only endpoint",
+  "status": "CAN controls: enabled\nProtected supply: 12.04 V (after input diode)\nRequest sequence: idle\nLocal heat request / timer: none\nLast command error: 0\nActual heater state: unverified",
+  "heater_commands_sent_by_assistant": false,
+  "firmware_sha256": "fa9d045d211e34ad6b5c82ef6157e08d3612bbf5a5ba9acdfb38b33a6ae8f523"
+}

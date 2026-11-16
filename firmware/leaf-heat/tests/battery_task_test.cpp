@@ -19,7 +19,7 @@ struct Sent { uint64_t at; leaf::Frame frame; };
 static uint64_t clock_ms, end_ms, failed_wake_at;
 static int requests;
 static std::atomic<bool> busy, heat_requested, battery_ok;
-static std::atomic<int> vpwr_mv, last_error;
+static std::atomic<int> vpwr_mv, last_error, auto_off_seconds;
 static std::vector<Input> inputs;
 static std::vector<Voltage> voltages;
 static std::vector<Sent> sent;
@@ -70,6 +70,12 @@ int main() {
         catch (const std::exception& e) { ++failures; std::cout << "FAIL " << name << ": " << e.what() << '\n'; }
     };
     const std::vector<Voltage> two_sessions{{0,12600},{5000,12100},{18000,12300},{24000,12100}};
+    test("control task publishes countdown from the actual timer", [] {
+        auto_off_seconds=-1;
+        run({{0,12600}},{{20,{true,1020}}},2020);
+        CHECK(auto_off_seconds==899);
+        run({{0,12600}}, {},2020);CHECK(auto_off_seconds==-1);
+    });
     test("low-battery Off re-arms after partial recovery and a new On", [&] {
         run(two_sessions, {{20,{true,1020}}, {19000,{true,20000}}});
         CHECK(climate_count(0x56, 0, 19000) == 24);

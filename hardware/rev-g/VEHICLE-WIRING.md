@@ -19,7 +19,7 @@ J1 contacts 1, 6 and 8 are also unconnected. The two PCB connector shell anchors
 
 ## Confirm the vehicle profile
 
-The intended profile is the **2013–2015 EV-CAN remote-climate implementation**. The owner remembers disconnecting the original TCU when installing OVMS. This supports the profile but must be checked physically before CAN writes are enabled. Registration in 2015 and the registration document's ZE0 label alone do not establish the TCU generation. Record the vehicle build/model year and fitted TCU before enabling transmissions.
+The intended profile is the **2013–2015 EV-CAN remote-climate implementation**. During commissioning on 15 November 2026, the owner explicitly confirmed that the original TCU is disconnected. Subsequent supervised On/Off operation with charging connected supports the selected profile for this individual car; it does not establish compatibility with other cars. Registration in 2015 and the registration document's ZE0 label alone do not establish the TCU generation. Record the vehicle build/model year and fitted TCU before enabling transmissions.
 
 OVMS instructs owners of the applicable 2013–2016 configuration to disconnect the original TCU's large white plug if fitted. Its 2016–2017 instructions instead isolate TCU CAN while retaining other connections for the hands-free microphone. Follow the instructions matching the actual vehicle. See [OVMS installation guidance](https://docs.openvehicles.com/en/latest/components/vehicle_nissanleaf/docs/index.html#remote-climate-control).
 
@@ -48,7 +48,7 @@ The battery divider reads **VPWR after the fuse and diode**, not raw battery vol
 
 ## Narrow protocol specification for the confirmed earlier profile
 
-The implementation follows the source-verified sequence below. It has host tests and a successful build, but no powered CAN/vehicle test yet:
+The implementation follows the source-verified sequence below. It has host tests, a successful device build/flash, in-car receive-only evidence and owner-confirmed On/Off operation with the charging cable connected on 15 November 2026. See the [test record](../../docs/COMMISSIONING-2026-11-15.md). Unplugged On was subsequently reported on 16 November; unplugged Off, latest-image regression and hardware fault testing remain open:
 
 | Action | Standard CAN frame | Timing |
 | --- | --- | --- |
@@ -60,3 +60,7 @@ The implementation follows the source-verified sequence below. It has host tests
 Verified against `SendCommand`, `RemoteCommandTimer`, `CommandWakeupAZE0`, `RemoteCommandHandler` and timer initialization in [OVMS revision 85074a0](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/vehicle/OVMS.V3/components/vehicle_nissanleaf/src/vehicle_nissanleaf.cpp), with the repeat count in its [header](https://github.com/openvehicles/Open-Vehicle-Monitoring-System-3/blob/85074a0ae7a983b308c6e2e081185492527ee073/vehicle/OVMS.V3/components/vehicle_nissanleaf/src/vehicle_nissanleaf.h). The first timer-driven command is approximately 100 ms after wake; the count is 24 total in this implementation despite the header comment's wording.
 
 The application serializes requests and is designed to cancel stale completion timers when Off is requested, stop bounded retries on errors, and never replay an old On command after a reset or Wi-Fi reconnection. Initially prove receive-only operation. Report request sent separately from confirmed climate operation. Validate actual heating and stopping on this car; these frames request the vehicle's climate function and do not directly switch or select the heater element.
+
+## Battery telemetry on the same connection — 16 November 2026
+
+The installed website receives dashboard SOC from EV-CAN `0x1DB` and BMS SOC from `0x55B`, using the existing J1 DB9 pin 7 (CAN H) and pin 2 (CAN L). No second bus, alternate cable or hardware change was needed. Idle receive windows are listen-only, 1.5 seconds every minute; they do not wake the vehicle. Both signals were observed after READY confirmation. Each keeps its own timestamp; missing/stale data is labelled explicitly. See [decoder scope and live evidence](../../docs/WEBSITE-BATTERY-2026-11-16.md).

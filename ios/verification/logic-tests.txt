@@ -1,0 +1,41 @@
+Building for debugging...
+[0/7] /tmp/leafy-swift-tests.gEoloo/arm64-apple-macosx/debug/LeafyPackageTests.derived/runner.swift
+[1/7] Write sources
+[4/7] Write swift-version--58304C5D6DBC2206.txt
+[6/10] Emitting module Leafy
+[7/10] Compiling Leafy Model.swift
+[8/10] Compiling Leafy LeafyClient.swift
+[9/12] Emitting module LeafyTests
+[10/12] Compiling LeafyTests LeafyTests.swift
+[11/14] Compiling LeafyPackageTests runner.swift
+[12/14] Emitting module LeafyPackageTests
+[12/14] Write Objects.LinkFileList
+[13/14] Linking LeafyPackageTests
+Build complete! (10.89s)
+Test Suite 'All tests' started at 2026-11-16 17:18:05.067.
+Test Suite 'LeafyPackageTests.xctest' started at 2026-11-16 17:18:05.069.
+Test Suite 'LeafyTests' started at 2026-11-16 17:18:05.069.
+Test Case '-[LeafyTests.LeafyTests testConnectionRejectsUnsafeAddressesAndShortToken]' started.
+Test Case '-[LeafyTests.LeafyTests testConnectionRejectsUnsafeAddressesAndShortToken]' passed (0.003 seconds).
+Test Case '-[LeafyTests.LeafyTests testConnectOnlyReadsAndPersistsCredentials]' started.
+Test Case '-[LeafyTests.LeafyTests testConnectOnlyReadsAndPersistsCredentials]' passed (0.001 seconds).
+Test Case '-[LeafyTests.LeafyTests testFailedStatusClearsReadingsAndDisablesCommands]' started.
+Test Case '-[LeafyTests.LeafyTests testFailedStatusClearsReadingsAndDisablesCommands]' passed (0.001 seconds).
+Test Case '-[LeafyTests.LeafyTests testIntentIsSavedBeforeSendingAndNotReplayedAfterRestart]' started.
+Test Case '-[LeafyTests.LeafyTests testIntentIsSavedBeforeSendingAndNotReplayedAfterRestart]' passed (0.001 seconds).
+Test Case '-[LeafyTests.LeafyTests testJournalFailurePreventsCommandDelivery]' started.
+Test Case '-[LeafyTests.LeafyTests testJournalFailurePreventsCommandDelivery]' passed (0.000 seconds).
+Test Case '-[LeafyTests.LeafyTests testReadingsAgeAndBackgroundDisablesCommands]' started.
+Test Case '-[LeafyTests.LeafyTests testReadingsAgeAndBackgroundDisablesCommands]' passed (0.000 seconds).
+Test Case '-[LeafyTests.LeafyTests testUnknownBlocksNewOnButAllowsExplicitOffAndLookupNeverResends]' started.
+Test Case '-[LeafyTests.LeafyTests testUnknownBlocksNewOnButAllowsExplicitOffAndLookupNeverResends]' passed (0.001 seconds).
+Test Suite 'LeafyTests' passed at 2026-11-16 17:18:05.077.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'LeafyPackageTests.xctest' passed at 2026-11-16 17:18:05.077.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'All tests' passed at 2026-11-16 17:18:05.077.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.007 (0.010) seconds
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

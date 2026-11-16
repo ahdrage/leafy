@@ -22,15 +22,20 @@ def main():
     with tempfile.TemporaryDirectory(prefix="leaf-host-tests-") as directory:
         build = Path(directory)
         for name, start, end in (
+            ("website_status.inc", "static esp_err_t status(httpd_req_t*r){", "static bool valid_control_key("),
+            ("passive_can.inc", "static void passive_stop(){", "\n#endif\n\nstatic void can_stop(){"),
+            ("json_status.inc", "static esp_err_t json_status(", 'extern "C" void app_main(){'),
             ("can_transport.inc", "static void can_stop(){", "static int read_vpwr(){"),
             ("control_task.inc", "static void control_task(void*){", "static void schedule_reconnect(){"),
+            ("can_listener.inc", "static esp_err_t listen_start(){", "static void listen_task(void*){"),
+            ("http_auth.inc", "static bool valid_control_key(", "static esp_err_t command(httpd_req_t*r){"),
         ):
             assert source.count(start) == source.count(end) == 1, name
             first, last = source.index(start), source.index(end)
             assert first < last, name
             line = source[:first].count("\n") + 1
             (build / name).write_text(f"#line {line} {json.dumps(str(SOURCE))}\n" + source[first:last])
-        for suite in ("control_test", "battery_task_test", "can_transport_test"):
+        for suite in ("control_test", "battery_task_test", "can_transport_test", "can_listener_test", "http_auth_test", "telemetry_test", "passive_can_test", "json_status_test", "website_status_test"):
             binary = build / suite
             command = [os.environ.get("CXX", "clang++"), "-std=c++17", "-Wall", "-Wextra", "-Werror"]
             command += shlex.split(os.environ.get("CXXFLAGS", ""))
@@ -39,6 +44,7 @@ def main():
             subprocess.run(command, check=True)
             print(f"\n{suite}", flush=True)
             failures += subprocess.run([str(binary)], check=False).returncode != 0
+    failures += subprocess.run(["node", str(ROOT / "tests/web_ui_test.cjs")], check=False).returncode != 0
     return 1 if failures else 0
 
 

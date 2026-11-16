@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-16",
+  "firmwareSha256": "c2a314277eaef95fef4d797e4f506920ca4951934244f0d9a81d39370cf33379",
+  "flashed": true,
+  "hostChecksPassed": 48,
+  "browserRegression": "passed; all requests intercepted",
+  "ramBytes": 29540,
+  "flashUsedBytes": 900098,
+  "heaterCommandsSentByAssistant": false,
+  "dashboardSignal": {
+    "bus": "EV-CAN",
+    "id": "0x1DB",
+    "byte": 4,
+    "mask": "0x7f",
+    "invalidValues": "101..127",
+    "expectedLength": 8
+  },
+  "bmsSignal": "EV-CAN 0x55B, unchanged",
+  "source": "OVMS 85074a0ae7a983b308c6e2e081185492527ee073",
+  "liveComparisonPending": true,
+  "flashHashVerified": true,
+  "manualResetConfirmed": true,
+  "livePageVerified": true,
+  "initialStatus": {
+    "dashboard": "waiting for a CAN reading",
+    "bms": "waiting for a CAN reading",
+    "telemetryError": 0,
+    "lastCommandError": 0,
+    "protectedSupplyVolts": 12.21
+  },
+  "bothSignalsReceivedFromVehicle": true,
+  "liveStatusAfterReady": {
+    "dashboardPercent": 95,
+    "bmsPercent": 92.5,
+    "dashboardAgeSeconds": 26,
+    "bmsAgeSeconds": 26,
+    "protectedSupplyVolts": 13.7,
+    "telemetryError": 0,
+    "lastCommandError": 0
+  },
+  "comparisonNote": "Both signals received and displayed; owner accepted the display after the 95%/92.5% report. The earlier 97% instrument reading preceded this sample. An exact simultaneous numerical instrument comparison was not separately confirmed.",
+  "ownerDisplayAccepted": true,
+  "ownerFeedback": "Awesome. Looks good."
+}

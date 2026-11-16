@@ -36,10 +36,27 @@ Processed PCB artwork was compared with G.5: original drill locations, copper co
 
 The final engineer-adjusted assembly viewer was reviewed separately. All six exact parts, centres and pin-one directions matched. A uniform +5 mm Y translation corresponds to the panel rail, not a relative placement error. The order specifies two partial assemblies out of five fabricated boards. The owner confirmed the PCB file; the assistant left final assembly approval to the owner after reviewing it.
 
-This does not claim delivery, solder quality, first power-up, RF range or successful heater operation.
+At that September review, delivery, first power-up and heater operation had not been demonstrated. The later commissioning result is recorded below; hidden solder-joint quality and RF range remain unqualified.
 
 ## Deferred work and constraints
 
-No common-mode choke was added; this does not establish EMC performance. Low-battery protection takes precedence over Wi-Fi availability. G.5 preserves the already received Mouser part identities. Printed case fit, antenna performance and real supply/CAN/vehicle behavior remain to be tested.
+**15 November update:** the assembled G.5 unit has passed supervised manual climate On/Off with the charging cable connected. Firmware gained receive-only diagnostics, per-tab key saving, explicit HTTP outcomes and a fix for browser button-handler shadowing. Bench cutoff/recovery observations and 41 passing host checks plus real-browser regression are recorded in the [commissioning log](COMMISSIONING-2026-11-15.md). No CAD/BOM revision was made. Unplugged climate operation, timers and long-term qualification remain open.
+
+No common-mode choke was added; this does not establish EMC performance. Low-battery protection takes precedence over Wi-Fi availability. G.5 preserves the already received Mouser part identities. Printed case fit, antenna range, supply transients, hardware CAN fault behaviour and longer vehicle testing remain outstanding; initial supply, Wi-Fi, reception and plugged-in On/Off results are now recorded.
 
 Detailed G.1–G.5 change notes, earlier CAD and firmware review records are preserved. See [validation](VALIDATION.md) for the remaining physical work.
+
+## 16 November: unplugged heating and live battery display
+
+- The owner reported Heat On working without the charging cable. Unplugged Heat Off was not separately recorded.
+- A home-network API bridge and Swift client were implemented and tested (23 server checks, Swift typechecking), then API/iOS work was paused to focus on the existing website. No complete iOS app or end-to-end vehicle API test is claimed.
+- The first website update installed passive BMS sampling and an automatic Off-request countdown. After READY was confirmed it received 94.2% BMS SOC; the owner reported 97% on the instrument panel. These are different vehicle signals, so the difference alone was not a decoder fault.
+- A follow-up added dashboard SOC alongside BMS SOC on the same EV-CAN connection. The latest verified flash received 95% dashboard / 92.5% BMS, each aged 26 seconds, at protected supply 13.70 V with reader/command errors 0. The owner confirmed that the display looks good; a simultaneous exact numerical instrument comparison was not separately logged.
+- Both signals have independent age/unknown/stale handling. Passive windows do not wake a sleeping car. Status requests have a three-second timeout and never retry heat commands. The timer display reflects an existing deadline; it does not verify physical heating or shutdown.
+- The latest build, all 48 host checks and simulated real-browser regression passed. No PCB, BOM, calibration, heat threshold or climate-sequence change was made. Nothing was pushed to GitHub.
+
+See [full session record](WEBSITE-BATTERY-2026-11-16.md) and [remaining physical checks](VALIDATION.md).
+
+### Later the same day: native iOS prototype
+
+At the owner’s request, API/iOS work resumed. A SwiftUI app now provides setup, Keychain token storage, BMS percentage/age, protected supply and explicit heater requests. Pending/uncertain commands persist across restart and are never automatically replayed. The app and test targets build; seven host-model tests and 23 server tests pass. Interactive simulator checks exercised the real API with an isolated fake board, including On/Off, cancellation, stale/missing data, connection loss, commissioning lock and uncertain-result recovery. Xcode’s automated simulator test service could not attach, so UI checks were performed through the running simulator instead. No vehicle commands, firmware flash, GitHub push or physical iPhone installation occurred. See [app verification](../ios/verification/2026-11-16.md).

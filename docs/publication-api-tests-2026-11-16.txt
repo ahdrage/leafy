@@ -1,0 +1,31 @@
+✔ authenticated API is implemented (1.8845ms)
+✔ unauthenticated reads and writes never contact the board (5.955042ms)
+✔ legacy firmware exposes protected voltage and unavailable traction SOC (25.147209ms)
+✔ JSON telemetry reports freshness without claiming dashboard SOC (2.5945ms)
+✔ stale or absent battery data is labelled, never converted to zero (3.343042ms)
+✔ accepted means board accepted, not heater running; duplicate is never forwarded (22.446791ms)
+✔ an idempotency key cannot change action (17.42475ms)
+✔ expired or future commands and invalid inputs never reach vehicle (1.105459ms)
+✔ missing idempotency key is rejected (9.152083ms)
+✔ uncertain network outcome is persisted and never retried, including restart (34.843334ms)
+✔ Off can proceed immediately after On; rapid new On is limited (41.63975ms)
+✔ board rejection stays rejected, not accepted (19.8345ms)
+✔ device errors and malformed telemetry never return fabricated status (0.748833ms)
+✔ offline status is explicit and does not serve stale cached success (0.799875ms)
+✔ command result can be retrieved without resending (20.493416ms)
+✔ bad configuration fails closed (0.200542ms)
+✔ duplicate arriving during delivery does not start another network request (19.116459ms)
+✔ pending command from a stopped process is unknown and never replayed (10.595959ms)
+✔ UUID letter casing cannot bypass duplicate protection (19.6315ms)
+✔ a different command cannot overtake an in-flight delivery (17.708084ms)
+✔ HTTP transport exists (0.468417ms)
+✔ real HTTP adapter limits JSON bodies and supplies no-store responses (54.703333ms)
+✔ real HTTP chain: authenticated status, commands, deduplication and no redirects (103.02725ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 433.239417

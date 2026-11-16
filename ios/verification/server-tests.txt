@@ -1,0 +1,125 @@
+TAP version 13
+# Subtest: authenticated API is implemented
+ok 1 - authenticated API is implemented
+  ---
+  duration_ms: 0.355708
+  ...
+# Subtest: unauthenticated reads and writes never contact the board
+ok 2 - unauthenticated reads and writes never contact the board
+  ---
+  duration_ms: 1.322125
+  ...
+# Subtest: legacy firmware exposes protected voltage and unavailable traction SOC
+ok 3 - legacy firmware exposes protected voltage and unavailable traction SOC
+  ---
+  duration_ms: 9.814625
+  ...
+# Subtest: JSON telemetry reports freshness without claiming dashboard SOC
+ok 4 - JSON telemetry reports freshness without claiming dashboard SOC
+  ---
+  duration_ms: 0.585833
+  ...
+# Subtest: stale or absent battery data is labelled, never converted to zero
+ok 5 - stale or absent battery data is labelled, never converted to zero
+  ---
+  duration_ms: 0.779958
+  ...
+# Subtest: accepted means board accepted, not heater running; duplicate is never forwarded
+ok 6 - accepted means board accepted, not heater running; duplicate is never forwarded
+  ---
+  duration_ms: 23.528333
+  ...
+# Subtest: an idempotency key cannot change action
+ok 7 - an idempotency key cannot change action
+  ---
+  duration_ms: 28.015208
+  ...
+# Subtest: expired or future commands and invalid inputs never reach vehicle
+ok 8 - expired or future commands and invalid inputs never reach vehicle
+  ---
+  duration_ms: 0.587791
+  ...
+# Subtest: missing idempotency key is rejected
+ok 9 - missing idempotency key is rejected
+  ---
+  duration_ms: 0.465416
+  ...
+# Subtest: uncertain network outcome is persisted and never retried, including restart
+ok 10 - uncertain network outcome is persisted and never retried, including restart
+  ---
+  duration_ms: 28.164834
+  ...
+# Subtest: Off can proceed immediately after On; rapid new On is limited
+ok 11 - Off can proceed immediately after On; rapid new On is limited
+  ---
+  duration_ms: 35.964333
+  ...
+# Subtest: board rejection stays rejected, not accepted
+ok 12 - board rejection stays rejected, not accepted
+  ---
+  duration_ms: 18.967375
+  ...
+# Subtest: device errors and malformed telemetry never return fabricated status
+ok 13 - device errors and malformed telemetry never return fabricated status
+  ---
+  duration_ms: 0.491833
+  ...
+# Subtest: offline status is explicit and does not serve stale cached success
+ok 14 - offline status is explicit and does not serve stale cached success
+  ---
+  duration_ms: 0.263875
+  ...
+# Subtest: command result can be retrieved without resending
+ok 15 - command result can be retrieved without resending
+  ---
+  duration_ms: 16.955708
+  ...
+# Subtest: bad configuration fails closed
+ok 16 - bad configuration fails closed
+  ---
+  duration_ms: 0.201459
+  ...
+# Subtest: duplicate arriving during delivery does not start another network request
+ok 17 - duplicate arriving during delivery does not start another network request
+  ---
+  duration_ms: 15.689666
+  ...
+# Subtest: pending command from a stopped process is unknown and never replayed
+ok 18 - pending command from a stopped process is unknown and never replayed
+  ---
+  duration_ms: 8.858917
+  ...
+# Subtest: UUID letter casing cannot bypass duplicate protection
+ok 19 - UUID letter casing cannot bypass duplicate protection
+  ---
+  duration_ms: 17.169958
+  ...
+# Subtest: a different command cannot overtake an in-flight delivery
+ok 20 - a different command cannot overtake an in-flight delivery
+  ---
+  duration_ms: 17.87825
+  ...
+# Subtest: HTTP transport exists
+ok 21 - HTTP transport exists
+  ---
+  duration_ms: 0.308042
+  ...
+# Subtest: real HTTP adapter limits JSON bodies and supplies no-store responses
+ok 22 - real HTTP adapter limits JSON bodies and supplies no-store responses
+  ---
+  duration_ms: 24.413167
+  ...
+# Subtest: real HTTP chain: authenticated status, commands, deduplication and no redirects
+ok 23 - real HTTP chain: authenticated status, commands, deduplication and no redirects
+  ---
+  duration_ms: 59.809167
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 290.241083

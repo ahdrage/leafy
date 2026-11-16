@@ -1,0 +1,44 @@
+{
+  "mode": "receive-only commissioning",
+  "can_write_enabled": false,
+  "can_listen_only": true,
+  "adc_correction": 0.982,
+  "tests_passed": 31,
+  "upload": "success; flash data hash verified",
+  "boot": "listener started successfully; Wi-Fi and HTTP verified",
+  "can_reception": "Demonstrated after user confirmed vehicle READY; no heater commands enabled.",
+  "images": {
+    "bootloader.bin": "170c78c3b3757751cae7d7d4f2a8bbcc5635fb0076de74db9ec79b29cc14526e",
+    "partitions.bin": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820",
+    "firmware.bin": "bc9aa726f52d9df7a2b2624515478ed1453615d0da8ab12272196ffd1974c34a"
+  },
+  "first_active_sample": {
+    "running": "1",
+    "frames": "871",
+    "last_id": "0x1DA",
+    "bus_errors": "9",
+    "dropped": "0",
+    "error": "0",
+    "vpwr": "11.61"
+  },
+  "latest_sample": {
+    "uptime_ms": "160398",
+    "running": "1",
+    "frames": "64223",
+    "last_id": "0x11A",
+    "bus_errors": "9",
+    "dropped": "0",
+    "error": "0",
+    "vpwr": "13.65"
+  },
+  "limitations": [
+    "Receive path only; transmit path and heater operation untested.",
+    "Nine controller bus errors during onset of traffic; cause not established.",
+    "Diagnostic mode keeps CAN running; not a parked-current qualification."
+  ],
+  "observed_active_seconds": 80.0,
+  "bus_error_counts_during_active_samples": [
+    9
+  ],
+  "serial_monitor": "closed after verification"
+}
